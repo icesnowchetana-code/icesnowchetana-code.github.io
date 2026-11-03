@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B0C10">
+<title>Chetana Today</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#0B0C10;--raise:#16181F;--raise2:#20232C;--text:#F4F5F7;--dim:#A9AEBA;--accent:#3DD6C6;--up:#FF7A7A;--down:#5FD08A;--gutter:max(20px,env(safe-area-inset-left,0px));--wide:"Archivo","Noto Sans TC",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.5 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+img{display:block;max-width:100%}
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:24px;padding:12px var(--gutter);background:linear-gradient(#0B0C10F5,#0B0C10C0);backdrop-filter:blur(10px)}
+.logo{font:800 22px/1 var(--wide);font-stretch:125%;letter-spacing:-.01em;white-space:nowrap}
+.logo span{color:var(--accent)}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{display:flex;align-items:center;min-height:40px;padding:0 13px;border-radius:20px;color:var(--dim);white-space:nowrap;font-weight:500}
+.tabs a:hover{background:var(--raise2);color:var(--text)}
+.hero{position:relative;min-height:min(72vh,640px);display:flex;align-items:flex-end;overflow:hidden;background:var(--raise)}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--bg) 2%,#0B0C1099 42%,#0B0C1020 70%),linear-gradient(to right,#0B0C10C8,#0B0C1000 62%)}
+.hero-text{position:relative;z-index:2;max-width:760px;padding:90px var(--gutter) 34px}
+.eyebrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:var(--accent);font-weight:700}
+.eyebrow span+span{color:var(--dim);font-weight:400}
+.hero h1{font-size:clamp(30px,4.4vw,56px);line-height:1.2;font-weight:700;margin:10px 0 10px;text-wrap:balance}
+.hero p{color:#D8DBE2;margin:0 0 18px;max-width:620px}
+.play{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 24px;border-radius:6px;background:var(--text);color:var(--bg);font-weight:700}
+.play:hover{background:var(--accent)}
+.dots{position:absolute;z-index:3;right:var(--gutter);bottom:36px;display:flex;gap:2px}
+.dots button{width:44px;height:44px;padding:0;border:0;background:none;cursor:pointer;display:grid;place-items:center}
+.dots i{display:block;width:26px;height:4px;border-radius:2px;background:#FFFFFF55}
+.dots button[aria-pressed=true] i{background:var(--text)}
+.ticker{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;padding:6px var(--gutter) 20px;margin-top:-6px;position:relative;z-index:4}
+.ticker::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;min-width:146px;padding:10px 14px;border-radius:8px;background:var(--raise)}
+.chip small{display:block;color:var(--dim);font-size:15px}
+.chip b{font:700 20px/1.25 var(--wide);font-stretch:100%;font-variant-numeric:tabular-nums}
+.chip em{font-style:normal;font-size:15px;margin-left:6px;font-variant-numeric:tabular-nums}
+.rise{color:var(--up)}.fall{color:var(--down)}
+.row{padding:14px 0 18px;scroll-margin-top:66px}
+.row h2{display:flex;align-items:center;gap:10px;margin:0 0 10px;padding:0 var(--gutter);font-size:24px;font-weight:700}
+.row h2 small{font-size:15px;font-weight:400;color:var(--dim)}
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;padding:4px var(--gutter) 10px;scroll-padding-left:var(--gutter);scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.card{flex:0 0 clamp(250px,24vw,340px);scroll-snap-align:start;border-radius:8px;overflow:hidden;background:var(--raise);transition:transform .18s}
+.card:hover{transform:scale(1.03)}
+.thumb{position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#1F3B4D,#3B2A58)}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb.none{display:flex;align-items:flex-end;padding:12px}
+.thumb.none b{font:800 34px/1 var(--wide);color:#FFFFFF2E}
+.card-body{padding:10px 12px 12px}
+.card-body b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500;line-height:1.38;min-height:2.76em}
+.meta{display:block;margin-top:5px;color:var(--dim);font-size:15px}
+.list{display:grid;grid-auto-flow:column;grid-template-rows:repeat(3,auto);grid-auto-columns:clamp(280px,31vw,430px);gap:0 22px;overflow-x:auto;padding:0 var(--gutter) 10px;scrollbar-width:none}
+.list::-webkit-scrollbar{display:none}
+.line{display:block;padding:9px 0;border-top:1px solid #2A2D37}
+.line:hover b{color:var(--accent)}
+.line b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500;line-height:1.38}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;padding:0 var(--gutter)}
+.grid a{display:flex;align-items:center;gap:10px;min-height:56px;padding:8px 12px;border-radius:8px;background:var(--raise);font-weight:500}
+.grid a:hover{background:var(--raise2);color:var(--accent)}
+.grid i{flex:0 0 30px;height:30px;border-radius:6px;display:grid;place-items:center;font:800 15px var(--wide);font-style:normal;color:#0B0C10;background:var(--c,var(--accent))}
+.group{padding:12px var(--gutter) 6px;color:var(--dim);font-weight:500}
+.foot{padding:26px var(--gutter) calc(30px + env(safe-area-inset-bottom,0px));color:var(--dim);font-size:15px}
+.empty{padding:0 var(--gutter);color:var(--dim)}
+@media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:10px 6px}.tabs{flex:0 0 100%;order:3}.hero{min-height:440px}.dots{bottom:14px}.hero-text{padding-bottom:58px}.card{flex-basis:72vw}.list{grid-auto-columns:82vw}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}.card:hover{transform:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#">CHETANA<span>.</span>TODAY</a>
+  <nav class="tabs" id="tabs" aria-label="分類"></nav>
+</header>
+<section class="hero" id="hero" aria-label="精選"></section>
+<div class="ticker" id="ticker" aria-label="天氣與市場"></div>
+<main id="rows"></main>
+<section class="row" id="links"><h2>全部服務</h2><div id="dir"></div></section>
+<footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
+<script>
+(function(){
+var DIR=[
+['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
+['AI',[['Claude','https://claude.ai','C','#F2A07B'],['ChatGPT','https://chatgpt.com','G','#7BD8B0'],['Gemini','https://gemini.google.com','G','#8AB4F8'],['Grok','https://grok.com','X','#FFFFFF'],['NotebookLM','https://notebooklm.google.com','NB','#FFD166'],['Canva','https://www.canva.com','Ca','#9D8CFF']]],
+['設計靈感',[['ArchDaily','https://www.archdaily.com','AD','#FFFFFF'],['Dezeen','https://www.dezeen.com','Dz','#FFD166'],['Designboom','https://www.designboom.com','db','#FF8A80'],['Pinterest','https://www.pinterest.com','P','#FF6B6B'],['Behance','https://www.behance.net','Be','#8AB4F8'],['Houzz','https://www.houzz.com','Hz','#7BD88F']]],
+['新聞財經',[['Yahoo 奇摩','https://tw.yahoo.com','Y','#B79CFF'],['中央社','https://www.cna.com.tw','央','#FF8A80'],['聯合新聞網','https://udn.com','聯','#8AB4F8'],['鉅亨網','https://www.cnyes.com','鉅','#FFD166'],['臺灣銀行匯率','https://rate.bot.com.tw/xrt?Lang=zh-TW','匯','#7BD88F'],['中央氣象署','https://www.cwa.gov.tw','氣','#3DD6C6']]],
+['影音娛樂',[['YouTube','https://www.youtube.com','▶','#FF6B6B'],['Netflix','https://www.netflix.com','N','#FF6B6B'],['Spotify','https://open.spotify.com','S','#7BD88F'],['Threads','https://www.threads.com','@','#FFFFFF'],['Instagram','https://www.instagram.com','IG','#FF9EC4'],['Steam','https://store.steampowered.com','St','#8AB4F8']]],
+['購物生活',[['蝦皮','https://shopee.tw','蝦','#FF8A5C'],['momo','https://www.momoshop.com.tw','mo','#FF9EC4'],['Uber Eats','https://www.ubereats.com/tw','UE','#7BD88F'],['Google 地圖','https://www.google.com/maps','圖','#8AB4F8'],['高鐵訂票','https://irs.thsrc.com.tw','高','#FFD166'],['台鐵訂票','https://www.railway.gov.tw','台','#8AB4F8']]]
+];
+var $=function(id){return document.getElementById(id)};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function link(c,u){var a=el('a',c);a.href=u;a.target='_blank';a.rel='noopener noreferrer';return a}
+function safe(u){return typeof u==='string'&&/^https:\/\//.test(u)}
+function ago(t){if(!t)return'';var m=Math.floor(Date.now()/60000-t/60);if(m<1)return'剛剛';if(m<60)return m+' 分鐘前';if(m<1440)return Math.floor(m/60)+' 小時前';return Math.floor(m/1440)+' 天前'}
+function meta(i){return[i.source,ago(i.time)].filter(Boolean).join('・')}
+function pic(url,alt,onfail){var i=new Image();i.alt=alt||'';i.loading='lazy';i.decoding='async';i.referrerPolicy='no-referrer';i.addEventListener('error',onfail);i.src=url;return i}
+function card(item,sec){
+  var a=link('card',item.url),t=el('div','thumb');
+  function none(){t.className='thumb none';t.replaceChildren(el('b',null,sec.title.slice(0,2)))}
+  if(safe(item.image))t.append(pic(item.image,'',none));else none();
+  var b=el('div','card-body');b.append(el('b',null,item.title),el('span','meta',meta(item)));a.append(t,b);return a}
+function line(item){var a=link('line',item.url);a.append(el('b',null,item.title),el('span','meta',meta(item)));return a}
+var slides=[],at=0,timer;
+function show(n){
+  at=n;var s=slides[n],h=$('hero');if(!s)return;h.replaceChildren();
+  if(safe(s.image))h.append(pic(s.image,'',function(){this.remove()}));
+  var t=el('div','hero-text'),e=el('div','eyebrow');e.append(el('span',null,s.section),el('span',null,meta(s)));
+  var go=link('play',s.url);go.textContent='看這則';t.append(e,el('h1',null,s.title));if(s.summary)t.append(el('p',null,s.summary));t.append(go);h.append(t);
+  var d=el('div','dots');slides.forEach(function(_,i){var b=el('button');b.type='button';b.setAttribute('aria-label','第 '+(i+1)+' 則');b.setAttribute('aria-pressed',String(i===n));b.append(el('i'));b.addEventListener('click',function(){show(i);play()});d.append(b)});h.append(d)}
+function play(){clearInterval(timer);if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;timer=setInterval(function(){if(!document.hidden)show((at+1)%slides.length)},8000)}
+function render(data){
+  var secs=(data.sections||[]).filter(function(s){return s.items&&s.items.length}),tabs=$('tabs'),rows=$('rows');tabs.replaceChildren();rows.replaceChildren();
+  secs.forEach(function(s){var a=el('a',null,s.title);a.href='#'+s.id;tabs.append(a)});
+  var more=el('a',null,'全部服務');more.href='#links';tabs.append(more);
+  var pool=[];secs.forEach(function(s){if(s.images)s.items.filter(function(i){return safe(i.image)}).slice(0,3).forEach(function(i){pool.push(Object.assign({section:s.title},i))})});
+  slides=pool.sort(function(a,b){return b.time-a.time}).slice(0,6);
+  if(slides.length){show(0);play()}else $('hero').append(function(){var t=el('div','hero-text');t.append(el('h1',null,'今天的新聞整理中'));return t}());
+  secs.forEach(function(s){
+    var r=el('section','row');r.id=s.id;r.setAttribute('aria-labelledby','h-'+s.id);var h=el('h2',null,s.title);h.id='h-'+s.id;h.append(el('small',null,s.items.length+' 則'));r.append(h);
+    var box=el('div',s.images?'rail':'list');s.items.forEach(function(i){box.append(s.images?card(i,s):line(i))});r.append(box);rows.append(r)});
+  (data.markets||[]).forEach(function(m){var c=el('div','chip');c.append(el('small',null,m.name));var b=el('b',null,Number(m.price).toLocaleString('zh-TW',{maximumFractionDigits:2}));if(m.change!=null){var e=el('em',m.change>=0?'rise':'fall',(m.change>=0?'+':'')+m.change+'%');b.append(e)}c.append(b);$('ticker').append(c)});
+  if(data.updated)$('foot').textContent='新聞更新於 '+new Date(data.updated*1000).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})+'。內容與圖片屬各媒體所有，點開會前往原網站。'
+}
+function chip(k,v,after){var c=el('div','chip');c.append(el('small',null,k),el('b',null,v));after?$('ticker').append(c):$('ticker').prepend(c)}
+var WMO={0:'晴',1:'晴時多雲',2:'多雲',3:'陰',45:'霧',48:'霧',51:'毛毛雨',53:'毛毛雨',55:'毛毛雨',61:'小雨',63:'雨',65:'大雨',80:'陣雨',81:'陣雨',82:'大陣雨',95:'雷雨',96:'雷雨',99:'雷雨'};
+fetch('https://api.open-meteo.com/v1/forecast?latitude=22.63&longitude=120.30&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTaipei&forecast_days=1').then(function(r){return r.json()}).then(function(w){chip('高雄 '+(WMO[w.current.weather_code]||''),Math.round(w.current.temperature_2m)+'°  '+Math.round(w.daily.temperature_2m_min[0])+'–'+Math.round(w.daily.temperature_2m_max[0])+'°  雨 '+w.daily.precipitation_probability_max[0]+'%')}).catch(function(){});
+fetch('https://open.er-api.com/v6/latest/USD').then(function(r){return r.json()}).then(function(f){var t=f.rates.TWD;chip('美元／台幣',t.toFixed(2),true);chip('日圓 100／台幣',(t/f.rates.JPY*100).toFixed(2),true)}).catch(function(){});
+var box=$('dir');DIR.forEach(function(g){box.append(el('div','group',g[0]));var w=el('div','grid');g[1].forEach(function(s){var a=link('',s[1]),i=el('i',null,s[2]);i.style.setProperty('--c',s[3]);a.append(i,document.createTextNode(s[0]));w.append(a)});box.append(w)});
+fetch('news.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(render).catch(function(){$('rows').append(el('p','empty','新聞暫時讀不到，稍後重新整理。'));render({sections:[]})});
+})();
+</script>
+</body>
+</html>
