@@ -148,8 +148,9 @@ ul, ol { padding: 0; list-style: none; }
 .person { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); }
 
 .why { display: flex; flex-wrap: wrap; gap: 40px clamp(32px, 6vw, 80px); align-items: center; margin-top: 44px; }
-.why img { flex: 0 1 320px; width: 320px; min-width: 0; aspect-ratio: 3 / 4; object-fit: cover; }
-.why-list { flex: 1 1 320px; min-width: 0; }
+.why { margin-top: 28px; gap: 16px; }
+.why img { flex: 1 1 100%; width: 100%; aspect-ratio: 1658 / 949; object-fit: cover; }
+.why-list { flex: 1 1 100%; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0 24px; }
 .why-list li {
   display: flex;
   gap: 20px;
