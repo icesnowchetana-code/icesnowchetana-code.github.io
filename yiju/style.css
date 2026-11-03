@@ -148,9 +148,18 @@ ul, ol { padding: 0; list-style: none; }
 .person { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); }
 
 .why { display: flex; flex-wrap: wrap; gap: 40px clamp(32px, 6vw, 80px); align-items: center; margin-top: 44px; }
-.why { margin-top: 28px; gap: 16px; }
-.why img { flex: 1 1 100%; width: 100%; aspect-ratio: 1658 / 949; object-fit: cover; }
-.why-list { flex: 1 1 100%; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0 24px; }
+.why { position: relative; display: block; margin-top: 12px; }
+.why img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: min(600px, 62%);
+  opacity: .24;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 34%);
+  mask-image: linear-gradient(90deg, transparent, #000 34%);
+}
+.why-list { position: relative; max-width: 520px; }
 .why-list li {
   display: flex;
   gap: 20px;
@@ -212,6 +221,7 @@ ul, ol { padding: 0; list-style: none; }
   .brand img { width: 160px; }
   .nav { padding-top: 6px; gap: 2px 20px; }
   .slogan { margin: 0 auto; }
+  .why img { width: 100%; opacity: .14; }
 }
 
 .compare { display: flex; justify-content: center; padding: clamp(32px, 5vw, 64px) 16px; background: var(--cream); }
