@@ -212,3 +212,6 @@ ul, ol { padding: 0; list-style: none; }
   .nav { padding-top: 6px; gap: 2px 20px; }
   .slogan { margin: 0 auto; }
 }
+
+.compare { display: flex; justify-content: center; padding: clamp(32px, 5vw, 64px) 16px; background: var(--cream); }
+.compare img { width: 100%; max-width: 760px; }
