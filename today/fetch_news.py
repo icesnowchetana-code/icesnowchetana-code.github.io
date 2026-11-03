@@ -172,7 +172,7 @@ def section(sec):
 
 def market(sym, name):
     try:
-        url = "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(sym) + "?interval=1d&range=5d"
+        url = "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(sym) + "?interval=1d&range=1d"
         meta = json.loads(get(url))["chart"]["result"][0]["meta"]
         price, prev = meta["regularMarketPrice"], meta.get("chartPreviousClose") or meta.get("previousClose")
         return {"name": name, "price": price, "change": round((price / prev - 1) * 100, 2) if prev else None}

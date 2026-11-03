@@ -124,7 +124,7 @@ function render(data){
   if(slides.length){show(0);play()}else $('hero').append(function(){var t=el('div','hero-text');t.append(el('h1',null,'今天的新聞整理中'));return t}());
   secs.forEach(function(s){
     var r=el('section','row');r.id=s.id;r.setAttribute('aria-labelledby','h-'+s.id);var h=el('h2',null,s.title);h.id='h-'+s.id;h.append(el('small',null,s.items.length+' 則'));r.append(h);
-    var box=el('div',s.images?'rail':'list');s.items.forEach(function(i){box.append(s.images?card(i,s):line(i))});r.append(box);rows.append(r)});
+    var rich=s.items.filter(function(i){return safe(i.image)}).length>=s.items.length/2,box=el('div',rich?'rail':'list');s.items.forEach(function(i){box.append(rich?card(i,s):line(i))});r.append(box);rows.append(r)});
   (data.markets||[]).forEach(function(m){var c=el('div','chip');c.append(el('small',null,m.name));var b=el('b',null,Number(m.price).toLocaleString('zh-TW',{maximumFractionDigits:2}));if(m.change!=null){var e=el('em',m.change>=0?'rise':'fall',(m.change>=0?'+':'')+m.change+'%');b.append(e)}c.append(b);$('ticker').append(c)});
   if(data.updated)$('foot').textContent='新聞更新於 '+new Date(data.updated*1000).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})+'。內容與圖片屬各媒體所有，點開會前往原網站。'
 }
