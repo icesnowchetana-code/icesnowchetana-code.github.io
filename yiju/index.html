@@ -52,7 +52,7 @@
   </section>
 
   <section class="section about" id="about" aria-label="關於亦琚">
-    <img class="about-lines" src="assets/advantage-sketch.jpg" alt="">
+    <svg class="about-lines" aria-hidden="true" width="380" height="300" viewBox="0 0 380 300" fill="none" stroke="#dad7d1" stroke-width="1"><path d="M20 250h340"/><path d="M60 250V90l130-60 130 60v160"/><path d="M60 90h260M100 250V130h70v120M220 130h70v70h-70z"/><path d="M190 10v270" stroke-dasharray="8 4 2 4"/></svg>
     <div class="about-inner">
       <h2 class="slogan"><span>先把看不見的地方做好</span><span>再談好看</span></h2>
       <div class="about-copy">
@@ -64,21 +64,28 @@
     </div>
   </section>
 
-  <section class="section" aria-label="為什麼是亦琚">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">為什麼是亦琚</p>
-        <h2 class="section-title">ADVANTAGE</h2>
+  <section class="section why-section" aria-label="為什麼是亦琚">
+    <img class="why-mark" src="assets/advantage-sketch.jpg" alt="">
+    <div class="wrap why-wrap">
+      <div class="section-head why-head">
+        <div>
+          <p class="eyebrow">為什麼是亦琚</p>
+          <h2 class="section-title">ADVANTAGE</h2>
+        </div>
+        <div class="why-tabs" role="group" aria-label="五個領域">
+          <button type="button" data-no="01" data-name="建築" aria-pressed="true" aria-label="建築">01</button>
+          <button type="button" data-no="02" data-name="結構" aria-pressed="false" aria-label="結構">02</button>
+          <button type="button" data-no="03" data-name="都計" aria-pressed="false" aria-label="都計">03</button>
+          <button type="button" data-no="04" data-name="材料" aria-pressed="false" aria-label="材料">04</button>
+          <button type="button" data-no="05" data-name="室內" aria-pressed="false" aria-label="室內">05</button>
+        </div>
       </div>
       <div class="why">
         <img src="assets/advantage-architecture.jpg" alt="暖光下的客廳，長木平台、深色掛畫與藤編單椅">
-        <ol class="why-list">
-          <li><span>01</span>建築</li>
-          <li><span>02</span>結構</li>
-          <li><span>03</span>都計</li>
-          <li><span>04</span>材料</li>
-          <li><span>05</span>室內</li>
-        </ol>
+        <div class="why-panel" aria-live="polite">
+          <p class="why-no" id="why-no">01</p>
+          <h3 id="why-name">建築</h3>
+        </div>
       </div>
     </div>
   </section>
@@ -119,5 +126,14 @@
   </div>
 </footer>
 
+<script>
+document.querySelectorAll('.why-tabs button').forEach(function (button, _, all) {
+  button.addEventListener('click', function () {
+    all.forEach(function (item) { item.setAttribute('aria-pressed', String(item === button)); });
+    document.getElementById('why-no').textContent = button.dataset.no;
+    document.getElementById('why-name').textContent = button.dataset.name;
+  });
+});
+</script>
 </body>
 </html>
