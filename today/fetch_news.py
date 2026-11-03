@@ -29,7 +29,7 @@ SECTIONS = [
         "https://www.bnext.com.tw/rss",
     ]},
     {"id": "interior", "title": "室內設計話題", "images": False, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
-    {"id": "mingli", "title": "紫微・命理・星座", "images": False, "feeds": [gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14)]},
+    {"id": "mingli", "title": "紫微・命理・星座", "images": False, "per_feed": 5, "feeds": [gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14)]},
     {"id": "taiwan", "title": "台灣焦點", "images": False, "feeds": ["https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
     {"id": "money", "title": "財經", "images": False, "feeds": [gn("台股"), gn("房市")]},
@@ -144,6 +144,8 @@ def section(sec):
         try:
             got = parse(url)
             report.append(f"{sec['id']} ok {len(got)} {url[:60]}")
+            if sec.get("per_feed"):
+                got = sorted(got, key=lambda i: i["time"], reverse=True)[:sec["per_feed"]]
             items += got
         except Exception as e:
             report.append(f"{sec['id']} FAIL {type(e).__name__} {url[:60]}")
