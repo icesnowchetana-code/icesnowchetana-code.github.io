@@ -171,11 +171,12 @@ ul, ol { padding: 0; list-style: none; }
   letter-spacing: .3em;
 }
 .works h2 span { color: var(--gold); }
-.work-tile { position: relative; display: block; height: clamp(420px, 56vw, 680px); overflow: hidden; color: #fff; }
-.work-tile img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 58%; }
-.work-tile::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(24, 24, 24, .7), rgba(24, 24, 24, 0) 46%); }
-.work-label { position: absolute; z-index: 1; left: clamp(16px, 7vw, 100px); bottom: 32px; }
-.work-label h3 { font-family: var(--serif); font-size: clamp(28px, 3vw, 36px); font-weight: 500; letter-spacing: .14em; line-height: 1.4; }
+.work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.work-tile { position: relative; display: block; height: 560px; overflow: hidden; color: #fff; }
+.work-tile img { width: 100%; height: 100%; object-fit: cover; }
+.work-tile::after { content: ""; position: absolute; inset: 0; background: rgba(24, 24, 24, .42); }
+.work-label { position: absolute; z-index: 1; left: 24px; top: 24px; font-size: 22px; font-weight: 700; line-height: 1.5; letter-spacing: .1em; }
+.work-label h3 { font-size: 22px; line-height: 1.5; letter-spacing: .1em; }
 
 /* Footer */
 .site-foot { background: var(--dark); color: #d6d1c9; padding: 64px var(--gutter) 48px; }
