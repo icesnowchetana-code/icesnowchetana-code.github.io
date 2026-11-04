@@ -265,3 +265,13 @@ ul, ol { padding: 0; list-style: none; }
 
 .compare { display: flex; justify-content: center; padding: clamp(32px, 5vw, 64px) 16px; background: var(--cream); }
 .compare img { width: 100%; max-width: 760px; }
+
+.case-cover-split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; min-height: 0; }
+.case-cover-split::after { display: none; }
+.case-cover-split img { position: static; height: min(860px, 92vh); object-position: 50% 70%; }
+.case-cover-split .case-title { align-self: end; }
+@media (max-width: 760px) {
+  .case-cover-split { grid-template-columns: 1fr; }
+  .case-cover-split img { order: -1; height: auto; aspect-ratio: 3 / 4; }
+  .case-cover-split .case-title { padding-top: 24px; padding-bottom: 28px; }
+}
