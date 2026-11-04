@@ -1,10 +1,10 @@
 {
-"updated": 1793747113,
+"updated": 1793759064,
 "markets": [
 {
 "name": "台股加權",
-"price": 43307.54,
-"change": -3.59
+"price": 43224.44,
+"change": -0.19
 },
 {
 "name": "道瓊",
@@ -18,8 +18,8 @@
 },
 {
 "name": "台積電",
-"price": 2295.0,
-"change": -1.5
+"price": 2285.0,
+"change": -0.44
 }
 ],
 "sections": [
@@ -28,6 +28,38 @@
 "title": "設計與建築",
 "images": true,
 "items": [
+{
+"title": "SOM’s Sany IROOTECH Headquarters Hangs Its Floors From a Giant Steel Exoskeleton",
+"url": "https://www.yankodesign.com/2026/11/03/soms-sany-irootech-headquarters-hangs-its-floors-from-a-giant-steel-exoskeleton/?utm_source=rss&utm_medium=rss&utm_campaign=soms-sany-irootech-headquarters-hangs-its-floors-from-a-giant-steel-exoskeleton",
+"source": "Yanko Design",
+"summary": "The most interesting space at Sany IROOTECH Headquarters might be the gap underneath it. In Guangzhou’s Pazhou",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/sany-irootech-headquarters/sany_irootech_yanko_design_01.jpg",
+"time": 1793755815
+},
+{
+"title": "live-build documentary captures 1:1 timber pavilions at studio in the woods workshop",
+"url": "https://www.designboom.com/architecture/live-build-documentary-11-timber-pavilions-studio-woods-workshop/",
+"source": "designboom | architecture & de",
+"summary": "STUDIO IN THE WOODS MARKS 20 YEARS OF HANDS-ON TIMBER LIVE-BUILDS Marking the 20th anniversary of the architec",
+"image": "https://www.designboom.com/wp-content/uploads/2026/11/studio-woods-documentary-crossing-lookout-horizon-designboom-700-500x400-22b08q85r446.jpg",
+"time": 1793753742
+},
+{
+"title": "Salvador Dalí’s melting clocks are now a 3D LEGO diorama, ants included",
+"url": "https://www.yankodesign.com/2026/11/03/salvador-dalis-melting-clocks-are-now-a-3d-lego-diorama-ants-included/?utm_source=rss&utm_medium=rss&utm_campaign=salvador-dalis-melting-clocks-are-now-a-3d-lego-diorama-ants-included",
+"source": "Yanko Design",
+"summary": "MoMA owns The Starry Night, The Persistence of Memory, and a set of LEGO bricks designed by Godtfred Kirk Chri",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/salvador-dalis-melting-clocks-are-now-a-3d-lego-diorama-ants-included/lego_persistence_memory_dali_1.jpeg",
+"time": 1793752221
+},
+{
+"title": "A Bamboo Armchair Glows After Dark Without Electricity",
+"url": "https://www.yankodesign.com/2026/11/03/a-bamboo-armchair-glows-after-dark-without-electricity/?utm_source=rss&utm_medium=rss&utm_campaign=a-bamboo-armchair-glows-after-dark-without-electricity",
+"source": "Yanko Design",
+"summary": "Crocheted flowers usually belong on a blanket or a cardigan, not in a conversation about lighting. Peiyang (Ca",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/a-bamboo-armchair-glows-after-dark-without-electricity/she-blooms-0.jpg",
+"time": 1793748644
+},
 {
 "title": "The P1 Terminal is the Severance computer I’d actually want to use",
 "url": "https://www.yankodesign.com/2026/11/03/the-p1-terminal-is-the-severance-computer-id-actually-want-to-use/?utm_source=rss&utm_medium=rss&utm_campaign=the-p1-terminal-is-the-severance-computer-id-actually-want-to-use",
@@ -61,28 +93,12 @@
 "time": 1793737239
 },
 {
-"title": "The “Desktop 95” Watch is a love-letter to the greatest Windows OS of all time",
-"url": "https://www.yankodesign.com/2026/11/03/the-desktop-95-watch-is-a-love-letter-to-the-greatest-windows-os-of-all-time/?utm_source=rss&utm_medium=rss&utm_campaign=the-desktop-95-watch-is-a-love-letter-to-the-greatest-windows-os-of-all-time",
-"source": "Yanko Design",
-"summary": "There was a time when a computer’s biggest annoyance was a progress bar inching slowly or a dial-up modem scre",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/657497/desktop_95_watch_1.jpg",
-"time": 1793733649
-},
-{
 "title": "hydromechanical forming shapes reflective stainless-steel sculptural objects",
 "url": "https://www.designboom.com/design/hydromechanical-forming-reflective-stainless-steel-sculptural-objects-sarah-naghawi-jawf/",
 "source": "designboom | architecture & de",
 "summary": "SARAH NAGHAWI DEBUTS HYDROMECHANICALLY FORMED STEEL OBJECTS Presented at Amman Design Week 2026, JAWF is an ex",
 "image": "https://www.designboom.com/wp-content/uploads/2026/10/jawf-stainless-steel-hydromechanical-forming-sarah-naghawi-designboom-700-1-500x400-22b08q85r760.jpg",
 "time": 1793733056
-},
-{
-"title": "This 400-Square-Foot Tiny Cabin Opens Onto a Full-Width Porch",
-"url": "https://www.yankodesign.com/2026/11/03/this-400-square-foot-tiny-cabin-opens-onto-a-full-width-porch/?utm_source=rss&utm_medium=rss&utm_campaign=this-400-square-foot-tiny-cabin-opens-onto-a-full-width-porch",
-"source": "Yanko Design",
-"summary": "The Wildflower makes room for something tiny homes can easily squeeze out: a proper front porch. Built by Sout",
-"image": "https://www.yankodesign.com/images/design_news/2026/10/draft-wildflower/wildflower_yanko_design_01.jpg",
-"time": 1793730008
 },
 {
 "title": "Tatiana Bilbao creates rammed-earth installation at Art Omi",
@@ -93,20 +109,20 @@
 "time": 1793728800
 },
 {
-"title": "Easy Cooking Stove Concept Folds Its Burner and Pot Supports Into One Case",
-"url": "https://www.yankodesign.com/2026/11/03/easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case/?utm_source=rss&utm_medium=rss&utm_campaign=easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case",
-"source": "Yanko Design",
-"summary": "Camping stoves can be awkward things to pack, especially when the burner and pot supports insist on keeping th",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/easy-cooking-stove-concept-folds-its-burner-and-pot-supports-into-one-case/easy-cooking-cassette-furnace-concept-06.jpg",
-"time": 1793726423
-},
-{
 "title": "misha kahn turns upholstery into painting and marble into fabric at friedman benda",
 "url": "https://www.designboom.com/design/misha-kahn-upholstery-painting-marble-fabric-friedman-benda-all-intensive-purposes-interview/",
 "source": "designboom | architecture & de",
 "summary": "an unruly collection arrives in new york Misha Kahn ‘s latest exhibition , All Intensive Purposes, brings a ra",
 "image": "https://www.designboom.com/wp-content/uploads/2026/11/misha-kahn-all-intensive-purposes-friedman-benda-designboom-700-500x400-22b08q85r628.jpg",
 "time": 1793726001
+},
+{
+"title": "House Toca / ARKITITO Arquitetura",
+"url": "https://www.archdaily.com/1035246/house-toca-arkitito-arquitetura",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/68f6/d160/9662/4135/afe7/d12c/newsletter/casa-toca-arkitito-arquitetura_1.jpg?1761005937",
+"time": 1793725200
 },
 {
 "title": "exposed concrete blocks and red tiles shape garage-turned-apartment in barcelona",
@@ -155,22 +171,6 @@
 "summary": "a living garden under shifting light At the 2026 Ars Electronica Festival in Linz, Brussels-based artist Adrie",
 "image": "https://www.designboom.com/wp-content/uploads/2026/11/parallel-world-adrien-lucca-moth-garden-light-pollinator-designboom-700-500x400-22b08q85r599.jpg",
 "time": 1793706640
-},
-{
-"title": "smart home technology enters the bathroom with VitrA V-Care 3",
-"url": "https://www.designboom.com/design/smart-home-technology-bathroom-vitra-v-care-3/",
-"source": "designboom | architecture & de",
-"summary": "SMART HOME TECH MOVES INTO THE BATHROOM Smart home technology is expanding beyond living rooms and kitchens di",
-"image": "https://www.designboom.com/wp-content/uploads/2026/10/vitra-bathrooms-v-care-3-designboom-700-500x400-22b08q85r440.jpg",
-"time": 1793705453
-},
-{
-"title": "Former workshop converted into contemporary Japanese home with \"a sense of the passage of time\"",
-"url": "https://www.dezeen.com/2026/11/03/workshop-house-tatsuno-akio-isshiki/",
-"source": "Dezeen",
-"summary": "Japanese studio Akio Isshiki Architects has transformed the home and workshop of a sheet-metal craftsperson in",
-"image": "https://static-2026.dezeen.com/uploads/2026/10/akio-isshiki-architects-house-in-tatsuno_dezeen_2364_col_sq1-1024x1024.jpg",
-"time": 1793705400
 }
 ]
 },
@@ -180,28 +180,52 @@
 "images": true,
 "items": [
 {
-"title": "SR-71 復飛與否仍然賣關子，NASA 預告本週末公布新型 X 實驗機",
-"url": "https://technews.tw/2026/11/04/nasa-will-unveiled-new-x-plane-this-weekend/",
+"title": "訓練合法、生成恐違法，歐盟首宗生成式 AI 著作權意見書出爐",
+"url": "https://technews.tw/2026/11/04/ai-chatbots-infringement-risks/",
 "source": "TechNews 科技新報",
-"summary": "美國航太總署（NASA）署長艾薩克曼（Jared Isaacman）近日透露，將在本週末於佛羅里達州甘迺迪太空 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2023/10/18152058/Lockheed_SR-71_in_Smithonian.jpg",
-"time": 1793746849
+"summary": "歐盟最高法院佐審官（Advocate General）馬切伊·施普納爾（Maciej Szpunar）於 3 […]",
+"image": "https://img.technews.tw/wp-content/uploads/2025/03/31155459/sasun-bughdaryan-oA1aVtEcWaE-unsplash.jpg",
+"time": 1793758851
 },
 {
-"title": "華邦電佈局 AI 算力浪潮，矽電容與 CUBE 雙引擎 2027 年迎量產收割期",
-"url": "https://finance.technews.tw/2026/11/04/winbond-electronics-is-positioning-itself-to-capitalize-on-the-ai-%e2%80%8b%e2%80%8bcomputing-power-wave/",
+"title": "瞄準 2029 年量產，Shield AI 公開 X-BAT 首架全尺寸原型機",
+"url": "https://technews.tw/2026/11/04/shield-ai-unveiled-first-x-bat-prototype-and-aims-for-production-in-2029/",
 "source": "TechNews 科技新報",
-"summary": "記憶體大廠華邦電子於 3 日舉行的法人說明會中，總經理陳沛銘指出，隨著全球AI與高階運算需求強勁，公司在高規格 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2026/11/04064530/winbond1.jpg",
-"time": 1793746814
+"summary": "美國無人機大廠 Shield AI 近日公開 X-BAT 首架全尺寸原型機，這款採用噴射發動機與匿蹤構型的無人 […]",
+"image": "https://img.technews.tw/wp-content/uploads/2026/11/04101442/Shield-AI-X-BAT-prototype.jpg",
+"time": 1793758579
 },
 {
-"title": "2026 年衛星 IoT 核心應用分析：專有系統走向標準化，衛星加速整合物聯網",
-"url": "https://technews.tw/2026/11/04/analysis-satellite-iot-core-applications-2026-proprietary-systems-trend-standardization-satellites-accelerate-iot-integration/",
+"title": "蘋果 iOS 27.3 開發者測試版上線，Siri AI 支援繁中",
+"url": "https://technews.tw/2026/11/04/ios-ipados-27-3-beta-release-notes/",
 "source": "TechNews 科技新報",
-"summary": "3GPP NTN 標準化與多網路終端逐步成熟，正降低衛星 IoT 與既有蜂巢式 IoT 生態系的技術隔閡。過去 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2024/10/03103313/world-4842729_1280.png",
-"time": 1793746806
+"summary": "蘋果公司（Apple）今天釋出 iOS 27.3 beta 開發者測試版作業系統，為數位助理 Siri AI […]",
+"image": "https://img.technews.tw/wp-content/uploads/2026/09/15105600/siri__mfeve50fboii_large.jpg",
+"time": 1793758526
+},
+{
+"title": "甲骨文籌資疑慮緩解、股價彈近 6% Neocloud 同歡",
+"url": "https://finance.technews.tw/2026/11/04/oracle-rallies-6-percent-as-20-billion-stock-and-bond-sale-clears-funding-overhang/",
+"source": "TechNews 科技新報",
+"summary": "甲骨文（Oracle）依照規劃順利完成 200 億美元普通股及優先債券的發行定價，消除市場籌資疑慮，股價應聲反 […]",
+"image": "https://img.technews.tw/wp-content/uploads/2024/09/16082419/boliviainteligente-k2jksaz9oWg-unsplash.jpg",
+"time": 1793758256
+},
+{
+"title": "劉揚偉：鴻海要當全球最大量子電腦製造商，商業化至少還要兩年",
+"url": "https://technews.tw/2026/11/04/foxconn-aims-to-become-worlds-largest-quantum-computer-manufacturer/",
+"source": "TechNews 科技新報",
+"summary": "鴻海董事長劉揚偉接受 CNBC 專訪時表示，鴻海要替量子電腦品牌代工生產，但量子電腦是特定運算的加速器，不會取 […]",
+"image": "https://img.technews.tw/wp-content/uploads/2026/06/08085451/Foxconn-Computex.jpeg",
+"time": 1793757950
+},
+{
+"title": "費半強彈，45,000 保衛戰緊盯外資與非電突圍",
+"url": "https://finance.technews.tw/2026/11/04/philly-semi-rebounds-45000-defense-watch-foreign-capital-non-tech-breakout/",
+"source": "TechNews 科技新報",
+"summary": "台股昨（3）日遭遇外資史詩級賣壓洗禮，加權指數挫跌 0.65% 收在 44,920.14 點，驚險失守 45, […]",
+"image": "https://img.technews.tw/wp-content/uploads/2022/01/04154824/shutterstock_1165569814.jpg",
+"time": 1793757640
 },
 {
 "title": "「新交易系統異常」，多名永豐網銀用戶遭盜轉上萬元，款項匯入同一個北富銀帳戶",
@@ -218,30 +242,6 @@
 "summary": "Toyota 旗下豪華品牌 Lexus 將於 2027 年在中國推出全新電動休旅車，由上海金山新廠負責生產，新車選擇在中國開發與製造，反映 Toyota 面對當地電動車競爭，正調整過往以日本為核心的新車開發模式。 中國是",
 "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/11/e1a33d26-789a-448a-ae2b-da34d4467434.webp",
 "time": 1793708280
-},
-{
-"title": "永豐銀爆集體盜轉，金管會：共影響 419 人、轉出逾 4 千萬",
-"url": "https://infosecu.technews.tw/2026/11/03/sinopac-bank-mass-fraudulent-transfers-fsc-419-affected-40-million-stolen/",
-"source": "TechNews 科技新報",
-"summary": "永豐銀行今天發生大批帳戶遭盜轉存款，金管會今天表示，經永豐銀行比對發現，匯款到同業銀行的一個帳戶，初步調查異常 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2022/05/17162016/%E6%88%AA%E5%9C%96-2022-05-17-%E4%B8%8B%E5%8D%884.19.58.png",
-"time": 1793701248
-},
-{
-"title": "劍指 SMR 千億商機！華新麗華攜世紀能源、高力成立「華新世紀核能」",
-"url": "https://finance.technews.tw/2026/11/03/smr-mmr/",
-"source": "TechNews 科技新報",
-"summary": "華新麗華今日宣布攜手世紀能源、高力熱處理工業及泰豐貿易，共同成立「華新世紀核能」，打造核能產業鏈國家隊，藉由核 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2026/11/03181212/49.jpg",
-"time": 1793699896
-},
-{
-"title": "Marvell 收購 Lumentum 達成光電整合，有望挑戰博通領導地位",
-"url": "https://finance.technews.tw/2026/11/03/marvell-acquires-lumentum-optical-electrical-integration-challenge-broadcom-leadership/",
-"source": "TechNews 科技新報",
-"summary": "Marvell 正式宣布將收購光通訊大廠 Lumentum，兩家公司的董事會已於 11 月 2 日通過這筆交易 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2022/12/02104101/Marvell_Santa_Clara_IMG_3257.jpg",
-"time": 1793699443
 },
 {
 "title": "Tesla 推出熱泵最佳化功能，Powerwall 3 串聯太陽能與熱水儲能",
@@ -276,51 +276,51 @@
 "time": 1793683620
 },
 {
-"title": "MIT展示權重空間程式設計，GPT-6 Astra可直接讀寫神經網路權重",
-"url": "https://www.ithome.com.tw/news/180195",
+"title": "蘋果開放第三方App整合Siri AI，可透過語音執行複雜任務",
+"url": "https://www.ithome.com.tw/news/180200",
 "source": "iThome 新聞",
-"summary": "麻省理工學院電腦科學暨人工智慧實驗室（MIT CSAIL）研究團隊公布實驗，利用GPT-6 Astra直接修改Qwen3.5-0.8B語言模型的神經網路權重，不需重新訓練，就讓MATH-500數學測試正確率從7.9%提高",
-"image": "https://www.ithome.com.tw/sites/default/files/field/image/_205_-_sparks_of_weight-space_programmin_-_rikiyat.github.io_.jpg",
+"summary": "蘋果（Apple）周二（11/3）宣布，隨著iOS 27.3、iPadOS 27.3及macOS 27.3測試版推出，所有開發者都可以自家App整合Siri AI，讓第三方App能透過自然語言理解、個人情境及螢幕內容辨識",
+"image": "https://www.ithome.com.tw/sites/default/files/field/image/1104-siri-960.jpg",
 "time": 0
 },
 {
-"title": "永豐銀行發生不明轉帳事件，該行證實新網銀系統程式異常，初步清查影響419名客戶、涉及427筆交易",
-"url": "https://www.ithome.com.tw/news/180185",
+"title": "美國學校掀起AI禁令，Google推引導式學習爭取教育界接受",
+"url": "https://www.ithome.com.tw/news/180199",
 "source": "iThome 新聞",
-"summary": "近期有民眾在社群平臺Threads發文指出，在未經本人操作的情況下，其永豐銀行的個人帳戶被轉出10萬元至其他銀行帳戶，11月3日上午也有多名網友反映類似情況，引發關注。根據中央社引述刑事警察局說明，截至當日中午已受理68",
-"image": "https://www.ithome.com.tw/sites/default/files/field/image/zhu_tu_yong_feng_yin_xing_fa_sheng_bu_ming_zhuan_zhang_shi_jian_gai_xing_zheng_shi_xin_wang_yin_xi_tong_cheng_shi_yi_chang_.jpg",
+"summary": "面對美國大型學區陸續限制學生使用生成式AI，Google周二（11/3）宣布，將引導式學習（Guided Learning）功能整合至Google搜尋與Google Classroom，試圖以不同於直接提供答案的AI教學",
+"image": "https://www.ithome.com.tw/sites/default/files/field/image/1030-google-qing_jing_-shi_yi_-guan_fang_tu_pian_-9601_0.jpg",
 "time": 0
 },
 {
-"title": "AI應用開發平臺Langflow修補2項重大漏洞，攻擊者可繞過身分驗證或遠端執行程式碼",
-"url": "https://www.ithome.com.tw/news/180183",
+"title": "Node-RED重大漏洞出現攻擊嘗試，駭客企圖執行Linux惡意程式並部署網頁後門",
+"url": "https://www.ithome.com.tw/news/180178",
 "source": "iThome 新聞",
-"summary": "IBM指出開源AI工作流程開發平臺Langflow存在多項安全漏洞，其中兩項重大漏洞的CVSS風險評分均達9.8分，攻擊者可能從遠端繞過身分驗證，或在不需登入的情況下執行任意程式碼。受影響版本為Langflow OSS ",
-"image": "https://www.ithome.com.tw/sites/default/files/field/image/langflow-critical-vulnerabilities-security-update-banner-1440x630-v4.png",
+"summary": "資安漏洞情報業者VulnCheck近日揭露針對Node-RED重大漏洞CVE-2026-58115的攻擊活動。研究人員透過誘捕系統發現，攻擊者利用這項漏洞嘗試下載並執行Linux惡意程式，後續還觀測到試圖部署網頁後門、以",
+"image": "https://www.ithome.com.tw/sites/default/files/field/image/1104-node-red-960.jpg",
 "time": 0
 },
 {
-"title": "Hugging Face遭惡意模型濫用，31個儲存庫散布挖礦程式與後門",
-"url": "https://www.ithome.com.tw/news/180184",
+"title": "XCPE殭屍網路控制逾130萬臺機上盒，Google指控Android裝置製造商刻意預載後門",
+"url": "https://www.ithome.com.tw/news/180161",
 "source": "iThome 新聞",
-"summary": "資安公司Pluto Security揭露名為Load/Mine的惡意軟體活動，攻擊者利用AI模型分享平臺Hugging Face散布偽裝成Qwen2測試模型的惡意程式。研究人員追蹤到分布於7個Hugging Face帳號",
-"image": "https://www.ithome.com.tw/sites/default/files/field/image/huggingface-acc-evolution-timeline-156.jpg",
+"summary": "Google威脅情報團隊（GTIG）近日揭露XCPE殭屍網路瓦解行動，這個殭屍網路控制全球超過130萬臺機上盒。Google調查發現，Android裝置製造商Videostrong Technology Co.涉嫌刻意在",
+"image": "https://www.ithome.com.tw/sites/default/files/field/image/1104-xcpe-960.jpg",
 "time": 0
 },
 {
-"title": "甫修補的WordPress漏洞消息公布，9分鐘後隨即出現嘗試利用活動",
-"url": "https://www.ithome.com.tw/news/180182",
+"title": "Aikido併購Cyberly及OutKept推出Noon資安平臺，整合AI工具管理與員工安全防護",
+"url": "https://www.ithome.com.tw/news/180159",
 "source": "iThome 新聞",
-"summary": "上週WordPress開發團隊發布7.1.4版安全更新，總共修補22個資安弱點，然而有資安公司發現，駭客在開發團隊公布相關資訊後，不到10分鐘就試圖利用其中部分的弱點。",
-"image": "https://www.ithome.com.tw/sites/default/files/field/image/wordpress-156.jpg",
+"summary": "比利時資安業者Aikido Security今年9月先後併購波蘭資安業者Cyberly及比利時資安業者OutKept，並整合兩家公司的技術，於10月20日宣布推出員工資安平臺Noon，將原本以應用程式、程式碼及雲端安全為",
+"image": "https://www.ithome.com.tw/sites/default/files/field/image/1104-noon_aikido-960-v2.jpg",
 "time": 0
 },
 {
-"title": "Cloudflare改造DNS更新流程，處理延遲從7.7秒降至3.3秒",
-"url": "https://www.ithome.com.tw/news/180181",
+"title": "雲端憑證遭竊成LLMJacking攻擊入口，企業AI模型資源被盜用牟利",
+"url": "https://www.ithome.com.tw/news/180158",
 "source": "iThome 新聞",
-"summary": "Cloudflare公開DNS更新架構改造成果，讓部分區域設定變更不必重新處理整個DNS區域，只需更新受影響的紀錄及相關資料，並整合工作排程。DNS變更發生到寫入內部儲存系統的處理延遲中位數由7.7秒降至3.3秒，尖峰記",
-"image": "https://www.ithome.com.tw/sites/default/files/field/image/_204_-_how_we_halved_dns_build_delay_and_-_blog.cloudflare.com_.jpg",
+"summary": "Google旗下Mandiant公布2026年多起大型語言模型（LLM）資源遭盜用事件的調查結果，這類攻擊稱為LLMJacking。部分攻擊者利用遭竊的雲端存取憑證及API金鑰，未經授權大量使用企業的AI模型服務，部分受",
+"image": "https://www.ithome.com.tw/sites/default/files/field/image/1104-llmjacking-960.jpg",
 "time": 0
 }
 ]
