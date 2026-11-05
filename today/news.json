@@ -1,5 +1,5 @@
 {
-"updated": 1793896196,
+"updated": 1793918589,
 "markets": [
 {
 "name": "台股加權",
@@ -8,13 +8,13 @@
 },
 {
 "name": "道瓊",
-"price": 52271.9,
-"change": -2.03
+"price": 51523.06,
+"change": -3.44
 },
 {
 "name": "那斯達克",
-"price": 24754.451,
-"change": -3.82
+"price": 24314.998,
+"change": -5.52
 },
 {
 "name": "台積電",
@@ -28,6 +28,102 @@
 "title": "設計與建築",
 "images": true,
 "items": [
+{
+"title": "architecture that invites nature as a designer, from dissolving walls to insect-built pavilions",
+"url": "https://www.designboom.com/architecture/nature-take-over-dissolving-walls-insect-built-pavilions/",
+"source": "designboom | architecture & de",
+"summary": "when buildings surrender to nature On South Korea’s Jeju Island, architecture studio stpmj built a small arch ",
+"image": "https://www.designboom.com/wp-content/uploads/2026/11/architecture-shaped-natural-forces-posthuman-utopias-designboom-700-500x400-22b08q85r419.jpg",
+"time": 1793918112
+},
+{
+"title": "Kengo Kuma’s Copenhagen Bathhouse Puts an Open-Air Pool Between Five Brick Towers",
+"url": "https://www.yankodesign.com/2026/11/05/kengo-kumas-copenhagen-bathhouse-puts-an-open-air-pool-between-five-brick-towers/?utm_source=rss&utm_medium=rss&utm_campaign=kengo-kumas-copenhagen-bathhouse-puts-an-open-air-pool-between-five-brick-towers",
+"source": "Yanko Design",
+"summary": "A swimming pool occupies an unlikely valley on Copenhagen’s waterfront: the space between five brick towers. T",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/water-culture-house/kai_culture_house_yanko_design_01.jpg",
+"time": 1793917839
+},
+{
+"title": "Louis Vuitton’s $25,200 mirror steel watch keeps its shine without the scratches",
+"url": "https://www.yankodesign.com/2026/11/05/louis-vuittons-25200-mirror-steel-watch-keeps-its-shine-without-the-scratches/?utm_source=rss&utm_medium=rss&utm_campaign=louis-vuittons-25200-mirror-steel-watch-keeps-its-shine-without-the-scratches",
+"source": "Yanko Design",
+"summary": "Louis Vuitton is taking minimalism to the next level in watchmaking with the Tambour Convergence Mirror Steel,",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/louis-vuittons-25200-mirror-steel-watch-keeps-its-shine-without-the-scratches/Louis-Vuitton-Tambour-Convergence-Mirror-Steel-Watch-15.jpg",
+"time": 1793914227
+},
+{
+"title": "SWA implements modular \"toolkit\" for a more walkable Houston",
+"url": "https://www.dezeen.com/2026/11/05/swa-cool-connected-corridors-houston/",
+"source": "Dezeen",
+"summary": "Landscape architecture studio SWA has designed a modular system including petal-shaped shade structures, outdo",
+"image": "https://static-2026.dezeen.com/uploads/2026/11/cool-connected-swa-houston-texas_dezeen_2364_sq-1-1024x1024.jpg",
+"time": 1793913910
+},
+{
+"title": "Perrier-Jouët and Iris van Herpen partnership celebrates “biological processes that shape life”",
+"url": "https://www.dezeen.com/2026/11/05/perrier-jouet-iris-van-herpen-partnership-biological-processes/",
+"source": "Dezeen",
+"summary": "Champagne house Perrier-Jouët has unveiled a creative collection with designer Iris van Herpen that draws on a",
+"image": "https://static-2026.dezeen.com/uploads/2026/11/Perrier-Jouet_dezeen_2364_col_2-1024x1024.jpg",
+"time": 1793912400
+},
+{
+"title": "Camp Snap’s screen-free camcorder for kids records without Wi-Fi, and has a ‘TikTok’ setting",
+"url": "https://www.yankodesign.com/2026/11/05/camp-snaps-screen-free-camcorder-for-kids-records-without-wi-fi-and-has-a-tiktok-setting/?utm_source=rss&utm_medium=rss&utm_campaign=camp-snaps-screen-free-camcorder-for-kids-records-without-wi-fi-and-has-a-tiktok-setting",
+"source": "Yanko Design",
+"summary": "In 1987, Fisher-Price tried to turn every kid into a junior Spielberg with the PXL-2000, a $179 toy camcorder ",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/657937/campsnap_cs8_mini_1.jpg",
+"time": 1793910052
+},
+{
+"title": "hurricane-proof polycarbonate wraps resilient 24-hour public library in miami",
+"url": "https://www.designboom.com/architecture/hurricane-proof-polycarbonate-resilient-24-hour-public-library-miami-89th-studio/",
+"source": "designboom | architecture & de",
+"summary": "89TH STUDIO ENGINEERS HURRICANE-RESISTANT KIOSK IN NORTH MIAMI Designed by 89th Studio, Le Petite Bibliothèque",
+"image": "https://www.designboom.com/wp-content/uploads/2026/11/resilient-24-hour-public-library-miami-89th-studio-designboom-700-500x400-22b08q85r279.jpg",
+"time": 1793909403
+},
+{
+"title": "Who needs an hour hand when your watch has satellites?",
+"url": "https://www.yankodesign.com/2026/11/05/who-needs-an-hour-hand-when-your-watch-has-satellites/?utm_source=rss&utm_medium=rss&utm_campaign=who-needs-an-hour-hand-when-your-watch-has-satellites",
+"source": "Yanko Design",
+"summary": "Wandering hours watches have a bit of a wealth gap. On one end, you’ve got Audemars Piguet’s Starwheel and pre",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/657906/dwiss_s1_watch_1.jpg",
+"time": 1793906420
+},
+{
+"title": "Fragile lighting collection by Marset among 15 new products on Dezeen Showroom",
+"url": "https://www.dezeen.com/2026/11/05/fragile-lighting-marset-furniture-tiles-products-dezeen-showroom/",
+"source": "Dezeen",
+"summary": "A lighting range comprising repeatable spherical and pyramidal forms made from delicate glass is among recent ",
+"image": "https://static-2026.dezeen.com/uploads/2026/11/fragile-lighting-collection-marset-showroom_dezeen_2364_col_0-1024x1024.jpg",
+"time": 1793905200
+},
+{
+"title": "Studio Shea designs South Carolina library as \"community living room\"",
+"url": "https://www.dezeen.com/2026/11/05/studio-shea-south-carolina-library/",
+"source": "Dezeen",
+"summary": "Brooklyn-based practice Studio Shea has completed a metal -clad library with a central atrium that draws on th",
+"image": "https://static-2026.dezeen.com/uploads/2026/10/studio-shea-clinton-library-_dezeen_2364_sq-1024x1024.jpg",
+"time": 1793901600
+},
+{
+"title": "Santo António Primary School Requalification and Modernization Project / BFJ Arquitectos",
+"url": "https://www.archdaily.com/1188048/santo-antonio-primary-school-requalification-and-modernization-project-bfj-arquitectos",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/6aea/9288/1f37/4900/010d/0eee/newsletter/0044.jpg?1793757862",
+"time": 1793898000
+},
+{
+"title": "gustaf westman gives disney’s mickey & friends his signature chunky, colorful forms",
+"url": "https://www.designboom.com/design/gustaf-westman-disney-mickey-mouse-chunky-colorful-furniture/",
+"source": "designboom | architecture & de",
+"summary": "disney meets gustaf westman Swedish designer Gustaf Westman has teamed up with Disney to turn Mickey Mouse and",
+"image": "https://www.designboom.com/wp-content/uploads/2026/11/gustaf-westman-disney-collection-designboom-700-500x400-22b08q85r812.jpg",
+"time": 1793897941
+},
 {
 "title": "REDMAGIC 12 Pro Review: Gaming Hardware Without the Visual Overload",
 "url": "https://www.yankodesign.com/2026/11/05/redmagic-12-pro-review-gaming-hardware-without-the-visual-overload/?utm_source=rss&utm_medium=rss&utm_campaign=redmagic-12-pro-review-gaming-hardware-without-the-visual-overload",
@@ -45,20 +141,28 @@
 "time": 1793892011
 },
 {
-"title": "MIXO AI Companion Concept Gives an AI a Detachable Face",
-"url": "https://www.yankodesign.com/2026/11/05/mixo-ai-companion-concept-gives-an-ai-a-detachable-face/?utm_source=rss&utm_medium=rss&utm_campaign=mixo-ai-companion-concept-gives-an-ai-a-detachable-face",
-"source": "Yanko Design",
-"summary": "An AI companion might be helpful beside your laptop, but meetings and errands don’t always happen at your desk",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/mixo-ai-companion-concept-gives-an-ai-a-detachable-face/oppo-mixo-ai-companion-concept-01.jpg",
-"time": 1793888448
+"title": "Casa del Loro / Workshop, Diseño y Construcción",
+"url": "https://www.archdaily.com/1188093/casa-del-loro-workshop-diseno-y-construccion",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/6aeb/70d0/1f37/4900/010d/11e6/newsletter/CASA_DEL_LORO_Workshop-49.jpg?1793814789",
+"time": 1793890800
 },
 {
-"title": "The 5 Best Cabin Designs of November 2026",
-"url": "https://www.yankodesign.com/2026/11/05/the-5-best-cabin-designs-of-november-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-5-best-cabin-designs-of-november-2026",
-"source": "Yanko Design",
-"summary": "A king bed without a loft. A porch wide enough to furnish properly. A narrow walkway that makes arriving part ",
-"image": "https://www.yankodesign.com/images/design_news/2026/10/the-296-square-foot-yukon-cabin-fits-a-king-bed-without-a-loft/yukon-01.jpg",
-"time": 1793882422
+"title": "Atlântica House / Felipe Hess Arquitetos",
+"url": "https://www.archdaily.com/1068562/atlantica-house-felipe-hess-arquitetos",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/68e5/4363/9f15/2801/89b4/4e33/newsletter/casa-atlantica-felipe-hess-arquitetos_19.jpg?1759855469",
+"time": 1793883600
+},
+{
+"title": "Backyard Townhouses / Behin Ha",
+"url": "https://www.archdaily.com/1188061/backyard-townhouses-behin-ha",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/6aeb/1ba1/1f37/4900/010d/103b/newsletter/Behin_Ha_-_11_Beacon_Avenue_-_PH_F_08_rev_-_photo___StudioSZ___Justin_Szeremeta_LR_3000_PX.jpg?1793792956",
+"time": 1793880000
 },
 {
 "title": "making room for nature: the urban landscapes of kongjian yu",
@@ -67,110 +171,6 @@
 "summary": "designing cities beyond the human In Landscapes for Adaptation: Evidence from China , architect and Harvard pr",
 "image": "https://www.designboom.com/wp-content/uploads/2026/11/room-nature-urban-landscapes-kongjian-yu-turenscape-adaptation-evidence-china-charles-waldheim-designboom-700-500x400-22b08q85r548.jpg",
 "time": 1793879428
-},
-{
-"title": "Linehouse reimagines industrial aesthetics for Jen Hangzhou hotel in Kohn Pedersen Fox-designed building",
-"url": "https://www.dezeen.com/2026/11/05/linehouse-jen-hotel-hangzhou/",
-"source": "Dezeen",
-"summary": "International studio Linehouse has completed the interiors of the Jen hotel in Hangzhou , China , which featur",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/linehouse-jen-hotel-interiors-hangzhou-china_dezeen_1704_col_sq-1-1024x1024.jpg",
-"time": 1793878200
-},
-{
-"title": "Casio’s Keyboard Lets You Jam Without Knowing the Notes",
-"url": "https://www.yankodesign.com/2026/11/05/casios-keyboard-lets-you-jam-without-knowing-the-notes/?utm_source=rss&utm_medium=rss&utm_campaign=casios-keyboard-lets-you-jam-without-knowing-the-notes",
-"source": "Yanko Design",
-"summary": "A favorite song can make you want to play piano long before you know where to put your fingers. That gap betwe",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/casios-keyboard-lets-you-jam-without-knowing-the-notes/casio-01.jpg",
-"time": 1793876873
-},
-{
-"title": "meet the wienermobile, the 1930s quirky pedal car that put hot dogs on wheels",
-"url": "https://www.designboom.com/technology/wienermobile-1930s-quirky-pedal-car-hot-dogs-wheels-oscar-mayer-bringatrailer/",
-"source": "designboom | architecture & de",
-"summary": "two vintage wienermobile pedal cars return to auction First introduced in 1936, the Oscar Mayer Wienermobile b",
-"image": "https://www.designboom.com/wp-content/uploads/2026/11/wienermobile-1930s-quirky-pedal-car-hot-dogs-wheels-oscar-mayer-bringatrailer-designboom-700-1-500x400-22b08q85r221.jpg",
-"time": 1793876426
-},
-{
-"title": "Lagoons will weave through new Egyptian city masterplanned by SOM",
-"url": "https://www.dezeen.com/2026/11/05/alam-al-roum-city-egypt-som/",
-"source": "Dezeen",
-"summary": "International architecture studio SOM has unveiled plans for a new city in Egypt named Alam Al Roum, which wil",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/alam-al-roum-city-egypt-som-sq_dezeen_2364_col_1-1024x1024.jpg",
-"time": 1793874600
-},
-{
-"title": "LAWA’s Gradient Watch Uses Rotating Discs Instead of Hands",
-"url": "https://www.yankodesign.com/2026/11/05/lawas-gradient-watch-uses-rotating-discs-instead-of-hands/?utm_source=rss&utm_medium=rss&utm_campaign=lawas-gradient-watch-uses-rotating-discs-instead-of-hands",
-"source": "Yanko Design",
-"summary": "Most wristwatches give you a pair of hands to follow, even when they’ve stripped away the numbers. LAWA Design",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/lawas-gradient-watch-uses-rotating-discs-instead-of-hands/gradient-watch-lawa-design-05.jpg",
-"time": 1793873719
-},
-{
-"title": "Six standout projects unveiled at Designart Tokyo 2026",
-"url": "https://www.dezeen.com/2026/11/05/designart-tokyo-2026-highlights/",
-"source": "Dezeen",
-"summary": "As the 10th anniversary edition of Designart Tokyo gets underway, Jane Englefield reports on six highlights fr",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/sq-designart-tokyo-highlights-c_dezeen_2364_col_0-1024x1024.jpg",
-"time": 1793872800
-},
-{
-"title": "landmark james turrell exhibition to inaugurate superblue kyoto in early 2027",
-"url": "https://www.designboom.com/art/landmark-james-turrell-exhibition-superblue-kyoto-early-2027-teamlab/",
-"source": "designboom | architecture & de",
-"summary": "SUPERBLUE BRINGS EXPERIENTIAL ART TO KYOTO Superblue , the Miami-based experiential art company, opens its fir",
-"image": "https://www.designboom.com/wp-content/uploads/2026/11/landmark-james-turrell-exhibition-superblue-kyoto-early-2027-designboom-700-500x400-22b08q85r986.jpg",
-"time": 1793872139
-},
-{
-"title": "\"Commitment of the design community remains strong\" say Ukrainian design week founders",
-"url": "https://www.dezeen.com/2026/11/05/ukrainian-design-innovation-week-kyiv/",
-"source": "Dezeen",
-"summary": "This year's Ukrainian Design and Innovation Week went ahead despite Russian strikes affecting the local design",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/ukrainian-design-innovation-week-kyiv_dezeen_2364_sq_0-1024x1024.jpg",
-"time": 1793869200
-},
-{
-"title": "Design Doha Biennial 2026 set to explore how traditional crafts can shape the future of design",
-"url": "https://www.dezeen.com/2026/11/05/design-doha-biennial-2026-open/",
-"source": "Dezeen",
-"summary": "Design Doha Biennial 2026 opens in Doha, Qatar , today, bringing together more than 19 exhibitions, five insta",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/design-doha-biennial-2026-opening-sq_dezeen_2364_col_1-1024x1024.jpg",
-"time": 1793865600
-},
-{
-"title": "Framing Natural Light: Five Daylighting Strategies in Cabin Architecture",
-"url": "https://www.archdaily.com/1187986/framing-natural-light-five-daylighting-strategies-in-cabin-architecture",
-"source": "ArchDaily Global",
-"summary": "",
-"image": "https://images.adsttc.com/media/images/6ae9/10a2/62dc/0e01/8725/78e3/newsletter/_32.jpg?1793659050",
-"time": 1793863800
-},
-{
-"title": "angelo renna proposes floating modular island with 39-tree ring on florence’s river",
-"url": "https://www.designboom.com/architecture/angelo-renna-floating-modular-island-39-tree-ring-florence-river-firenze-little-island/",
-"source": "designboom | architecture & de",
-"summary": "RENNA ENVISIONS FLOATING PLATFORM ON FLORENCE’S RIVER Designed by Renna Studio and architect Angelo Renna , Fi",
-"image": "https://www.designboom.com/wp-content/uploads/2026/11/renna-studio-angelo-renna-firenze-little-island-designboom-700-500x400-22b08q85r848.jpg",
-"time": 1793862927
-},
-{
-"title": "Ersatzneubau Winkel / Kollektiv.w AG",
-"url": "https://www.archdaily.com/1188023/ersatzneubau-winkel-kollekti-ag",
-"source": "ArchDaily Global",
-"summary": "",
-"image": "https://images.adsttc.com/media/images/6aea/0961/a85b/a800/01f0/2040/newsletter/241018_EFH_Roggliswil_106.jpg?1793722848",
-"time": 1793862000
-},
-{
-"title": "What AI Reveals About Architecture That Was Never Built",
-"url": "https://www.archdaily.com/1187519/what-ai-reveals-about-architecture-that-was-never-built",
-"source": "ArchDaily Global",
-"summary": "",
-"image": "https://images.adsttc.com/media/images/6adf/570c/db5c/2001/882d/04f1/newsletter/what-ai-reveals-about-architecture-that-was-never-built_3.jpg?1793021726",
-"time": 1793861100
 }
 ]
 },
