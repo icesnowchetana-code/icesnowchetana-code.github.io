@@ -29,7 +29,18 @@ SECTIONS = [
         "https://www.bnext.com.tw/rss",
     ]},
     {"id": "interior", "title": "室內設計話題", "images": False, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
-    {"id": "mingli", "title": "紫微・命理・星座", "images": False, "per_feed": 5, "feeds": [gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14)]},
+    {"id": "mingli", "title": "紫微・命理・星座", "images": True, "per_feed": 5,
+     "match": "星座|運勢|紫微|命理|八字|易經|塔羅|生肖|風水|占卜|水逆|上升|月亮|命盤|流年|開運|太陽", "feeds": [
+        "https://www.elle.com/tw/rss/all.xml/",
+        "https://www.cosmopolitan.com/tw/rss/all.xml/",
+        "https://www.harpersbazaar.com/tw/rss/all.xml/",
+        "https://www.womenshealthmag.com/tw/rss/all.xml/",
+        "https://www.marieclaire.com.tw/rss.xml",
+        "https://www.vogue.com.tw/feed/rss",
+        "https://www.bella.tw/rss",
+        "https://www.wowlavie.com/rss.xml",
+        gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14),
+    ]},
     {"id": "taiwan", "title": "台灣焦點", "images": False, "feeds": ["https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
     {"id": "money", "title": "財經", "images": False, "feeds": [gn("台股"), gn("房市")]},
@@ -153,6 +164,8 @@ def section(sec):
         try:
             got = parse(url)
             report.append(f"{sec['id']} ok {len(got)} {url[:60]}")
+            if sec.get("match"):
+                got = [i for i in got if re.search(sec["match"], i["title"])]
             if sec.get("per_feed"):
                 got = sorted(got, key=lambda i: i["time"], reverse=True)[:sec["per_feed"]]
             items += got
@@ -171,10 +184,14 @@ def section(sec):
         count[it["source"]] = count.get(it["source"], 0) + 1
         if count[it["source"]] <= 6:
             mixed.append(it)
-    unique = mixed[:18]
+    unique = mixed[:30] if sec["images"] else mixed[:18]
     if sec["images"]:
         with ThreadPoolExecutor(6) as ex:
             unique = list(ex.map(og_image, unique))
+        pictured = [i for i in unique if i["image"]]
+        if len(pictured) >= 6:
+            unique = pictured
+        unique = unique[:18]
     else:
         for it in unique:
             it["image"] = ""
