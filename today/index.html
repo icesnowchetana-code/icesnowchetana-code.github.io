@@ -70,7 +70,7 @@ img{display:block;max-width:100%}
 .thumb.none{display:grid;place-items:center;background:radial-gradient(circle at 68% 32%,#2A2620,var(--ink2) 62%)}
 .thumb.none:before{content:"";position:absolute;inset:14px;border:1px solid var(--rule)}
 .thumb.none small{position:absolute;left:24px;bottom:20px;color:var(--brass);font:400 15px var(--serif);letter-spacing:.2em}
-.thumb.none b{font:300 clamp(56px,6vw,84px)/1 var(--serif);color:var(--paper);opacity:.82}
+.thumb.none b{font:300 clamp(46px,4.6vw,68px)/1 var(--serif);letter-spacing:.18em;padding-left:.18em;color:var(--paper);opacity:.82}
 .card:hover .thumb.none b{color:var(--brass);opacity:1}
 .card b.t{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:18px;font:400 18px/1.6 var(--serif)}
 .card.lead b.t{font-size:22px;font-weight:300}
@@ -107,7 +107,7 @@ img{display:block;max-width:100%}
 <footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
 <script>
 (function(){
-var BUILD='b20261107';
+var BUILD='b20261107b';
 try{fetch(location.pathname+'?check='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){if(t.indexOf("BUILD='"+BUILD+"'")<0){var k='reloaded',n=0;try{n=+sessionStorage.getItem(k)||0;sessionStorage.setItem(k,n+1)}catch(e){}if(n<1)location.replace(location.pathname+'?v='+Date.now()+location.hash)}}).catch(function(){})}catch(e){}
 var DIR=[
 ['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
@@ -124,8 +124,8 @@ function safe(u){return typeof u==='string'&&/^https:\/\//.test(u)}
 function ago(t){if(!t)return'';var m=Math.floor(Date.now()/60000-t/60);if(m<1)return'剛剛';if(m<60)return m+' 分鐘前';if(m<1440)return Math.floor(m/60)+' 小時前';return Math.floor(m/1440)+' 天前'}
 function meta(i){return[i.source,ago(i.time)].filter(Boolean).join('・')}
 function pic(url,alt,onfail){var i=new Image();i.alt=alt||'';i.loading='lazy';i.decoding='async';i.referrerPolicy='no-referrer';i.addEventListener('error',onfail);i.src=url;return i}
-var SIGNS=[['牡羊','♈','牡羊座'],['金牛','♉','金牛座'],['雙子','♊','雙子座'],['巨蟹','♋','巨蟹座'],['獅子','♌','獅子座'],['處女','♍','處女座'],['天秤','♎','天秤座'],['天蠍','♏','天蠍座'],['射手','♐','射手座'],['魔羯','♑','魔羯座'],['摩羯','♑','摩羯座'],['水瓶','♒','水瓶座'],['雙魚','♓','雙魚座'],['紫微','紫','紫微斗數'],['八字','八','八字'],['易經','卦','易經'],['卦','卦','易經'],['塔羅','✦','塔羅'],['生肖','肖','生肖'],['風水','水','風水'],['唐綺陽','星','星座週報'],['星座','星','星座運勢']];
-function cover(t){for(var i=0;i<SIGNS.length;i++)if(t.indexOf(SIGNS[i][0])>-1)return [SIGNS[i][1]+(/[♈-♓]/.test(SIGNS[i][1])?'\uFE0E':''),SIGNS[i][2]];return ['墨','今日']}
+var SIGNS=[['牡羊','星座','牡羊座'],['金牛','星座','金牛座'],['雙子','星座','雙子座'],['巨蟹','星座','巨蟹座'],['獅子','星座','獅子座'],['處女','星座','處女座'],['天秤','星座','天秤座'],['天蠍','星座','天蠍座'],['射手','星座','射手座'],['魔羯','星座','魔羯座'],['摩羯','星座','魔羯座'],['水瓶','星座','水瓶座'],['雙魚','星座','雙魚座'],['紫微','紫微','紫微斗數'],['命格','紫微','紫微斗數'],['易經','八卦','易經占卜'],['卦','八卦','易經占卜'],['八字','八字','八字命理'],['生肖','生肖','生肖運勢'],['塔羅','塔羅','塔羅占卜'],['風水','風水','風水開運'],['星座','星座','星座運勢']];
+function cover(t){for(var i=0;i<SIGNS.length;i++)if(t.indexOf(SIGNS[i][0])>-1)return [SIGNS[i][1],SIGNS[i][2]];return ['星座','今日運勢']}
 function card(item,sec,lead){
   var a=link(lead?'card lead':'card',item.url),t=el('div','thumb');
   function none(){var c=cover(item.title);t.className='thumb none';t.replaceChildren(el('b',null,c[0]),el('small',null,c[1]))}
