@@ -1,5 +1,5 @@
 {
-"updated": 1794031449,
+"updated": 1794031477,
 "markets": [
 {
 "name": "台股加權",
@@ -779,6 +779,157 @@
 ]
 },
 {
+"id": "money",
+"title": "財經",
+"images": false,
+"items": [
+{
+"title": "【台股才跌到年線「國安基金、限空令全出」！股魚喊扯 網猜1原因】 「不敗教主」出來了！ （#01J）",
+"url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOYzlkc19hdTd2dDFaOHpUNFJzaDZiclAwVkJ2T2Flc0h5UE5yclZMTEJxNEcyQUw1cVV0bE5idXN4Q2Y1QzhhTkxmcjlycTgycGZvSmhSc3prYVo4THpMa3ViMVVWa2tNU0JyTXhRaXlndURodnFrWjYwaDlLSmNPUXlFTnVoWmZxTzFWdDNrZHJvZGo5ajJyOWp5V283TUlrWHFWR2FPQnl6VlBweXJuU2pURjNfMEVfcEFmWHFfUjM3WS0yZy01cG9JLXBvT2FfLW1QTXUtaEVzLTdtSnBxQ1NneGVkb0ZMSS1EV0owakZWbDJzalgySHh4UlZ0UWRXTWQ3QVMyYmlqU2FNeGZfRjAyV2RSSkViVDVHY2NrZXNQcVI3WmNMS2VYVEVzY2V1ek1YRkhtRVp0eV9aMDBfV3lkT3VtXzJHRFc4TFF0UFZfQlZVZWhGdkZYdHZUSzgwR21XVXctczdNMVlIaDlqdDQ2OG1iekpMQ2lLakZPNENVLS1PNGtDYmVsM2pJYXpoM3dQX0tDcHBWdTZCa05VcV9vaU8tOGdBMGN1RnVodG5renVRR015MjVZUGRPNmtmVDRuVW1oWWE0YTVaRUlFZW1zaUEzN1QyS1BEdmZCOU9manps?oc=5",
+"source": "Facebook",
+"summary": "",
+"image": "",
+"time": 1794029761
+},
+{
+"title": "Toyz獄中預言台股暴跌！篠崎泫悔喊：早知道聽話…",
+"url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxONkVkeE8xa0Z1czhFN09JQzJpdUVSYWphU2d6SHZPNzhOd1d1azFETEN3b1RRcnY3OC0zN3ctYklXeFpoREstZmd1MzdkTTA4TW4xR2ZldE5zZVRaeDdlOHhoRm9MOTNybHhFbnEyeFM0Vm5iR2wzSUNBaC1EQ2F1dUczaWY3d3F5eFZXdHpXNVlJaHEwTXdqVEF0QzJ1WEI0ZXliNVNSUU1aYkNFaE83dWxVbHFIQ09Xa0JDZVdBb09QZUxOT1ktMXhfVG5ucHc5aEVvcWJ6RVBfUFFCOGxYR3Q1aVBQU0Ita1FuX1d3M1U3Y1hHeUN1LVhNamJHM1ZCSmd6X1p4Tm5ZUVFuLUd3Z0h6bHNQMlhlUElrUEtUb1pGZ19FdW84MkoxaTJCMTFkeF93?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1794029568
+},
+{
+"title": "女星台股重挫「3天蒸發200萬」！崩潰台北街頭四處躺 恐怖現況曝光",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBidXlBRkJjUW9xQkxFdm5iZUZqcmlucVNVczlVRWJzcXhPcWNxRjhjTlY4V3Fpakp1M3pOLTFSN0luYTloS19pcWI1WXVRQVVPSlc5cDR6NmlaUdIBX0FVX3lxTFBDc216OUoyREEyN1ljWFpUdEpMN19QcTg3cTFnZ21sN2QteDJ1RDVxT0VQUC1nbVUwOGszYjJBRzJJY3l3cmJ3amZOUVpzTG5pR2xWUWo1bDJZOVljYTNv?oc=5",
+"source": "噓！星聞",
+"summary": "",
+"image": "",
+"time": 1794029333
+},
+{
+"title": "台股跌逾20％想認賠！他問「短期盤整可以先賣再立刻買回嗎」 鄉民急勸：別亂動",
+"url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQeDN6d1JvOFNVTmNNTDZuaTNmajFqQVlmNHJpMHZlc2tSdzM0RENhcmFBYW9WaXhnVlF0YjlhNkdNektMaV9SYWt5dG93LXlPUzVNU0VGWmI1bmg0elFJTV9SeldXZWtwMGI3UVFzQ29Uc0FORXN6N0ZJb0FCUUlqbXlKMFN6VDJSUkE5Q1BBcjJxU0FKZE54cmwxQ1FyeFZRZ2pMT0lLTHQ4N0xjRlB0X2ZuS00yU19iVXR0RFZ6SzgwZVJwXzl5bERrTmptRzhCNHVGNXZ1MVVMczVid2ZETEdZend0ajhUcXVEVzVtZHd1cVJGVnBReVVPM2FuQl8xN1JUVEk3SG10NEI1VlA1clJnZks0RXdsZ0NNcUVLaUV0SkNaT3ZDTTBTN2FnZy1YajVCLVpBLURCOEtVcUJ2RV8yS0pGeUIxOWx0ekg1U2RoZ0pjNktQZmZzNlJxRnBhaDdTeEpQVjRvdnlzOV9jZXR6TEo5TzJpbXRJTzZVTDdZcXZ3cjhuMDQzVHdGeWFWTFRDeFNTMmJVNEdZQU5SRmxKMHZGd0U?oc=5",
+"source": "Yahoo股市",
+"summary": "",
+"image": "",
+"time": 1794029192
+},
+{
+"title": "台股爆史上最大跌點失守4萬點！ETF逆勢吸金逾2億，庫藏股護盤齊發-財經焦點情報站",
+"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTlFEWlBCQUVWckRodkw1b1lsWUdFUjVfdHF3alI3NERYZzg3SWdtc1phcnExSmdrdVZJVU1vOVlPR1ZPWlJDaUlWRGc2NFlKYUw3RDVoQnJEbWtwX0VON0p1WEJoOFBCMHlUYmUxQWZFMUVXdkl4VkZKbEMzOHJDM3p3?oc=5",
+"source": "CMoney投資網誌",
+"summary": "",
+"image": "",
+"time": 1794028689
+},
+{
+"title": "台股崩跌心情差？虎尾千名「花生股東」下田收成笑：還好有這筆投資",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5GN3NwRTNFN1UyMENMMVNhUXBXNDlYSF94R3A3RWx6MFBpclpaYmljZFhmV0diNkxqc0l0TVB2cDBpcm1hUUxvUDZjXzVBMUU1OXBkZHRyeXo?oc=5",
+"source": "自由時報",
+"summary": "",
+"image": "",
+"time": 1794028518
+},
+{
+"title": "台股重挫勾起金融海嘯慘況！網揭當年「連續30天百檔跌停」 嘆：沒工作更可怕",
+"url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQS0kxSkpBcEhla1ZaTFBxblZWNmFGbnc4bkJFUGppTV82OWFjVzk2YVlfV19OSlNBT1NXdk5TT21FcXZMaDFHeEJDWkwxUUZLLWhIQ0dPelJzZEl5Q2thNFlDMDV4dmx6STdhUkNkcFBFU2JEai1QbWJsdTVBTFVaajRGbVZ6b3BlcGdjOUg1RWEtRTJWSmxZTF9Xa29WU3RWb3FnMmJMa21XRG5WWjh4eEZwYk1rbUtVZGZ2QktjSGJINGg1Y2dDckRULWxjSzh2anByX0FmODRRaHZyVl9FZzc4bzRLTUoxb2pWa3czV3AtZUlhTE4yUkVtaVF4dmNCQ2trVVMwYjZmUS0yRmlKcllVQjR2X0VQMF9IX2k2c2ZmeUhHVGQtTmJnQWFQeVJJZXlET0dZU1EtTGYtSG9KV1ZPeTRucHg5eEVXZXV0Y2RsY3lERzVCX1M0TUd6aUpoamhyUFVPSmozeTNZU3RaTlhlMjRzWmpTMXpVWVByZnR3bXh1LXlpN2gwSXB3U0ExWTAyVS1sUktaMG14OTF6bU0xTzVQNUlPd29ycDB6Y0IyNU1lV3BXZ0tQR0c2eTU4Y252Tl9zdGREUVE?oc=5",
+"source": "Yahoo股市",
+"summary": "",
+"image": "",
+"time": 1794028364
+},
+{
+"title": "捷運汐東線施工牽動汐止房市！宏盛心均價約 76 萬、文心慕慕最高站上 90 萬",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xRkdoZy1uV2R2OFJBYk1WaUtBcUhJMnRoTWlrTFRELTN2Q19KWHJULWFNZ3ZGdmFUTW95SlAzSGF1a0VYMHB1Skp1a21JLVdyVHBR?oc=5",
+"source": "果仁家",
+"summary": "",
+"image": "",
+"time": 1794027904
+},
+{
+"title": "股民注意！台指期夜盤反彈了 上漲646點收復4萬點大關",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB3QlBNMkdvUDMtcTVnTEF1OXNQeVczNVNydUhBMjhRV3RsOHZHRnpaZ1k1cDYwR0ExVzZuRUdLVVh4RElncThSX09nT0UwLVBnYVdVQ000TndxWnh1Ukh30gFkQVVfeXFMTVZUNmY3TE9qV3NnRFYzMUlxdUtHSlU0UVRLZVZLR2VnWGRKWG5OYmQtR0loazB0aElQbnhHaklUVzRRS0FiM2ZocHE1b1RmVkdMSjJHOFBCT3Bybll1MjBIeWQ3Xw?oc=5",
+"source": "自由財經",
+"summary": "",
+"image": "",
+"time": 1794027659
+},
+{
+"title": "台股血崩投資人難眠！命理師示警「1時間」再爆股災",
+"url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOV0Z6emJVT2taNzM0UkgxNVNfTE8tVlc2M1p3SHdJZzh1YXY5VHdlbnNzQ0hmejVBYmw2dEluZnlyeXg2OWV4ZWJURHlINld5NlgyZVpTZl9OZ2F5VEhaLXhraUpfYUNId3BOZG1MWEFVdGJmbzNlZERCa2NxYnZEbkV5UUxOMGhFdjRxb0Y4eHFZbHc5cW9VdnJpMXJ2QkJvQTRJaWwwZXBfN2RFaEFwbGVjUVkzYmJfejJDcHFoV2JIenN4c25zY3o3TjYzbmVfSW9oYkpsakxkMU13TTJRZ3diS1haSmUzM29hb2RYRWxJUm54V3o5RXRaNlhpem5LSXNKVXo5eWszTVRJb1dhUGE3bXBQS2FHY25DSTkxTjhyanNzazZjdmxBZTM2aG5qbDFJOTBSaG9QZFYzM1FIRHFfSHZFUFpKeDJkYUdxaWU?oc=5",
+"source": "Yahoo股市",
+"summary": "",
+"image": "",
+"time": 1794027506
+},
+{
+"title": "台股急跌想借錢加碼！他考慮「理財型房貸投入市值型ETF」 鄉民曝風險",
+"url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQb3NVakdRcVpfRVFpR0R2NmpFTldQUXZkS0NNSmN6Q3JfZHk3eWdOMFVLU3dsUHcyQ0dTb09lTzctbWVrclRZLUxzdTUwTENmN3pmZ0VKb2g1Zm9yOUFTRDhZU255WTBwamZ6bTVTdldZV0dsMjFkVFVTMlJvZlY4V1pNS3B0M0pfRmpmRjJ1UW56bm5kY05HYU5makZDS2I3dy1DZFRfdVV6aXFvd19zZ1dBUkZ1czdnbnNSY1FyUGUzTkk1aGdCZERoRnR1S201emVJTmRyN2FpMEJTWnp0aXV4U1RZV0c5Wnl3MnltU0FNc2Zhd25YenphQURzRVd5YTZNX200Sm5RcklHT0tKZDV6bmFkSWxJTTIwZmgyclB2TFdubVFPWjZMWVdVNXV4UnJaeDloQ2FMRmNxbnRHVE10N08zWE5zN2p3NkZKWDhyblJKaU0yNWVpQUhlLUpwWUVUcVVjM1YyMWhFQlFkYkd5X09XZlVrMFBhYk1HN2duX1VGRmliQUhEUUZyUVJrcndxYTNTT0dZSGlIT1dGLWU3OG1wSWM?oc=5",
+"source": "Yahoo股市",
+"summary": "",
+"image": "",
+"time": 1794027160
+},
+{
+"title": "台股崩盤「全台灣他最緊張」？名醫示警再跌一、兩周恐出大事：連任黑天鵝已現",
+"url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxPYVVXbHBoaWltQjZoQUJpYmlxRjZoZk43bEowRDFrc3ctWERFNGxvaVFXRHBWcDRPNjFobVFtZkpOLWg3TEVnWWM2VjB3Q0dMdkh0RVhyODRzWFk2WnUzWlRLdC1BRzJwMW9aM1NveDhhbkdweTVTSTVUSkVaNGg0cmcza2ZlUW5lMnA4RkNDMjVYS2FFUDM1YjVmUXU1YS13Um1leURyYXJQRjF3RnozdVdDcVdYaGJJOENERFpQaUJWSThvb0Q3a0gxMS1xdWVqM2ZTamstamIwa0pGRlg3NGRWcWs1MEpNblc5R0pUbTR6YzVMVE1UQVY3VjFjOUNaOFozNDhhYzVqRk8wQTJ4eTZsbWNUUXZLYl9rTU9LaE03RS1MM1VlbVBtVEpLdU5iMzBKbVpOZzJseVVkUXc0aUloNVdsZW4xVnlxWUx3UlBLMjByUTR2VGR4SzJWTk1KbDdwRENfTWdoYjJHYVNCcktEODh6UWdxWUszWWl2WlpBWFJac3ZvdVZoX0w4a1dkblNYczBYQXVEdlpIQ3lsZmZjRnNFUWx3LVBRTG9jSzk2RXY5R1pnR3dzb3JQNFNa?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1794027082
+},
+{
+"title": "哪有股票天天跌......他慘虧171萬好崩潰 意外釣出更慘苦主",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ubVMySlV3RjJhSGdLMjE1b3NFbFFkVXBMaF9QcEI1Z0NXQXBEVG1MVmpSVXBNQW1wakJRbk1vWUVaRTFXU1hhejI5cjA5QlFuN1o2UlYxU1ZhcExZdklr0gFkQVVfeXFMTW4tdXRRdExTaDIzcTBXdjdjZ1BUVVp2Ymk0dlZSZ0Q5Y0o2bE9UamlYX0R2S1hlcmNUNDZ0aUZEZGdrQXJIc1IzMGNRV3I4bE1DbG54SnJIdzdKSk1yVDU3anVIWA?oc=5",
+"source": "自由財經",
+"summary": "",
+"image": "",
+"time": 1794026924
+},
+{
+"title": "台股急跌正5族卻越跌越買！他質疑「跌20%了也打死不退嗎」 投資人搖頭：本多終勝",
+"url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxQUndIMHpBZzJoblBtWXAwUEVHVFR0a2lLWkJsQ2JJQjF0S1lvLXBSUXVxUkJ0dWQtUmFCelFNaGt6eWFhVzl3WHJzWlI4d25VcVFOX3BxZlZkWjROZjE0ZWpweTAwWEVQMVZjQkRMVDlYUmxSZEtvYzFGNERiOUl3akhRWElwSUhwUHhqYWVUS2U0cUFLazJMX0VqYkRxNnNEUnhKNzdUQm9VTExaMVA1NDA3TFo1bWk2LWVMME1Ma1M3S2ZWcUtxUGQ1YVJXdHItRTdiWU9ISUJnOHVBdlZzbk9NQ19RbXptZVFGVkdXNlI2SGh2dEI2WWxTWFFuRFRtUnlpYW1ENGJXXzAxdFRsOEVhY2YxLXFoeS1KWVd1QXVnaFRyeTQ0ZDV6cklJN0oycWRfMFR0YkpaSFJENVdVbUQwMzBIZVYwcjZLQjRZSjdDRUdlUktkQkZmcVItX0V2bkgxV0RQWXhMek9CMVhaUzNpUjAtNDRuQnJGRjlHWTRfS3NTZUp0OW1MSFU3MXNQYlI2Vmc3T21uQmxnYk5Pa3ZGazhaTHpF?oc=5",
+"source": "Yahoo股市",
+"summary": "",
+"image": "",
+"time": 1794025725
+},
+{
+"title": "台股崩跌意外引熱議！陳幸妤催夫還錢時機精準 萬名網友拜服：簡直股市明燈",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtOUk1TnYySkM1aHJQMWgwaHBSZ2pYSzFFYVlWWVhjNm9RWmJ4dEd2bGV2QXVVdWFMNmZoNzBJcTdDaFoxU0RoeVBrYjEyejBrM0gxSGtGT1RDNmdiLXpsVjdiQlBrdnhUdmVPYVVn?oc=5",
+"source": "中時新聞網",
+"summary": "",
+"image": "",
+"time": 1794024858
+},
+{
+"title": "廣州大學城酒店禁帶榴槤入房 市監部門稱無權",
+"url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlRNcDNsRlA5MW1GOTVtRTFXanBkTjA2dmNWazNyS0dydzhjNUs3TjN6QlpLU2F6eGJpQnVWUVFBdjJuc21jYVExX21ISTJTVHFzeVBkZ2o2UlZxY21vdjd6YkxmUWtoWXpuQ1d4Tlo3NmQyMXRLcDRiTDE1emc4RU1rRy1pNHdMNnhB?oc=5",
+"source": "on.cc東網",
+"summary": "",
+"image": "",
+"time": 1794024823
+},
+{
+"title": "台股崩跌掀心理風暴 高槓桿投資人恐慌就醫增兩成",
+"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LdUE0dW9NWm9SbUVIVmhKLUFid1lSLUgyVEZ6SGtJV29uSk9KM1hUMjUzY3BCUnI5akRFX2JMZ1lQUWI0RWM4RC1iZUZoRFRQU2dQSVBKa0RjajE3WFR3clo0Z2o2bGhoWUZjWVppNEI5aXVqSHJ6amNn?oc=5",
+"source": "BigGo 財經",
+"summary": "",
+"image": "",
+"time": 1794024300
+},
+{
+"title": "美資料中心建置添變數台股伺服器供應鏈耐震度受考驗| 產經",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oTjVSblBlbVVSc0dlQTBPaUQzVGN3a1BIa1JHSlJaMjc5bDdpaXU4WC1Wb3AzLVd2end6N3RhLWNJQTl1bmdxRXQzUjFsOGVjdkpRRWtuSDBSQ0FoRmc?oc=5",
+"source": "中央社 CNA",
+"summary": "",
+"image": "",
+"time": 1794024180
+}
+]
+},
+{
 "id": "kaohsiung",
 "title": "高雄",
 "images": false,
@@ -926,157 +1077,6 @@
 "summary": "",
 "image": "",
 "time": 1794026417
-}
-]
-},
-{
-"id": "money",
-"title": "財經",
-"images": false,
-"items": [
-{
-"title": "台股1個月跌1萬2千點…比「2008年金融海嘯」還恐怖？過來人：當年每天大盤跌停",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tX1huOEV4RXZUQzNTdG5TYjFOVGhXQm5icWU5X2VLS3JQcUZyOEJzNUczRXh0R2wyY2VyMGkyUkQyM2M0bGFhSWR0dUtZS3Eyb2c?oc=5",
-"source": "鏡報",
-"summary": "",
-"image": "",
-"time": 1794030600
-},
-{
-"title": "【台股才跌到年線「國安基金、限空令全出」！股魚喊扯 網猜1原因】 「不敗教主」出來了！ （#01J）",
-"url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOYzlkc19hdTd2dDFaOHpUNFJzaDZiclAwVkJ2T2Flc0h5UE5yclZMTEJxNEcyQUw1cVV0bE5idXN4Q2Y1QzhhTkxmcjlycTgycGZvSmhSc3prYVo4THpMa3ViMVVWa2tNU0JyTXhRaXlndURodnFrWjYwaDlLSmNPUXlFTnVoWmZxTzFWdDNrZHJvZGo5ajJyOWp5V283TUlrWHFWR2FPQnl6VlBweXJuU2pURjNfMEVfcEFmWHFfUjM3WS0yZy01cG9JLXBvT2FfLW1QTXUtaEVzLTdtSnBxQ1NneGVkb0ZMSS1EV0owakZWbDJzalgySHh4UlZ0UWRXTWQ3QVMyYmlqU2FNeGZfRjAyV2RSSkViVDVHY2NrZXNQcVI3WmNMS2VYVEVzY2V1ek1YRkhtRVp0eV9aMDBfV3lkT3VtXzJHRFc4TFF0UFZfQlZVZWhGdkZYdHZUSzgwR21XVXctczdNMVlIaDlqdDQ2OG1iekpMQ2lLakZPNENVLS1PNGtDYmVsM2pJYXpoM3dQX0tDcHBWdTZCa05VcV9vaU8tOGdBMGN1RnVodG5renVRR015MjVZUGRPNmtmVDRuVW1oWWE0YTVaRUlFZW1zaUEzN1QyS1BEdmZCOU9manps?oc=5",
-"source": "Facebook",
-"summary": "",
-"image": "",
-"time": 1794029761
-},
-{
-"title": "Toyz獄中預言台股暴跌！篠崎泫悔喊：早知道聽話…",
-"url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxONkVkeE8xa0Z1czhFN09JQzJpdUVSYWphU2d6SHZPNzhOd1d1azFETEN3b1RRcnY3OC0zN3ctYklXeFpoREstZmd1MzdkTTA4TW4xR2ZldE5zZVRaeDdlOHhoRm9MOTNybHhFbnEyeFM0Vm5iR2wzSUNBaC1EQ2F1dUczaWY3d3F5eFZXdHpXNVlJaHEwTXdqVEF0QzJ1WEI0ZXliNVNSUU1aYkNFaE83dWxVbHFIQ09Xa0JDZVdBb09QZUxOT1ktMXhfVG5ucHc5aEVvcWJ6RVBfUFFCOGxYR3Q1aVBQU0Ita1FuX1d3M1U3Y1hHeUN1LVhNamJHM1ZCSmd6X1p4Tm5ZUVFuLUd3Z0h6bHNQMlhlUElrUEtUb1pGZ19FdW84MkoxaTJCMTFkeF93?oc=5",
-"source": "Yahoo新聞",
-"summary": "",
-"image": "",
-"time": 1794029568
-},
-{
-"title": "女星台股重挫「3天蒸發200萬」！崩潰台北街頭四處躺 恐怖現況曝光",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBidXlBRkJjUW9xQkxFdm5iZUZqcmlucVNVczlVRWJzcXhPcWNxRjhjTlY4V3Fpakp1M3pOLTFSN0luYTloS19pcWI1WXVRQVVPSlc5cDR6NmlaUdIBX0FVX3lxTFBDc216OUoyREEyN1ljWFpUdEpMN19QcTg3cTFnZ21sN2QteDJ1RDVxT0VQUC1nbVUwOGszYjJBRzJJY3l3cmJ3amZOUVpzTG5pR2xWUWo1bDJZOVljYTNv?oc=5",
-"source": "噓！星聞",
-"summary": "",
-"image": "",
-"time": 1794029333
-},
-{
-"title": "台股跌逾20％想認賠！他問「短期盤整可以先賣再立刻買回嗎」 鄉民急勸：別亂動",
-"url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQeDN6d1JvOFNVTmNNTDZuaTNmajFqQVlmNHJpMHZlc2tSdzM0RENhcmFBYW9WaXhnVlF0YjlhNkdNektMaV9SYWt5dG93LXlPUzVNU0VGWmI1bmg0elFJTV9SeldXZWtwMGI3UVFzQ29Uc0FORXN6N0ZJb0FCUUlqbXlKMFN6VDJSUkE5Q1BBcjJxU0FKZE54cmwxQ1FyeFZRZ2pMT0lLTHQ4N0xjRlB0X2ZuS00yU19iVXR0RFZ6SzgwZVJwXzl5bERrTmptRzhCNHVGNXZ1MVVMczVid2ZETEdZend0ajhUcXVEVzVtZHd1cVJGVnBReVVPM2FuQl8xN1JUVEk3SG10NEI1VlA1clJnZks0RXdsZ0NNcUVLaUV0SkNaT3ZDTTBTN2FnZy1YajVCLVpBLURCOEtVcUJ2RV8yS0pGeUIxOWx0ekg1U2RoZ0pjNktQZmZzNlJxRnBhaDdTeEpQVjRvdnlzOV9jZXR6TEo5TzJpbXRJTzZVTDdZcXZ3cjhuMDQzVHdGeWFWTFRDeFNTMmJVNEdZQU5SRmxKMHZGd0U?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794029192
-},
-{
-"title": "台股爆史上最大跌點失守4萬點！ETF逆勢吸金逾2億，庫藏股護盤齊發-財經焦點情報站",
-"url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTlFEWlBCQUVWckRodkw1b1lsWUdFUjVfdHF3alI3NERYZzg3SWdtc1phcnExSmdrdVZJVU1vOVlPR1ZPWlJDaUlWRGc2NFlKYUw3RDVoQnJEbWtwX0VON0p1WEJoOFBCMHlUYmUxQWZFMUVXdkl4VkZKbEMzOHJDM3p3?oc=5",
-"source": "CMoney投資網誌",
-"summary": "",
-"image": "",
-"time": 1794028689
-},
-{
-"title": "台股崩跌心情差？虎尾千名「花生股東」下田收成笑：還好有這筆投資",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5GN3NwRTNFN1UyMENMMVNhUXBXNDlYSF94R3A3RWx6MFBpclpaYmljZFhmV0diNkxqc0l0TVB2cDBpcm1hUUxvUDZjXzVBMUU1OXBkZHRyeXo?oc=5",
-"source": "自由時報",
-"summary": "",
-"image": "",
-"time": 1794028518
-},
-{
-"title": "台股重挫勾起金融海嘯慘況！網揭當年「連續30天百檔跌停」 嘆：沒工作更可怕",
-"url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQS0kxSkpBcEhla1ZaTFBxblZWNmFGbnc4bkJFUGppTV82OWFjVzk2YVlfV19OSlNBT1NXdk5TT21FcXZMaDFHeEJDWkwxUUZLLWhIQ0dPelJzZEl5Q2thNFlDMDV4dmx6STdhUkNkcFBFU2JEai1QbWJsdTVBTFVaajRGbVZ6b3BlcGdjOUg1RWEtRTJWSmxZTF9Xa29WU3RWb3FnMmJMa21XRG5WWjh4eEZwYk1rbUtVZGZ2QktjSGJINGg1Y2dDckRULWxjSzh2anByX0FmODRRaHZyVl9FZzc4bzRLTUoxb2pWa3czV3AtZUlhTE4yUkVtaVF4dmNCQ2trVVMwYjZmUS0yRmlKcllVQjR2X0VQMF9IX2k2c2ZmeUhHVGQtTmJnQWFQeVJJZXlET0dZU1EtTGYtSG9KV1ZPeTRucHg5eEVXZXV0Y2RsY3lERzVCX1M0TUd6aUpoamhyUFVPSmozeTNZU3RaTlhlMjRzWmpTMXpVWVByZnR3bXh1LXlpN2gwSXB3U0ExWTAyVS1sUktaMG14OTF6bU0xTzVQNUlPd29ycDB6Y0IyNU1lV3BXZ0tQR0c2eTU4Y252Tl9zdGREUVE?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794028364
-},
-{
-"title": "捷運汐東線施工牽動汐止房市！宏盛心均價約 76 萬、文心慕慕最高站上 90 萬",
-"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xRkdoZy1uV2R2OFJBYk1WaUtBcUhJMnRoTWlrTFRELTN2Q19KWHJULWFNZ3ZGdmFUTW95SlAzSGF1a0VYMHB1Skp1a21JLVdyVHBR?oc=5",
-"source": "果仁家",
-"summary": "",
-"image": "",
-"time": 1794027904
-},
-{
-"title": "股民注意！台指期夜盤反彈了 上漲646點收復4萬點大關",
-"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB3QlBNMkdvUDMtcTVnTEF1OXNQeVczNVNydUhBMjhRV3RsOHZHRnpaZ1k1cDYwR0ExVzZuRUdLVVh4RElncThSX09nT0UwLVBnYVdVQ000TndxWnh1Ukh30gFkQVVfeXFMTVZUNmY3TE9qV3NnRFYzMUlxdUtHSlU0UVRLZVZLR2VnWGRKWG5OYmQtR0loazB0aElQbnhHaklUVzRRS0FiM2ZocHE1b1RmVkdMSjJHOFBCT3Bybll1MjBIeWQ3Xw?oc=5",
-"source": "自由財經",
-"summary": "",
-"image": "",
-"time": 1794027659
-},
-{
-"title": "台股血崩投資人難眠！命理師示警「1時間」再爆股災",
-"url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOV0Z6emJVT2taNzM0UkgxNVNfTE8tVlc2M1p3SHdJZzh1YXY5VHdlbnNzQ0hmejVBYmw2dEluZnlyeXg2OWV4ZWJURHlINld5NlgyZVpTZl9OZ2F5VEhaLXhraUpfYUNId3BOZG1MWEFVdGJmbzNlZERCa2NxYnZEbkV5UUxOMGhFdjRxb0Y4eHFZbHc5cW9VdnJpMXJ2QkJvQTRJaWwwZXBfN2RFaEFwbGVjUVkzYmJfejJDcHFoV2JIenN4c25zY3o3TjYzbmVfSW9oYkpsakxkMU13TTJRZ3diS1haSmUzM29hb2RYRWxJUm54V3o5RXRaNlhpem5LSXNKVXo5eWszTVRJb1dhUGE3bXBQS2FHY25DSTkxTjhyanNzazZjdmxBZTM2aG5qbDFJOTBSaG9QZFYzM1FIRHFfSHZFUFpKeDJkYUdxaWU?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794027506
-},
-{
-"title": "台股急跌想借錢加碼！他考慮「理財型房貸投入市值型ETF」 鄉民曝風險",
-"url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQb3NVakdRcVpfRVFpR0R2NmpFTldQUXZkS0NNSmN6Q3JfZHk3eWdOMFVLU3dsUHcyQ0dTb09lTzctbWVrclRZLUxzdTUwTENmN3pmZ0VKb2g1Zm9yOUFTRDhZU255WTBwamZ6bTVTdldZV0dsMjFkVFVTMlJvZlY4V1pNS3B0M0pfRmpmRjJ1UW56bm5kY05HYU5makZDS2I3dy1DZFRfdVV6aXFvd19zZ1dBUkZ1czdnbnNSY1FyUGUzTkk1aGdCZERoRnR1S201emVJTmRyN2FpMEJTWnp0aXV4U1RZV0c5Wnl3MnltU0FNc2Zhd25YenphQURzRVd5YTZNX200Sm5RcklHT0tKZDV6bmFkSWxJTTIwZmgyclB2TFdubVFPWjZMWVdVNXV4UnJaeDloQ2FMRmNxbnRHVE10N08zWE5zN2p3NkZKWDhyblJKaU0yNWVpQUhlLUpwWUVUcVVjM1YyMWhFQlFkYkd5X09XZlVrMFBhYk1HN2duX1VGRmliQUhEUUZyUVJrcndxYTNTT0dZSGlIT1dGLWU3OG1wSWM?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794027160
-},
-{
-"title": "台股崩盤「全台灣他最緊張」？名醫示警再跌一、兩周恐出大事：連任黑天鵝已現",
-"url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxPYVVXbHBoaWltQjZoQUJpYmlxRjZoZk43bEowRDFrc3ctWERFNGxvaVFXRHBWcDRPNjFobVFtZkpOLWg3TEVnWWM2VjB3Q0dMdkh0RVhyODRzWFk2WnUzWlRLdC1BRzJwMW9aM1NveDhhbkdweTVTSTVUSkVaNGg0cmcza2ZlUW5lMnA4RkNDMjVYS2FFUDM1YjVmUXU1YS13Um1leURyYXJQRjF3RnozdVdDcVdYaGJJOENERFpQaUJWSThvb0Q3a0gxMS1xdWVqM2ZTamstamIwa0pGRlg3NGRWcWs1MEpNblc5R0pUbTR6YzVMVE1UQVY3VjFjOUNaOFozNDhhYzVqRk8wQTJ4eTZsbWNUUXZLYl9rTU9LaE03RS1MM1VlbVBtVEpLdU5iMzBKbVpOZzJseVVkUXc0aUloNVdsZW4xVnlxWUx3UlBLMjByUTR2VGR4SzJWTk1KbDdwRENfTWdoYjJHYVNCcktEODh6UWdxWUszWWl2WlpBWFJac3ZvdVZoX0w4a1dkblNYczBYQXVEdlpIQ3lsZmZjRnNFUWx3LVBRTG9jSzk2RXY5R1pnR3dzb3JQNFNa?oc=5",
-"source": "Yahoo新聞",
-"summary": "",
-"image": "",
-"time": 1794027082
-},
-{
-"title": "台股急跌正5族卻越跌越買！他質疑「跌20%了也打死不退嗎」 投資人搖頭：本多終勝",
-"url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxQUndIMHpBZzJoblBtWXAwUEVHVFR0a2lLWkJsQ2JJQjF0S1lvLXBSUXVxUkJ0dWQtUmFCelFNaGt6eWFhVzl3WHJzWlI4d25VcVFOX3BxZlZkWjROZjE0ZWpweTAwWEVQMVZjQkRMVDlYUmxSZEtvYzFGNERiOUl3akhRWElwSUhwUHhqYWVUS2U0cUFLazJMX0VqYkRxNnNEUnhKNzdUQm9VTExaMVA1NDA3TFo1bWk2LWVMME1Ma1M3S2ZWcUtxUGQ1YVJXdHItRTdiWU9ISUJnOHVBdlZzbk9NQ19RbXptZVFGVkdXNlI2SGh2dEI2WWxTWFFuRFRtUnlpYW1ENGJXXzAxdFRsOEVhY2YxLXFoeS1KWVd1QXVnaFRyeTQ0ZDV6cklJN0oycWRfMFR0YkpaSFJENVdVbUQwMzBIZVYwcjZLQjRZSjdDRUdlUktkQkZmcVItX0V2bkgxV0RQWXhMek9CMVhaUzNpUjAtNDRuQnJGRjlHWTRfS3NTZUp0OW1MSFU3MXNQYlI2Vmc3T21uQmxnYk5Pa3ZGazhaTHpF?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794025725
-},
-{
-"title": "廣州大學城酒店禁帶榴槤入房 市監部門稱無權",
-"url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlRNcDNsRlA5MW1GOTVtRTFXanBkTjA2dmNWazNyS0dydzhjNUs3TjN6QlpLU2F6eGJpQnVWUVFBdjJuc21jYVExX21ISTJTVHFzeVBkZ2o2UlZxY21vdjd6YkxmUWtoWXpuQ1d4Tlo3NmQyMXRLcDRiTDE1emc4RU1rRy1pNHdMNnhB?oc=5",
-"source": "on.cc東網",
-"summary": "",
-"image": "",
-"time": 1794024823
-},
-{
-"title": "台股崩跌掀心理風暴 高槓桿投資人恐慌就醫增兩成",
-"url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LdUE0dW9NWm9SbUVIVmhKLUFid1lSLUgyVEZ6SGtJV29uSk9KM1hUMjUzY3BCUnI5akRFX2JMZ1lQUWI0RWM4RC1iZUZoRFRQU2dQSVBKa0RjajE3WFR3clo0Z2o2bGhoWUZjWVppNEI5aXVqSHJ6amNn?oc=5",
-"source": "BigGo 財經",
-"summary": "",
-"image": "",
-"time": 1794024300
-},
-{
-"title": "美資料中心建置添變數台股伺服器供應鏈耐震度受考驗| 產經",
-"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oTjVSblBlbVVSc0dlQTBPaUQzVGN3a1BIa1JHSlJaMjc5bDdpaXU4WC1Wb3AzLVd2end6N3RhLWNJQTl1bmdxRXQzUjFsOGVjdkpRRWtuSDBSQ0FoRmc?oc=5",
-"source": "中央社 CNA",
-"summary": "",
-"image": "",
-"time": 1794024180
-},
-{
-"title": "陳幸妤是「股市明燈」！上個月逼趙建銘歸還股票 躲過台股大屠殺",
-"url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPRHRCVXQxMVgySU9CU1Azb2FmTGdfODdOM0JrYjl4X0plc0xudkd0cjNPN2Y0Vlo1d04zWTVGN1ExMkh3MEIwem1wRmU3Qi1xVlhDMzkyVGJMZDRoc211OHRNOTVLOWw2bmgwdkUwZjZqak1iS1BETF8tcUtRSEJLY0loMDFWS1pnR2ZLbF9sODBXU2RGcXRqWmtsWWRLTUptRmN4eUxPU2Jtc1JwY3hwRzVlcExvQXlXXzdRcW05LWtIWFJOU3pPTXlWYzRERjF4b3E3Z3pTb0toZGwxMEZyOXVzbnJVd2k3Z09FOWd0c1JnSGdrbGl0MnhMbnEyYlRSYTJOOUZkUURrcnpyMVRQUms3LUc4Vk5yVk94QklhNlR5NmxGU193a0JLbWJUZUdWQzhsU0dERGRYVjFSX0ZJUEFxYnhPbXEtTHZycE91c2prYXJqVzFzOFpnYVNlQ3ZPSW5mVjFmLWdNRzNNWXZOSklwdXFjZTVsdExDSzNOOVdnRDZnUlE3dHl2b0Z4ZVE?oc=5",
-"source": "Yahoo新聞",
-"summary": "",
-"image": "",
-"time": 1794024166
 }
 ]
 },
