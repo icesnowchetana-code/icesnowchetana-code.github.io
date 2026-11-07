@@ -29,7 +29,9 @@ SECTIONS = [
         "https://www.bnext.com.tw/rss",
     ]},
     {"id": "interior", "title": "室內設計話題", "images": False, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
+    {"id": "taiwan", "title": "台灣焦點", "images": False, "feeds": ["https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "mingli", "title": "紫微・命理・星座", "images": True, "per_feed": 5,
+     "exclude": "選|市長|縣長|立委|當選|藍白|股災|台股|政",
      "match": "星座|運勢|紫微|命理|八字|易經|塔羅|生肖|風水|占卜|水逆|上升|月亮|命盤|流年|開運|太陽", "feeds": [
         "https://www.elle.com/tw/rss/all.xml/",
         "https://www.cosmopolitan.com/tw/rss/all.xml/",
@@ -41,7 +43,6 @@ SECTIONS = [
         "https://www.wowlavie.com/rss.xml",
         gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14),
     ]},
-    {"id": "taiwan", "title": "台灣焦點", "images": False, "feeds": ["https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
     {"id": "money", "title": "財經", "images": False, "feeds": [gn("台股"), gn("房市")]},
     {"id": "japan", "title": "日本與旅行", "images": True, "per_feed": 4, "feeds": [
@@ -164,6 +165,8 @@ def section(sec):
         try:
             got = parse(url)
             report.append(f"{sec['id']} ok {len(got)} {url[:60]}")
+            if sec.get("exclude"):
+                got = [i for i in got if not re.search(sec["exclude"], i["title"])]
             if sec.get("match"):
                 got = [i for i in got if re.search(sec["match"], i["title"])]
             if sec.get("per_feed"):
