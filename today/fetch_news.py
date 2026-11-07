@@ -33,7 +33,16 @@ SECTIONS = [
     {"id": "taiwan", "title": "台灣焦點", "images": False, "feeds": ["https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
     {"id": "money", "title": "財經", "images": False, "feeds": [gn("台股"), gn("房市")]},
-    {"id": "japan", "title": "日本與旅行", "images": True, "feeds": [gn("日本 旅遊"), "https://livejapan.com/zh-tw/rss/"]},
+    {"id": "japan", "title": "日本與旅行", "images": True, "per_feed": 4, "feeds": [
+        "https://livejapan.com/zh-tw/rss/",
+        "https://matcha-jp.com/tw/feed",
+        "https://tw.fun-japan.jp/feed",
+        "https://tsunagujapan.com/zh-hant/feed/",
+        "https://www.gltjp.com/zh-hant/rss/",
+        "https://www.tokyoweekender.com/feed/",
+        "https://soranews24.com/feed/",
+        "https://www.japan-guide.com/news/rss.xml",
+    ]},
     {"id": "life", "title": "生活與健康", "images": False, "feeds": [gn("健康 飲食"), gn("女性 創業")]},
 ]
 MARKETS = [("^TWII", "台股加權"), ("^DJI", "道瓊"), ("^IXIC", "那斯達克"), ("2330.TW", "台積電")]
