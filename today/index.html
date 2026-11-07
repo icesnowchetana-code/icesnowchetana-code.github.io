@@ -123,7 +123,7 @@ function ago(t){if(!t)return'';var m=Math.floor(Date.now()/60000-t/60);if(m<1)re
 function meta(i){return[i.source,ago(i.time)].filter(Boolean).join('・')}
 function pic(url,alt,onfail){var i=new Image();i.alt=alt||'';i.loading='lazy';i.decoding='async';i.referrerPolicy='no-referrer';i.addEventListener('error',onfail);i.src=url;return i}
 var SIGNS=[['牡羊','♈','牡羊座'],['金牛','♉','金牛座'],['雙子','♊','雙子座'],['巨蟹','♋','巨蟹座'],['獅子','♌','獅子座'],['處女','♍','處女座'],['天秤','♎','天秤座'],['天蠍','♏','天蠍座'],['射手','♐','射手座'],['魔羯','♑','魔羯座'],['摩羯','♑','摩羯座'],['水瓶','♒','水瓶座'],['雙魚','♓','雙魚座'],['紫微','紫','紫微斗數'],['八字','八','八字'],['易經','卦','易經'],['卦','卦','易經'],['塔羅','✦','塔羅'],['生肖','肖','生肖'],['風水','水','風水'],['唐綺陽','星','星座週報'],['星座','星','星座運勢']];
-function cover(t){for(var i=0;i<SIGNS.length;i++)if(t.indexOf(SIGNS[i][0])>-1)return [SIGNS[i][1]+'\uFE0E',SIGNS[i][2]];return ['墨','今日']}
+function cover(t){for(var i=0;i<SIGNS.length;i++)if(t.indexOf(SIGNS[i][0])>-1)return [SIGNS[i][1]+(/[♈-♓]/.test(SIGNS[i][1])?'\uFE0E':''),SIGNS[i][2]];return ['墨','今日']}
 function card(item,sec,lead){
   var a=link(lead?'card lead':'card',item.url),t=el('div','thumb');
   function none(){var c=cover(item.title);t.className='thumb none';t.replaceChildren(el('b',null,c[0]),el('small',null,c[1]))}

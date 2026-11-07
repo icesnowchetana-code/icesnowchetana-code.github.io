@@ -43,8 +43,8 @@ SECTIONS = [
         "https://www.wowlavie.com/rss.xml",
         gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14),
     ]},
-    {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
     {"id": "money", "title": "財經", "images": False, "feeds": [gn("台股"), gn("房市")]},
+    {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
     {"id": "japan", "title": "日本與旅行", "images": True, "per_feed": 4, "feeds": [
         "https://livejapan.com/zh-tw/rss/",
         "https://matcha-jp.com/tw/feed",
