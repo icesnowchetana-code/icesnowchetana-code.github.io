@@ -1,5 +1,5 @@
 {
-"updated": 1794031209,
+"updated": 1794031274,
 "markets": [
 {
 "name": "台股加權",
@@ -180,6 +180,22 @@
 "images": true,
 "items": [
 {
+"title": "年輕人頻繁飲用能量飲料，嚴重心血管事件通報頻率暴增",
+"url": "https://technews.tw/2026/11/07/energy-drinks-face-fresh-scrutiny-over-potential-cardiac-risks/",
+"source": "TechNews 科技新報",
+"summary": "一項將於美國心臟協會（American Heart Association，AHA）科學年會上發表的最新初步研 […]",
+"image": "https://img.technews.tw/wp-content/uploads/2024/06/19112000/kenny-eliason-OGlhEkaMot0-unsplash.jpg",
+"time": 1794031229
+},
+{
+"title": "工業 AI 邁向規模化導入，AVEVA 以資料基礎串聯工程與營運",
+"url": "https://finance.technews.tw/2026/11/07/aveva-connects-engineering-and-operations-through-data/",
+"source": "TechNews 科技新報",
+"summary": "人工智慧正加速進入工業現場，然而要從單點試驗走向穩定營運，企業仍須建立連貫且可信賴的資料基礎。AVEVA（劍維 […]",
+"image": "https://img.technews.tw/wp-content/uploads/2026/11/06131703/AVEVA.jpg",
+"time": 1794031203
+},
+{
 "title": "滿手 AI 慘綠怎麼辦？野村籲緊盯「三大指標」抱緊這幾類護城河股",
 "url": "https://finance.technews.tw/2026/11/07/resource-center/",
 "source": "TechNews 科技新報",
@@ -234,22 +250,6 @@
 "summary": "精技電腦董事長、瑞昱半導體共同創辦人暨瑞音生技董事長葉佳紋近日在成大鳳凰講座發表「從聽見，到聽得清楚-AI 如 […]",
 "image": "https://img.technews.tw/wp-content/uploads/2026/11/07103232/499393.jpg",
 "time": 1794020996
-},
-{
-"title": "連 OpenAI 都撤退，它卻拚出 145 億年營收！解密 AI 影片霸主 Runway 的突圍之道",
-"url": "https://technews.tw/2026/11/07/how-runway-reached-450-million-dollars-in-arr/",
-"source": "TechNews 科技新報",
-"summary": "AI 影片生成新創 Runway 共同創辦人暨共同執行長 Anastasis Germanidis，11 月 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2026/11/05141335/Runway-App-Studio.jpg",
-"time": 1794020456
-},
-{
-"title": "AI 電商新創 Dalet Labs 獲 700 萬美元融資，首推「生成式導購」App Scene",
-"url": "https://technews.tw/2026/11/07/lightspeed-is-betting-this-startup-can-lure-shoppers-with-a-feed-of-ai-images/",
-"source": "TechNews 科技新報",
-"summary": "AI 電商新創公司 Dalet Labs 近日正式走出隱身模式，對外宣布完成 700 萬美元種子前融資，並同步 […]",
-"image": "https://img.technews.tw/wp-content/uploads/2026/10/29134623/Dalet-Labs-Scene.jpg",
-"time": 1794018627
 },
 {
 "title": "Meta 簽約購電，阿肯色州 250 MW 太陽能電場動工",
@@ -340,8 +340,8 @@
 },
 {
 "title": "三角形校舍超吸睛！空橋串聯校園 新竹建功高中獲2026美國建築大師獎",
-"url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPX2RCVmhEQjJGWkROY3lucUZFb1Y3X1o3MDdUX0FnT3hRelhCZ0lGY25hV1hlaDItSEJnZFRXSXN4VnBNTElfNmh6NjA0a2dKNFNrUEJrdXlBTEI5RUU4aUp1MjZVWUpfeDB1LTNQcElvNmpIV254S1NBeGpOUDNoSEdjZFhBd2RCY3V4MXo0YnJjeVdPeGtDVDJMNnQtaTlVMkt0Z2pFbko2VGljQkQ0SEZ6WDl5UUc2V3dPb003Uy1uWHMtSXFzRkJ1VTJsVXYxRFExVUJXRXRKb1JvVUlaY2s0OHVPYXJiaUItM2haTm5KRmlabDdoX2ZSNk9tdF93LURrZjJVN2RNb3NJR2xZRnRySVJsVFZ0VjA3TzFaY2xlRjhOaVA0SHRSR2owaGx6bE5aamEzcDAtTllvdjhFMU5kX3M3SUxRV0pscFVwMGtPbGVHZlhPLWhMLWcweEhZZVRGTUpqWFBNSlBlWG1F?oc=5",
-"source": "Life 生活網",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rdHVjeGpTZ3hvTkQtR0pTZ01md3VqcDhTSktudzNwRGhkaUp4aUZwYnV3RmJOaG55MTh6TG92Q0lSbS1POEFzbEt0TWNoMlFXZ3c?oc=5",
+"source": "蕃新聞",
 "summary": "",
 "image": "",
 "time": 1794018600
@@ -385,14 +385,6 @@
 "summary": "",
 "image": "",
 "time": 1793966214
-},
-{
-"title": "現代風｜兒童房（圖1）｜SusieQ・築一設計",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kYkI2aTBNRW0yaTJ2bGNFMWRTenhSZDN2cGFNeGxpT2w3anZKYkR2bFFHV3lSNzVRcjVzWXh5Yi1uX1FUNDc4TjFaRzhmWmpfeGxaWm9OZ2lNN0Y3aDhIX3NRMDU4TUFyVDZTVUU1NktwR0R4NlE?oc=5",
-"source": "100室內設計",
-"summary": "",
-"image": "",
-"time": 1793954594
 },
 {
 "title": "讓高齡科技真正走進家門！「2026高齡科技住宅應用創新論壇」跨域合作開啟在宅安老新契機",
@@ -473,157 +465,14 @@
 "summary": "",
 "image": "",
 "time": 1793905200
-}
-]
 },
 {
-"id": "mingli",
-"title": "紫微・命理・星座",
-"images": true,
-"items": [
-{
-"title": "12星座最強運勢｜牡羊、射手、處女擠進前三名 留意權力暗湧",
-"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nTXJWSGxxci1XV3I2cHBwTmVGQTBVbEdEUEZiVmZVSHFpcWY4dDJuUDZ0SXgzeVAtcFRISi0yUjc3WW0ybVZpdDZLSkdTc2tqcHlEcmR6Z3I5NkZ0LW9XRnNNckJBRnc3SXd1enRzNXMtLVBFdkpHWlVJUW5Tdw?oc=5",
-"source": "壹蘋新聞網",
+"title": "陳品亘建築師—從建築到室內設計，打造空間與生活美學",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82ZU5HMDdMUFl4bm9DUjRrQWRzNEMwNnZuR3ptRDVVM01PX0pJR0JQVzhSYkh6dHFzdkFJSVBuQWxMUGJ4YzNIR0o1eTEwTDJlaWZBbGFuNjQ3dVA2WkE1UQ?oc=5",
+"source": "Rti 中央廣播電臺",
 "summary": "",
 "image": "",
-"time": 1794026460
-},
-{
-"title": "逆轉勝！3生肖年底前翻身 第1名升官加薪",
-"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xZHp1SHZNMzVhazVrWWs4ZVIyVVpuWHRIUHhEMFdwRk1LYnQ4RjNkWXVDcmxUTGMxZzhZRGZkVm8tV1BKTW9SazczM3hVOGNkaWt0Vk1nMjZHTllr0gFiQVVfeXFMUF9sQkg3UXpEazYtUElkSXZoUll2RFFseHUxQnJaUndhaGhfQlZ3c0tMdWxiX2ZRcllFTUFsWDU5UE5reTRIZVZ6WGozYmJwXy1MbWRDZzViemJhNE84TmQzOHc?oc=5",
-"source": "鏡週刊Mirror Media",
-"summary": "",
-"image": "",
-"time": 1794025260
-},
-{
-"title": "阿墨老師易經占卜生肖運勢大解密1109-1115",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2NTFQNTlKckp3WnpxVU5QM1I2UmNhUWxBeU03Tm5LU2xWZW1NXzFDbnVVdHFQTElzbzcwRmRrc05HZzhRS1BoNW56a21GYmR6MkE?oc=5",
-"source": "蕃新聞",
-"summary": "",
-"image": "",
-"time": 1794024052
-},
-{
-"title": "2026 年 12 月星座運勢：木星逆行與巨蟹滿月，12 星座感情與工作提醒",
-"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xUzFLQk15U2U4dFJydGlZNDRvMTlOSHZaS0lhdFZBUDUtVUJsWHVVUFI2OWRPSjN2dE43M3hCZno2bUxnbU45Y2Q2MjNqX05DRFd1MW1RT1BTd1gwLTVCRTJNM3hLODlmaXAzY2ln?oc=5",
-"source": "Popbee",
-"summary": "",
-"image": "",
-"time": 1794021343
-},
-{
-"title": "白瑜預言2027年下半年股災！談蔣萬安、沈伯洋星座 直言「包裝沒有用」",
-"url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaWhPR2xuMHZHdnF6cElHWDRtVWN2TlBaT0xManVHd2FVTlJPUXhrUXRaNDMtQ1JfU0RLNXRzbEcybWZLRzRxSkc3V2FVamxJMXhNTHREOExzcUtJOEQtNGZqd2NyYTE4SnFERFhka3VrZUdWb2EzMU5yNXFFd2xfX1ZQWVZqeXo5LXhBZGNleUVGdw?oc=5",
-"source": "PChome Online 新聞",
-"summary": "",
-"image": "",
-"time": 1794013223
-},
-{
-"title": "小孟老師運勢／曖昧者迎好桃花！專家點名「這星座」脫單機會UP",
-"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84ZlNEVWJxWGxhcUJpbUxyQUNtNnc0NFBoc2JYVGRRdTNJWFNmOEY1bnZKWmdZcGdZcHlSQV9aaGI4c3lEc2hKSk9VZnhCbmJqSS0xNnQtenR3RGpjZl84ZA?oc=5",
-"source": "民視新聞網",
-"summary": "",
-"image": "",
-"time": 1794009600
-},
-{
-"title": "台股狂瀉逾3700點！韓命理師3個月前預言轉折日 網朝聖全跪了",
-"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94OUJraGQ1UktvYnpuVzJlamxZM3JpRU1MUGw1bkNxMmtPdlJkMUx6eklWSnpHSW1kYkVqWWpPVlI4Rnd2bjhhNHdaYw?oc=5",
-"source": "三立新聞網SETN.com",
-"summary": "",
-"image": "",
-"time": 1793966509
-},
-{
-"title": "VOGUE一週星座運勢幸福排行榜｜11/08-11/14",
-"url": "https://www.vogue.com.tw/article/星座運勢",
-"source": "Vogue Taiwan",
-"summary": "Constance Wang王靚雯VOGUE雜誌每月星座運勢專欄主筆",
-"image": "https://media.vogue.com.tw/photos/6aec008792eef28cd82110c8/master/pass/line.jpg",
-"time": 1793959200
-},
-{
-"title": "韓命理師神預言？ 台股10/7會崩 股民：有提早入袋 | EBC 東森新聞",
-"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPdnNNUGdxc1AtWXdEU3Q0cEdBWUstWFBnMHdKWjRvYzhGZDJ4M0tSZDY3TWJ6TFczYXZaN1NFRnVDYjhGbjJfeXZUa0ZwaGFKYUJzOXNB?oc=5",
-"source": "LINE TODAY",
-"summary": "",
-"image": "",
-"time": 1793954218
-},
-{
-"title": "「果然在股市中玄學才是王道...」台股開盤血洗3700點！ 韓命理師3個月前預言精準命中",
-"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0WDVwSklSTE45RGpjZW05VEV4NlZJRDlkc0ltclRxOHhYR0pJM0VkWXpkY0tpamRWZEVzMTk5NWhYM0tlQm1DRUVjM2FxYUVTSHZZQ19nOXhLVjTSAWBBVV95cUxNb3cweTdNMTVHa3Y3REQ2VnlvVDFJREFpWDYyZGhmQS1acWNWQzFReHY3VjhqUnNNejdkVnlUZC1uNVEtQzNLWnE4SE96d3ZNLUtiYklwU2hvZ0N3VS0wcFE?oc=5",
-"source": "鏡週刊Mirror Media",
-"summary": "",
-"image": "",
-"time": 1793942940
-},
-{
-"title": "立冬「下午5點」接財水！ 命理師點名 「4星座4生肖」注意健康",
-"url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQQjJwSmpVVHFhaVJsLThMWUlfLUd2Y1pFVmlQR0xMZThHSTlRdkFSWUVoLVJVNVJUdzZaYWp1c0U5c2ZILThqbUtVSWZjVThfYkFmUVVzbUl6SmY2Z0RVTUQ5UDAtemp5SGw0Mll0RF9RX1B2aXdjaEF4UTB0VlBfSjdDeHdaaGNPWm45TkFuS0RyelpCRlNrbTNfeE9CdU5OTW0zbnpHQ1BzYV9tUGwtcWxCNzVrWjQ2eE9HUUNybm1nSVJfOUdSS25rbmc2RmIzWmRwaHdmaEwzVjdTXy1YMEhGeUxqUXQtTDczdlgxdEVZWm85RnR2LWNQWXhucVpHbTNsY0FnOGRySHJfdHVvSW90SWdjVE9tT3V1NG1mZnFfa3NoaWdMMWJiTzJWQkNkY0w3NTRDemlNY1drdk81OEhVdUJvRzJiN1M3em5jLWlpNjQxbjBMQjBVVEtFclNCSEJyMXNPYTlnSkNH?oc=5",
-"source": "Facebook",
-"summary": "",
-"image": "",
-"time": 1793939453
-},
-{
-"title": "台股崩跌3千點！韓國命理師7月預測「10月7日變盤」 網驚：真的命中 | 娛樂 | CTWANT",
-"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE93YzBoZFdFSEF5RTJDWFlveGgyTm9fc21TX2tTU0ppUjVZenlXdUo3M2NMUS1XbGxTRUR5VG1pNkxrcFN5WUJUSVM3QWdSb03SAVRBVV95cUxQUGhIZGx5R1JoZEFQZDZQTmE1UUxDaDJobDVlbjE4NFYtNVVvR2tIamp4NEJOWXVqRXdvb3FORFZBLVllTDFsV1BtM1pIc083SGFNal8?oc=5",
-"source": "CTWANT",
-"summary": "",
-"image": "",
-"time": 1793930808
-},
-{
-"title": "2命理師預言台南市長 他：有爆炸性結果",
-"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuaEx0QXZsTnRHR29Cek5HbXloQWFNYjlmT3RsOUdEMzVuVWRwLUJtTjlxRzlkeFlxc1NTODdGNTU4R2tuMEhNVWVSajR2UGU3NFFBNnEwWFVJZ1o4U0HSAWJBVV95cUxPYUVXSEpGdnpRV3RvNzQwZmVVQnd2bmJMOTZfUi1hYW5rbGd4ck1WOEtmYkxKMHpIcmk1Yi1KZmw1QXV2MW1HMnJSNTdJbzYtclB3TVUzWkM5ZzlieDRIbDZSZw?oc=5",
-"source": "鏡週刊Mirror Media",
-"summary": "",
-"image": "",
-"time": 1793929080
-},
-{
-"title": "命理師鐵口直斷：選票超接近！柯志恩後勁強、賴瑞隆怕「半空折翅」",
-"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00VE1rOWcyb0NaaGRmbjhiWTFNTmNONTJjTW1vMzE3QlJpczZ6cGI5WWJLUmIxTWN3eldOWjFNN1FNMjdpZ21ma0JKd2M4dUJ0Y1JGNg?oc=5",
-"source": "東森新聞",
-"summary": "",
-"image": "",
-"time": 1793864100
-},
-{
-"title": "命理師析命盤認為「後勁強」 柯志恩再衝刺11/7藍白黃國昌旗美共造勢",
-"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9udVJzOHoyNURiUWhSNnBFXzJXRVpuYW4wSEZ3US1oQWE4aG5XWGtoS2NPcnpNWTllMk5tWk5FY0w1cG1LbTFzTl9oUQ?oc=5",
-"source": "FTNN 新聞網",
-"summary": "",
-"image": "",
-"time": 1793858640
-},
-{
-"title": "黃珊珊信奉的風水堪輿師預言：蔣萬安「逆轉要費很大心思」還稱「李四川不會當選」",
-"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96UkQ5anVnUGRpdktDY2d0NDA0ZVp1dkR6UG5MQWZpRWdRU3ZIN09JQS1mZFotN1FfUzhuYjY3blRLVjNxMXNXQWZRZw?oc=5",
-"source": "FTNN 新聞網",
-"summary": "",
-"image": "",
-"time": 1793784120
-},
-{
-"title": "紫微月運｜農曆十月這幾種命格名聲開花，靠專業迎來成果大收割！",
-"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XZTBjcjZiVGEtRlhXcndSYTdhNjcwMVJrMkpCYXNaM3Y4aFFiWHlXaFFhQmxxNFJrQ0RESzh0eHBQZU9aM01yRjFYSW92eTg4aHBKak9YZ1F3STlfc1E?oc=5",
-"source": "發燒文章",
-"summary": "",
-"image": "",
-"time": 1793580253
-},
-{
-"title": "【唐綺陽星座運勢週報11/2-11/8】射手感情陷入一頭熱，魔羯過勞多照顧健康",
-"url": "https://www.elle.com/tw/lovelife/horoscopes/g74304274/jessetang11-horoscopes-weekly-2026-1102/",
-"source": "Latest Content - ELLE",
-"summary": "唐綺陽｜大慕影藝提供",
-"image": "https://hips.hearstapps.com/hmg-prod/images/%E5%94%90%E7%B6%BA%E9%99%BD-%E5%A4%A7%E6%85%95%E5%BD%B1%E8%97%9D%E6%8F%90%E4%BE%9B-68fcedbc01c29.jpg",
-"time": 1793549700
+"time": 1793902599
 }
 ]
 },
@@ -729,12 +578,12 @@
 "time": 1794018330
 },
 {
-"title": "綠喊戒慎恐懼 羅智強：沈伯洋辯論後暖男人設崩 回到「販賣恐懼」",
-"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QOVNZanBSSmxMd2k3RGdqVkQzN1RxOHFLR20tU1FlM1ZRdFNZSFoteXl1ZEkwOVZheC0yakJkSG01MU9TRVZrUk1mTGU5cGNPLWo00gFYQVVfeXFMT3B5RE5SX0FvdVotZ3JxY3FLdU1vbW1HSWk3R1RnQ3Mtd1Rhb0hUTm94NEgxS24xS2trWkQ0MVdERXpnSHYxZ3N4UEt5ZE1sa0VJY3BYRmtINw?oc=5",
-"source": "UDN",
+"title": "紐時：黃仁勳身邊「女共諜」來自中國國安部 任務目的曝光",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCUExnbFQ3bDliNVJ6TG5Pb29CU0RFcllmREd2YlFJdUx5VUkxZUxxQTVuZ1dhbXNFeGhVMlNjTDhNSDhzbm8zR09BSzBDdmJILUR5Y2JNMHQ5U0Q5Yy1J0gFkQVVfeXFMTnJHYnVDbEJmSDVCdHkyeHpQM0hQVlZGd1ZMbWtwVTdSVGpyNWlvMF80VDBobDdwcnYwdHJZMExwbHBPUjMwSkFVejVncS1EN2tQSmcxNmh5WFhxRkt5VzRncHZhLQ?oc=5",
+"source": "自由財經",
 "summary": "",
 "image": "",
-"time": 1794014692
+"time": 1794013400
 },
 {
 "title": "銀行倒閉風暴！巴拉圭總統潘尼亞遭彈劾罷免 涉背信遭軟禁",
@@ -761,20 +610,171 @@
 "time": 1794011423
 },
 {
-"title": "紐時：黃姓女主管為中國國安部間諜任務是蒐集黃仁勳情報| 國際",
-"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80N0Z5eEM4aWI0dXFLWExhRFZudXF2R3ZFTzB1QXJYeUhwNzJUVlBjUE1YV3VOV3BUenhpeWZPdThzbHRVbFRDLVI0NTR1eC1kSHlnc3MxcEkwWUU2cDVz?oc=5",
-"source": "中央社 CNA",
-"summary": "",
-"image": "",
-"time": 1794011340
-},
-{
 "title": "MLB》大谷翔平打擊恐受影響？ 3冠打教貝特斯與道奇分道揚鑣",
 "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKR2FCbUJGeldIQ0MxTEhndjBrVS1hcG9mNzJyWWVZTHlQSFF4MldCXzlsbmIwcEdUb1o5VHpOTFYtM3dyOXpENHdhRjAwU3Y1NVgzdmk1YjNFdmQxR2cwN9IBZkFVX3lxTE9SNWg1eHFUX0FtSkZDak1aZmx2ZTRCZG1meGg4ZXV4NHQ1ZnROUUdXZFVVVk5UX1VmVnVLZ1U2OUt1N1kzdDVsU2YtWDlDdTlHWlM3MG0yU2hVdHhfa3RuYWVKZ19GQQ?oc=5",
 "source": "自由體育",
 "summary": "",
 "image": "",
 "time": 1794011220
+},
+{
+"title": "不只挺沈伯洋！八點檔女星公開表態 大讚蘇巧慧「把人民放心上」",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50ZG1RSzRxWkZIX2h6YThoNG1xcXowUkpPejRRN0lYbTRlbnNRMFpRR3VreUFTcUZ6MjR6RnVHV21MQ3B3V0lfUdIBTEFVX3lxTE1GUG9KenJuUUhlMnJRc0V5ZXJibW42T0g2R2stRkhzMmp6dnZYMVhFdkdQMEJjZk90R1FCMERMWmVFRHBtTDN0TnBMcGI?oc=5",
+"source": "三立新聞網SETN.com",
+"summary": "",
+"image": "",
+"time": 1794009240
+}
+]
+},
+{
+"id": "mingli",
+"title": "紫微・命理・星座",
+"images": true,
+"items": [
+{
+"title": "12星座最強運勢｜牡羊、射手、處女擠進前三名 留意權力暗湧",
+"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nTXJWSGxxci1XV3I2cHBwTmVGQTBVbEdEUEZiVmZVSHFpcWY4dDJuUDZ0SXgzeVAtcFRISi0yUjc3WW0ybVZpdDZLSkdTc2tqcHlEcmR6Z3I5NkZ0LW9XRnNNckJBRnc3SXd1enRzNXMtLVBFdkpHWlVJUW5Tdw?oc=5",
+"source": "壹蘋新聞網",
+"summary": "",
+"image": "",
+"time": 1794026460
+},
+{
+"title": "逆轉勝！3生肖年底前翻身 第1名升官加薪",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xZHp1SHZNMzVhazVrWWs4ZVIyVVpuWHRIUHhEMFdwRk1LYnQ4RjNkWXVDcmxUTGMxZzhZRGZkVm8tV1BKTW9SazczM3hVOGNkaWt0Vk1nMjZHTllr0gFiQVVfeXFMUF9sQkg3UXpEazYtUElkSXZoUll2RFFseHUxQnJaUndhaGhfQlZ3c0tMdWxiX2ZRcllFTUFsWDU5UE5reTRIZVZ6WGozYmJwXy1MbWRDZzViemJhNE84TmQzOHc?oc=5",
+"source": "鏡週刊Mirror Media",
+"summary": "",
+"image": "",
+"time": 1794025260
+},
+{
+"title": "阿墨老師易經占卜生肖運勢大解密1109-1115",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2NTFQNTlKckp3WnpxVU5QM1I2UmNhUWxBeU03Tm5LU2xWZW1NXzFDbnVVdHFQTElzbzcwRmRrc05HZzhRS1BoNW56a21GYmR6MkE?oc=5",
+"source": "蕃新聞",
+"summary": "",
+"image": "",
+"time": 1794024052
+},
+{
+"title": "2026 年 12 月星座運勢：木星逆行與巨蟹滿月，12 星座感情與工作提醒",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xUzFLQk15U2U4dFJydGlZNDRvMTlOSHZaS0lhdFZBUDUtVUJsWHVVUFI2OWRPSjN2dE43M3hCZno2bUxnbU45Y2Q2MjNqX05DRFd1MW1RT1BTd1gwLTVCRTJNM3hLODlmaXAzY2ln?oc=5",
+"source": "Popbee",
+"summary": "",
+"image": "",
+"time": 1794021343
+},
+{
+"title": "小孟老師運勢／曖昧者迎好桃花！專家點名「這星座」脫單機會UP",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84ZlNEVWJxWGxhcUJpbUxyQUNtNnc0NFBoc2JYVGRRdTNJWFNmOEY1bnZKWmdZcGdZcHlSQV9aaGI4c3lEc2hKSk9VZnhCbmJqSS0xNnQtenR3RGpjZl84ZA?oc=5",
+"source": "民視新聞網",
+"summary": "",
+"image": "",
+"time": 1794009600
+},
+{
+"title": "【土象星座運勢】11/7 金牛座桃花旺、處女座展現實力、魔羯座獲得金援 | 太報",
+"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RZHlDeXJUeE5wcXNoQjZwYzZpeGFyRWY0NnN2ZzZCZjI0RTFiMnJ3SEVkS2ktUVJidkQ4MTNwcUVRZVFRdS1VdzFKalIySzJ4eDVFelpB?oc=5",
+"source": "LINE TODAY",
+"summary": "",
+"image": "",
+"time": 1794009049
+},
+{
+"title": "VOGUE一週星座運勢幸福排行榜｜11/08-11/14",
+"url": "https://www.vogue.com.tw/article/星座運勢",
+"source": "Vogue Taiwan",
+"summary": "Constance Wang王靚雯VOGUE雜誌每月星座運勢專欄主筆",
+"image": "https://media.vogue.com.tw/photos/6aec008792eef28cd82110c8/master/pass/line.jpg",
+"time": 1793959200
+},
+{
+"title": "立冬「下午5點」接財水！ 命理師點名 「4星座4生肖」注意健康",
+"url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQQjJwSmpVVHFhaVJsLThMWUlfLUd2Y1pFVmlQR0xMZThHSTlRdkFSWUVoLVJVNVJUdzZaYWp1c0U5c2ZILThqbUtVSWZjVThfYkFmUVVzbUl6SmY2Z0RVTUQ5UDAtemp5SGw0Mll0RF9RX1B2aXdjaEF4UTB0VlBfSjdDeHdaaGNPWm45TkFuS0RyelpCRlNrbTNfeE9CdU5OTW0zbnpHQ1BzYV9tUGwtcWxCNzVrWjQ2eE9HUUNybm1nSVJfOUdSS25rbmc2RmIzWmRwaHdmaEwzVjdTXy1YMEhGeUxqUXQtTDczdlgxdEVZWm85RnR2LWNQWXhucVpHbTNsY0FnOGRySHJfdHVvSW90SWdjVE9tT3V1NG1mZnFfa3NoaWdMMWJiTzJWQkNkY0w3NTRDemlNY1drdk81OEhVdUJvRzJiN1M3em5jLWlpNjQxbjBMQjBVVEtFclNCSEJyMXNPYTlnSkNH?oc=5",
+"source": "Facebook",
+"summary": "",
+"image": "",
+"time": 1793939453
+},
+{
+"title": "紫微月運｜農曆十月這幾種命格名聲開花，靠專業迎來成果大收割！",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XZTBjcjZiVGEtRlhXcndSYTdhNjcwMVJrMkpCYXNaM3Y4aFFiWHlXaFFhQmxxNFJrQ0RESzh0eHBQZU9aM01yRjFYSW92eTg4aHBKak9YZ1F3STlfc1E?oc=5",
+"source": "發燒文章",
+"summary": "",
+"image": "",
+"time": 1793580253
+},
+{
+"title": "【唐綺陽星座運勢週報11/2-11/8】射手感情陷入一頭熱，魔羯過勞多照顧健康",
+"url": "https://www.elle.com/tw/lovelife/horoscopes/g74304274/jessetang11-horoscopes-weekly-2026-1102/",
+"source": "Latest Content - ELLE",
+"summary": "唐綺陽｜大慕影藝提供",
+"image": "https://hips.hearstapps.com/hmg-prod/images/%E5%94%90%E7%B6%BA%E9%99%BD-%E5%A4%A7%E6%85%95%E5%BD%B1%E8%97%9D%E6%8F%90%E4%BE%9B-68fcedbc01c29.jpg",
+"time": 1793549700
+},
+{
+"title": "預言沈伯洋對決蔣萬安恐有1變數！命理師驚見「祖師爺怒了」最終結局她驚：要躲起來",
+"url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxPYnA0X3diaEZHNnNFb0hSaTE4ZW1nb0o4bDR4T0VBSnRITjBrZDBNRjZwSFR6aktBNlRwcHk1SFF0X2oyWWlmcWpOOTBrZkZyV3MzcW5OV2dfSlJKOHc3RktXQWQ0RGNyUEg1c1Z4RTBDZk95UXpKbjhIU2p3SGtNZ2RzTGFaaXFfLTRNSFZZUy1DU1pEWFV3bDVuVld3YmJNY1hKVl9DWlRmYXNhNEZHSnA4emt2NlRVTFkxWG1qYjM5bEMxYVVJdzRvZl9xY21ITlFIcTBPM1NqMkllak1HOUpQQUlXMU56Mktka04ycXROTHg2VmhvdXgwWkZfbU1odFdtZFhMUEYzTnBrYkFSTDVZeWhkVHBrU3hfcmhqdXJURndxSWZWdFJWaWxCN0VqQkJ0RzhURUJKV1Nid1pGbGRMNTVOOUxtemVRRlZ6S2ZYNEpTVWRSbU15V2k0RURUcnBUN19XSjF0R21QX01fRjZSV3lSc2lER3F6OFBxZWM0dHZQUjR4VmNsa1dENmQweXZjR21MdFZPTEN6Nl9NSjlpcXZOYUtvX0ZRVmJSTzRkTGF1U2F6eUVfWk40UElrajRyRXZzM1dRdXBBR2VoRUJONVg2VklRRUhNSDFxTWFwNnEyVjFMbjA2RnAxTHhtdmc?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1793435894
+},
+{
+"title": "阿墨老師易經占卜生肖運勢大解密1102-1108",
+"url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPOWwtWng2bnBWNTRqckNOSkZqZHByczFqUnFIaTRzR3J5dS1ob3pQaDZ1RlhueG5uNThIU1BnQkprWndoWVZKV2ZJbjJNZ2N2bVZLMzkyV1pJbVdGN1RYX2ZKS2h5RGJLSDFHLWduT040MU1vY2lNLWNJVWU3OXdvZGxoNWZ1dnhXaXdubkFTeWlweHY5clNPRE80d0MxUmVERktUMVRXakdLa3FMZGNtTDhxd3FITGZzN1FMOHFWeEJkM0FvZHNzbUpaNHlwdVV5RDRod0pCekQzcm1tbnlBRmphZXE4Mnh6QnNfZmRfU3hDVTZiUHhDRWY3QVZ0VGhqN25KZll3V21Cak9KaWZqZEFDUQ?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1793420216
+},
+{
+"title": "同一時辰出世命運差天共地？網民質疑八字有Bug 命理師揭關鍵真相",
+"url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxQS28wcXpWYl9tMGw2OHcwY0hwRVZ5d01yczk0MWlkSWV6RG4xY2VTNnVxNnNEWWpRLTBQWHloUkdlVG1aTzdmQlMzMTdCR0ZqSHBrTDJoX0s0WTlwRnVOSUtfcFBnY0JaaXVCdlRIcFZMM01fXzFFbmZWRFE4RU8xcEJuRWgtUWZmRGJjQkw1MzBmTV9kSC1pQkw3cEpFVWhQWUF5dzNfTFd3eDg5UUh1ZXAxeHJXTXFMOFN0eHllalVqckx2dTk2SDh5QnVjOXBVOEhGRGpIQzlLc1hvWXkzTExMOElzMnZIbUlTQWltVVlhRTVYZTk4b3NZR282SEJTLXhCbzNadlZ0OVRIY1R5T21hYlBTS25tUEstd1B4WEFoZlJqUWVPdEpDSG5Rek4ta1YzQWZfSU9pNVRVdGZpRUoxV1k1ZWktSExveEZPbnV0SmZFUlo2eEROY3FZYkt5ZmdYU2p6ZHdqNUQtZDJvNEVmMEc3N05tOWpKR2w4aHdWeFhIVmw1YV9Sb04td3ViQXZOVzh6UWQtWjRpZnpyZEJOdXdMbWtyMFdWbXVuc0YzM21GSnBRVThpc1p4MjlZdDYzaHhoVnM3UldmRnpVQzJZSHh6ZEY4aF93bVdiWmZzUDR3YV8zRzNYTDBFMHpod3BzaTJDczBqNFdSOGZmOHgyY1dOQU5HRWVJNjVTbDd5WDM5UzJtQzR4RHBtXzEtQm1qZGJ3?oc=5",
+"source": "UHK 港生活",
+"summary": "",
+"image": "",
+"time": 1793363415
+},
+{
+"title": "AI科技結合傳統命理！韓國靑月堂拓展台灣數位娛樂市場",
+"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JU25sRlpNQXp6UE1ZSVdtNWpnYXphN05wRVpRTkVCM3BWeWZEZ3FfWldpdDRraFFPMlJKRF9Ham5sUGV4bDBpZWJGRQ?oc=5",
+"source": "樂聯網",
+"summary": "",
+"image": "",
+"time": 1793263021
+},
+{
+"title": "陪你聊紫微 第11集 七殺星｜話不多、重義氣，敢衝也敢承擔！",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HNVBuQ1lESzlvSGRXSURjbVo2VXgxcThjZFRiZGg2UXZHcldLako4ZzFneW1LTmR2U2lwakVQN2hOUGtRb01oaGNrbEs2TDgxTWpHaURkMDFaWWNR?oc=5",
+"source": "YouTube",
+"summary": "",
+"image": "",
+"time": 1793084400
+},
+{
+"title": "立冬前想入厝搬家？用八字五行的角度，替新家排一個不趕的節奏",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4tN2RHNXBhSjBDdHljcXhoc2gwSVQzRl9qSXRBWnk1NWRHZmNZazZaWnVXaXdWS0pscllFRkJmWmFjbFRiT05MZw?oc=5",
+"source": "鉅亨號",
+"summary": "",
+"image": "",
+"time": 1793084400
+},
+{
+"title": "「那一刻，我死了！」夫外遇，她痛捨36年婚姻…上健身房、學紫微斗數，60歲圓夢作自己| 幸福熟齡X 今周刊",
+"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SYS1hRk9SMkd4ZTBFVzdwVzZ6Qm12LTk2X3BWQjlKaGk4Z3ZOa21UQ2d6ZHNnakVZMmloZ3g5anNWbFpiRGs0b0NRN1JSd2Z2NWV1c21B?oc=5",
+"source": "LINE TODAY",
+"summary": "",
+"image": "",
+"time": 1792998000
+},
+{
+"title": "11月愛情運勢星座TOP3：曖昧升溫，這3個星座戀愛好運噴發",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ERHgwOHlHWkxhd3Z5Z29OU1h3Q010VG9KM1k1S3pQbHdwQlFteDM4cE5TOExhVkczNGxpcGt2SnVWWVluTENLMGxTRHcxR1hJNTlsRWdLVWVmRVlmUlE?oc=5",
+"source": "發燒文章",
+"summary": "",
+"image": "",
+"time": 1792998000
 }
 ]
 },
@@ -935,14 +935,6 @@
 "images": false,
 "items": [
 {
-"title": "台股1個月跌1萬2千點…比「2008年金融海嘯」還恐怖？過來人：當年每天大盤跌停",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tX1huOEV4RXZUQzNTdG5TYjFOVGhXQm5icWU5X2VLS3JQcUZyOEJzNUczRXh0R2wyY2VyMGkyUkQyM2M0bGFhSWR0dUtZS3Eyb2c?oc=5",
-"source": "鏡報",
-"summary": "",
-"image": "",
-"time": 1794030600
-},
-{
 "title": "【台股才跌到年線「國安基金、限空令全出」！股魚喊扯 網猜1原因】 「不敗教主」出來了！ （#01J）",
 "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxOYzlkc19hdTd2dDFaOHpUNFJzaDZiclAwVkJ2T2Flc0h5UE5yclZMTEJxNEcyQUw1cVV0bE5idXN4Q2Y1QzhhTkxmcjlycTgycGZvSmhSc3prYVo4THpMa3ViMVVWa2tNU0JyTXhRaXlndURodnFrWjYwaDlLSmNPUXlFTnVoWmZxTzFWdDNrZHJvZGo5ajJyOWp5V283TUlrWHFWR2FPQnl6VlBweXJuU2pURjNfMEVfcEFmWHFfUjM3WS0yZy01cG9JLXBvT2FfLW1QTXUtaEVzLTdtSnBxQ1NneGVkb0ZMSS1EV0owakZWbDJzalgySHh4UlZ0UWRXTWQ3QVMyYmlqU2FNeGZfRjAyV2RSSkViVDVHY2NrZXNQcVI3WmNMS2VYVEVzY2V1ek1YRkhtRVp0eV9aMDBfV3lkT3VtXzJHRFc4TFF0UFZfQlZVZWhGdkZYdHZUSzgwR21XVXctczdNMVlIaDlqdDQ2OG1iekpMQ2lLakZPNENVLS1PNGtDYmVsM2pJYXpoM3dQX0tDcHBWdTZCa05VcV9vaU8tOGdBMGN1RnVodG5renVRR015MjVZUGRPNmtmVDRuVW1oWWE0YTVaRUlFZW1zaUEzN1QyS1BEdmZCOU9manps?oc=5",
 "source": "Facebook",
@@ -981,14 +973,6 @@
 "summary": "",
 "image": "",
 "time": 1794028518
-},
-{
-"title": "台股史詩級崩跌！女星慘賠200萬自我安慰「還沒賣都不算」 被逼流落街頭",
-"url": "https://news.google.com/rss/articles/CBMirANBVV95cUxNX3d6b1ljODByMVg0UkdoYTZNY2tGLTlVOFVrMTRac2JGcHFRX3FiWkYtUG9qbzJoQWcwSlNsWWx5LTg1bkxtZ19YQzUxSUpkWTRHdkVNN05FazNGZlBob0RXXzdJOVVwcEpWUVE0UkxpSUxpeHNjSFVFZ3Q3dlJobURVaG5rQmNZSTZVUjlkVHNzYlRLcEVZYmhlbzFEUkZsZ3AxNThmUGlNaVlYaDVpMWJoV2xzT2l4NFJhNVpNa3U2YWRQb2hRZnM3OFZfV3NwNHdSR2ZiSFpYU0MtOUtwaW51MDBEYmthQjJsZUFodzFYZ2p6ZU8yanlVajVMZFdneDFFcWhSSlJkbXplV0Y2TzR3WjhCTThIRGc0bFpyZ0RpQ2pEaWF5T2dnamxOalMzOTN2Q0VnR1I1YU5RQm1TVE52R1gzNzVDejFvQ2hXU2JUZ18tRTlyc2xMUVNmVTNseGZaZzFZWEt3eG8tNkpOSlhDdTdHbWF2MnFvMDhoZlJ4MmVqeHdDXzEtUHVURWc3X1R6eWJMdXhHRmpLQUlSclNCSFFDbTZJckp5NQ?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794028364
 },
 {
 "title": "台股重挫勾起金融海嘯慘況！網揭當年「連續30天百檔跌停」 嘆：沒工作更可怕",
@@ -1047,6 +1031,14 @@
 "time": 1794025725
 },
 {
+"title": "台股崩跌意外引熱議！陳幸妤催夫還錢時機精準 萬名網友拜服：簡直股市明燈",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtOUk1TnYySkM1aHJQMWgwaHBSZ2pYSzFFYVlWWVhjNm9RWmJ4dEd2bGV2QXVVdWFMNmZoNzBJcTdDaFoxU0RoeVBrYjEyejBrM0gxSGtGT1RDNmdiLXpsVjdiQlBrdnhUdmVPYVVn?oc=5",
+"source": "中時新聞網",
+"summary": "",
+"image": "",
+"time": 1794024858
+},
+{
 "title": "廣州大學城酒店禁帶榴槤入房 市監部門稱無權",
 "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlRNcDNsRlA5MW1GOTVtRTFXanBkTjA2dmNWazNyS0dydzhjNUs3TjN6QlpLU2F6eGJpQnVWUVFBdjJuc21jYVExX21ISTJTVHFzeVBkZ2o2UlZxY21vdjd6YkxmUWtoWXpuQ1d4Tlo3NmQyMXRLcDRiTDE1emc4RU1rRy1pNHdMNnhB?oc=5",
 "source": "on.cc東網",
@@ -1077,6 +1069,14 @@
 "summary": "",
 "image": "",
 "time": 1794024166
+},
+{
+"title": "青安3.0助攻首購族！買房別踩雷房市小白必看攻略- 財經",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnSksySUZoSFI3RU4yTmpBRTVLNG1WYXFBNDcycnNqWUU1WGRXdEFyQ2NYbnZoaVlGcmxhRE5Ha1BYRUx6elk2bWVaNlBNT2JVdmZRWlBVTnIzcXJ3ODJ6bV9MVF9fSHVsd1VHaTdR?oc=5",
+"source": "中時新聞網",
+"summary": "",
+"image": "",
+"time": 1794024030
 }
 ]
 },
