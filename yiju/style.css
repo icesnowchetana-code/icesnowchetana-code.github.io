@@ -315,3 +315,19 @@ a.tool h3::after { content: " →"; color: var(--ink); }
 .faq div { padding: 18px 0; border-bottom: 1px solid var(--line); }
 .faq dt { font-weight: 700; font-size: 20px; }
 .faq dd { margin-top: 6px; color: var(--muted); }
+
+.ck-line { margin-top: 40px; padding: 28px 30px; border: 1px solid var(--gold); background: var(--cream); }
+.ck-line h2 { font-family: var(--serif); font-size: 24px; font-weight: 500; letter-spacing: .04em; }
+.ck-line p { margin: 6px 0 18px; color: var(--muted); }
+.ck-intro { margin-top: 40px; }
+.ck-bar { position: sticky; top: 0; z-index: 3; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-top: 28px; padding: 12px 18px; background: var(--dark); color: #fff; }
+.ck-bar strong { color: var(--gold); font-family: var(--latin); font-size: 22px; }
+.ck-bar button { min-height: 44px; padding: 6px 16px; border: 1px solid #d6d1c9; border-radius: 999px; background: transparent; color: #fff; font: inherit; font-size: 16px; cursor: pointer; }
+.ck-group { margin: 36px 0 0; padding: 0; border: 0; }
+.ck-group legend { width: 100%; padding-bottom: 10px; border-bottom: 1px solid var(--text); font-family: var(--serif); font-size: 24px; font-weight: 500; letter-spacing: .06em; }
+.ck-item { display: flex; gap: 14px; align-items: flex-start; padding: 16px 4px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.ck-item input { flex: none; width: 24px; height: 24px; margin-top: 6px; accent-color: var(--ink); cursor: pointer; }
+.ck-item strong { display: block; font-size: 20px; }
+.ck-item span { color: var(--muted); }
+.ck-item input:checked + span strong { color: var(--ink); }
+.ck-item input:checked + span strong::after { content: "  已確認"; font-size: 15px; font-weight: 500; }

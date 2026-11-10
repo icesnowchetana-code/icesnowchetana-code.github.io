@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>裝修報價單，有沒有漏寫？｜亦琚設計美學</title>
+<link rel="icon" href="../assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="case-head">
+  <a href="../"><img src="../assets/logo-cream.svg" alt="亦琚 IP SPACE DESIGN 設計美學"></a>
+  <a class="back" href="../#tools">返回屋主工具</a>
+</header>
+
+<main class="q-page">
+  <section class="q-hero">
+    <p class="eyebrow">屋主工具 01</p>
+    <h1>裝修報價單，有沒有漏寫？</h1>
+    <p class="q-sub">除了總價，也要看清楚包含哪些項目。簽約前先問清楚，施工時少一點誤會。</p>
+  </section>
+
+  <section class="ck-line">
+    <h2>手上有報價單？傳來幫你看。</h2>
+    <p>拍照傳到 LINE，免費幫你找出 3 個值得問清楚的地方。</p>
+    <a class="btn btn-gold" href="https://lin.ee/o3pjo98" target="_blank" rel="noopener">傳送報價單，免費檢查</a>
+  </section>
+
+  <section class="ck-intro">
+    <p>也可以先用下面的清單自己核對。報價單或附件有寫清楚就勾選，沒寫的先記下來，簽約前再確認。</p>
+    <p class="fee-note">這份清單只檢查項目是否寫清楚，不判斷價格高低。與工程無關的項目可略過。</p>
+  </section>
+
+  <div class="ck-bar" aria-live="polite">
+    <span>已確認 <strong id="ck-count">0</strong> ／ 26 項</span>
+    <button type="button" id="ck-reset">清除勾選</button>
+  </div>
+
+  <form class="ck-list" id="ck-form" aria-label="報價單核對清單">
+    <fieldset class="ck-group">
+      <legend>開工前</legend>
+      <label class="ck-item"><input type="checkbox" name="c1"><span><strong>現場保護</strong>室內、電梯與公共走道，哪些地方會做保護？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c2"><span><strong>施工申請</strong>管委會申請、裝修押金由誰處理、誰負擔？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c3"><span><strong>相關許可</strong>是否需要申請？由誰確認、辦理？費用是否包含？</span></label>
+    </fieldset>
+    <fieldset class="ck-group">
+      <legend>拆除與清運</legend>
+      <label class="ck-item"><input type="checkbox" name="c4"><span><strong>拆除範圍</strong>哪些牆面、地磚、櫃子要拆？有標示清楚嗎？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c5"><span><strong>垃圾清運</strong>拆除與施工垃圾都包含嗎？有數量限制嗎？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c6"><span><strong>隱藏問題</strong>拆除後發現漏水、管線損壞等問題，如何通知及報價？</span></label>
+    </fieldset>
+    <fieldset class="ck-group">
+      <legend>水電工程</legend>
+      <label class="ck-item"><input type="checkbox" name="c7"><span><strong>水管更新</strong>換哪些管線？使用什麼材料？如何測試？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c8"><span><strong>電線與配電箱</strong>全室更新還是局部調整？配電箱是否更換？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c9"><span><strong>插座與開關</strong>數量、位置有列明或標在圖面上嗎？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c10"><span><strong>弱電配置</strong>網路、電視、對講機的線路與位置有確認嗎？</span></label>
+    </fieldset>
+    <fieldset class="ck-group">
+      <legend>防水與泥作</legend>
+      <label class="ck-item"><input type="checkbox" name="c11"><span><strong>浴室防水</strong>施工範圍、高度、材料與工法有寫清楚嗎？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c12"><span><strong>防水測試</strong>貼磚前是否試水？測試方式與時間如何安排？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c13"><span><strong>廚房與陽台</strong>是否施作防水？排水坡度如何處理？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c14"><span><strong>磁磚與地板</strong>品牌、型號、尺寸及施作範圍有列明嗎？</span></label>
+    </fieldset>
+    <fieldset class="ck-group">
+      <legend>天花、冷氣與油漆</legend>
+      <label class="ck-item"><input type="checkbox" name="c15"><span><strong>天花板</strong>施作範圍、板材與維修孔位置有確認嗎？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c16"><span><strong>冷氣工程</strong>設備、配管、排水、安裝及收邊，包含哪些？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c17"><span><strong>油漆工程</strong>使用什麼漆？哪些地方要漆？底面處理與塗刷方式有說明嗎？</span></label>
+    </fieldset>
+    <fieldset class="ck-group">
+      <legend>櫃體與設備</legend>
+      <label class="ck-item"><input type="checkbox" name="c18"><span><strong>櫃體規格</strong>尺寸、板材、五金品牌與型號有寫清楚嗎？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c19"><span><strong>廚房設備</strong>檯面、水槽、龍頭與廚房電器，哪些包含在內？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c20"><span><strong>衛浴設備</strong>品牌、型號有確認嗎？由誰購買？是否包含安裝？</span></label>
+    </fieldset>
+    <fieldset class="ck-group">
+      <legend>收尾與合約</legend>
+      <label class="ck-item"><input type="checkbox" name="c21"><span><strong>完工清潔</strong>包含粗清還是細清？清潔範圍有哪些？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c22"><span><strong>管理費與稅金</strong>如何計算？是否已包含在總價？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c23"><span><strong>追加與減項</strong>如何計價？是否先確認金額，再安排施工？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c24"><span><strong>付款方式</strong>分幾期？每一期對應哪些完成項目？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c25"><span><strong>施工時間</strong>開工日、完工日與延誤處理方式有約定嗎？</span></label>
+      <label class="ck-item"><input type="checkbox" name="c26"><span><strong>保固內容</strong>保固多久？包含哪些項目？如何聯絡維修？</span></label>
+    </fieldset>
+  </form>
+
+  <section class="q-end">
+    <h2>沒寫清楚的，簽約前再問一次</h2>
+    <p>漏寫不一定代表沒做，但先確認並留下文字紀錄，雙方才有共同依據。</p>
+    <p>不確定怎麼問？把報價單傳來，一起看清楚。</p>
+    <a class="btn btn-gold" href="https://lin.ee/o3pjo98" target="_blank" rel="noopener">LINE 免費檢查報價單</a>
+  </section>
+</main>
+
+<script>
+(function () {
+  var form = document.getElementById('ck-form');
+  var count = document.getElementById('ck-count');
+  var key = 'yiju-quote-checklist';
+  var boxes = form.querySelectorAll('input[type="checkbox"]');
+  function save() {
+    var on = [];
+    boxes.forEach(function (b) { if (b.checked) on.push(b.name); });
+    count.textContent = on.length;
+    try { localStorage.setItem(key, JSON.stringify(on)); } catch (e) {}
+  }
+  try {
+    var saved = JSON.parse(localStorage.getItem(key) || '[]');
+    boxes.forEach(function (b) { b.checked = saved.indexOf(b.name) > -1; });
+  } catch (e) {}
+  form.addEventListener('change', save);
+  document.getElementById('ck-reset').addEventListener('click', function () {
+    boxes.forEach(function (b) { b.checked = false; });
+    save();
+  });
+  save();
+})();
+</script>
+
+</body>
+</html>
