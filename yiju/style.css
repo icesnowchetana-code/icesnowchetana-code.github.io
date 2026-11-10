@@ -333,3 +333,4 @@ a.tool h3::after { content: " →"; color: var(--ink); }
 .ck-item input:checked + span strong::after { content: "  已確認"; font-size: 15px; font-weight: 500; }
 .why img.wide { flex-basis: 520px; width: 520px; aspect-ratio: 1585 / 992; object-fit: contain; }
 .why img.square { flex-basis: 380px; width: 380px; aspect-ratio: 1 / 1; }
+.why img.tall { flex-basis: 340px; width: 340px; aspect-ratio: 515 / 775; }
