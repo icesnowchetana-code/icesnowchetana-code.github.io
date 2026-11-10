@@ -84,7 +84,7 @@
       </div>
       <p class="why-intro">一個空間好不好住，不只在表面。亦琚以建築、結構、都計、材料、室內五個專業交叉判斷，讓美感建立在看得見的安全與看不見的合理之上。</p>
       <div class="why">
-        <img src="assets/advantage-architecture.jpg" alt="暖光下的客廳，長木平台、深色掛畫與藤編單椅">
+        <img id="why-img" src="assets/advantage-architecture.jpg" alt="暖光下的客廳，長木平台、深色掛畫與藤編單椅">
         <div class="why-panel" aria-live="polite">
           <article class="why-item" id="why-01">
             <p class="why-no">01</p>
@@ -173,6 +173,11 @@ document.querySelectorAll('.why-tabs button').forEach(function (button, _, all) 
       item.setAttribute('aria-pressed', String(on));
       document.getElementById('why-' + item.dataset.tab).hidden = !on;
     });
+    var img = document.getElementById('why-img');
+    var urban = button.dataset.tab === '03';
+    img.src = urban ? 'assets/why-urban.jpg' : 'assets/advantage-architecture.jpg';
+    img.alt = urban ? '城市街廓與建築群的透視線稿' : '暖光下的客廳，長木平台、深色掛畫與藤編單椅';
+    img.classList.toggle('wide', urban);
   });
 });
 (function () {
