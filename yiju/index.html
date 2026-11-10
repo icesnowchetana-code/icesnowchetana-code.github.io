@@ -173,11 +173,15 @@ document.querySelectorAll('.why-tabs button').forEach(function (button, _, all) 
       item.setAttribute('aria-pressed', String(on));
       document.getElementById('why-' + item.dataset.tab).hidden = !on;
     });
+    var pics = {
+      '02': ['assets/why-structure.jpg', '黑色圓形、橫梁、紅藍黃幾何色塊與垂直鉛錘線構成的平衡構圖', 'square'],
+      '03': ['assets/why-urban.jpg', '城市街廓與建築群的透視線稿', 'wide']
+    };
+    var pic = pics[button.dataset.tab] || ['assets/advantage-architecture.jpg', '暖光下的客廳，長木平台、深色掛畫與藤編單椅', ''];
     var img = document.getElementById('why-img');
-    var urban = button.dataset.tab === '03';
-    img.src = urban ? 'assets/why-urban.jpg' : 'assets/advantage-architecture.jpg';
-    img.alt = urban ? '城市街廓與建築群的透視線稿' : '暖光下的客廳，長木平台、深色掛畫與藤編單椅';
-    img.classList.toggle('wide', urban);
+    img.src = pic[0];
+    img.alt = pic[1];
+    img.className = pic[2];
   });
 });
 (function () {
