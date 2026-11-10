@@ -334,3 +334,4 @@ a.tool h3::after { content: " →"; color: var(--ink); }
 .why img.wide { flex-basis: 520px; width: 520px; aspect-ratio: 1585 / 992; object-fit: contain; }
 .why img.square { flex-basis: 380px; width: 380px; aspect-ratio: 1 / 1; }
 .why img.tall { flex-basis: 360px; width: 360px; aspect-ratio: 1024 / 1536; }
+.why img.interior { flex-basis: 380px; width: 380px; aspect-ratio: 938 / 1250; }
