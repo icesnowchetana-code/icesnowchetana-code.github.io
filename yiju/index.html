@@ -75,18 +75,47 @@
           <h2 class="section-title">ADVANTAGE</h2>
         </div>
         <div class="why-tabs" role="group" aria-label="五個領域">
-          <button type="button" data-no="01" data-name="建築" aria-pressed="true" aria-label="建築">01</button>
-          <button type="button" data-no="02" data-name="結構" aria-pressed="false" aria-label="結構">02</button>
-          <button type="button" data-no="03" data-name="都計" aria-pressed="false" aria-label="都計">03</button>
-          <button type="button" data-no="04" data-name="材料" aria-pressed="false" aria-label="材料">04</button>
-          <button type="button" data-no="05" data-name="室內" aria-pressed="false" aria-label="室內">05</button>
+          <button type="button" data-tab="01" aria-pressed="true" aria-controls="why-01" aria-label="建築">01</button>
+          <button type="button" data-tab="02" aria-pressed="false" aria-controls="why-02" aria-label="結構">02</button>
+          <button type="button" data-tab="03" aria-pressed="false" aria-controls="why-03" aria-label="都計">03</button>
+          <button type="button" data-tab="04" aria-pressed="false" aria-controls="why-04" aria-label="材料">04</button>
+          <button type="button" data-tab="05" aria-pressed="false" aria-controls="why-05" aria-label="室內">05</button>
         </div>
       </div>
+      <p class="why-intro">一個空間好不好住，不只在表面。亦琚以建築、結構、都計、材料、室內五個專業交叉判斷，讓美感建立在看得見的安全與看不見的合理之上。</p>
       <div class="why">
         <img src="assets/advantage-architecture.jpg" alt="暖光下的客廳，長木平台、深色掛畫與藤編單椅">
         <div class="why-panel" aria-live="polite">
-          <p class="why-no" id="why-no">01</p>
-          <h3 id="why-name">建築</h3>
+          <article class="why-item" id="why-01">
+            <p class="why-no">01</p>
+            <h3>建築<span>｜Architecture</span></h3>
+            <p class="why-lead">先讀懂房子，再設計生活</p>
+            <p>我們不只看室內坪數，也讀建築本身的條件：座向、採光、通風、管道間與樑柱位置。先理解房子原本的邏輯，再決定空間怎麼長，格局才會順。</p>
+          </article>
+          <article class="why-item" id="why-02" hidden>
+            <p class="why-no">02</p>
+            <h3>結構<span>｜Structure</span></h3>
+            <p class="why-lead">美感之下，是安全的底氣</p>
+            <p>拆牆、開口、加層板、懸吊重物，每一個決定都和結構安全有關。具備結構專業，我們能在設計階段就判斷可行性，不讓美感拿安全去換。</p>
+          </article>
+          <article class="why-item" id="why-03" hidden>
+            <p class="why-no">03</p>
+            <h3>都計<span>｜Urban Planning</span></h3>
+            <p class="why-lead">合乎規範，才能安心長住</p>
+            <p>從都市計畫與法規的角度評估：用途是否合法、裝修是否需要送審、周邊環境如何影響生活。先確認規範，再談設計，避免完工後才遇到問題。</p>
+          </article>
+          <article class="why-item" id="why-04" hidden>
+            <p class="why-no">04</p>
+            <h3>材料<span>｜Materials</span></h3>
+            <p class="why-lead">經得起時間的，才是好材料</p>
+            <p>南部氣候較為濕熱、日照強烈，材料的耐候、防潮、防霉與維護性，往往比外觀更重要。我們以材料工程的角度挑選與搭配，讓空間經得起時間，十年後依然好看、好整理。</p>
+          </article>
+          <article class="why-item" id="why-05" hidden>
+            <p class="why-no">05</p>
+            <h3>室內<span>｜Interior</span></h3>
+            <p class="why-lead">設計，從理解生活開始</p>
+            <p>前四項專業確保房子安全、合法、耐用，室內設計則讓它成為你的家。從每天的動線、停留的位置到收納習慣，我們先理解生活，再畫出空間。</p>
+          </article>
         </div>
       </div>
     </div>
@@ -139,9 +168,11 @@
 <script>
 document.querySelectorAll('.why-tabs button').forEach(function (button, _, all) {
   button.addEventListener('click', function () {
-    all.forEach(function (item) { item.setAttribute('aria-pressed', String(item === button)); });
-    document.getElementById('why-no').textContent = button.dataset.no;
-    document.getElementById('why-name').textContent = button.dataset.name;
+    all.forEach(function (item) {
+      var on = item === button;
+      item.setAttribute('aria-pressed', String(on));
+      document.getElementById('why-' + item.dataset.tab).hidden = !on;
+    });
   });
 });
 (function () {

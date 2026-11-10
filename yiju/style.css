@@ -275,3 +275,9 @@ ul, ol { padding: 0; list-style: none; }
   .case-cover-split img { order: -1; height: auto; aspect-ratio: 3 / 4; }
   .case-cover-split .case-title { padding-top: 24px; padding-bottom: 28px; }
 }
+
+.why-intro { max-width: 720px; margin-top: 24px; color: var(--muted); }
+.why-item h3 { margin-top: 8px; font-size: 30px; line-height: 1.5; letter-spacing: .12em; }
+.why-item h3 span { font-family: var(--latin); font-size: 18px; font-weight: 400; letter-spacing: .08em; color: var(--ink); }
+.why-lead { margin: 12px 0 10px; font-family: var(--serif); font-size: 23px; font-weight: 500; line-height: 1.6; }
+.why-item p:last-child { max-width: 520px; }
