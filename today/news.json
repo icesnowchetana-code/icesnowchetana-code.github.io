@@ -1,5 +1,5 @@
 {
-"updated": 1794410223,
+"updated": 1794434636,
 "markets": [
 {
 "name": "台股加權",
@@ -8,13 +8,13 @@
 },
 {
 "name": "道瓊",
-"price": 52099.4,
-"change": -0.25
+"price": 52486.49,
+"change": 0.49
 },
 {
 "name": "那斯達克",
-"price": 25372.863,
-"change": 1.22
+"price": 25466.19,
+"change": 1.6
 },
 {
 "name": "台積電",
@@ -29,20 +29,108 @@
 "images": true,
 "items": [
 {
-"title": "Seagate FireCuda Forge Manages Your Hard Drive and SSD as One Volume",
-"url": "https://www.yankodesign.com/2026/11/11/seagate-firecuda-forge-manages-your-hard-drive-and-ssd-as-one-volume/?utm_source=rss&utm_medium=rss&utm_campaign=seagate-firecuda-forge-manages-your-hard-drive-and-ssd-as-one-volume",
-"source": "Yanko Design",
-"summary": "Keeping a game library on a hard drive and your current favorites on an SSD sounds sensible, until you’re cons",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/seagate-firecuda-forge-manages-your-hard-drive-and-ssd-as-one-volume/seagate-firecuda-forge-hdd-ssd-hybrid-drive-05.jpg",
-"time": 1794406809
+"title": "marius boekhorst breaks down flowers into fragments of color with geometric glass",
+"url": "https://www.designboom.com/art/marius-boekhorst-flowers-into-pixels-of-color-with-geometric-glass/",
+"source": "designboom | architecture & de",
+"summary": "marius boekhorst frames nature through glass sculptures Marius Boekhorst uses patterned glass to frame the nat",
+"image": "https://www.designboom.com/wp-content/uploads/2026/11/marius-boekhorst-flowers-into-pixels-of-color-with-geometric-glass-designboom-700-500x400-22b08q85r345.jpg",
+"time": 1794432940
 },
 {
-"title": "The 5 Best Architectural Designs of November 2026",
-"url": "https://www.yankodesign.com/2026/11/11/the-5-best-architectural-designs-of-november-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-5-best-architectural-designs-of-november-2026",
+"title": "A Steel Curb Prototype Lets Plants Spread Without Waiting for Cracks",
+"url": "https://www.yankodesign.com/2026/11/11/a-steel-curb-prototype-lets-plants-spread-without-waiting-for-cracks/?utm_source=rss&utm_medium=rss&utm_campaign=a-steel-curb-prototype-lets-plants-spread-without-waiting-for-cracks",
 "source": "Yanko Design",
-"summary": "A bathtub inside a tiny home puts a familiar comfort ahead of maximizing sleeping capacity. A museum corridor ",
-"image": "https://www.yankodesign.com/images/design_news/2026/10/lavvus-tiny-home-has-a-bathtub-and-hidden-storage/lavvu-08.jpg",
-"time": 1794400801
+"summary": "A plant pushing through a crack in the sidewalk usually looks like a maintenance problem. Sara Fernandes treat",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/a-steel-curb-prototype-lets-plants-spread-without-waiting-for-cracks/planter-01.jpg",
+"time": 1794432603
+},
+{
+"title": "Someone gave a ’65 Mustang a Japanese-style widebody, and I honestly love it",
+"url": "https://www.yankodesign.com/2026/11/11/someone-gave-a-65-mustang-a-japanese-style-widebody-and-i-honestly-love-it/?utm_source=rss&utm_medium=rss&utm_campaign=someone-gave-a-65-mustang-a-japanese-style-widebody-and-i-honestly-love-it",
+"source": "Yanko Design",
+"summary": "Ford sold a million Mustangs in its first 20 months, which means there were plenty around to modify, and peopl",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/658880/1965_mustang_v8_restomod_1.jpeg",
+"time": 1794428454
+},
+{
+"title": "real motors brings futuristic project: ARES electric motorcycle to life with new prototypes",
+"url": "https://www.designboom.com/technology/real-motors-futuristic-ares-electric-motorcycle-prototypes-03-04/",
+"source": "designboom | architecture & de",
+"summary": "real motors brings project: ARES closer to production South Carolina-based Real Motors has brought its futuris",
+"image": "https://www.designboom.com/wp-content/uploads/2026/11/real-motors-ares-motorcycle-designboom-700-500x400-22b08q85r110.jpg",
+"time": 1794424846
+},
+{
+"title": "Beauer X6 Camper Sleeps Six Without Sacrificing a Porch",
+"url": "https://www.yankodesign.com/2026/11/11/beauer-x6-camper-sleeps-six-without-sacrificing-a-porch/?utm_source=rss&utm_medium=rss&utm_campaign=beauer-x6-camper-sleeps-six-without-sacrificing-a-porch",
+"source": "Yanko Design",
+"summary": "A camper should be small enough to take places and spacious enough to enjoy once you get there. Those demands ",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/beauer-x6-camper-sleeps-six-without-sacrificing-a-porch/Beauer-x6-01.jpg",
+"time": 1794424836
+},
+{
+"title": "Loupe Light Concept Lets Diners Borrow a Magnifier From the Table Lamp",
+"url": "https://www.yankodesign.com/2026/11/11/loupe-light-concept-lets-diners-borrow-a-magnifier-from-the-table-lamp/?utm_source=rss&utm_medium=rss&utm_campaign=loupe-light-concept-lets-diners-borrow-a-magnifier-from-the-table-lamp",
+"source": "Yanko Design",
+"summary": "Dim restaurant lighting can make dinner feel intimate, right up until you have to decipher the menu. Reaching ",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/loupe-light-concept-lets-diners-borrow-a-magnifier-from-the-table-lamp/loupe-modular-lamp-magnifier-concept-02.jpg",
+"time": 1794421234
+},
+{
+"title": "YSG creates Bali wellness hotel with DJ station",
+"url": "https://www.dezeen.com/2026/11/11/ysg-moong-gang-hotel-bali/",
+"source": "Dezeen",
+"summary": "Australian studio YSG has converted a former private vacation residence into a boutique hotel in Bali focused ",
+"image": "https://static-2026.dezeen.com/uploads/2026/11/moon-gang-bali-ysg-studio_dezeen_2364_sq-1-1024x1024.jpg",
+"time": 1794420000
+},
+{
+"title": "Natural Objet Concept Gives a Car Key a Stone-Like Cover",
+"url": "https://www.yankodesign.com/2026/11/11/natural-objet-concept-gives-a-car-key-a-stone-like-cover/?utm_source=rss&utm_medium=rss&utm_campaign=natural-objet-concept-gives-a-car-key-a-stone-like-cover",
+"source": "Yanko Design",
+"summary": "A car key doesn’t have to advertise its electronics with a shiny shell and conspicuous buttons. Natural Objet ",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/natural-objet-concept-gives-a-car-key-a-stone-like-cover/natural-objet-smart-key-concept-08.jpg",
+"time": 1794417654
+},
+{
+"title": "yuri suzuki transforms amusement park rides into acoustic sculptures for onomatopia",
+"url": "https://www.designboom.com/art/yuri-suzuki-amusement-park-rides-acoustic-sculptures-onomatopia/",
+"source": "designboom | architecture & de",
+"summary": "YURI SUZUKI turns AMUSEMENT PARK rides INTO ACOUSTIC DIORAMAS Staged at Osh Gallery within Pentagram’s London ",
+"image": "https://www.designboom.com/wp-content/uploads/2026/11/yuri-suzuki-amusement-park-rides-acoustic-sculptures-onomatopia-designboom-700-500x400-22b08q85r879.jpg",
+"time": 1794415519
+},
+{
+"title": "This Folding AI Handheld Concept Opens Into a Wildlife Field Guide",
+"url": "https://www.yankodesign.com/2026/11/11/this-folding-ai-handheld-concept-opens-into-a-wildlife-field-guide/?utm_source=rss&utm_medium=rss&utm_campaign=this-folding-ai-handheld-concept-opens-into-a-wildlife-field-guide",
+"source": "Yanko Design",
+"summary": "Coming across an unfamiliar bird is often the beginning of a phone search, with a few unrelated notifications ",
+"image": "https://www.yankodesign.com/images/design_news/2026/11/this-folding-ai-handheld-concept-opens-into-a-wildlife-field-guide/log-ai-powered-handheld-concept-02.jpg",
+"time": 1794414024
+},
+{
+"title": "CST #185 / tini + delavegacanolasso",
+"url": "https://www.archdaily.com/1188279/cst-number-185-tini-plus-delavegacanolasso",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/6af1/a0c5/e43f/5e01/8839/896a/newsletter/cst-number-185-tini-plus-delavegacanolasso_15.jpg?1794220324",
+"time": 1794409200
+},
+{
+"title": "Casa Fogo / Pablo Patriota Arquitetos Associados",
+"url": "https://www.archdaily.com/1188433/casa-fogo-pablo-patriota-arquitetos-associados",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/6af3/5981/eabd/2a00/0192/c0af/newsletter/WALTER_DIAS_2026.10.02_PABLO_PATRIOTA_ALTA_07.jpg?1794333102",
+"time": 1794402000
+},
+{
+"title": "Freedom Mobile Arch Amphitheatre / Revery Architecture",
+"url": "https://www.archdaily.com/1188346/freedom-mobile-arch-amphitheatre-revery-architecture",
+"source": "ArchDaily Global",
+"summary": "",
+"image": "https://images.adsttc.com/media/images/6af2/21e9/eabd/2a00/0192/bc78/newsletter/Revery_Freedom_Mobile_Arch_Credit_Ema_Peter__29_.jpg?1794253503",
+"time": 1794398400
 },
 {
 "title": "‘these organisms are 100% real’: timothy boomer captures nature’s alien architecture",
@@ -69,14 +157,6 @@
 "time": 1794396335
 },
 {
-"title": "Rimowa’s Hidden Clamp Keeps Your Passport in Its Aluminum Holder",
-"url": "https://www.yankodesign.com/2026/11/11/rimowas-hidden-clamp-keeps-your-passport-in-its-aluminum-holder/?utm_source=rss&utm_medium=rss&utm_campaign=rimowas-hidden-clamp-keeps-your-passport-in-its-aluminum-holder",
-"source": "Yanko Design",
-"summary": "When I travel internationally, keeping my passport safe and secure is always a major concern. I have to make s",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/rimowas-hidden-clamp-keeps-your-passport-in-its-aluminum-holder/rimowa-passport-holder-09.jpg",
-"time": 1794395236
-},
-{
 "title": "sumayya vally’s counterspace to design elie khouri art foundation in dubai",
 "url": "https://www.designboom.com/architecture/sumayya-vally-counterspace-elie-khouri-art-foundation-ekaf-dubai/",
 "source": "designboom | architecture & de",
@@ -85,92 +165,12 @@
 "time": 1794395205
 },
 {
-"title": "jean nouvel’s shenzhen opera house takes shape on the waterfront, with completion set for 2028",
-"url": "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028/",
-"source": "designboom | architecture & de",
-"summary": "jean nouvel to complete shenzhen opera house in 2028 Designed by Ateliers Jean Nouvel , the Shenzhen Opera Hou",
-"image": "https://www.designboom.com/wp-content/uploads/2026/11/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028-designboom-700-500x400-22b08q85r111.jpg",
-"time": 1794394816
-},
-{
 "title": "Public toilets in Paris by Chartier-Corbasson \"elevate the ordinary\"",
 "url": "https://www.dezeen.com/2026/11/11/public-toilets-chartier-corbasson-paris/",
 "source": "Dezeen",
 "summary": "French studio Chartier-Corbasson Architectes has transformed a neglected underground passage beneath the Troca",
 "image": "https://static-2026.dezeen.com/uploads/2026/11/public-toilets-chartier-corbasson-paris-sq_dezeen_2364_col_0-1024x1024.jpg",
 "time": 1794394800
-},
-{
-"title": "Not a Hotel Architects converts brutalist Tokyo warehouse into own office and headquarters",
-"url": "https://www.dezeen.com/2026/11/11/not-a-hotel-architects-brutalist-tokyo-warehouse-office/",
-"source": "Dezeen",
-"summary": "Japanese company Not a Hotel 's in-house architecture team has turned a 1967 warehouse into a workspace divide",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/not-a-hotel-architects-tokyo-office_dezeen_2364_col_sq1-1024x1024.jpg",
-"time": 1794393000
-},
-{
-"title": "datecrete turns date pits into design to win special prize at seoul design award 2026",
-"url": "https://www.designboom.com/design/datecrete-date-pits-design-designboom-special-prize-seoul-design-award-2026/",
-"source": "designboom | architecture & de",
-"summary": "Datecrete’s holistic approach to sustainability In a world marked by overconsumption and the waste it generate",
-"image": "https://www.designboom.com/wp-content/uploads/2026/11/Usersimpact-1-3-copia-2-1-500x400-22b08q85r784.jpeg",
-"time": 1794392121
-},
-{
-"title": "Five little-known stage designs from the archives of Zaha Hadid",
-"url": "https://www.dezeen.com/2026/11/11/zaha-hadid-foundation-stage-design/",
-"source": "Dezeen",
-"summary": "The unsung set designs of Zaha Hadid take centre stage in the latest exhibition curated by her foundation in L",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/zaha-hadid-architecture-of-performance-exhibition-foundation-london-architecture-stage-design_dezeen_2364_sq-1-1024x1024.jpg",
-"time": 1794391200
-},
-{
-"title": "david rule’s miniature houseboat makes room for everything but space",
-"url": "https://www.designboom.com/technology/david-rule-tinytanic-eight-foot-solar-houseboat/",
-"source": "designboom | architecture & de",
-"summary": "DAVID RULE SHRINKS THE HOUSEBOAT TO 2.6 SQUARE METERS American explorer and builder David Rule has taken the t",
-"image": "https://www.designboom.com/wp-content/uploads/2026/11/david-rule-tinytanic-eight-foot-solar-houseboat-designboom-2-500x400-22b08q85r012.jpg",
-"time": 1794389967
-},
-{
-"title": "TernX’s Suitcase-Stroller Folds Without Making You Unpack",
-"url": "https://www.yankodesign.com/2026/11/11/ternxs-suitcase-stroller-folds-without-making-you-unpack/?utm_source=rss&utm_medium=rss&utm_campaign=ternxs-suitcase-stroller-folds-without-making-you-unpack",
-"source": "Yanko Design",
-"summary": "I like observing people when I’m traveling, even when I’m at the airport. You encounter different kinds of peo",
-"image": "https://www.yankodesign.com/images/design_news/2026/11/ternxs-suitcase-stroller-folds-without-making-you-unpack/ternx-04.jpg",
-"time": 1794388519
-},
-{
-"title": "Sumayya Vally to design Dubai art foundation around the \"memory of a house\"",
-"url": "https://www.dezeen.com/2026/11/11/sumayya-vally-dubai-elie-khouri-art-foundation/",
-"source": "Dezeen",
-"summary": "South African architect Sumayya Vally is designing a permanent home for the Elie Khouri Art Foundation (EKAF),",
-"image": "https://static-2026.dezeen.com/uploads/2026/11/sumayya-vally-dubai-elie-khouri-art-foundation_dezeen_2364_sq_0-1024x1024.jpg",
-"time": 1794387600
-},
-{
-"title": "Building from Place: Inside the Work of RAMA Estudio",
-"url": "https://www.archdaily.com/1188244/building-from-place-inside-the-work-of-rama-estudio",
-"source": "ArchDaily Global",
-"summary": "",
-"image": "https://images.adsttc.com/media/images/6af0/e69f/934b/0301/8c76/4220/newsletter/the-building-is-only-the-beginning-inside-the-work-of-rama-estudio_25.jpg?1794172581",
-"time": 1794382200
-},
-{
-"title": "Gamaya Farms / Biome Environmental Solutions",
-"url": "https://www.archdaily.com/1188052/gamaya-farms-biome-environmental-solutions",
-"source": "ArchDaily Global",
-"summary": "",
-"image": "https://images.adsttc.com/media/images/6aea/b5ff/d2cc/6001/8a4f/6a10/newsletter/gamaya-farms-biome-environmental-solutions_12.jpg?1793766952",
-"time": 1794380400
-},
-{
-"title": "Sumayya Vally Unveils First Permanent UAE Project With Dubai’s Elie Khouri Art Foundation",
-"url": "https://www.archdaily.com/1188481/sumayya-vally-unveils-first-permanent-uae-project-with-dubais-elie-khouri-art-foundation",
-"source": "ArchDaily Global",
-"summary": "",
-"image": "https://images.adsttc.com/media/images/6af4/4558/c23f/1f01/895a/f2bb/newsletter/sumayya-vally-unveils-first-permanent-uae-project-with-dubais-elie-khouri-art-foundation_1.jpg?1794393569",
-"time": 1794378600
 }
 ]
 },
@@ -331,12 +331,28 @@
 "images": false,
 "items": [
 {
+"title": "討論牆 | 火鍋店長轉行室內設計？業主控花3千萬裝潢「地板多裂痕」",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WM1FvVGdYRmZwZ2hkb1V5V1AxcU1wZWR1dnJKdW83MnhnMEFWWFF4NkZlMmNvcmNPbUFBM1dNZnVKRW1Hak9yOFk5Y25zdU1sVm94MS1nYTkyNlREWlFocG9PQlQ?oc=5",
+"source": "LINE TODAY",
+"summary": "",
+"image": "",
+"time": 1794403381
+},
+{
 "title": "北市信義區住宅大樓火警高樓層烈焰狂竄2人頂樓待救- 社會新聞",
 "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdkhxSEV2YWt2R1IyaVdsNE5JOFhwZ1g5QUo2NGVOWExvTF9FOWVqWnlFbkxXNDBsbzhzWEktaWpZZTE5cHZPS1JSN1lXS3JybG11QmU1Z3F2Rlk2OUYwT3VrLWdYSTloWC14Yms1YXR6enN0Q3hKMHJRSVlwSXNKaU4wTlVKVUF3RXkw?oc=5",
 "source": "PChome Online 新聞",
 "summary": "",
 "image": "",
 "time": 1794401994
+},
+{
+"title": "混搭風｜臥室（圖1）｜竹湛京東・相捷空間設計",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDeFJTejdTeldfU045WVgwcWlqQUxlamdPQ2swN3NHNWlTUlg1T0tDU1ZkV3RmVC1Mci1jSy1mZVdhVWR4dTBZZnpFVXduUVRDZ1RCSkVjTWU3SFRxaTJtRmhYNk96SG91ODNv?oc=5",
+"source": "100室內設計",
+"summary": "",
+"image": "",
+"time": 1794397892
 },
 {
 "title": "影音／火鍋店長轉行室內設計？業主控花3千萬裝潢「地板多裂痕」",
@@ -451,28 +467,12 @@
 "time": 1794356223
 },
 {
-"title": "【40 UNDER 40 台灣 當代設計傑出青年】2026年名單出爐！",
-"url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBDRHNUcFVjR2ttUWhsUkEwOUZZSmFPSkM2R2tUTEcxVEtyVXVsTklrcGZKRzFXZTQ3YjVYcHp4bmd4eVlEN01vNkZR?oc=5",
-"source": "居家王",
+"title": "工業宅裝修不讓工人上廁所！上1次罰1千 他慘遭報復「百萬裝潢」全沒了",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BNjE2MEJmSzZsaGdtZFltTjR3WmxjUG1IODdpUWFFOTUzbk9qUU5NTEZLa3A4RFhndzNURjJxczVrc2hVSkJvQdIBTEFVX3lxTE10YWR1VmVpUEw2Q3kxOWRVSmMtVnpsbjNKeG9PODNBMHZza2NQR0dRbjVpRXpFaDFCM0ZvQ3prWHdKdm92c3VkcWZoMFM?oc=5",
+"source": "三立新聞網SETN.com",
 "summary": "",
 "image": "",
-"time": 1794333612
-},
-{
-"title": "踏入北歐與日本交會的「NJ VIBE」日常！森³攜手THE VG HOUSE改裝空間，設計家具、選書等亮點一次看",
-"url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80SG5PQ243WVg3QnlTbmNRdnp2SHRWblpwTzl4bU1LLWQ0NUUzMEJrZFQ3RFpDc3ZwaXVhU1lFVk9BWk00UGswMWg4MWdJRDNCYW91SA?oc=5",
-"source": "La Vie | 設計美學",
-"summary": "",
-"image": "",
-"time": 1794324240
-},
-{
-"title": "實價登錄查行情3大風險｜關係人交易、特殊備註、車位與裝潢價差一次看",
-"url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOeFp4a3BHcjAtN3lFOTVtNEdKQ2Q1WEM0Q2xwcXNmN21nRkc5MU03b05sLURpTmFSMDlld3cxeVhpM1R6UnZPdkx3U2xhN0trUThtanFoWDJzbnlKVDZsMnhabHN4N1FtZGt6UHlZZFA5R1BuU1hTMk1DWWw5UDc5MlY4VmIydkZHMGg3QzJ4OGc0cmwwaTZqaDdITXVWTUJMRjNDbjNhZk15RTlLU202Mm81d1dnQTFLazhMM2tiQ0ZoczhHTlVXYTFCbHVpbmpMTV9XNnI1c0hLSW9KUm9PcjJzSF9TdkFyY2hzMW5qcU9IQUl3U08tSVZyMkxXQ01mX0ZBR1REVGV4Rm9IeVZuODljWXFwSnNMZ09XN1AzWkpzeWhZeGlEaHg2ZE1MNDdIam9JV2gxbjkxTTBxQ3FoNWF0UUlrbHMxREQ5cFdUT1VUdTZ4QzNfRzlMa18tNkRqZDVzRUZhTWYzdC1yaDVXVmkxeks2dU9aX2UzNENtbk9wLXVDck45YThOVmtNdmR6RHV6c3JkM3pRYUJ0c1o2MTQ5WFdUU3J4SHNjekI4SzdKOFJBODEtWmNUTVlrYkdzczhVUW00MW5VNnktRWVKMktfcFhNZUI4d1R3Tw?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794312000
+"time": 1794339590
 }
 ]
 },
@@ -482,12 +482,28 @@
 "images": false,
 "items": [
 {
-"title": "石舫亘今晚發放文宣 現場破2千人排隊：不當沉默螺旋",
-"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxTkFJUFB5Ulh0a05RcnhuaE94cHZoanNyTFFwWmlQWW1Td1plUktqZy1HdEF5XzhyME4tWjM1Njdlay1NQ0F4MnJ0dzl5TkRDRHk00gFYQVVfeXFMUGtuR1lfMTZJZWd6M0Rrc255NUxQS0F0MEN2eWo0ZU12N0Z5WWlDZzJybEhVVHJ5TEJZdWs3M3M1N1VzZ2tnVkhUcjFtaXo1eVluNjlFSXZmNg?oc=5",
+"title": "發信網域是大葉大學！義大利300間學校收炸彈恐嚇信校方發聲了| 大學研究所| 文教",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yLW9HYmw0VnItYzdIb0h1ZTJjQVZrbFdzeHpPNEtzUDZ5SE50b3dEZXlQU1dpTFl1QmNQeWIwRHRTb0tadml1aEVkZ281QlQz?oc=5",
 "source": "UDN",
 "summary": "",
 "image": "",
-"time": 1794405978
+"time": 1794430002
+},
+{
+"title": "《電馭叛客2077》登陸 Battle.net！終極版同步上架 《邊緣行者2》主題任務、裝備登場 | 上報",
+"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZlVZekZnMk5zOTgtaGNOQ2xPQno2NFZ1eks3SGxaXzctRjNvdmZ0RHcyYzd3NUQtMjV1ZTJnSEFxNUI1UVZXM3BRdXBKakVmYUtIYjhR?oc=5",
+"source": "LINE TODAY",
+"summary": "",
+"image": "",
+"time": 1794414485
+},
+{
+"title": "北京恐誤判！美學者：川普選後對中可能更強硬",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SaS14VVVpRFdOcW1ObFdyQnRFTTR3NkZCclFiR1ZoZElmM0VRS1V4anZTV1ZVbzJySG9fbkx3T2FWTHhReU1QR05yRUNZVkNVM0Frb1U1YWFMVnV3RFptRUpqaFk2d9IBa0FVX3lxTE5vMkZGLXN0dVd1RTVKM21ETllyQWdVSDNhdWRzcXRleFRQRC1udEwzbThXQW40N3U5MUcwdUZERnc1VUVwZHljOGRjUThGMXZrX0lDSnlSUUlmUTNZMHlXYXpYanYwMVhZdEU4?oc=5",
+"source": "自由時報",
+"summary": "",
+"image": "",
+"time": 1794405420
 },
 {
 "title": "沈伯洋辯論會突邀加Line 蔣萬安吐真心話「讓我撲通撲通」",
@@ -498,44 +514,12 @@
 "time": 1794405196
 },
 {
-"title": "拿父親李敖慘痛過去打臉羅大佑 李戡：欺負外省人下手最狠是中共",
-"url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQRGhDRWIwWmZkTDRWZXh1U0xRMVB5YzE5NFVEWFNyUUExYkRFUExUdnNmSHg3bXlmLWpnWHdXNnZmdGVRcmQyOXRleVEzbHA5d29EOG5lT1pvRXAwS2szcmtVaFlraVJqSVhKcHNZS2hVVV9NZEV5SFlSTkt4cy1qd2tsV0tBRmNqVmdMSFpzUGJTZWV4OHowMW5ZVGE1WlQzY1BuYXR2SF9yN0NwZ3l1ZlJ2ZWkxclJMRld1eXZWeWs3ek1IOGk5SDZQU3RYWUtoLUlPcHZpMlgyQmNEbDJuZnZmWXFFSzVqTnlwdXg3UnZxNEFrSXl3cXFBYWRnZlZhLTVRbXBGWXhfdXRLSXR1OHMwQVZ0Y3p4OHB2RUppZkpfRzg0WUpzNjdwQl80Vm5nZlo0aXo4SHNfa3Q2a0ZqN0M4NERpQzlyNlYzOGpOaDlrTWJxb3dNazM0Vm9GcDFjUy1CZEFyR1VyN1U0aFJpdXY2S1FKYTZkc2JoRnJrRk01OXNjV2tKSGF6WlJzVkVfM1JUdlhQaWpmR0I1aHdxbDJpVDhRZw?oc=5",
-"source": "Yahoo新聞",
+"title": "黃仁勳「間諜外遇」：韓國曾經歷過的「美人計」事件",
+"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZNmduVTZORmluVDlJSmdubUNoSnhnUU9FXzVsMFVoaHNuVXJkaHdzemZoajI1RDlFYW51dzZDQnFaazNSclFCSUNLNHF0SFlUY1pmVVpMQWJON3BkWDBwQWRtMTkwVDTSAWxBVV95cUxNVEswdkxGN1hKM2diRE5QVEs0T1B0bUJnSXAtVkZ1WGZYdnJQcjN0WUM5R2twR3gwRW9ud21GM3FIZHU5THRDNGp2bDdyT0FZWURDb01yQ0RFdVh6dy1XRXJyek1XQ0xSQ1h0aFM?oc=5",
+"source": "BBC",
 "summary": "",
 "image": "",
-"time": 1794404400
-},
-{
-"title": "選戰倒數！新北市長街頭民調驚現「超級無敵輾壓」",
-"url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNYjBDTkh4bm1rczRGRVhKUHdvSWpHWlpnOEN2MXRyV3d4bWk4NTctc0FRUnN0LUxNOXE3ZVBVdFMzRlNwWEhmLTdVb0Y3cjBRTUVhRVB0RzRHSF9CYTlHS2ZoS3hfbHdaeGVpUEszWVp5OXZRbUxvLUpUZkZMakZVOXdBdGlxNjdfejFjVUhIWnJpdDQ5TnBDQzRYLXY3ZEVudGZZakFHTEt4Ul9EYU5Oc21KdThLcWdROXR3SzRRSm1HMWJKR2xPSGZRX3FheWhYRWVCVi1RY3hBRGpHSWYxTmZNUzNndmJ3ckpHOHh1ZkxXQXBQa2FhdnZHS2FEc3J1b0FNTmZoRm8xbmZmODNoTmNfX2IxWUtjZ1NPbERhWmhoaWVqY19jSGpnYnlRR1pxY0ZWT1lLYm91aWlRRTU3TWoxTTRjZw?oc=5",
-"source": "Yahoo新聞",
-"summary": "",
-"image": "",
-"time": 1794404147
-},
-{
-"title": "義大利300間學校收炸彈恐嚇信 大葉大學校友帳號疑遭盜用",
-"url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQaVlEM29QZTVVeENxaU5JcjcyMUNjR2dJT2p5U2pGMzhDWHYwelZUMUVUbnNzaExWTkN1d2tGOXVuM1FLMTYzZ3RqUXFpVHFheVpZbTE5ZC0zVUJ0OHZLTGlxMGg3SmVjbk9VNS15WVhtc3BndjhwMFFVMkZpTlBUcVlWbzRyNVEzU3lWWUlRLTBkdVhmMWEtT0pxdm5zWk5CUnlWM0VDbm1NR0EzNjhwNkh2akJGY2I5eUFQN1kyQjI2OHhURGVTakJFdDlITWZINGlRdE85Q1NTSEUtUFFRZXFyWXFQZ25fcEs5VkxMb05tRjcwQzVtMTVoZUQ2bjNKMC1IUDdUNjFZSjBYV3ZkTnA3dHR2cHp4Wmduc2lQZldCTkx3dnJKX3NnVEdqd2V1U2lTOVZ3X1pndlZad2RUR3NiQkhiblNoX3RwYmNwWldGcll5QnN6ckZEQUItTzRGTjZkMjhLV0lGRmllZ0dPS1IzX28tcEV6?oc=5",
-"source": "Yahoo新聞",
-"summary": "",
-"image": "",
-"time": 1794403710
-},
-{
-"title": "電玩瘋實測《薩爾達傳說》系列全33 支 amiibo 在《時之笛》中會獲得什麼獎勵《The Legend of Zelda: Ocarina of Time》",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zOG5fYUh4cDFodkNpdUdNRkllOWNvN0NiMDZQN1UwdEdhVzR0QzBnYkhWeDc4MVQ4ekgxUGlldTgxTlA3YmJKaHF2cnhOU241bWMwVk9sS0M?oc=5",
-"source": "GNN 新聞網",
-"summary": "",
-"image": "",
-"time": 1794402312
-},
-{
-"title": "化解AI放緩擔憂！CoreWeave發威 美股、台指期夜盤活跳跳",
-"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5heEdrNFl3MUtubkJJaXVjMnI1RUJURmdOUHM4WTVIOG80VTZiTi1GRXJzNUdQS292OFJUczBXdVFqYjI5NTFSVzFxcm05OEFi0gFWQVVfeXFMT0JwNUFlQUREb0pGdWlIWmRoeHNTS2oxYUlsYXlVemZTbmU5NWtjUXFObmZXZExSa2taNU1UWFctUUx2WGtzeU5RSjFqbzdGZFFFWV9wSmc?oc=5",
-"source": "UDN",
-"summary": "",
-"image": "",
-"time": 1794402261
+"time": 1794402971
 },
 {
 "title": "PS Plus 11 月遊戲目錄公開 Death Stranding 2 等 10 款作品登埸",
@@ -546,14 +530,6 @@
 "time": 1794401764
 },
 {
-"title": "前三季實質總薪資成長2.6%創11年同期最高 近七成低於平均經常性薪資",
-"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RVGx0Z01TWmttUVB4dEhVOXBfOTJQbEg0MmRnUW1JTmJHcEVZdXE1THBmaUpZNEVaS0d2dWU3NzgwOGYyQnVFTUdmWDBHZWZq0gFWQVVfeXFMUG8takZjdGQ5R1AwLTk3bEVFdndNNUo1ckQwYVIzOGhxM1hJRldjb1NYSGpmM05nQU01SDZid1dJNXFiZnlGWm1yV0FpVnd1SWpYbHZyLUE?oc=5",
-"source": "UDN",
-"summary": "",
-"image": "",
-"time": 1794401736
-},
-{
 "title": "英國牛津大學研究發現人體免疫系統在抑制攝護腺癌發展扮演關鍵角色- 國際",
 "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sQXlSQVdZbEE5RzYxNWtFUW9tb3IyX3gyVGM3UVNRYjBPOGZWRnp1VXZBbktBMHE2QVAtdDh3d1ZvYzVHRUUzeENya3U1Nms1T1ExNjYwbVM1bENyOFlV?oc=5",
 "source": "工商時報",
@@ -562,28 +538,36 @@
 "time": 1794401580
 },
 {
-"title": "亞冠賽／「台日大戰」左投對決 林子崴迎戰金丸夢斗",
-"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBnNDVEbkg1QXl4eTg1WGdUR1ROd1pQQTVaa3UyZ0FrMFJYWEEzNV9RNWdNYkttMzhKRFNWVVYxTnJjTlE4eG5mb1BNWlRpZWRX0gFWQVVfeXFMUFdtaXpLTXJac29yM2tiS0c0eVNXRTBISE5FYnBRUlF5VmRDd2RwelFmYXgtaFhuakZrMnpoWll4Z1pRU1ZxMzl4VUEwYkw1bmp3YXlRUlE?oc=5",
-"source": "UDN",
-"summary": "",
-"image": "",
-"time": 1794399056
-},
-{
-"title": "亞冠賽》對台灣隊勝率100％ 日本隊宣布抗台先發投手！",
-"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tYVBMRGhoN0J3R1kxMWg2TkswVFdmanV6aVFBamNtdE93dlgxMWZSLThWM1ktSHdvbEc0b3AyRTdCcmNacXdHbGw4MUFuWk04MGtvaUc1aV92V2djT0dNbdIBZkFVX3lxTE9XZTkwV0xLcmFDYUlFTlJCM1FPT0hoRTZseWxEaUp1TEM4ZDM5WkRjLXRHdkxTazRvcXB3dHc2WUFxTTFwalVsci15RWpWRlhUY2xnX3Z0SV9ic0paZkYwZ29vZmhxUQ?oc=5",
-"source": "自由體育",
-"summary": "",
-"image": "",
-"time": 1794394320
-},
-{
-"title": "明天天氣白天回溫清晨西半部低溫18℃ 下周又變天低溫探16℃",
-"url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNbzduNU5zaXJ2c3BTMkJ4WjB4QXJqUElONHVuZjdXMWNVbzF1S1ZaMkw3N3hpeFRoOGRjUUhjMkxXNFpUbzlCZ1FOdkVNaVUxUm9yalpNVjVZaGthaVkyTm01T2dYZWNBU25kY01mZmxGR0ZXb0dvTWVNeGpkbUJZRVNnQUxsQ1FGc05BWDBmeUZXRTB4NjJKV1JDNGdKZmotanlJTGIyUUZrQjF0SEU0eTBqTFJfbkEyUjFZdnNZdXMxRXpNQnhlNnZyS3NQRXRrRFBqSHNSNVVkc3JHZEZaMGZNc1p5NDRhX1RBNXlIWUx2NHVOZkhiWk50VHlpUmtoeXFlcEptQ0R0Y2hKUmdfNXV0REJhazZmUkhQRm5XbVNpVnMxV2dKZVc5VTZYd3NOSUNLQjJiVC1GTjFNYl9hblJBT2RTUXlBZ1Q1SXpQcFNHcVhVYVBPWjRUbHljOE1jRjVxRDRuN1huUUxGUW5LNTR1VXU5Z0NobV9vNlZONDhNbm96YUE?oc=5",
+"title": "美提割烏東換和平! 烏批普丁無法信任 反嗆「若只要頓巴斯，為何打基輔？」",
+"url": "https://news.google.com/rss/articles/CBMitANBVV95cUxOZ0tua0tWUWpYTjJYelFEc2NJZFlmMnh3V1VKOEF4ZTRCUWYyVi1mRHd2LXNfM2tUS0tPWHhiU3ZMSnc1bS1LWEM5cnJYU1BJNFNoRjhCSHp2QjNMTDhMekJWckdlNWZCLWdTZHNDODJKTEZyX2h3NnJzU0lXNEk3Q0NSQXZabE5lVVNSVmRoUmdHekk0dWJIMUltbXVMUVc4WE9IaHRRS3pfM0VYZVRweTJ4UUZKc2x5RzBleTNuQXEzZWhuZWExQjFER3g5WkJvM0hVenYzUEVXR1pjY3RDV0ZBbGowdDc2Zk9oRFpfZm9jRjRkeEZNNVdkMVRYdEoyOGlLSFRkM2x6WUZITjQxbVI1N1NhMFB0OVppeU1rV1p2cUR5X3MxWGxfUUJaRVhObGdoT0xlVU9YNG1CZGFJalJCRkVZeGpoNlJRbFJOMDVTeW5FT05OTW44RDFMRnJ2MTkwbFBTX05zZDBHdzZyVkpLOGJnOGZDZ3RiRVZFdHAtSEdBM0QxYzJ5OEQ0Q2lZZzFQcURZOVAwVUZRQjJBX21ubU55aWFQZEZrNTZPUkZ4bV8y?oc=5",
 "source": "Yahoo新聞",
 "summary": "",
 "image": "",
-"time": 1794393506
+"time": 1794398036
+},
+{
+"title": "【重磅快評】勝選才請辭看穿沈伯洋、張廖萬堅的選舉陽謀| 縣市長議員選戰| 要聞",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PZzRuZFVtTWJIQjRVSzJPV3haVGlhdnZ3SFRXd0lHczBPZVdkdk1kSG5YN2ZiV1BvbEpiSGRjenppZy1MYmg5SGYzTVF1R2dqUU9V?oc=5",
+"source": "UDN",
+"summary": "",
+"image": "",
+"time": 1794397728
+},
+{
+"title": "蔣萬安當過啦啦隊！19歲舊照被挖...害羞站暗戀對象旁 純情往事遭抖出",
+"url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxQbUltQUViVXNmcmJHVmVTLUJpUk40NHYwWE1DRzNublBRaF8tUjBIek9NM2w0RENkOFk5ZzhBcFRqdmo1NVpKMzBEVjc3dzZuZF8wUjVGVC1KaDVVRGNDajRuUTRSc0lXVnp4bW03U0hENE54S2JneW9XLXhubk9LeEhqVERXRWZtMm5lalJfdmJxaE9tdmdjTGdYUzM0SnZFYUdidks2UkZNOEcxRnM5bHQzUTd4UW5DQ092SjZkRnBMc0J2bTNMZDhoWVY2SWdabjZVQVZXdldqN1UzbG5aZ3BPUXBDZGthZkFtNGFNdnNyMVk2ZEhMZHFma0hKelhLVlNaQlBKbVRKOUZ5U3k2ZER4OU51YUV0b2pwTVRMN2tCNVIzV1RKajNtbWgzMlFZRDF5VEQxbjdpVGZDRUFrSTdrTjdiekljOEtwaEhBVkVuRzlfbnVhQ3o5dXFFYmdCVTlibXo5QkJtRFJxSWlDbHhJbm5PQi1YOWNoa1VxeC1iTVVCcGs3VW1nMEJvTXZJRjVKOGpUS3FVZlZfTnJpTkNaZ3l5Zzd2NFE?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1794397260
+},
+{
+"title": "亞冠賽》推派林子崴抗日 台灣隊教頭解釋原因",
+"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xNWFvYVJDcmlaNUFMRlkzclM3NUMwcGdPcTFGMTRNSE8xZjZPRmpyVHlyaWdYUXlkTHJTd0o5a09CaFVHS2NmUUwteWZyR1RZNjh1NGt6MGtiOFExaE1KOdIBZkFVX3lxTE1xTTRkYVc1Rm1lNTQxWUZvVE1ZRUw5MWpBcV9VRHFhcEdMVlo4ZHlNeXZhVHJOTTBQX3BEYTRHSm1WckF6ejZaaXhCZWh0eGFyWVg2YXlCSjdZWVJhUWJvTFpOdHNfZw?oc=5",
+"source": "自由體育",
+"summary": "",
+"image": "",
+"time": 1794395040
 },
 {
 "title": "健康網》減重後法令紋變深、臉部凹陷！ 醫揭原因與改善關鍵",
@@ -594,28 +578,12 @@
 "time": 1794391920
 },
 {
-"title": "快訊／續押或交保還要再等等！謝典霖羈押庭結束暫還押 原因曝光",
-"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ySVpveG1POE5hOG91aWZIcmtIR25ORVQtUDJLdFFILU5XcWY5M2ltXzhkY0ZPZFdRcE9LWDJpMU5xR0I5bFNlX9IBTEFVX3lxTE0yMlhENmlfV2w1RTFiNnBSS0tLWE8zeVBTNEc5ZWdvYzZqd2JxcjV4aWFNSURJYVEzcDN6U29HWmxtWHZMWlBtLTZOVGs?oc=5",
-"source": "三立新聞網SETN.com",
+"title": "韋伯望遠鏡發現大爆炸後9億年並肩存在的兩個巨型黑洞",
+"url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNWFZGOGczX0stdWk5X20xUXprbndxXzdCMHMyNnRDcW1qUXZ5eFAzQ0xXQWtRbXNYaWU5RWhrUzRWVzlxRlJIZFlvQnhlRlNDZ3FjRU5wQ2JqZm8zRHB4V0xGTGNUVTEyd1hPOFl0ME52aVFGWnZRQ3VnVzltQWRJVUZsOWJsRVNuaENacFdJd2R4ZVZJTkgyR0lqRlJCUmQ0bEJtaHVnSUVBZ1psUUVJTWhYbGdjVDJuUlVyZjI2NTdOc1RVOEh1ODUyTUZOYl9JcDFBMkhocFZVNTdwUE5nZ0NHd1NHQzNVLThRdEZRX0tMTFRiVlJIZ3VIbjlQc2VNVGlDVDFtVmd6S2I5OW5jMWNwT01KajhYM0lSUXBPYk1FWkFrcXlqcURfVGo0TGxRUFVoQWhGM19oMVBVMWJNRw?oc=5",
+"source": "Martin Cid Magazine",
 "summary": "",
 "image": "",
-"time": 1794390480
-},
-{
-"title": "拱蔣萬安牽手生四寶 石舫亘這樣回",
-"url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42QTRTU0trWTQ1YlNPWEl1Z2FMOEQyam9EdnY3bW1nbF9PTzZtc1JGVkJhdkkyM0M1b0F6THM3UVBlWXAxRVlFSGdBQXdBVXZNdXoxbWRrYw?oc=5",
-"source": "東森新聞",
-"summary": "",
-"image": "",
-"time": 1794389880
-},
-{
-"title": "亞冠賽》「神調度」送董子恩進台灣隊 日籍教頭：本人沒料到吧？",
-"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zcHRpSWNkWjVjNWZzUmpqY0ctM3dVdnFodEkycFNkSFJuTlZ0UHRPbWRUM2xwOC1ia0pfM0QtUjBXU2ZfTzk4UDlUa29EYnZFMjh1V0ZLbnVOblFwa1diTtIBZkFVX3lxTE85XzFvdk5UTU5mazcwN1dkdWZhSE9IZUYtOWVGQnVyVkpDcDB1VGtwNWpTblgyV0o1R1F0YnRSMFI5Wl9qdEI1R1JBblpCWkVPVGtYVzlSeGRSSThBQWxSMlRyZE5zUQ?oc=5",
-"source": "自由體育",
-"summary": "",
-"image": "",
-"time": 1794389520
+"time": 1794390331
 },
 {
 "title": "癌細胞竟會釋放物質「關掉」免疫攻擊！研究揭腫瘤逃脫關鍵手法",
@@ -624,6 +592,38 @@
 "summary": "",
 "image": "",
 "time": 1794388800
+},
+{
+"title": "不甩外資硬賣7億！台股狂飆1545創第六大漲點 股民笑：小兒賣不下去被嘎爛",
+"url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxOZ2lUQ0N0Ul9ZMEVNaXBuQ3JtYkpiS3VHRFJ3bXhzdXlCTHd5N3pWczlPdDNobjcxeW5GQ2VzZmJuNWdFSVdhTUZkVFJQVlBfWHlzT3ptVVBMMkxkY3kwZkZMaFNGN0EzRFRJRHl2NFRHRG1lY3pBeDBVVlpaNm8wZUhkZEdQbzNIcG0ySk9DVW9ENUFVbDNHTnhHT25pR2xSRTJINTRnaFcyUFE5MEFaY0VPcFRwcUtXYjFfaU1EQVhnX1NGUjBwSjEwZDliREhzQ0JjYXVtRzBJZVh1bzB6S01DblFram5sZ1FPa0xHMVpsaGFrUGc5U3lLMzhnSlVsdkNhM1N0N2lhQTk1NFlxYThISUdJWDZkREk1anFVUUhjaE9LLUY0RUVGVHdVc0l2TnNPUXY3SllFSjJpU1FNbzlWWldfR0p6TlRlNm54MExZQUhPVGZKYVVBQWpjWVdxb2VqWllEWmZBX0RqaHlrdkxzZ0Zieno2a3NfbzRVcWdVbjRxYTZJVHAwaUpBRnJzalRleVJtdmdRZ1Nlb1hha1AwWGNCazVfX2dGSDE5TGw0Z0xHQUh4NW9kUk05YUs0R0E?oc=5",
+"source": "Yahoo股市",
+"summary": "",
+"image": "",
+"time": 1794387000
+},
+{
+"title": "「薩爾達傳說時之笛」發售4天內銷量達520萬套！創下任天堂Nintendo Switch 2遊戲發行史上最高紀錄",
+"url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQVThCZkc4Rm16RzZhMzRleEZneWp3VFNZZkF5c1MzRU9FbWR2TnFTVGdSUV80VFZtTnl6LTFGRnJaWlNISFpyZHRmbGN3VDVuTHByTlNGcVBBd25Obk1rT0plVmp1M1k5T0Y2Y3ZJajY5QlcyUTdzcWdVZmlnOTBnWkxGT2JCOVdNd0RwV3dqdEZ5S1VsRjFWNDJfWU5Fa3JVOWo3aUhCcFVncDhON05WMm9iRm04Q0lxZXRGYWJfQ3lET3o3QmlfN2Q0Y05XMlVCamt1a0dlUDRlSy1oa3Z0ZnRiNkJ1R1NCNm9tUjBNRDVIRFdWRnplM0ZiX2RHcXNrTkJ2NktSOUVDeXlFTEd5bldKdXNselFpVnpnSnpBUlBIRW5JcGJXU0VpOFlJMUFybFlLejg2Tmd6cjlGcEJGNW5saW5kZ2xrbFR5NWJZME44b09pQ3kxREl6VUNWWTF5bjNvcEFQVXpNM1lkWkE2MnVXcmw0a3Qx?oc=5",
+"source": "Yahoo",
+"summary": "",
+"image": "",
+"time": 1794386340
+},
+{
+"title": "週末好天氣沒了！氣象粉專曝：華南雲雨區移入全台濕答答",
+"url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxObzNEQno3Ry1xUHJPLW9yNERkaW1mNGhBTzk5QjZCV24xUWtBMkhUWUgxVi1HenhUeF9DeTAtZHR2OGhfMFFMeE5lWGJ2QmFWWlBfSzh3dEE3c3cxaVI5VF9hU1VaMjdVaExBQnRVdDAtQ0hDVGphSkhNRVN2YVZFVEZBN0hOcVZfU2RJNnRJc2NRWXdRMF9aVTlGWnVEbC10Ty1UQlVOenA3U0xZQnRVdFFya2ZKdnVqbklkZnRBYi1YeGNUYUo2Qlg4OTNBVnFuOUZ4V3Z4SFVxYmMyWVZHWnRIcUNTcDJuczFxT2NNbFdBcVcySjRfRmRjREpJSVUwZ2x3MVV0bG5lX3hSRWtlQW5ZOFFnQjlxUFE1NUxhWkczSENrSG90WFlSWElNeW5qZHd0UllsQ0RPblBwc0V3cmVlMWlRVnpyVnFLTTdpMndhMWJLUGE4XzByeVNJeVFLaGpwbWJkdG1PWjg0NnhRdFktbVkwQQ?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1794386260
+},
+{
+"title": "亞冠賽／中華隊明首戰地主日本 高志綱點名警戒金丸夢斗、正木智也",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xRk1oQnpHRUVpQy0yc0xjSzRLbHZFNHZqVGx0TXlXRU96RTcybVNGdnZTSlAtSXdTUTlQY1FyZm9QLUl0WWNmeXNVU0hZTGtf0gFWQVVfeXFMTVJjZHdXbUFrZWlhc0FOOGUzQ2dodFhoVHZYSW1YU1VFTHg2Q3NUNGEzUGhYZkd4ZmFLcmt6TEdUUnptUTVNT2JLWFktdlZxV1ZhMzFVeHc?oc=5",
+"source": "UDN",
+"summary": "",
+"image": "",
+"time": 1794385873
 }
 ]
 },
@@ -688,148 +688,148 @@
 "images": false,
 "items": [
 {
-"title": "今年有望賺近兩股本！「電子二哥」Q3每股賺13.54元 再拍板豪砸130億元擴充AI產能",
-"url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOS2UyVTNJTDFSVnpTMWotTzZSRWl6dG5hVFNYZkh2UFNrNUl4LXJOdTN5WV9mZmphNG1EUzNzR2NETVpaZGk5VVFvendWNDNoZkw4U3Jmb3Z6dXY2VzBSR2lubi1wSjhQeUtxdnVNR21acFhvR1h1X1RwTWhwZTY3bWYzTDdwN1ktbWM0X0wwMEUzeVVSSi1iYkx3VldJZXlaXzNWYndVcXpBRTFFQTNoUE9IWVBaSDJtckxWYmVwVFlEWURZUExKU0pQT0VaWFJHZFAtYVpVZGdSZ2h3QXMzUGZSTWNRLUV2akxkVXQ2UWFPQXZDNWtWRHd5dVdxYVJWRFZQT1F6bVdqTTBmTXFzNmhnT1RkOG95YS1QekxNUUFzay1XSVUzRkp6Zk1obUpSSjBwTVc4dGMyMEZKOFlBQ0pZYndIRWNYdUU0TFpqMkQxN0ZyODFEZ1h1a3pXT2ZVRVRaSmdXOGpvalhPbUdFQlJVV1daamdGclpWQjVmWVRmWV9FQnJqZlc4RVZmSVV6Y2lZZXJfZHJHbFkzcm04Sk1HNnZoMW81eWNVcFZBd3dQYkFuNjU2a2h6d0ZpRnM?oc=5",
-"source": "Yahoo股市",
+"title": "00878年化配息15％能撐多久？他存股52張、攤開淨值組成驚覺不對勁...台股若反轉，每月現金流恐差1.4萬元",
+"url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUFJuSFdXUjBaTkktTDRNMEpObTJUZTVmbDEybEhYZFlURTBJQkZ6RnAxVnVuRjNXdjlmQW9keFpPcTkyRWVtcXVGOW1FazJtakxhWG1oUXQwTTY2QURnVzRwWmpPUmc0cXAzcy1NNWtqdzJaSVMzQnlBMUhxQ29EMw?oc=5",
+"source": "今周刊",
 "summary": "",
 "image": "",
-"time": 1794409500
+"time": 1794432762
 },
 {
-"title": "台股明天要噴了？CoreWeave營收暴增168%點燃AI行情美股費半狂飆3.42%、台積電ADR也大漲3.40%",
-"url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxOdEJ5UWxKM1ItcERIV0RFX1p6X3lTU3daaGI2c3FNR29DZFpvV1BKUUNqRzdURko4ZzlSTWpDQjNTSS1zX3NIeVZfTnZESFMzUGIzdk9Va3ROWTQ5SHFKeGtWU1pPSVp4TUM4TUcwUkJIOHRoYjJvRkYtbzh2ODdhSUZkeWVKa3NIbW1LbjJBWUc4YVBsVnpOTGZ2eFh6RFAwOFlvWHRDMVp0QVJ3ZVBlRXVQQ2NrZDY4bWZLTHJNa2VMSjdXYVV0LXdEX0k5dDQ5X1pCSzVmWExhTF9fQVVjRElVbUNUdTlmVW40WGRvZEVpU3pJQUliZFpPT1pWbHZHNE1CZFNib3RhbmpCZU9mcE5PQTVEcTlzRktQU0pUQ3haeDhCT2NCT2lrRHJENS1hb08zV3FvbERjRDBhWU5YRUh4aVJObDUzZW5EaWZSX3AtVzY0Ykw0WkpYbHc3WkpQb2NRU3pXNXhHbVNrUHF3b3RNYw?oc=5",
-"source": "Yahoo股市",
+"title": "台積電超強業績當靠山／台股連4紅收復4萬4大關",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4ZXVIRmNBZHUyMG9vREZBLUs2RE1ELWd4RlduZ1VNeGx0TER3Vk5fRzZnN2NCZ1hfMVl0RTJWSFFvRktsQ2hIeTgzal9XMFdjeGJocWdDRE4?oc=5",
+"source": "自由時報",
 "summary": "",
 "image": "",
-"time": 1794409020
+"time": 1794432600
 },
 {
-"title": "「18趴」差額地方出！搭房市順風車 屏東內埔8年結清4000萬",
-"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JV2FNMWNhdl9WeEc4TC1Cd2g3MlFDaVptV01hOVNrLUJHaVJpLVQ1eGN4cElEeWtIWkhvZ05vbmFpbWpyb3RMMDhZYi1LMFlOUG5JbmVNZkc?oc=5",
-"source": "CMoney",
+"title": "財經青紅燈》股轉房更難了",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84emV0TUthaklheUc4a2JaSjBTWEFZSU9OREVyazZXakotVl9sRWRQUVV2UzhHcnNMeDlpVDZRdHdFbXFCcDhXdXM1dTBZVU52eGR5NjlUVEo?oc=5",
+"source": "自由時報",
 "summary": "",
 "image": "",
-"time": 1794408112
+"time": 1794432600
 },
 {
-"title": "台股迎反彈新篇章00918雙引擎全開- 財經新聞",
-"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU0hwemNmSXYxcTZwVUdDTGwyWmhPejFrZkkwUFE5RW5LSDVzU0JXVGFpVnNJTk9sM3VZUmVIblNyRDJDekJTSkdQSDJ4a0lkMWU4dFZQZXY4Q3ozMWhUWHRIazNDUTRMMTM5YlBQdW9EUDczSjM3UzREd0xNRTVJNkI5dTVTdw?oc=5",
-"source": "PChome Online 新聞",
-"summary": "",
-"image": "",
-"time": 1794406944
-},
-{
-"title": "躲過崩盤又逢大反彈！「這檔ETF」掛牌首日上演蜜月行情：前10大持股曝",
-"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5UMEhQTk5YeFVuZmFZVEhIZlEweVRPamlQeE41dGszblViS0ZwLW5qNlV2bnZZaDBHZ29Pd21BcVpTaEdxVk0xQjBibw?oc=5",
-"source": "三立新聞網SETN.com",
-"summary": "",
-"image": "",
-"time": 1794406772
-},
-{
-"title": "台股強彈後恐轉趨震盪宜審慎靈活操作 法人連買強勢股具領漲抗跌優勢 | 市場焦點 | 證券",
-"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zQy1falcwZTBCNlYyMWtIdzB5X2MwaWJqSzd5WnpONmJFQUJTZUx2bWZSZnhBMzVNaUhCS1ZKQ19kQ3loTDVtbkptc0tnWE1aZmZjTm1jYTBaQQ?oc=5",
-"source": "經濟日報",
-"summary": "",
-"image": "",
-"time": 1794406176
-},
-{
-"title": "台股3天急漲4,555點！三大法人終於轉買超202.56億元 但外資還是賣超",
-"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81MVBNczVMOGVlYm9IYk9malppLTk1eWJBdVJqYU0yQWQ1bUZnSTNDYTExR0dXbjRFckFhTGU3b3VSR3l1S21hVkFISHlHR19J0gFWQVVfeXFMUGJiVFpsX3loM3dJMU5FQzVJUVdGWnR4ZnRnLUwtOUFkYy1mZXJuQkNZTEJNNF9IVDNicWktcl8wMUlFc0UzdzV0UHk5X2g2Rmp6NXJjM0E?oc=5",
-"source": "UDN",
-"summary": "",
-"image": "",
-"time": 1794404349
-},
-{
-"title": "漢測Q3認列員工認股一次性費用11.18億元 每股虧10.23元",
-"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9oSTNDeGJaMEJfLW1pcU1GTXFNamNSWk04ZUR1MUllWHJsNHotX1B5VTRLdEVLS1ctYVBJblk1elVIdHFjb0FMQ25QWQ?oc=5",
+"title": "〈台股盤前要聞〉廣達明年AI伺服器營收年增高雙位數、中信金前10月加計FVOCI股票狂賺1488億元",
+"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xbG16dC1vMVZreTZ4MmpZanhnS2llSWw4aFdiSXpndDlSMGN0MmQtZlhxbmYyYXpXblNUTEZCTlRnVHJkYVZhTDhYODlVd3M?oc=5",
 "source": "鉅亨網",
 "summary": "",
 "image": "",
-"time": 1794403645
+"time": 1794431549
 },
 {
-"title": "納許維爾躍居2027全美房市焦點 逆勢成長潛力受矚",
-"url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPVC1GOWpNZ2hzMUlCblRYN3VBcVM1Y0dIZ2hnT015WHEwSkdxemNhcVBEeFBBSDNFa3dVUnRuSWVqeERuS1ZsbU92NnZ0TWJlZk9lV0xHQUY5MHpjXzdIdjdqcTRzbDhUUmhCYjY3ZEZQQk8xX3lMOVpySnhHczFFbE1aLWU5UFZpVnE0Y2RhUUdqd0pJX0k5cnpZc0kzbE9xX0dTU1lnSEs2cm1wMjM4dHhwY2t1UHpRRjdfVXRsMTdnUmxjZW8tN3dLTGlOdGpMdkdtN1paS3pVSnFvbWlWUWlzYzRlbERjRDQxMU9JdzNWNEhMOWwwLV9iMTRnc3I5UmZubDN5eW9hSmF4amVFdEQxaVJTLUtaeS11UHJPR3E3LVlUX1ZfZVBWbFV5VGlJMnFoell1bnFaVFZmbmdLN1otblZhOEZTWkZPSjdZWmM4Wk5TUF84TUNkN2g?oc=5",
-"source": "商傳媒",
+"title": "統一證(2855) 台股電子交易每萬元送OPENPOINT 1點，每月須登錄、限量2,000名",
+"url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54b19MQ21Kb29OY2xhNUZnR1VhQVZYa2ZLeFFVeVlHei1rbVBJMldiQ3NRSGUzX0Q1U1hobi14MmFwTkZHdC01RFZFVUxpaDQ?oc=5",
+"source": "鉅亨網",
 "summary": "",
 "image": "",
-"time": 1794403645
+"time": 1794429182
 },
 {
-"title": "CoreWeave 發威！美股、台指期夜盤活跳跳",
-"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12SEdZamNaSUMtbWV3ZjFmMC1IUy1tOEtHcjVHLXBTdkFjTHpPUnladVBBeEl0YUFxang2UVVDUmRrRGdqZDhoeXpQYkpJSmFobjVQenNWTzRKZUHSAWBBVV95cUxPY3Vqb0tkaTdNVlFKRHlzUjJwV202ZVFkMGhzNEttdGlGMkl4Wkh1YUlHdjVfVm1mdDYzcGx0VHo3WG55RnhEeW54Y2pFb09XYW0yTGJRYjZFNFNKbDlDdjE?oc=5",
-"source": "經濟日報",
-"summary": "",
-"image": "",
-"time": 1794402262
-},
-{
-"title": "PCB繼續漲！三大法人進貨「這2檔」3.1萬張 連4天進場台玻挹注88.02億元",
-"url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUmNHYTRyNHQxVC0tamxxMEN1bnNHLVZhUXp2azJnQkpiNHMtNzlQVF85bDF3Z1F5SmJDc2d5R2MyWGpDWUJWdFo5VmRCcWcyTFVjdmxGb3NCOXBCY3lFc0RnVDZQRE50R3Y5TGh0ZWVzMmZBWHNMN2hwand5dEZqV1VTeWtWaGdtdnRNNEVhV1hBT2ltNEVGUVBfUHFiOGxNX0RkbGhqSDYxVFRHaThzM2hrTlVGWGdDOWZvSUhSaUd1M1F2amRSUmtGSDNmQ0EwQUN4MWg0R1NkUGFjTEVwV0FtRTNjaTB4a1UtYlc0dm5QZzlaVHllNXUtVlJLLW1zMWJPYg?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794402000
-},
-{
-"title": "晶片股自高點跌29%！又是網路泡沫？台積電營收透露不同訊號",
-"url": "https://news.google.com/rss/articles/CBMigANBVV95cUxQVEI1MkZqWm5pRHMxd2RiNTRLazdhT04zVEljbW9LTnM5VUktWTBSVEg4UDJaQjNIakN0b1pKMlNMTWQxWGhOSkxQWFpCN3ZvT29LTkpnVndDaXdCM3MzOHBHMnNvMjY1WDJ0YzlzS000c2R6ZjBWMzlWMWpLRDhtc0hMLUs3bE85UmF2b05uSUIzYTN3RUFvMkQ0dlJvMko4aHF5M010Rld5VmhEd0tqUl9zWXJBcS1maVZwYkt5UnBGb1FHX3oyOU9RSHMxRENSalZvYUZoQjhmM1hnaldmMnJoNXE0N1Q5U0VhSUo4WG9fNU5ESGs4eU5rLWs5QWZjMVQ0N2l3Ukc4eEpWaDhTcHZROFVjUGllTjJLc0Yta0tkOWM3bFE5YjhzZHlMMF85MENfUS1SWW5wV0xnTk1tclhsYlFaS3pFZ3loeFFIVE01MTNvRDVxNE43ZEFjakVQU2JhcXVkaWFfNnNHRkh0bW1zNVhRNVQ3RWxocU40OXY?oc=5",
-"source": "Yahoo股市",
-"summary": "",
-"image": "",
-"time": 1794401983
-},
-{
-"title": "台股連3紅飆1545點 站上4萬4",
-"url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOWV0eTViUloycDVwejR0amZjM2RkTmQxTnloSVR5ekRKMnpTQzBVeUlpRk1sLUtGWktLRFNBRTZLV1R4ZmdnVGxWbnlZejJoRzluRFdReUx3amZSQkVxc25sT29XQ0tvMUhfajlsVGd0Q0NpVVRaZVBnZ250dlJWYzV4LVRmMkVodVpnckxXVi1rbFFCeWVYTUl4bTBaQ0J5QTRuQWFlLWUwLXhjdnYxaTB3cUxjZC0zT2FFYl94ZUUzSTJUVlpuS2Z3?oc=5",
+"title": "台股迎反彈新篇章 00918雙引擎全開",
+"url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRldBTHRMRU4wN3dJTDQ5aEF3SDZxeHFvU1Zja3FSRXFIU0tLQW5ISVBiOFNiUTZUVk1KOFVjRElWWTRHdEFtT0tOUVNadUx0aGZFMm16bWMxU0xqanI0WE54dU03NFhLMzRzUnkzR0w4aHRYU3NGZnFfQWMzUlNEREtWa2VmSk5jVmN6M2luNTFFNkt2UmlISUdZSzlpakNMRXpablNIaUZsVkFvRWtpV3YtRU1KWkVSTmgyOE0tSFY2dWR1S2x5R2RwNFQwZVVoSzVFc0Vyc2hKSHpvY1Zoek54SFdTelJXNGFIcVpyVTJrNkpTZUdJ?oc=5",
 "source": "Yahoo新聞",
 "summary": "",
 "image": "",
-"time": 1794399612
+"time": 1794428918
 },
 {
-"title": "明天台股繼續反攻？台指期夜盤站上4萬4500點大關",
-"url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNaVlJS3M5bVUzMEpZUGJCQXhPMGFSRkR0UXdxU1hTdGx3TVJNVWEwWU9vRHFwd1NiT0h5MWlDMHRxZE9POHNxMlJSbnR1ZUVDc3JGM2Q0ajdlM0tOd1l4cWw0RGFxT0tMdlM5ZTlqY3pLaHZnNGFuMEdtaDRDS20xTm9EQUU1cGdOMHVSa3lPWDRwNV9Sd21PWjlOWmNLa2R4R0hqTks5ZWwtaFpXeDdOaFRrUUtJb2VnY3VfYjd2NE5vU1AtRVlXZFhLNzJacDhNU2I2a2t3QzdsOHJWNTNSc0pOeHlsYzVOQ1hiX1JsTGpaLUZVemxNNnFDSWY2Q3V5OGdFUXJtd01UUThPSGdlOXBZOGxuRG9PSUZOMDVkcDRXV3JGUkFOdlF6dmF2WFB2Yko2cDRpQXI2aTZ3blFlalFFT3REb2c?oc=5",
-"source": "Yahoo股市",
+"title": "0050又稱王！ETF最新人氣榜洗牌 它首次擠進前十",
+"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByd2ZhOHFPd0wybTRyQUdWMDhxQnhjZGljTUxVN0RhcHk2WkROVlhZbHhEVHZQTm5ySWplYm12NXZ1TGFDaktJSmpBOA?oc=5",
+"source": "三立新聞網SETN.com",
 "summary": "",
 "image": "",
-"time": 1794399379
+"time": 1794428513
 },
 {
-"title": "【台股盤後】史上第六大漲點！台股飆1545點、收今高44257點 台積電衝近5%",
-"url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81dS1hbi1oeW43bkExbXYwWkI4MDJoaFJibVdqYTRDNTVoQ28zemdSQnRZS1Z6dVNRT3VwQ2FHTVdCSU56RHFyTUZvWHFXdERMM05ob2pyb3EzV1VNbW45eA?oc=5",
-"source": "非凡新聞台",
+"title": "國安基金護盤 台股創史上第6大收盤漲點",
+"url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNVzlfdENDckhrZ2RpdDdBVDFDMWtyT3FNSktKSUFZdThIQUVWb0Rwdm5leWc2YVVzcm5PUmdRdThZZ2Q1RmxkcDFTTmRsZmVkSXVmWk9Zd0ZPWjdST1B4bWJUbmo4T3d3VVZUcU5TdHUyeWtWaXBndlJvTWtGNmdoTHgwaFdqTW9IS3VXc09MdjZSVGFQREotcktKbnU0bHBIWll5WHRXUkd5UWMwMlhidzBRU2tMcGU2Vmw4eGpxRVZyb0Z4cGtsMU02VXZqTnFIV1V6UnVXNjBwN0d3NHlCMkhCQjFDRHphRVYyV3NVWG1uemEybG5IRVV3dEtMYVgyQkhnaFg0cmg5UXk2RUhNUk9IYTNzMDhpTW5zTWY2VWE0dw?oc=5",
+"source": "Yahoo新聞",
 "summary": "",
 "image": "",
-"time": 1794398251
+"time": 1794427800
 },
 {
-"title": "台股明天穩了？台指期夜盤4萬4失而復得 一度漲逾450點",
-"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mQWtvUDVQOEJ3b3BDOFQwbEJtVzVjV25XTGxHM1lSZTJrRko0anE4cXhkTlozUnJHTDF4MGd5d3M2d0IxY25zS3lXZGRTZTE0VHJuME84bHY0TjVWaVVZ0gFkQVVfeXFMUHlGM3dINUhlMmQ3VzZJS3FSME56YXpMMjdpaDVRLVZUYmpZQWFOUmM0c2M0a0pCLVo2WXh5d2RkWkh5Q3g0MGpub01EVG5HSkxkNEoxU3AwVUxJRF82SkJXWUFCQw?oc=5",
-"source": "自由財經",
+"title": "操盤心法－台股瘦身有成 年底行情看俏",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52MDJTUDR1T0QweXJadFdIcDZ2emdkNWs1b09oVHhEUVI2US1JTnp1M19jT3lJOERKSHdLT1VxVzRXNDFrSVlnTVVadXNJd0RGWlZsVy1PTFNQcnVZblR6Sl9qMFRhbHhwUklJ?oc=5",
+"source": "中時新聞網",
 "summary": "",
 "image": "",
-"time": 1794397745
+"time": 1794427800
 },
 {
-"title": "台股大漲穩市場信心新台幣波動趨緩收連二紅- 其他",
-"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95b3NBZGR4QkdaNUdrMThzdmNjUGdrNklJeDNyTlNfUlVEdzBEVHhWVEZwR0w1YkIxYnB3MWxuaHVSTDNpOTRnNmFzZV95OTJCa0N5dUU3REZwajZSUEctalZ5ZXNVdXVfMGc?oc=5",
-"source": "旺得富理財網",
+"title": "大反攻 4檔台股ETF漲逾5％",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hTTZrUWhjS0lBTnpnU1lWM21pMzNIaS1xNFpJSlZQSWtEdktLRC1hTHJrZE5SSGNnVnRkRUdLUWYtVGhwOHBHZWZ2NW53M3J0S1U3bm1CWmpJM2RKUTREYmRFR2hTakI1RmtB?oc=5",
+"source": "中時新聞網",
 "summary": "",
 "image": "",
-"time": 1794396605
+"time": 1794427800
 },
 {
-"title": "11／11台股雷達｜多頭攻堅富喬、精材、中鼎買氣爆棚原因曝- 證券",
-"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtYjFXRXc4Q09rT1FDNy0xc3V4N0Y4MHZWNWltTFFzWUZuVjl0UWFaSU5SNVlXd0QtYVFiNXFiRXNsbzRyd2UxTTdscHBZSGpYMUVTOU1hREQwVmV5SXlr?oc=5",
+"title": "台股瘦身有成年底行情看俏- 日報",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DU0xDcUtvc2J3OWx0TVZtd0Q3eWczR29IdlgtaHhLNVp2aGdnMmdhS3BkWTVSZW92ZXhwZGM0UTlwb3dEN2ZlcHVqQU1DS2o5S19YTzhwbFZXd0ZPeWln?oc=5",
 "source": "工商時報",
 "summary": "",
 "image": "",
-"time": 1794396480
+"time": 1794423600
+},
+{
+"title": "主動台股ETF人氣十強漲相足- 日報",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwWHNJczZCM0lCeWxEc1Z4UHAyRndwV3MtSWtZczRNV0xpT3N6bE9XcWppREFxZ3pfclZXRDJveXdtREd4cUdJd0RJUGFka3RaY1NVZ3l4WVpSZXVLTWZF?oc=5",
+"source": "工商時報",
+"summary": "",
+"image": "",
+"time": 1794423600
+},
+{
+"title": "政策利多齊發、上市櫃營收飆高 台股V轉氣勢強月線在望- 日報",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YN1h0OThTM2NyeGdOMDEzWnFXMFltTlpkRDh5MnBCaV9uMUM2RThjdjJtSE5haXlQekFRR05rMXZrRkNqQ3R1dVVpMVRNSEU0MTdJUnoxaHViSFI1d004?oc=5",
+"source": "工商時報",
+"summary": "",
+"image": "",
+"time": 1794423600
+},
+{
+"title": "AI權值股帶頭衝！台股市值型ETF這十檔最強",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PVk1CTkJONWhMWWhDY0pfUE9Wa3dhLUZLV0xDS1JGU3RYRG1iR0pSZnIweHJ2cWR0cUNPMUU0YmZUdXB6U2hjbHFHcjlfelBSc2xr0gFYQVVfeXFMUDBBc2ViTnFTejNGUEhVblR1SG5GZGhzbl81b3lRUGlkUFZiTTNuYjNkdEUxME40SXU3V0JuVDRrY1VEZGdGOVRDWkZCUXBiSTBnaUhwTmlpLQ?oc=5",
+"source": "UDN",
+"summary": "",
+"image": "",
+"time": 1794421592
+},
+{
+"title": "台股反彈誰最會漲？科技型ETF給利 躍反攻亮點",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmQUxtVlNkMndPVGR4RjhCRHRnVUc5QVlnSC1tZEFleDNwc2Z4ejhLc3lZb1gzVVVwOVRuODE1alFuWXVqOHNUa2tPX2tJREFSVnY40gFYQVVfeXFMTU1EOHh5ZWVSTTFvUm85SVhNUGdIZUF4UGtLTVNJR0NDV3JIZVp5V3pXRnB3MkwwRnZOZHdnWVRkTDRRUHRwN0lUYjBQZkFqTkw1MW80QWc1aw?oc=5",
+"source": "UDN",
+"summary": "",
+"image": "",
+"time": 1794421567
+},
+{
+"title": "台股強勁反彈 高含「積」助攻！00631L報酬耀眼",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjYm8zb0ZCeXdrUlRCVmxjdjhwajJ6a0tvSXBuVFU1Q25aUU5vQng4dU1xaDJXYzFPZF9Fc3lWeHdGcGJtdy0xUnlBZWg5UTI4MVU40gFYQVVfeXFMUEpYQUdVNVJjNURXdUpyMk1xSFkyYU9Tdmt5eWtpc2FpOHJGcnV0WWtyeUJ5Q1lpbHpSczIyUmc5VS12WU04bEU0Zm0yNmEtcjRueTMtWWRlUQ?oc=5",
+"source": "UDN",
+"summary": "",
+"image": "",
+"time": 1794421515
+},
+{
+"title": "台股ETF規模排名大洗牌千億元級商品增至16檔 | 存股族愛ETF | 股市",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GeTh5cGJzU1ZxRlBzb0dFT1k3RW83NHcwRC1sT0JNQ0NMNGZPeGtKcDUtd2Y0QkFFQlpEeWMtOWFkYzRxdVJYeTg0UWJRb0xCQWFF?oc=5",
+"source": "UDN",
+"summary": "",
+"image": "",
+"time": 1794421425
+},
+{
+"title": "美CPI衝擊台美股市！李其展拆解選股邏輯：4檔主動式ETF策略一次看",
+"url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOT3hCRF80bWszeWlSemVhaTRxQ2x4Vk15NTVOZ012dU8tWWpERFlGZk9Hdkt0b2V3SEZQdVE2ektVcnZHQ0MwZHE4TDZ5d0szem96WGNVTHRRSl9vMUoxMHFabzVGb1pfVDY2MDdIaFFaSHZXaFQxZU1UT1hTZkpoSEVrbXhQcFBuVmtZeXB1akJKdVBhd3RYYlllXzAtRkEyQVljTFROb3NhUkNlbks3ZEN2Q1VxNGtEaXdTeEJBU29yQ0RFS0I5aEpuY3lZR3lZbUU3QW9zNk5VazUtQllncXkyR1NmQXp6Rl9Ra1FIc0xFV0FJakdGb2tSYzZnMGxOdV9UTldPUnV5cUlvRmNaSkRma3lJd2duZFdBemxuUFZHT3pGdHJBMHFJQmlrMWUxQzhzOUZ4V0Z3dzFXNFNWVFNELW9ENmhaeC1Iai1yZzBhVFBoRzJVUDVaaWt5d1dMMmlqeXhyaHM0aWNXQ1R1MkJkWE9jT0hiVzIzTkdqNUQ?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1794420300
 }
 ]
 },
@@ -839,12 +839,108 @@
 "images": false,
 "items": [
 {
-"title": "高雄街頭另類宣傳車！夜市股東上街陳情 盼釐清財務、維護查帳權益",
-"url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxPeEE4RWpyVWhJQnRIOHFSWjZNZU0xdlZ0NnNadzdudHlMdU1OcWwxeWtnMF9weG5IMThHbkMwSUttYjhYVTdJSXJiWXBHTGYtb3BXa2xZUWYzaWx6cXptT2Z3S0xCRHA0SUJLc3dGUklnS1o3NWJMV2ZyOWk5eVNfdmFOU2JqYk1qY3JCU0JzaU8zWm4zWHRvMURJalcyNmRJakk2SUd2dWZDV0o3WVFBaW55T2p4UHJVMl9fZmtJQk9GSzJMMTlSamJLQlI5czd2Ml9TT3B5NEZNME85SGJvZkZqYkJ3OFBHbTNXSVRsMWowcW1LTTVKUVhWUXF1SmlTMkZSSTlhdjAtSm02bmxfU1E3dXFCUk5zbEVYOEV2c0hMamI4clJTcjV2TTdjckdOQ1NMNzc1UXpEUnNFV1hNYkNGRm5ZWEhDLUh4dGg3UnI4ZHhhT05mTl9HUlNzYzR6YXFoTG9VZVpLSU1TZnVFWXlQWUNsS1VlZDNKemlESXBiTWxfUjRJVThwNUhfMGR6cWEwYXBiY2dVSGRWS3lGRk5sRVg2MjA?oc=5",
+"title": "康康出道30 週年首登高流2027 年 5 月 29 日高雄開唱- 娛樂新聞",
+"url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLV9aWXZCbUhLTVFlUlJpcTFfNTV0WXBjcmRxMHRubThrX3VpYjNYcGJpZDhwb2pFMlJlaWtiNWV2ZHZWSFZvb1NHTDczZEpDR2J5RExmUnI2SmcyZGV3Q28tbFozbXp0VXFSbE9RU2w3cUt2OGZ0VnJzZzlvZUdyRW55NlRDbF9UTWFWNzFaMA?oc=5",
+"source": "PChome Online 新聞",
+"summary": "",
+"image": "",
+"time": 1794428775
+},
+{
+"title": "取經泰勒絲巡演推手 柯志恩盼深化高雄演唱會品牌",
+"url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPTkFISkhGNVB5VHpDWWFSOHIxQlJOclk5OW93R184bkJ0RTgzT2E5Zm1ZMUdiQklnYXJva0lBSktGbUc5NlFzbnRmb2xCbGlZUjd2TWpweVRZbXBGWTFGeUJkdE1lXzlQMTVfNmRrc2ZkdUs4MHhQY0ZmaUlKTXREOThXelhRclJvMzhQUGkzTUNNR0hVVHhqUTU0LWlUbFd6dExCd0M2UUdHSGt3TUhQYUYtZFp4YjNyUWY2UzBLS2NHZE1mbDF1cjh0T0FXOTFlVE5SUWVUUk1namV4eW1qZTJiWUpEQzF6bk9JRkFXRnhBOV9GdzYxdkEzRjBSOXF1ZFZOWFpnNFFzLUpZTjZobVM3UU9IMFNDSngtRXE5YXNfX2hHa3F2RGlKdy1DekxhaWJKWlpkenNJcFBTTTZENjRBcVVfT29mT1lBNFBNUEpmank5X1pLTExkMmI?oc=5",
 "source": "Yahoo新聞",
 "summary": "",
 "image": "",
-"time": 1794408555
+"time": 1794427800
+},
+{
+"title": "高雄 人行道大改造 標線對不齊惹議",
+"url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQm5Ic2J4LXdmc1J0T1JEZFh6MWx6QzNYV25qdXlwYUg5cTR5ZndmcVdtblpFbFl4N2NHSnVBdHFRUnhpX0REV0JXbVNJeE0xbjdWMUJxNzBrZ2hQTjFzRmtsVC1IbDhRM05TSW9PZ2tqN0x2Nk1mc19RSW9fenZUOTBiZkhDbHlXS3AtNnBQdGRDb0w2Mm1PNl9kcWdoQzJrWS1mVF92T3p6WkFYZjQtUklrWThhb3dFbmRzMUhQb0gwd0ZRNlVSS05ySEpJaEtmNDRjbGxlQ1FyUHVOdG1GMTF2MDlhQlFrMkZRc2MzQ0lCQlZpWEhmX0dFd0w0NmdROVo1d1VLQkcxQQ?oc=5",
+"source": "Yahoo新聞",
+"summary": "",
+"image": "",
+"time": 1794427800
+},
+{
+"title": "亞資高雄專區滿周年成果豐- 產業特刊- 工商時報",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5wTHJjYlRZNTZsblk3dThQQklMcHBhR0ZUWTRyVVRUNEtLMk9CMzI2aHJaYXNGVkRhRU5lYjl2SDNKdmszX3RsLVhqWDBWOXhIY2cwWFgxNzBWOUxOdWVKbGF2b3U5UVBGTEVV?oc=5",
+"source": "中時新聞網",
+"summary": "",
+"image": "",
+"time": 1794427800
+},
+{
+"title": "國際遊艇展11／13高雄登場- 投資理財- 工商時報",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rOUoydzhFUkhnYmhPTTFNYjFsTnpqWlJkeXBUVUp6VEw3UTNzVllTMkJRUWZfTndJT2JydHFPaTJPZVUtdDRXRURlY1FWRlp5bE5sZ0p5aXhmQWpfS1Z5MEp2NGpOYWpHZ3lN?oc=5",
+"source": "中時新聞網",
+"summary": "",
+"image": "",
+"time": 1794427800
+},
+{
+"title": "亞資高雄專區滿周年成果豐- 日報",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14LUdUTXpueG1tbjRBeTh2ZGxPckxQcmJRcm43MDZDLXVpOEFxa1h0ZUhHcm13ZDlubGNva1IxTTlkdDlwLVhtSWluNndjYVI5elcyYzE4OTZXcDF4TXNV?oc=5",
+"source": "工商時報",
+"summary": "",
+"image": "",
+"time": 1794423600
+},
+{
+"title": "國際遊艇展11/13高雄登場- 日報",
+"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yMThFU3p5VHhsbjdza3hpR3MtdTlZWm9GdUNHcURJNjhBR2pOb2RLbGwxQ3lZZDl5dnhSODVNMHM5bmM4T0IybVVqOUlpaFl3b3ZxTEU2eVBHMEU5eXZz?oc=5",
+"source": "工商時報",
+"summary": "",
+"image": "",
+"time": 1794423600
+},
+{
+"title": "高雄卓越社團領袖獎揭曉！15位傑出領袖獲表揚 發起人鍾佳亨盼凝聚社團力量",
+"url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5KeTNFb1gxdlRfaks1clNic3ZFZGE2STZmdUlmTmpSNUpxMXZkZTFLcUtldm1BSzdnc3lrS1I5TzgxQURCQVQ1YzFsMlI0V3dNb09hS2dsOA?oc=5",
+"source": "https://chtime.ikh.tw/",
+"summary": "",
+"image": "",
+"time": 1794417445
+},
+{
+"title": "聯合骨材(4129)高雄二廠動土 擴產布局全球市場(11/11股價72.7元)",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sVkJoSmEtWTBVbXVhU2xQd19lbXNoa3ktdm9CS3JSRl9aQzdMaW9rZzRGQWN5RXV1Z3ZaRmZ4dzZ2TFlRYllGLU1XXzdNcEZHa0ttYW9oa2FOdW96aEs4VWNuaXhabXNzdHlUVnN3?oc=5",
+"source": "生技投資第一站-Genet觀點",
+"summary": "",
+"image": "",
+"time": 1794416267
+},
+{
+"title": "吳連賞： 高科技再怎麼好高雄難擺脫低薪",
+"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1raDJ3Tm1sbXlFNWp2VTllcVJkc2hQcFRmMVRWOE54eUdCTUloTU45TGFCdDRGeVpteTl5X2RiQWJCV25NTjR3X2swaWs4Z18yWm1RLWpzOHFsdUZ5Z25BLUkxLVUxVWdWN1AwYVoxcjY4MVJud3NPbzRYcTJXdw?oc=5",
+"source": "台灣中評網",
+"summary": "",
+"image": "",
+"time": 1794413528
+},
+{
+"title": "高雄里長政見爆歧視爭議！稱影響住戶搭電梯主張「搬遷身障協會」 恐挨罰最高50萬",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KT0doc3o0UFNRWmdLWU9qUEt0QjRRLWNRQTdZTEU4S25DclE3RE5IMXBSV3JfOGJpMlBubjRJMEJsaFo2TENwR3JuaUJIM0RR0gFWQVVfeXFMTzBnTTY1ZVpXV3lMNGcwa0FWNlRhNWVtVnVJWkZ1clNBTG9qVVVqd3ZRNTExUG1YUGNMaEdXY0VaZFNyd3k2RGFVQ0hEZG9WTEpIcEpTRnc?oc=5",
+"source": "UDN",
+"summary": "",
+"image": "",
+"time": 1794412800
+},
+{
+"title": "2026 TASS高雄展覽館登場高科大展現跨域永續科研力| 科技",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5paENzN0s1Yk9sajVDT2dKNjlYOWoyQmNlUk0taDBJWlhpak9OYVVBT21FZEFwYjJtTUZjVzFLZ2pub2hodlRXMGZZdUhiZTVTeGZEdjZaMHBtdDA?oc=5",
+"source": "Newtalk新聞",
+"summary": "",
+"image": "",
+"time": 1794411167
+},
+{
+"title": "高雄國光高中午餐爆有異物 衛生局啟動稽查",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yazBlMWt6UnBEQWFmcjh6N0pPQjJXOVgyaUtISEgwN19yZ29DdjZReDFHR2pSYmQtZWh2V1Q2M2hWM3pCcWt5bksxN2VqVlN1cUJSZFRwcFNVeWZnVGJseWpzeFTSAWpBVV95cUxOaTBXejJ5WGpwak9QdTBPbWVTMFF6QWQtYkJQUG96aEtXNk01dFNHNmNGRTQwY3UtTkhVYWpiY1d2Yi0tTG5vbUxUR0UzaTE5dXZnbThuM3cydG5xRzlrdWoxb0VBWTFMd09R?oc=5",
+"source": "自由時報",
+"summary": "",
+"image": "",
+"time": 1794409140
 },
 {
 "title": "為交安觀念向下扎根！高雄楠梓區學儒幼兒園師生參與交通安全宣導",
@@ -853,30 +949,6 @@
 "summary": "",
 "image": "",
 "time": 1794407251
-},
-{
-"title": "高雄卓越社團領袖獎揭曉！四大類別15位傑出領袖獲表揚 2027年1月3日林皇宮盛大頒獎",
-"url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5KeTNFb1gxdlRfaks1clNic3ZFZGE2STZmdUlmTmpSNUpxMXZkZTFLcUtldm1BSzdnc3lrS1I5TzgxQURCQVQ1YzFsMlI0V3dNb09hS2dsOA?oc=5",
-"source": "https://chtime.ikh.tw/",
-"summary": "",
-"image": "",
-"time": 1794407067
-},
-{
-"title": "聯合骨材高雄2廠動土擴產布局全球市場- 財經新聞",
-"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMXdkLVZYWS1RU2tKRG1LemNGN3QxMjVJanJHbzhfMjJycDdTYXdrT1hLMTRoVDJySEtZTmtvSUVCQWI4UXNtaVZ1UlF5bWVxVzhJLUQ0QlFjYXNmQWs0aUVrRnJ4QVgtN202WkhLYnc5S1dLb0tyVzMwLXY1V2dPQVl4Sk5BZw?oc=5",
-"source": "PChome Online 新聞",
-"summary": "",
-"image": "",
-"time": 1794406455
-},
-{
-"title": "高雄市議員黃柏霖在非洲最大貧民窟的科丁教師培訓",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GeVozNUNhZ182Mk5QVERla3cyOFVrV24tRjlHZzdTaEdISUNvSFRmcTdzSjd1RE1TMzNiS2xiZUY0RjR2Z19naVVIWmhOd0hqZGc?oc=5",
-"source": "蕃新聞",
-"summary": "",
-"image": "",
-"time": 1794406380
 },
 {
 "title": "高雄港灣聖誕節浪漫點燈！17米巨型粉勾TREE與旋轉木馬登場，高流聖誕市集活動攻略|生活",
@@ -909,78 +981,6 @@
 "summary": "",
 "image": "",
 "time": 1794404520
-},
-{
-"title": "高雄農損救助雙軌啟動！美濃、杉林設施受損及全市農田流失埋沒最高每公頃補助18萬元| 徐炳文 | 地方新聞",
-"url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9QYUc0UENWc2gtVk5penR6WHhRYllLbUJlcTljNUJYUUdDT2szTGZjRnNiRDdlY0tNVmN6b2VKQ3RxYV9wRDNQaGZId3lwdw?oc=5",
-"source": "風傳媒",
-"summary": "",
-"image": "",
-"time": 1794404520
-},
-{
-"title": "五月天演唱會兩天熱賣千顆漢堡！無比漢堡沈杰餐車起家 高雄首店開幕 | 徐炳文 | 地方新聞",
-"url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vRm9UUnhfbkJEaUR1NlhPaXN6MG9XbUw3ZVRCVXMwdExHZ3MwbnZ0WmZnempGS2E1WDY3aVA3d2tzX2t1TEZQNjMxS1BNUQ?oc=5",
-"source": "風傳媒",
-"summary": "",
-"image": "",
-"time": 1794404460
-},
-{
-"title": "凝聚社團力量共創高雄未來 鍾佳亨發起卓越領袖獎表揚15位社會菁英",
-"url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE01OUtUNzhsWjJVQWlhdUYwWFkxYkZONy1BYWhxTTZPZmVTQ0tWaUZaWEdSRy1MaWM0REVyMnBoaER1MzlZLVE?oc=5",
-"source": "台灣新聞雲報",
-"summary": "",
-"image": "",
-"time": 1794404401
-},
-{
-"title": "賴瑞隆簽署挺社工承諾書！五大改革劍指低薪、過勞、行政重擔打造最挺社工的高雄| 徐炳文 | 地方新聞",
-"url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03Z0EwMTRoNktkNFladnNfa1NxRmN0Y2tDTFgtNVpKOF94M3VfSVhYMGE4ZDJSdHFwRllyZC0yeUxzTkt5ZlpYQzdqWGx3UQ?oc=5",
-"source": "風傳媒",
-"summary": "",
-"image": "",
-"time": 1794404280
-},
-{
-"title": "高雄首宗捷運聯合開發案橘線O4前金站預估117年完工 林欽榮副市長視察主體工程",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVblQ3bzZlUF84YW9HNEdMekpXcW5oTERQMkREWnZhY0o5emdEWE1LN3k2Z2VRUVRINWtFZ3k2QW5MVUpaOEJvZnU3ZWR0ZGNZdVE?oc=5",
-"source": "蕃新聞",
-"summary": "",
-"image": "",
-"time": 1794402250
-},
-{
-"title": "噁！高雄學校營養午餐遭爆塑膠菜蟲頭髮全入菜 學生崩潰喊換廠商",
-"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAxTG01RnRsUm5mWFNPQ1ptb3BaSndCRkQ1cnhrc1pORjV1V3hPN3F2UENibmp3bDRPYVlDbk1YOENRVEVwYnZOMlVBdHFieGpw0gFWQVVfeXFMT2d1akRuSXdESmUtN1VJazhaWFMwX1doQnh3ZGdoSDVFY2FyZ3REOUFjenI4eGplLWxEVDJyUXc5T19HWXlSM0M1bjRaWVg3YU9fdFNBQmc?oc=5",
-"source": "UDN",
-"summary": "",
-"image": "",
-"time": 1794401538
-},
-{
-"title": "高雄大遠百日本青森展開跑！弘前市合作15週年 蘋果美食一次看",
-"url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBMTmlmTklaMEpoLXA5OC1jdkRoRm40X1dBbzZsSkJNYThUeXY5UU5lWXpXNzgwNkNLbEwwdWdreFNKWThFbDI4T1o0T3pFYXJ0VFItbFh1OA?oc=5",
-"source": "焦點時報",
-"summary": "",
-"image": "",
-"time": 1794401390
-},
-{
-"title": "高雄市卓越社團領袖獎揭曉15位得主 跨領域公益服務展現城市力量",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xWVRCMGk3MmVfdkQtaGdaOXpoTFR3TTBpdHM4RjdLVmR3X0Yxb1R5TzFBSkc3VnhxWTlaR0ZnemNCUWk0LU90RlhETy0yQ3ZEU1E?oc=5",
-"source": "蕃新聞",
-"summary": "",
-"image": "",
-"time": 1794401220
-},
-{
-"title": "凝聚社團力量共創高雄未來 卓越社團領袖獎表揚15位服務典範",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NWDRtUVJWQ0p0MVh0ZFJVTGFsMk14dzVxZ09xSVhSSG85ei1FS3p6R29adzVxcS16YTg3NExYMXc4ZVpRblRpQ0xHNUN2T2QtZ0E?oc=5",
-"source": "蕃新聞",
-"summary": "",
-"image": "",
-"time": 1794400971
 }
 ]
 },
@@ -989,6 +989,14 @@
 "title": "日本與旅行",
 "images": true,
 "items": [
+{
+"title": "Historical-themed illumination display returns to Osaka Castle this winter",
+"url": "https://soranews24.com/2026/11/12/historical-themed-illumination-display-returns-to-osaka-castle-this-winter/",
+"source": "SoraNews24 —Japan News—",
+"summary": "The greatest lights in history and the greatest history in lights. I’ve never been too good at history, mainly",
+"image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/main.png",
+"time": 1794418249
+},
 {
 "title": "Starbucks Japan reveals new Joyful Capsule gacha toy release date",
 "url": "https://soranews24.com/2026/11/12/starbucks-japan-reveals-new-joyful-capsule-gacha-toy-release-date/",
@@ -1038,14 +1046,6 @@
 "time": 1794373248
 },
 {
-"title": "Tokyo neighborhood adds new “smart trash cans” to deal with increasing amounts of tourist litter",
-"url": "https://soranews24.com/2026/11/11/tokyo-neighborhood-adds-new-smart-trash-cans-to-deal-with-increasing-amounts-of-tourist-litter/",
-"source": "SoraNews24 —Japan News—",
-"summary": "A high-tech part of Tokyo gets some high-tech help in addressing an overtourism problem and responding to a co",
-"image": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_8b7814.jpg",
-"time": 1794366030
-},
-{
 "title": "【山梨縣北杜市】從東京搭乘特急列車梓號約2小時即可到達！搭乘當地列車路線探索週邊景點。",
 "url": "https://matcha-jp.com/tw/27789",
 "source": "MATCHA - 日本線上旅遊觀光雜誌",
@@ -1093,6 +1093,14 @@
 "images": false,
 "items": [
 {
+"title": "破解椰子油2026喝油養生四大迷思與健康風險陷阱 With 報新聞 看健康",
+"url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNNjNpS0ltRlJ4ZHdWZmdDbUJfakJ1WG9PNzdZcHlta0NHSzRLLXlfQjNsTS03Tk9GeE4yNjdWYzBmdE9xTVpnbXctNUhKdmVCOUw2Rm5iVlNaR3M0WVVWTmY2NkJRaEVLNmV5elZyc3E2WjlNOHd0ZTZxNU5Qa3hiSFlOV2Zqa19BZzBLN2lmV29QV1NXRGFubnY1bDRqZExIbUZwb3IyeWFqeC0wTzJUMEl3U3dSMmJCblhKdW1NTzRUTjNfdkdrVFJraDMzZjhzblBwWmwtYUxHc2xLMW9kOUptbkhTbDZWWjJVaTd3M2Y0eUxsbndPVjVSd2xkMEtyLTgweUVGeGRKdGFCdUx2bFlwU1hfZTNlbzZ0dUFYcllFM0lSRFB2Vlk0WDNsb1l3S0RPMlZPQk5uTzNNdEo1NFZfSFhLRmRCNUd2NHpDODgxUkxCZHlNdmgtaVZaVThhLVFUX3BwYXU?oc=5",
+"source": "報新聞 Mega News",
+"summary": "",
+"image": "",
+"time": 1794417622
+},
+{
 "title": "【健康1+1】腸道發霉？除黴飲食8重點",
 "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xc2V0aUNDX1FQQ1ZfbEtOVmNhdkNxV3JGZWdhcWkwUE1RY2RIZTFJeUlBZ3Uza1ZNTkd0dGN0UXlLTERmcXdra2NMa1BSNnhSd0JrQjhnRXZUNlI5M3hRVtIBZkFVX3lxTE9hRkhhdWRoeWJGUVkxeU95NlVwQU13R1JCamtlaEZERGlLbWczQk52Q2otNEpKdzMwclZ6emhDNTVBYkV0THB2cHhwM2tDbEx1TnVsUVRkdGhiMXhYZzJETm9rRGgzZw?oc=5",
 "source": "新唐人電視台",
@@ -1101,20 +1109,20 @@
 "time": 1794406377
 },
 {
+"title": "臺鐵攜手臺北市社區推出彩蔬嫩豆包排骨便當- 生活新聞",
+"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkJMM2ZMT0JWbkF1eUhSNVJEUlFVNERYeEx2cjZTZ0NOYVZvWGxKMVdOZFo4MDdJbzRfMTJKa2hGZ2NlRklMNkdPMW02aXNlazBqc01XVjZvUFhFNGZhLW5ZSVRxd3Y3QXBBRjVSWlQwSWhJS0Z6WnBJeThFd2xydlpVZU8?oc=5",
+"source": "PChome Online 新聞",
+"summary": "",
+"image": "",
+"time": 1794405681
+},
+{
 "title": "戒澱粉真的能控糖？日本研究曝驚人結果 適量吃回主食有改善",
 "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DTmNrU2ZaSWdmdEZhTnBSd0xJS1ZBNzBGZkdONV9wSnlvTjBMZjhfLXItQk9fRWt6bHhSeVppRzhUd1IwUmhFZ1RhTEg3YzlZ?oc=5",
 "source": "TVBS新聞網",
 "summary": "",
 "image": "",
 "time": 1794405480
-},
-{
-"title": "臺鐵攜手臺北市社區推出彩蔬嫩豆包排骨便當- 生活新聞",
-"url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkJMM2ZMT0JWbkF1eUhSNVJEUlFVNERYeEx2cjZTZ0NOYVZvWGxKMVdOZFo4MDdJbzRfMTJKa2hGZ2NlRklMNkdPMW02aXNlazBqc01XVjZvUFhFNGZhLW5ZSVRxd3Y3QXBBRjVSWlQwSWhJS0Z6WnBJeThFd2xydlpVZU8?oc=5",
-"source": "PChome Online 新聞",
-"summary": "",
-"image": "",
-"time": 1794405150
 },
 {
 "title": "【「窮人版猛健樂」爆紅！營養師揭3大陷阱：鈉容易爆表】 不要天天吃。 （#起啵）",
@@ -1126,11 +1134,19 @@
 },
 {
 "title": "瀋陽啟動女性人才科技創新大賽 匯聚巾幗科創力量助力產業升級",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90NHN6bjNXemNpRFJUczFsZkZPb1k1ZnFwQ2ZaWlM0c1d2ZjZZdVU3VFhhcnFZOEdpZmNtSi1nUjZwRzhCMUpZYkl4NTN5cFJqcG5DT2J5Q2hTTHJLWmhSSXJ2bjVyWkhxNERaRGppTVphbnBDSEE?oc=5",
+"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aOWNBRlM1MUg3dXhlcXV4UTZnTndFNERSRXF6OFN2MGN3Njl2UzJVcFZEY01VdFBiRFl1Nm9rcHVRUVd2SU0zazNSR3ZkSVg2dlp5d0lfSGlQeUhuMFNtaXNNMjR1SU5mQUpKWm0xRzZfWllTbGc?oc=5",
 "source": "香港商报",
 "summary": "",
 "image": "",
-"time": 1794400740
+"time": 1794401120
+},
+{
+"title": "長者健康膳食計劃啟動 冀助老友記食得健康",
+"url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORG04enZZU0dCdWFmdUJURHBoQ2QtZXpGaHhvUUJPNnhVZkVxNTB0WjNjUFFzNHc3Tkx1bkhVeGNsWHVQWi16V3psVVFJeDBfV1h0OVg4R1dyRHo0TXdnUGJLOUVxTmlGQ1Q3Y3FsTEJxdDU5enE1MWgtTldDTUlRdmJZbw?oc=5",
+"source": "TDM",
+"summary": "",
+"image": "",
+"time": 1794400789
 },
 {
 "title": "“長者健康膳食計劃”啟動禮",
@@ -1170,7 +1186,7 @@
 "source": "澳門力報",
 "summary": "",
 "image": "",
-"time": 1794391792
+"time": 1794391857
 },
 {
 "title": "高市教育局參展佛光山蔬食博覽會 趣味遊戲推廣健康飲食",
@@ -1181,20 +1197,20 @@
 "time": 1794391600
 },
 {
-"title": "佛光山書展暨蔬食博覽會登場！高市教育局推廣健康蔬食 吳立森體驗趣味闖關",
-"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SLTNJLUhyYVFKcTJHZ0VIejJtUGhxcWo3V2N4aE5HZjR2MHhsakZORE1GSk5mZ3dkazFTSENHbWlWWXRfQ1dnRHhDNW9rXzRxY0E?oc=5",
-"source": "蕃新聞",
-"summary": "",
-"image": "",
-"time": 1794389827
-},
-{
 "title": "吃Buffet進食順序怎樣才健康安全？ 多數人「先拿生魚片」犯大忌",
 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DVFVTcU45N19neVRSMU80XzhzRTdFRkxBcVU3NmYxZ0pVY0NGa3U4bHdxakEwTzNWQ2lYVVVLemlDYk93Nm83bUhQZy1xcVZxYmfSAVJBVV95cUxPQ1RVU3FOOTdfZ3lUUjFPNF84c0U3RUZMQXFVNzZmMWdKVWNDRmt1OGx3cWpBME8zVkNpWFVVS3ppQ2JPdzZvN21IUGctcXFWcWJn?oc=5",
 "source": "NOWnews今日新聞",
 "summary": "",
 "image": "",
 "time": 1794389699
+},
+{
+"title": "以創新驅動會展新局 安益集團涂宇欣獲頒2026女性創業菁英獎",
+"url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE93S0Z6Z2c2R0JpTV9fQXhlczUwV3RrclVEOE9qbHVMMlhmNnNXTFZ3SnluT0dGbWVoemhCMVl3?oc=5",
+"source": "3kingtw.com",
+"summary": "",
+"image": "",
+"time": 1794388323
 },
 {
 "title": "外食族不怕重口味與蔬菜不足北市攜手台鐵推出新便當- 健康新聞",
@@ -1219,22 +1235,6 @@
 "summary": "",
 "image": "",
 "time": 1794379746
-},
-{
-"title": "健康版台鐵排骨便當來了！少油多纖只有2個車站買得到- 營養好食",
-"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mSWx3X3RCZng3cmxPa055bVB3NEdlRjRCZXFDRGhhTzE5TFA1TUd2SFdfajJQYnJJMGozMnZwS1BJQ2ZVQndXdFpuZkdwUVZJQkNkV3p3?oc=5",
-"source": "TVBS 健康2.0",
-"summary": "",
-"image": "",
-"time": 1794378166
-},
-{
-"title": "健康網》段慧琳驚傳罹癌！ 專家揭癌症飲食8大關鍵",
-"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCNm43WW9GbGswZF9KY1pHdkt4VjVTVzJqMzBGX3EzWlRobEZmakd5QlVNa01DazM1dXpkSWpOU1NXbW5aVnRhc2V2TUItRE9XUlBxdExfNTJfM2ZINVlnd2tMbDI?oc=5",
-"source": "自由健康網",
-"summary": "",
-"image": "",
-"time": 1794377040
 }
 ]
 }
