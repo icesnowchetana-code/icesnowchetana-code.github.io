@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#101216">
+<title>社群觀察・Chetana Today</title>
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600&family=Noto+Sans+TC:wght@400;500&display=swap">
+<style>
+/* 與 today 首頁同一套：墨色底、宣紙字、黃銅線、朱印 */
+:root{--ink:#101216;--ink2:#191C22;--rule:#2C3038;--brass:#C2A36B;--paper:#EDE7DB;--ash:#A39D92;--seal:#C8402F;--gutter:max(clamp(20px,6.5vw,104px),env(safe-area-inset-left,0px));--serif:"Noto Serif TC","Songti TC",serif;--sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--paper);font:400 17px/1.7 var(--sans);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--seal);outline-offset:3px}
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:40px;padding:16px var(--gutter);background:#101216F2;border-bottom:1px solid var(--rule)}
+.logo{display:flex;align-items:center;gap:12px;font:400 21px/1 var(--serif);letter-spacing:.06em;white-space:nowrap}
+.seal{display:grid;place-items:center;width:32px;height:32px;background:var(--seal);color:var(--paper);font:600 19px/1 var(--serif);border-radius:3px 6px 4px 7px}
+.tabs{display:flex;gap:10px;justify-content:flex-end;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{display:flex;align-items:center;min-height:44px;padding:0 8px;color:var(--ash);font-size:16px;white-space:nowrap}
+.tabs a:hover{color:var(--paper)}
+.tabs a.back{color:var(--brass)}
+.hero{padding:clamp(64px,9vw,120px) var(--gutter) clamp(44px,5vw,64px);max-width:calc(900px + var(--gutter))}
+.eyebrow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;color:var(--ash);font-size:16px}
+.eyebrow b{padding:2px 9px;background:var(--seal);color:var(--paper);font:400 15px/1.5 var(--sans);border-radius:2px}
+h1{font:300 clamp(34px,4vw,54px)/1.3 var(--serif);letter-spacing:.02em;margin:24px 0 18px}
+.lead{margin:0;max-width:640px;color:#C9C5BC;font:400 clamp(19px,1.6vw,22px)/1.75 var(--serif)}
+.stats{display:flex;flex-wrap:wrap;margin:0 var(--gutter);border-block:1px solid var(--rule)}
+.stat{flex:1 0 auto;padding:26px 30px 26px 0;margin-right:30px;border-right:1px solid var(--rule)}
+.stat:last-child{border:0;margin-right:0}
+.stat small{display:block;color:var(--ash);font-size:15px}
+.stat b{font:300 32px/1.3 var(--serif);font-variant-numeric:tabular-nums}
+.stat b span{font-size:16px;color:var(--ash);margin-left:4px}
+.row{padding:clamp(64px,8vw,112px) var(--gutter) 0;scroll-margin-top:70px}
+.row h2{margin:0 0 clamp(26px,3vw,40px);font:300 clamp(28px,2.8vw,38px)/1.3 var(--serif);letter-spacing:.04em}
+.row h2:after{content:"";display:block;width:44px;height:1px;margin-top:16px;background:var(--brass)}
+.row h2 small{margin-left:14px;color:var(--ash);font:400 16px var(--sans);letter-spacing:0}
+.obs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(40px,6vw,96px);counter-reset:o;margin:0;padding:0;list-style:none}
+.obs li{display:grid;grid-template-columns:52px 1fr;padding:24px 0 26px;border-top:1px solid var(--rule)}
+.obs li:before{counter-increment:o;content:counter(o,cjk-ideographic);color:var(--brass);font:300 30px/1.2 var(--serif)}
+.obs b{display:block;font:400 21px/1.5 var(--serif);margin-bottom:6px}
+.obs p{margin:0;color:#C9C5BC}
+.picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,3vw,44px)}
+.pick{display:flex;flex-direction:column;padding-top:20px;border-top:1px solid var(--brass)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 12px;color:var(--ash);font-size:15px;line-height:1.5}
+.tag{color:var(--brass)}
+.pick b{margin:12px 0 10px;font:400 20px/1.6 var(--serif)}
+.pick p{margin:0 0 16px;color:#C9C5BC;font-size:16px}
+.foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:auto;color:var(--ash);font-size:15px;font-variant-numeric:tabular-nums}
+.go{display:inline-flex;align-items:center;min-height:44px;color:var(--brass);font:400 16px var(--serif);letter-spacing:.06em;border-bottom:1px solid transparent}
+.go:hover{border-color:var(--brass)}
+.dist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px clamp(40px,6vw,96px)}
+.dist h3{margin:0 0 6px;font:400 19px var(--serif);color:var(--paper)}
+.dist .note{margin:0 0 14px;color:var(--ash);font-size:15px}
+.bar{display:grid;grid-template-columns:8.5em minmax(0,1fr) 4.2em;align-items:center;gap:14px;width:100%;min-height:48px;padding:0;border:0;background:none;color:var(--paper);font:inherit;text-align:left;cursor:pointer}
+.bar.static{cursor:default}
+.bar .track{position:relative;height:14px}
+.bar .fill{position:absolute;inset:0 auto 0 0;background:var(--brass);border-radius:0 4px 4px 0;opacity:.85}
+.bar:hover .fill,.bar[aria-pressed=true] .fill{opacity:1}
+.bar:not(.static):hover .lab,.bar[aria-pressed=true] .lab{color:var(--brass)}
+.bar .num{text-align:right;font-variant-numeric:tabular-nums}
+.bar .num small{display:block;color:var(--ash);font-size:13px;line-height:1.2}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.chips button{min-height:44px;padding:0 16px;border:1px solid var(--rule);border-radius:22px;background:none;color:var(--ash);font:400 16px var(--sans);cursor:pointer}
+.chips button:hover{color:var(--paper);border-color:var(--ash)}
+.chips button[aria-pressed=true]{color:var(--ink);background:var(--brass);border-color:var(--brass)}
+.list{column-count:2;column-gap:clamp(40px,6vw,96px)}
+.line{display:block;break-inside:avoid;padding:18px 0 20px;border-top:1px solid var(--rule)}
+.line b{display:block;margin-top:4px;font:400 18px/1.6 var(--serif)}
+.line:hover b{color:var(--brass)}
+.line .meta .ext{margin-left:auto}
+.log{display:grid;grid-template-columns:8em 1fr;gap:0 24px;margin:0}
+.log dt,.log dd{padding:16px 0;border-top:1px solid var(--rule);margin:0}
+.log dt{color:var(--ash)}
+.log ul{margin:0;padding-left:1.2em}
+.kw{display:flex;flex-wrap:wrap;gap:6px 18px}
+.kw span{font-variant-numeric:tabular-nums}
+.kw span i{font-style:normal;color:var(--ash);margin-left:4px}
+footer{margin-top:clamp(64px,8vw,112px);padding:30px var(--gutter) calc(30px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--rule);color:var(--ash);font-size:15px}
+footer a{color:var(--brass)}
+.empty{color:var(--ash)}
+@media(max-width:1000px){.picks{grid-template-columns:repeat(2,minmax(0,1fr))}.tabs{justify-content:flex-start}}
+@media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:14px 4px}.tabs{flex:0 0 100%;order:3;gap:16px}.tabs a{padding:0}.stat{flex:0 0 50%;margin:0;padding:18px 0;border-right:0;border-top:1px solid var(--rule)}.stat:nth-child(-n+2){border-top:0}.obs,.picks,.dist{grid-template-columns:minmax(0,1fr)}.list{column-count:1}.bar{grid-template-columns:7em minmax(0,1fr) 3.6em;gap:10px}.log{grid-template-columns:minmax(0,1fr)}.log dd{border-top:0;padding-top:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="../"><span class="seal" aria-hidden="true">墨</span>Chetana Today</a>
+  <nav class="tabs" aria-label="本頁">
+    <a href="#obs">編輯觀察</a><a href="#picks">精選</a><a href="#dist">分布</a><a href="#all">全部貼文</a><a href="#log">資料紀錄</a><a class="back" href="../">← 回今日新聞</a>
+  </nav>
+</header>
+<main id="app"><section class="hero"><h1>AI 自動化・社群觀察</h1><p class="lead">整理中…</p></section></main>
+<footer>Threads 公開貼文的關鍵字樣本，不代表全站趨勢。<a href="../">回 Chetana Today</a></footer>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function safe(u){return typeof u==='string'&&/^https:\/\//.test(u)}
+function md(d){var p=String(d).slice(5,10).split('-');return (+p[0])+'/'+(+p[1])}
+function n(v){return v==null?'—':Number(v).toLocaleString('zh-TW')}
+function ext(u,label){var a=el('a','go',label||'看原文 ↗');if(safe(u)){a.href=u;a.target='_blank';a.rel='noopener noreferrer'}return a}
+function section(id,title,sub){var s=el('section','row');s.id=id;var h=el('h2',null,title);if(sub)h.append(el('small',null,sub));s.append(h);return s}
+var topicName={},filter='all',listBox,chipBox,countEl,topicBars=[];
+
+function render(d){
+  (d.topics||[]).forEach(function(t){topicName[t.id]=t.name});
+  var app=$('#app');app.replaceChildren();
+  var hero=el('section','hero'),eb=el('div','eyebrow');
+  eb.append(el('b',null,'Threads 公開貼文樣本'),el('span',null,md(d.period.from)+'–'+md(d.period.to)+'・更新於 '+md(d.updated)));
+  hero.append(eb,el('h1',null,d.title),el('p','lead',d.headline));app.append(hero);
+
+  var st=el('div','stats');st.setAttribute('aria-label','樣本數字');
+  [['回傳貼文',d.sample.fetched,'則'],['近 30 天',d.sample.recent,'則'],['收錄分析',d.sample.kept,'則'],['主題',d.sample.topics,'個'],['精選',d.sample.picks,'則']].forEach(function(x){
+    var c=el('div','stat'),b=el('b',null,x[1]);b.append(el('span',null,x[2]));c.append(el('small',null,x[0]),b);st.append(c)});
+  app.append(st);
+
+  var o=section('obs','編輯觀察'),ol=el('ol','obs');
+  d.observations.forEach(function(x){var li=el('li'),w=el('div');w.append(el('b',null,x.title),el('p',null,x.text));li.append(w);ol.append(li)});
+  o.append(ol);app.append(o);
+
+  var p=section('picks','精選 '+d.picks.length+' 則'),g=el('div','picks');
+  d.picks.forEach(function(x){
+    var c=el('article','pick'),m=el('div','meta');m.append(el('span','tag',topicName[x.topic]||''),el('span',null,md(x.date)));
+    var f=el('div','foot');f.append(el('span',null,'讚 '+n(x.likes)+'・回覆 '+n(x.replies)),ext(x.url));
+    c.append(m,el('b',null,x.summary),el('p',null,x.why),f);g.append(c)});
+  p.append(g);app.append(p);
+
+  var ds=section('dist','分布',d.sample.kept+' 則收錄貼文'),grid=el('div','dist');
+  var tb=el('div');tb.append(el('h3',null,'主題'),el('p','note','點一個主題，下面的全部貼文會只顯示那一類。'));
+  var maxT=Math.max.apply(null,d.topics.map(function(t){return t.count}));
+  d.topics.forEach(function(t){
+    var b=el('button','bar');b.type='button';b.setAttribute('aria-pressed','false');b.dataset.topic=t.id;
+    b.title=t.name+'：'+t.count+' 則，讚數中位數 '+n(t.medianLikes);
+    var tr=el('span','track'),fl=el('span','fill');fl.style.width=(t.count/maxT*100)+'%';tr.append(fl);
+    var num=el('span','num',t.count+' 則');num.append(el('small',null,'讚 '+n(t.medianLikes)));
+    b.append(el('span','lab',t.name),tr,num);
+    b.addEventListener('click',function(){setFilter(filter===t.id?'all':t.id);document.getElementById('all').scrollIntoView()});
+    topicBars.push(b);tb.append(b)});
+  tb.append(el('p','note','右邊小字是該主題的讚數中位數。'));
+  var yb=el('div');yb.append(el('h3',null,'貼文類型'),el('p','note','大家發文是在轉介、分享、教學、提醒，還是求助。'));
+  var maxY=Math.max.apply(null,d.types.map(function(t){return t.count}));
+  d.types.forEach(function(t){
+    var b=el('div','bar static');b.title=t.name+'：'+t.count+' 則';
+    var tr=el('span','track'),fl=el('span','fill');fl.style.width=(t.count/maxY*100)+'%';tr.append(fl);
+    b.append(el('span','lab',t.name),tr,el('span','num',t.count+' 則'));yb.append(b)});
+  grid.append(tb,yb);ds.append(grid);app.append(ds);
+
+  var a=section('all','全部貼文');countEl=a.querySelector('small')||el('small');a.querySelector('h2').append(countEl);
+  chipBox=el('div','chips');chipBox.setAttribute('role','group');chipBox.setAttribute('aria-label','依主題篩選');
+  [{id:'all',name:'全部'}].concat(d.topics).forEach(function(t){var b=el('button',null,t.name);b.type='button';b.dataset.topic=t.id;b.addEventListener('click',function(){setFilter(t.id)});chipBox.append(b)});
+  listBox=el('div','list');a.append(chipBox,listBox);app.append(a);
+  window.__posts=d.posts.slice().sort(function(x,y){return y.date.localeCompare(x.date)});
+  setFilter('all');
+
+  var l=section('log','資料紀錄'),dl=el('dl','log');
+  function row(k,v){dl.append(el('dt',null,k));var dd=el('dd');if(typeof v==='string')dd.textContent=v;else dd.append(v);dl.append(dd)}
+  row('來源',d.log.source);row('抓取時間',d.log.fetchedAt+'（台北時間）');row('期間',d.period.from+' ～ '+d.period.to);
+  var kw=el('div','kw');d.log.keywords.forEach(function(k){var s=el('span',null,k.k);s.append(el('i',null,k.n));kw.append(s)});row('關鍵字（命中則數）',kw);
+  row('篩選',d.log.filter);row('成本',d.log.cost);
+  var ul=el('ul');d.log.notes.forEach(function(x){ul.append(el('li',null,x))});row('說明',ul);
+  l.append(dl);app.append(l);
+}
+function setFilter(id){
+  filter=id;
+  [].forEach.call(chipBox.children,function(b){b.setAttribute('aria-pressed',String(b.dataset.topic===id))});
+  topicBars.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.topic===id))});
+  var list=window.__posts.filter(function(p){return id==='all'||p.topic===id});
+  countEl.textContent=(id==='all'?'':topicName[id]+'・')+list.length+' 則';
+  listBox.replaceChildren();
+  list.forEach(function(p){
+    var a=el('a','line');if(safe(p.url)){a.href=p.url;a.target='_blank';a.rel='noopener noreferrer'}
+    var m=el('span','meta');m.append(el('span',null,md(p.date)),el('span','tag',topicName[p.topic]||''),el('span',null,'讚 '+n(p.likes)+'・回覆 '+n(p.replies)),el('span','ext','↗'));
+    a.append(m,el('b',null,p.summary));listBox.append(a)});
+}
+fetch('data.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(render).catch(function(){$('.lead').textContent='資料暫時讀不到，稍後重新整理。'});
+})();
+</script>
+</body>
+</html>
