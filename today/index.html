@@ -85,12 +85,23 @@ img{display:block;max-width:100%}
 .group div{display:flex;flex-wrap:wrap;gap:2px 22px;padding-top:12px}
 .group a{display:flex;align-items:center;min-height:44px;color:#D5CFC3}
 .group a:hover{color:var(--brass)}
+.social{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:28px clamp(40px,6vw,96px);padding:0 var(--gutter)}
+.social .tag{display:inline-block;padding:2px 9px;background:var(--seal);color:var(--paper);font-size:15px;border-radius:2px}
+.social h3{margin:18px 0 14px;font:300 clamp(24px,2.3vw,32px)/1.45 var(--serif);text-wrap:balance}
+.social .when{color:var(--ash);font-size:15px}
+.social .nums{display:flex;gap:30px;margin:24px 0 8px}
+.social .nums small{display:block;color:var(--ash);font-size:15px}
+.social .nums b{font:300 28px/1.3 var(--serif);font-variant-numeric:tabular-nums}
+.social .obs b{display:block;font:400 18px/1.6 var(--serif)}
+.social .obs p{margin:4px 0 0;color:#C9C5BC;font-size:16px}
+.social .obs div{padding:18px 0 20px;border-top:1px solid var(--rule)}
+.social .more{grid-column:1/-1;justify-self:start}
 .foot{margin-top:clamp(72px,9vw,128px);padding:30px var(--gutter) calc(30px + env(safe-area-inset-bottom,0px));color:var(--ash);font-size:15px}
 .empty{color:var(--ash)}
 @media(hover:none){.thumb img{filter:grayscale(.3) contrast(1.03)}}
 @media(min-width:721px){.tabs{flex-wrap:wrap;overflow:visible}.ticker{flex-wrap:wrap}}
 @media(max-width:1000px){.dir{grid-template-columns:repeat(2,minmax(0,1fr))}.tabs{justify-content:flex-start}}
-@media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:14px 4px}.tabs{flex:0 0 100%;order:3;gap:14px}.tabs a{padding:0}.hero{min-height:640px}.hero img{width:100%;height:58%;bottom:auto}.wash{inset:auto -40px -40px -40px;width:auto;height:62%;background:linear-gradient(0deg,var(--ink) 74%,#10121600);filter:none}.fade{display:none}.hero-text{padding:0 var(--gutter) 84px}.hero h1{margin:18px 0 14px}.hero p{margin-bottom:22px}.dots{left:var(--gutter);right:auto;bottom:16px}.chip{flex:0 0 auto;padding:22px 26px 22px 0;margin-right:26px}.card{flex-basis:70vw}.card.lead{flex-basis:84vw}.list{column-count:1}.line:nth-child(n+5){display:none}.dir{grid-template-columns:minmax(0,1fr);gap:36px}}
+@media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:14px 4px}.tabs{flex:0 0 100%;order:3;gap:14px}.tabs a{padding:0}.hero{min-height:640px}.hero img{width:100%;height:58%;bottom:auto}.wash{inset:auto -40px -40px -40px;width:auto;height:62%;background:linear-gradient(0deg,var(--ink) 74%,#10121600);filter:none}.fade{display:none}.hero-text{padding:0 var(--gutter) 84px}.hero h1{margin:18px 0 14px}.hero p{margin-bottom:22px}.dots{left:var(--gutter);right:auto;bottom:16px}.chip{flex:0 0 auto;padding:22px 26px 22px 0;margin-right:26px}.card{flex-basis:70vw}.card.lead{flex-basis:84vw}.list{column-count:1}.line:nth-child(n+5){display:none}.social{grid-template-columns:minmax(0,1fr)}.social .obs div:nth-child(n+3){display:none}.dir{grid-template-columns:minmax(0,1fr);gap:36px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.thumb img{transition:none}.card:hover .thumb img{transform:none}}
 </style>
 </head>
@@ -107,11 +118,11 @@ img{display:block;max-width:100%}
 <footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
 <script>
 (function(){
-var BUILD='b20261107b';
+var BUILD='b20261113s';
 try{fetch(location.pathname+'?check='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){if(t.indexOf("BUILD='"+BUILD+"'")<0){var k='reloaded',n=0;try{n=+sessionStorage.getItem(k)||0;sessionStorage.setItem(k,n+1)}catch(e){}if(n<1)location.replace(location.pathname+'?v='+Date.now()+location.hash)}}).catch(function(){})}catch(e){}
 var DIR=[
 ['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
-['AI',[['Claude','https://claude.ai','C','#F2A07B'],['ChatGPT','https://chatgpt.com','G','#7BD8B0'],['Gemini','https://gemini.google.com','G','#8AB4F8'],['Grok','https://grok.com','X','#FFFFFF'],['NotebookLM','https://notebooklm.google.com','NB','#FFD166'],['Canva','https://www.canva.com','Ca','#9D8CFF']]],
+['AI',[['社群觀察','https://icesnowchetana-code.github.io/today/social/','觀','#C2A36B'],['Claude','https://claude.ai','C','#F2A07B'],['ChatGPT','https://chatgpt.com','G','#7BD8B0'],['Gemini','https://gemini.google.com','G','#8AB4F8'],['Grok','https://grok.com','X','#FFFFFF'],['NotebookLM','https://notebooklm.google.com','NB','#FFD166'],['Canva','https://www.canva.com','Ca','#9D8CFF']]],
 ['設計靈感',[['ArchDaily','https://www.archdaily.com','AD','#FFFFFF'],['Dezeen','https://www.dezeen.com','Dz','#FFD166'],['Designboom','https://www.designboom.com','db','#FF8A80'],['Pinterest','https://www.pinterest.com','P','#FF6B6B'],['Behance','https://www.behance.net','Be','#8AB4F8'],['Houzz','https://www.houzz.com','Hz','#7BD88F']]],
 ['新聞財經',[['Yahoo 奇摩','https://tw.yahoo.com','Y','#B79CFF'],['中央社','https://www.cna.com.tw','央','#FF8A80'],['聯合新聞網','https://udn.com','聯','#8AB4F8'],['鉅亨網','https://www.cnyes.com','鉅','#FFD166'],['臺灣銀行匯率','https://rate.bot.com.tw/xrt?Lang=zh-TW','匯','#7BD88F'],['中央氣象署','https://www.cwa.gov.tw','氣','#3DD6C6']]],
 ['影音娛樂',[['YouTube','https://www.youtube.com','▶','#FF6B6B'],['Netflix','https://www.netflix.com','N','#FF6B6B'],['Spotify','https://open.spotify.com','S','#7BD88F'],['Threads','https://www.threads.com','@','#FFFFFF'],['Instagram','https://www.instagram.com','IG','#FF9EC4'],['Steam','https://store.steampowered.com','St','#8AB4F8']]],
@@ -165,8 +176,29 @@ function render(data){
     var r=el('section','row');r.id=s.id;r.setAttribute('aria-labelledby','h-'+s.id);var h=el('h2',null,s.title),hd=el('div','head');h.id='h-'+s.id;hd.append(h);r.append(hd);
     var rich=s.id==='mingli'||s.items.filter(function(i){return safe(i.image)}).length>=s.items.length/2,box=el('div',rich?'rail':'list');s.items.slice(0,rich?8:6).forEach(function(i,n){box.append(rich?card(i,s,n===0):line(i))});r.append(box);rows.append(r);if(rich)arrows(hd,box,s.title)});
   (data.markets||[]).forEach(function(m){var c=el('div','chip');c.append(el('small',null,m.name));var b=el('b',null,Number(m.price).toLocaleString('zh-TW',{maximumFractionDigits:2}));if(m.change!=null){var e=el('em',m.change>=0?'rise':'fall',(m.change>=0?'+':'')+m.change+'%');b.append(e)}c.append(b);$('ticker').append(c)});
+  newsReady=true;placeSocial();
   if(data.updated)$('foot').textContent='新聞更新於 '+new Date(data.updated*1000).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})+'。內容與圖片屬各媒體所有，點開會前往原網站。'
 }
+// AI 自動化社群觀察：讀 social/data.json，放在「AI 與科技」後面
+var social=null,newsReady=false;
+function md(d){var p=String(d).slice(5,10).split('-');return (+p[0])+'/'+(+p[1])}
+function placeSocial(){
+  if(!social||!newsReady||$('social'))return;
+  var r=el('section','row');r.id='social';r.setAttribute('aria-labelledby','h-social');
+  var hd=el('div','head'),h=el('h2',null,'AI 自動化社群觀察');h.id='h-social';hd.append(h);r.append(hd);
+  var g=el('div','social'),left=el('div');
+  var top=el('div');top.append(el('span','tag','Threads 公開貼文樣本'));
+  left.append(top,el('h3',null,social.headline),el('span','when',md(social.period.from)+'–'+md(social.period.to)+'・更新於 '+md(social.updated)));
+  var nums=el('div','nums');[['收錄',social.sample.kept,'則'],['主題',social.sample.topics,'個'],['精選',social.sample.picks,'則']].forEach(function(x){var c=el('div');c.append(el('small',null,x[0]),el('b',null,x[1]+' '+x[2]));nums.append(c)});
+  left.append(nums);
+  var obs=el('div','obs');(social.observations||[]).slice(0,3).forEach(function(o){var d=el('div');d.append(el('b',null,o.title),el('p',null,o.text));obs.append(d)});
+  var more=el('a','play more','看完整觀察 →');more.href='social/';
+  g.append(left,obs,more);r.append(g);
+  var after=$('ai'),rows=$('rows');if(after&&after.nextSibling)rows.insertBefore(r,after.nextSibling);else rows.append(r);
+  var tab=el('a',null,'社群觀察');tab.href='#social';var tabs=$('tabs'),ai=tabs.querySelector('a[href="#ai"]');
+  if(ai&&ai.nextSibling)tabs.insertBefore(tab,ai.nextSibling);else tabs.insertBefore(tab,tabs.lastChild);
+}
+fetch('social/data.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){social=d;placeSocial()}).catch(function(){});
 function chip(k,v,after){var c=el('div','chip');c.append(el('small',null,k),el('b',null,v));after?$('ticker').append(c):$('ticker').prepend(c)}
 var WMO={0:'晴',1:'晴時多雲',2:'多雲',3:'陰',45:'霧',48:'霧',51:'毛毛雨',53:'毛毛雨',55:'毛毛雨',61:'小雨',63:'雨',65:'大雨',80:'陣雨',81:'陣雨',82:'大陣雨',95:'雷雨',96:'雷雨',99:'雷雨'};
 fetch('https://api.open-meteo.com/v1/forecast?latitude=22.63&longitude=120.30&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTaipei&forecast_days=1').then(function(r){return r.json()}).then(function(w){chip('高雄 '+(WMO[w.current.weather_code]||''),Math.round(w.current.temperature_2m)+'°  '+Math.round(w.daily.temperature_2m_min[0])+'–'+Math.round(w.daily.temperature_2m_max[0])+'°  雨 '+w.daily.precipitation_probability_max[0]+'%')}).catch(function(){});

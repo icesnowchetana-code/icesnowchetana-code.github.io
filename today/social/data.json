@@ -1,0 +1,634 @@
+{
+ "title": "AI 自動化・社群觀察",
+ "period": {
+  "from": "2026-10-14",
+  "to": "2026-11-13"
+ },
+ "updated": "2026-11-13T20:40:00+08:00",
+ "headline": "討論從「這個工具好猛」走向「怎麼用才安全、才賺得到」",
+ "sample": {
+  "fetched": 116,
+  "recent": 64,
+  "kept": 43,
+  "picks": 6,
+  "topics": 5
+ },
+ "observations": [
+  {
+   "title": "轉介多、實作少",
+   "text": "43 則裡有 18 則在轉介新工具和開源專案，分享自己實際怎麼用的只有 10 則。真正跑起來的流程，例如每天早上推一張 LINE 待辦清單，反而少見。"
+  },
+  {
+   "title": "安全變成新話題",
+   "text": "6 則在談授權、資安插件和個資外流，讚數中位數 450，是各主題最高。其中回覆最多的是一位全職媽媽差點盲目給外掛高權限（998 讚、133 則回覆）。"
+  },
+  {
+   "title": "影音剪輯是最常見的應用",
+   "text": "8 則談 AI 剪片和影片生成。討論重點已經從「做得出來」變成「剪得像自己」，也有人拿來做給客戶看的教學影片。"
+  },
+  {
+   "title": "需求端開始開口",
+   "text": "4 則求助裡有 3 則來自想把 AI 用在生意上的人：傳產想做 AI 自動下單、一人網站卡在推廣與收費、想讓 AI 主動推薦自己的公司。"
+  }
+ ],
+ "topics": [
+  {
+   "id": "tools",
+   "name": "新工具與設定",
+   "count": 11,
+   "medianLikes": 268
+  },
+  {
+   "id": "flow",
+   "name": "自動化實作",
+   "count": 10,
+   "medianLikes": 58
+  },
+  {
+   "id": "video",
+   "name": "影音與創作",
+   "count": 8,
+   "medianLikes": 285
+  },
+  {
+   "id": "money",
+   "name": "變現與商業需求",
+   "count": 8,
+   "medianLikes": 128
+  },
+  {
+   "id": "safety",
+   "name": "安全與權限",
+   "count": 6,
+   "medianLikes": 450
+  }
+ ],
+ "types": [
+  {
+   "id": "info",
+   "name": "轉介工具與新聞",
+   "count": 18
+  },
+  {
+   "id": "share",
+   "name": "分享自己的做法",
+   "count": 10
+  },
+  {
+   "id": "teach",
+   "name": "教學或導流",
+   "count": 6
+  },
+  {
+   "id": "warn",
+   "name": "提醒與警示",
+   "count": 5
+  },
+  {
+   "id": "ask",
+   "name": "求助提問",
+   "count": 4
+  }
+ ],
+ "picks": [
+  {
+   "id": 13,
+   "date": "2026-11-09",
+   "topic": "safety",
+   "type": "warn",
+   "summary": "全職媽媽照網紅教學裝外掛剪片，工程師老公提醒：差點盲目給出高權限",
+   "likes": 998,
+   "replies": 133,
+   "url": "https://www.threads.com/@smallhandcook/post/DfhdkNQj_4n",
+   "why": "非工程背景的人跟著教學裝外掛，最容易卡在「不知道自己授權了什麼」。"
+  },
+  {
+   "id": 35,
+   "date": "2026-11-01",
+   "topic": "flow",
+   "type": "share",
+   "summary": "請 Claude 做 n8n 流程：每天 7 點把 Obsidian 待辦和日曆整理成 LINE 清單",
+   "likes": 109,
+   "replies": 18,
+   "url": "https://www.threads.com/@liishygo/post/DfM-b5JGlEW",
+   "why": "把散在筆記和日曆的待辦，每天早上自動變成一張 LINE 清單，是很好上手的個人自動化範例。"
+  },
+  {
+   "id": 105,
+   "date": "2026-11-10",
+   "topic": "video",
+   "type": "teach",
+   "summary": "AI 剪片人人會，難的是剪得像自己；作者整理打造 AI 剪輯師的心得",
+   "likes": 946,
+   "replies": 67,
+   "url": "https://www.threads.com/@pan_0709/post/DfjkiIVH3Ph",
+   "why": "AI 剪片已經不稀奇，討論焦點轉到怎麼保留自己的風格。"
+  },
+  {
+   "id": 8,
+   "date": "2026-10-25",
+   "topic": "tools",
+   "type": "teach",
+   "summary": "從 ChatGPT 換到 Claude，先設好記憶、連接器、桌面版和瀏覽器擴充",
+   "likes": 566,
+   "replies": 54,
+   "url": "https://www.threads.com/@neil.skilltree/post/De5qyo1joca",
+   "why": "新手最缺的不是更多提示詞，而是先把記憶、連接器這些設定做好。"
+  },
+  {
+   "id": 63,
+   "date": "2026-11-10",
+   "topic": "money",
+   "type": "warn",
+   "summary": "AI Agent 課程先別急著付費：把課程大綱丟給 AI，排成自學進度",
+   "likes": 536,
+   "replies": 39,
+   "url": "https://www.threads.com/@maylogger_designer/post/DfimRYrknqE",
+   "why": "大家對 AI 課程的價格有疑慮，這則自學建議的分享數是讚數的八成多。"
+  },
+  {
+   "id": 107,
+   "date": "2026-11-12",
+   "topic": "money",
+   "type": "ask",
+   "summary": "傳產想讓 AI 自動判讀客戶的文字與圖片訂單並下單，求推薦廠商",
+   "likes": 18,
+   "replies": 53,
+   "url": "https://www.threads.com/@crookraku_/post/Dfo0m-pGvBK",
+   "why": "傳產直接開口找人做 AI 自動下單，回覆數比讚數多，需求是真的。"
+  }
+ ],
+ "posts": [
+  {
+   "id": 15,
+   "date": "2026-11-13",
+   "topic": "money",
+   "type": "share",
+   "summary": "用 AI 全自動發文經營粉專，目標每月 5 萬被動收入，正開第二個粉專",
+   "likes": 21,
+   "replies": 6,
+   "url": "https://www.threads.com/@aaronchen5323/post/DfrQM-1nzv4"
+  },
+  {
+   "id": 64,
+   "date": "2026-11-13",
+   "topic": "flow",
+   "type": "share",
+   "summary": "花兩個月寫六萬行程式，做一個會自己安排研究流程的 AI 大腦",
+   "likes": 30,
+   "replies": 12,
+   "url": "https://www.threads.com/@martinli0129/post/DfrSYe0o935"
+  },
+  {
+   "id": 68,
+   "date": "2026-11-13",
+   "topic": "money",
+   "type": "share",
+   "summary": "法律科技業者觀察：傳統律所難吃到 AI 生產力紅利，AI 原生律所會出現",
+   "likes": 4,
+   "replies": 11,
+   "url": "https://www.threads.com/@greenbros_attorney/post/DfrXSU2oKvE"
+  },
+  {
+   "id": 73,
+   "date": "2026-11-13",
+   "topic": "flow",
+   "type": "info",
+   "summary": "講座預告：從 AI 輔助寫程式走到代理自主開發，團隊流程怎麼調整",
+   "likes": null,
+   "replies": null,
+   "url": "https://www.threads.com/@webconftw/post/DfrRtUcmaNI"
+  },
+  {
+   "id": 82,
+   "date": "2026-11-13",
+   "topic": "tools",
+   "type": "info",
+   "summary": "Chrome 官方資源，讓 AI 寫程式時跟上最新的網頁標準",
+   "likes": 2,
+   "replies": 11,
+   "url": "https://www.threads.com/@easyanythinghk/post/DfrJ6uIgApX"
+  },
+  {
+   "id": 89,
+   "date": "2026-11-13",
+   "topic": "flow",
+   "type": "ask",
+   "summary": "有人自己租雲端主機，架一套類似 Grok Bot 的代理嗎？",
+   "likes": 12,
+   "replies": 26,
+   "url": "https://www.threads.com/@qt5566/post/Dfq8XevEp4D"
+  },
+  {
+   "id": 94,
+   "date": "2026-11-13",
+   "topic": "flow",
+   "type": "info",
+   "summary": "AI 工程大會演講心得：人人都能大量產出程式，品質把關反而更重要",
+   "likes": 2,
+   "replies": 17,
+   "url": "https://www.threads.com/@alex.d9.dev/post/DfrPEQWAlj4"
+  },
+  {
+   "id": 103,
+   "date": "2026-11-13",
+   "topic": "money",
+   "type": "ask",
+   "summary": "用 AI 做的網站一個月破 2,000 人，卡在推廣與收費，發問卷問大家",
+   "likes": null,
+   "replies": null,
+   "url": "https://www.threads.com/@pin._.wen/post/DfrLaPjmZrC"
+  },
+  {
+   "id": 104,
+   "date": "2026-11-13",
+   "topic": "money",
+   "type": "ask",
+   "summary": "怎麼讓 AI 主動推薦自己的公司或服務？",
+   "likes": null,
+   "replies": null,
+   "url": "https://www.threads.com/@hnostwn/post/Dfq8kBJlKP9"
+  },
+  {
+   "id": 3,
+   "date": "2026-11-12",
+   "topic": "tools",
+   "type": "share",
+   "summary": "請 AI 每兩天掃一次免費資源，集中到一個儀表板管理用量與到期日",
+   "likes": 268,
+   "replies": 35,
+   "url": "https://www.threads.com/@pcedison/post/DfpJkNlk6Fv"
+  },
+  {
+   "id": 65,
+   "date": "2026-11-12",
+   "topic": "tools",
+   "type": "info",
+   "summary": "Vercel 推出給 AI 代理用的介面行為函式庫",
+   "likes": 78,
+   "replies": 3,
+   "url": "https://www.threads.com/@prompt_case/post/DfqP4OIDcRo"
+  },
+  {
+   "id": 66,
+   "date": "2026-11-12",
+   "topic": "money",
+   "type": "info",
+   "summary": "Google Cloud 推出 AI Agent 架構師認證，要真的做出能運作的代理",
+   "likes": 645,
+   "replies": 122,
+   "url": "https://www.threads.com/@aiposthub/post/DfpImrjgWke"
+  },
+  {
+   "id": 67,
+   "date": "2026-11-12",
+   "topic": "flow",
+   "type": "info",
+   "summary": "多個專案共用一個主倉庫，讓 AI 代理跨專案取用技能與設定",
+   "likes": null,
+   "replies": null,
+   "url": "https://www.threads.com/@lazy_automation_bot/post/DfqOQl1j8d-"
+  },
+  {
+   "id": 107,
+   "date": "2026-11-12",
+   "topic": "money",
+   "type": "ask",
+   "summary": "傳產想讓 AI 自動判讀客戶的文字與圖片訂單並下單，求推薦廠商",
+   "likes": 18,
+   "replies": 53,
+   "url": "https://www.threads.com/@crookraku_/post/Dfo0m-pGvBK"
+  },
+  {
+   "id": 25,
+   "date": "2026-11-11",
+   "topic": "tools",
+   "type": "info",
+   "summary": "Meta 開源給 AI 代理用的設計系統，GitHub 單日多三千顆星",
+   "likes": 91,
+   "replies": 1,
+   "url": "https://www.threads.com/@easyanythinghk/post/DfmAV_bAJXI"
+  },
+  {
+   "id": 44,
+   "date": "2026-11-11",
+   "topic": "tools",
+   "type": "info",
+   "summary": "n8n 推出開源 AI 助理 Nod：說出目標，它自己操作電腦完成",
+   "likes": 37,
+   "replies": 3,
+   "url": "https://www.threads.com/@aiposthub/post/Dflc-pvgUP5"
+  },
+  {
+   "id": 63,
+   "date": "2026-11-10",
+   "topic": "money",
+   "type": "warn",
+   "summary": "AI Agent 課程先別急著付費：把課程大綱丟給 AI，排成自學進度",
+   "likes": 536,
+   "replies": 39,
+   "url": "https://www.threads.com/@maylogger_designer/post/DfimRYrknqE"
+  },
+  {
+   "id": 105,
+   "date": "2026-11-10",
+   "topic": "video",
+   "type": "teach",
+   "summary": "AI 剪片人人會，難的是剪得像自己；作者整理打造 AI 剪輯師的心得",
+   "likes": 946,
+   "replies": 67,
+   "url": "https://www.threads.com/@pan_0709/post/DfjkiIVH3Ph"
+  },
+  {
+   "id": 13,
+   "date": "2026-11-09",
+   "topic": "safety",
+   "type": "warn",
+   "summary": "全職媽媽照網紅教學裝外掛剪片，工程師老公提醒：差點盲目給出高權限",
+   "likes": 998,
+   "replies": 133,
+   "url": "https://www.threads.com/@smallhandcook/post/DfhdkNQj_4n"
+  },
+  {
+   "id": 0,
+   "date": "2026-11-08",
+   "topic": "tools",
+   "type": "info",
+   "summary": "Anthropic 工程主管：別只交辦小任務，直接交辦你要的結果",
+   "likes": 404,
+   "replies": 19,
+   "url": "https://www.threads.com/@mememeow0721/post/Dfd10lTGA6d"
+  },
+  {
+   "id": 27,
+   "date": "2026-11-05",
+   "topic": "safety",
+   "type": "teach",
+   "summary": "用 AI 與自動化工具怕被平台停權？分享判斷的原則",
+   "likes": 78,
+   "replies": 1,
+   "url": "https://www.threads.com/@aspire_taiwan/post/DfW7Hy3mWSf"
+  },
+  {
+   "id": 84,
+   "date": "2026-11-05",
+   "topic": "tools",
+   "type": "info",
+   "summary": "一句提示詞做出可上線的網站範本，貼給程式代理就能跑",
+   "likes": 217,
+   "replies": 1,
+   "url": "https://www.threads.com/@krumjahn/post/DfWH4uZMpIV"
+  },
+  {
+   "id": 114,
+   "date": "2026-11-05",
+   "topic": "video",
+   "type": "share",
+   "summary": "同一段提示詞比較各家 AI 影片生成，網友笑 Claude 手快搓冒煙",
+   "likes": 9160,
+   "replies": 297,
+   "url": "https://www.threads.com/@curi.cutie/post/DfWUm6DEia2"
+  },
+  {
+   "id": 10,
+   "date": "2026-11-03",
+   "topic": "video",
+   "type": "teach",
+   "summary": "改用 Claude Code 自動剪廣告片，15 分鐘做完過去外包兩天的量",
+   "likes": 47,
+   "replies": 14,
+   "url": "https://www.threads.com/@raymond0917/post/DfQwG48iGGI"
+  },
+  {
+   "id": 20,
+   "date": "2026-11-03",
+   "topic": "video",
+   "type": "info",
+   "summary": "開源 94 個 Blender 技能，讓 AI 助手從建模一路做到匯出",
+   "likes": 181,
+   "replies": 4,
+   "url": "https://www.threads.com/@yt_tiny_miner/post/DfR_oh_k2_g"
+  },
+  {
+   "id": 115,
+   "date": "2026-11-03",
+   "topic": "safety",
+   "type": "info",
+   "summary": "高盛收回非工程師的 AI 寫程式工具權限，改成只給工程師用",
+   "likes": 195,
+   "replies": 11,
+   "url": "https://www.threads.com/@tonyshamballa/post/DfRaGA5ltRQ"
+  },
+  {
+   "id": 35,
+   "date": "2026-11-01",
+   "topic": "flow",
+   "type": "share",
+   "summary": "請 Claude 做 n8n 流程：每天 7 點把 Obsidian 待辦和日曆整理成 LINE 清單",
+   "likes": 109,
+   "replies": 18,
+   "url": "https://www.threads.com/@liishygo/post/DfM-b5JGlEW"
+  },
+  {
+   "id": 9,
+   "date": "2026-10-31",
+   "topic": "video",
+   "type": "info",
+   "summary": "剪輯師現在對 ChatGPT 說一句就去散步，回來只負責看片、挑問題",
+   "likes": 359,
+   "replies": 31,
+   "url": "https://www.threads.com/@cooljerrett/post/DfKQ_TCjxT3"
+  },
+  {
+   "id": 29,
+   "date": "2026-10-31",
+   "topic": "flow",
+   "type": "info",
+   "summary": "一人帶五十多個 AI 代理上班，拆解她的自動化工作流",
+   "likes": 870,
+   "replies": 33,
+   "url": "https://www.threads.com/@asia_ai.io/post/DfKZcxkAQk5"
+  },
+  {
+   "id": 85,
+   "date": "2026-10-30",
+   "topic": "tools",
+   "type": "share",
+   "summary": "輝達的 NVIDIA Build 平台有免費 AI 模型可以用",
+   "likes": 480,
+   "replies": 44,
+   "url": "https://www.threads.com/@cz88422/post/DfG5IcfD2D1"
+  },
+  {
+   "id": 8,
+   "date": "2026-10-25",
+   "topic": "tools",
+   "type": "teach",
+   "summary": "從 ChatGPT 換到 Claude，先設好記憶、連接器、桌面版和瀏覽器擴充",
+   "likes": 566,
+   "replies": 54,
+   "url": "https://www.threads.com/@neil.skilltree/post/De5qyo1joca"
+  },
+  {
+   "id": 16,
+   "date": "2026-10-25",
+   "topic": "flow",
+   "type": "info",
+   "summary": "有人寫 11 個 Claude 技能，自動掃圖表、追新聞、回測當沖策略",
+   "likes": 873,
+   "replies": 33,
+   "url": "https://www.threads.com/@leeunhn/post/De6csT8meql"
+  },
+  {
+   "id": 18,
+   "date": "2026-10-25",
+   "topic": "safety",
+   "type": "warn",
+   "summary": "資安警告：惡意 Markdown 被塞進下載資料夾，可能劫持 AI 助手",
+   "likes": 705,
+   "replies": 20,
+   "url": "https://www.threads.com/@it.oppa.twhk/post/De6483ygArf"
+  },
+  {
+   "id": 109,
+   "date": "2026-10-24",
+   "topic": "video",
+   "type": "info",
+   "summary": "開源 OpenMontage：把 AI 程式助理變成影片製作工作室",
+   "likes": 2,
+   "replies": 4,
+   "url": "https://www.threads.com/@builderdev_net/post/De3PfzxDWVT"
+  },
+  {
+   "id": 78,
+   "date": "2026-10-23",
+   "topic": "tools",
+   "type": "teach",
+   "summary": "桌面版 Codex 再裝 Antigravity：免費模型做雜事、兩個 AI 互相討論",
+   "likes": 906,
+   "replies": 88,
+   "url": "https://www.threads.com/@jiang_yude_coach/post/De1rtKGiTZ6"
+  },
+  {
+   "id": 108,
+   "date": "2026-10-23",
+   "topic": "money",
+   "type": "teach",
+   "summary": "用 Grok Bot 經營幾乎不用管的微型事業，談「代理收入」",
+   "likes": 235,
+   "replies": 19,
+   "url": "https://www.threads.com/@deepai.lab/post/De1Sw1zD1l-"
+  },
+  {
+   "id": 6,
+   "date": "2026-10-22",
+   "topic": "safety",
+   "type": "warn",
+   "summary": "用 Claude Code 的人推薦裝官方資安檢查插件，代理跑的時候就抓漏洞",
+   "likes": 1657,
+   "replies": 41,
+   "url": "https://www.threads.com/@ilya.liao/post/DeyG8m8HZ4x"
+  },
+  {
+   "id": 26,
+   "date": "2026-10-22",
+   "topic": "video",
+   "type": "share",
+   "summary": "用 Claude 剪產品上手教學影片給客戶，客戶更容易看懂",
+   "likes": 211,
+   "replies": 16,
+   "url": "https://www.threads.com/@tobie_talks/post/Dey3okrAala"
+  },
+  {
+   "id": 54,
+   "date": "2026-10-20",
+   "topic": "flow",
+   "type": "share",
+   "summary": "主機服務停業，作者請 AI 把 20 多個專案（含 n8n）搬家並整理成指南",
+   "likes": 58,
+   "replies": 5,
+   "url": "https://www.threads.com/@raymond0917/post/DetkwU5gK8V"
+  },
+  {
+   "id": 87,
+   "date": "2026-10-20",
+   "topic": "safety",
+   "type": "warn",
+   "summary": "馬斯克貼出 AI 代下單截圖露出訂單資料，被網友拿去取消訂單",
+   "likes": 63,
+   "replies": 3,
+   "url": "https://www.threads.com/@roboa.ai/post/DetyLNLiIzh"
+  },
+  {
+   "id": 37,
+   "date": "2026-10-17",
+   "topic": "flow",
+   "type": "info",
+   "summary": "n8n 上萬個工作流程模板，可以歸納成 20 種模式",
+   "likes": null,
+   "replies": null,
+   "url": "https://www.threads.com/@sdrmsung/post/DemaHyLDctd"
+  },
+  {
+   "id": 1,
+   "date": "2026-10-14",
+   "topic": "tools",
+   "type": "share",
+   "summary": "把 Claude Code 和 Codex 拉進同一個群聊，讓兩個模型共用記憶",
+   "likes": 510,
+   "replies": 63,
+   "url": "https://www.threads.com/@aha_nadine/post/DeexCkRj-T0"
+  },
+  {
+   "id": 7,
+   "date": "2026-10-14",
+   "topic": "video",
+   "type": "info",
+   "summary": "一人花 16 天，用 AI 加 Blender 把《小王子》做成 3D 劇情遊戲",
+   "likes": 1555,
+   "replies": 44,
+   "url": "https://www.threads.com/@ai_tjb/post/Ded6kefDY4y"
+  }
+ ],
+ "log": {
+  "source": "Threads 搜尋「最相關」，用已登入的瀏覽器讀取公開貼文",
+  "fetchedAt": "2026-11-13 20:30",
+  "keywords": [
+   {
+    "k": "AI Agent",
+    "n": 39
+   },
+   {
+    "k": "AI 自動化",
+    "n": 34
+   },
+   {
+    "k": "n8n",
+    "n": 29
+   },
+   {
+    "k": "AI 一人公司",
+    "n": 11
+   },
+   {
+    "k": "AI 工作流",
+    "n": 2
+   },
+   {
+    "k": "不會寫程式 AI",
+    "n": 2
+   },
+   {
+    "k": "Claude Code",
+    "n": 1
+   }
+  ],
+  "filter": "只留近 30 天的貼文，再排除外文、機器翻譯和與主題無關的 21 則",
+  "notes": [
+   "讚與回覆是抓取當下的數字；畫面上數字不完整的貼文以「—」表示。",
+   "不顯示作者帳號；摘要由墨線改寫，點「看原文」會前往 Threads。",
+   "這是關鍵字樣本，不代表 Threads 全站趨勢。"
+  ],
+  "cost": "0（沒有用付費爬蟲）"
+ }
+}
