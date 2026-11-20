@@ -72,7 +72,7 @@ img{display:block;max-width:100%}
 .card.lead{flex-basis:clamp(320px,40vw,600px)}
 .thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--ink2)}
 .card.lead .thumb{aspect-ratio:16/10}
-.thumb img{width:100%;height:100%;object-fit:cover;filter:grayscale(.8) contrast(1.04);transition:filter .35s,transform .6s}
+.thumb img{width:100%;height:100%;object-fit:cover;filter:saturate(1.05);transition:filter .35s,transform .6s}
 .card:hover .thumb img{filter:none;transform:scale(1.02)}
 .thumb.none{display:grid;place-items:center;background:radial-gradient(circle at 68% 32%,#2A2620,var(--ink2) 62%)}
 .thumb.none:before{content:"";position:absolute;inset:14px;border:1px solid var(--rule)}
@@ -105,7 +105,7 @@ img{display:block;max-width:100%}
 .social .more{grid-column:1/-1;justify-self:start}
 .foot{margin-top:clamp(72px,9vw,128px);padding:30px var(--gutter) calc(30px + env(safe-area-inset-bottom,0px));color:var(--ash);font-size:15px}
 .empty{color:var(--ash)}
-@media(hover:none){.thumb img{filter:grayscale(.3) contrast(1.03)}}
+
 @media(min-width:721px){.tabs{flex-wrap:wrap;overflow:visible}.ticker{flex-wrap:wrap}}
 @media(max-width:1000px){.dir{grid-template-columns:repeat(2,minmax(0,1fr))}.tabs{justify-content:flex-start}}
 @media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:14px 4px}.tabs{flex:0 0 100%;order:3;gap:14px}.tabs a{padding:0}.hero{min-height:640px}.hero img{width:100%;height:58%;bottom:auto}.wash{inset:auto -40px -40px -40px;width:auto;height:62%;background:linear-gradient(0deg,var(--ink) 74%,#10121600);filter:none}.fade{display:none}.hero-text{padding:0 var(--gutter) 84px}.hero h1{margin:18px 0 14px}.hero p{margin-bottom:22px}.dots{left:var(--gutter);right:auto;bottom:16px}.chip{flex:0 0 auto;padding:22px 26px 22px 0;margin-right:26px}.card{flex-basis:70vw}.card.lead{flex-basis:84vw}.list{column-count:1}.line:nth-child(n+5){display:none}.social,.weekly{grid-template-columns:minmax(0,1fr)}.social .obs div:nth-child(n+3){display:none}.dir{grid-template-columns:minmax(0,1fr);gap:36px}}
@@ -137,6 +137,27 @@ body{font-size:19px}
 .group b{font-size:21px}
 .dir a{font-size:18px}
 .foot{font-size:17px}
+
+/* 為你推薦：雜誌式圖卡 */
+.mag{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;padding:0 var(--gutter)}
+.mag a{display:flex;flex-direction:column;background:var(--ink2);border-radius:10px;overflow:hidden;min-width:0}
+.mag .ph{aspect-ratio:16/10;overflow:hidden;background:#222}
+.mag .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.mag a:hover .ph img{transform:scale(1.04)}
+.mag .tx{padding:14px 16px 18px}
+.mag .tx b{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font:600 20px/1.5 var(--sans)}
+.mag a:hover .tx b{color:var(--brass)}
+.mag .tx span{display:block;color:var(--ash);font-size:16px;margin-bottom:6px}
+.mag a.big{grid-column:span 2;grid-row:span 2;position:relative;min-height:440px}
+.mag a.big .ph{position:absolute;inset:0;aspect-ratio:auto}
+.mag a.big .tx{position:relative;margin-top:auto;padding:120px 26px 26px;background:linear-gradient(180deg,#0000,#000c 60%)}
+.mag a.big .tx b{font-size:30px;line-height:1.4;-webkit-line-clamp:3}
+.mag a.big .tx span{color:#ddd}
+/* 列表有圖時加小縮圖 */
+.line.pic{display:grid;grid-template-columns:minmax(0,1fr) 132px;gap:18px;align-items:start}
+.line.pic img{width:132px;height:90px;object-fit:cover;border-radius:6px;background:#222}
+@media(max-width:1000px){.mag{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.mag{gap:14px}.mag a.big{min-height:340px}.mag a.big .tx b{font-size:24px}.mag .tx{padding:10px 12px 14px}.mag .tx b{font-size:18px}.line.pic{grid-template-columns:minmax(0,1fr) 104px}.line.pic img{width:104px;height:72px}}
 </style>
 </head>
 <body>
@@ -152,7 +173,7 @@ body{font-size:19px}
 <footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
 <script>
 (function(){
-var BUILD='b20261120r';
+var BUILD='b20261120m';
 try{fetch(location.pathname+'?check='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){if(t.indexOf("BUILD='"+BUILD+"'")<0){var k='reloaded',n=0;try{n=+sessionStorage.getItem(k)||0;sessionStorage.setItem(k,n+1)}catch(e){}if(n<1)location.replace(location.pathname+'?v='+Date.now()+location.hash)}}).catch(function(){})}catch(e){}
 var DIR=[
 ['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
@@ -176,7 +197,8 @@ function card(item,sec,lead){
   function none(){var c=cover(item.title);t.className='thumb none';t.replaceChildren(el('b',null,c[0]),el('small',null,c[1]))}
   if(safe(item.image))t.append(pic(item.image,'',none));else none();
   a.append(t,el('b','t',item.title),el('span','meta',meta(item)));return a}
-function line(item){var a=link('line',item.url);a.append(el('b',null,item.title),el('span','meta',meta(item)));return a}
+function line(item){var a=link('line',item.url),t=el('div');t.append(el('b',null,item.title),el('span','meta',meta(item)));a.append(t);
+  if(safe(item.image)){a.className='line pic';a.append(pic(item.image,'',function(){this.remove();a.className='line'}))}return a}
 var slides=[],at=0,timer;
 function show(n){
   at=n;var s=slides[n],h=$('hero');if(!s)return;h.replaceChildren();
@@ -199,6 +221,10 @@ function arrows(head,rail,name){
   rail.addEventListener('dragstart',function(e){e.preventDefault()});
   rail.addEventListener('click',function(e){if(moved){e.preventDefault();moved=false}},true);
   w.append(prev,next);head.append(w);sync();setTimeout(sync,800)}
+function mag(s){
+  var g=el('div','mag');s.items.filter(function(i){return safe(i.image)}).slice(0,9).forEach(function(i,n){
+    var a=link(n===0?'big':'',i.url),ph=el('div','ph'),tx=el('div','tx');ph.append(pic(i.image,'',function(){ph.remove()}));
+    tx.append(el('span',null,meta(i)),el('b',null,i.title));a.append(ph,tx);g.append(a)});return g}
 function render(data){
   var secs=(data.sections||[]).filter(function(s){return s.items&&s.items.length}),tabs=$('tabs'),rows=$('rows');tabs.replaceChildren();rows.replaceChildren();
   var mine=link('mine','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD');mine.textContent='我的今日';tabs.append(mine);
@@ -207,13 +233,14 @@ function render(data){
   // 頭版：財經、國際各 2 則優先，其餘由各圖片區塊最新的補滿 6 則
   var lead=[],pool=[],byId={};secs.forEach(function(s){byId[s.id]=s});
   ['money','world'].forEach(function(id){var s=byId[id];if(!s)return;s.items.filter(function(i){return safe(i.image)}).slice(0,2).forEach(function(i){lead.push(Object.assign({section:s.title},i))})});
-  secs.forEach(function(s){if(s.images)s.items.filter(function(i){return safe(i.image)}).slice(0,3).forEach(function(i){pool.push(Object.assign({section:s.title},i))})});
+  secs.forEach(function(s){if(s.images&&s.id!=='pick')s.items.filter(function(i){return safe(i.image)}).slice(0,3).forEach(function(i){pool.push(Object.assign({section:s.title},i))})});
   pool.sort(function(a,b){return b.time-a.time});
   var mix=[];for(var k=0;k<6;k++){if(lead[k])mix.push(lead[k])}
   slides=mix.concat(pool).slice(0,6);
   if(slides.length){show(0);play()}else $('hero').append(function(){var t=el('div','hero-text');t.append(el('h1',null,'今天的新聞整理中'));return t}());
   secs.forEach(function(s){
     var r=el('section','row');r.id=s.id;r.setAttribute('aria-labelledby','h-'+s.id);var h=el('h2',null,s.title),hd=el('div','head');h.id='h-'+s.id;hd.append(h);r.append(hd);
+    if(s.id==='pick'){r.append(mag(s));rows.append(r);return}
     var rich=s.id==='mingli'||s.images&&s.items.filter(function(i){return safe(i.image)}).length>=s.items.length/2,box=el('div',rich?'rail':'list');s.items.slice(0,rich?8:6).forEach(function(i,n){box.append(rich?card(i,s,n===0):line(i))});r.append(box);rows.append(r);if(rich)arrows(hd,box,s.title)});
   (data.markets||[]).forEach(function(m){var c=el('div','chip');c.append(el('small',null,m.name));var b=el('b',null,Number(m.price).toLocaleString('zh-TW',{maximumFractionDigits:2}));if(m.change!=null){var e=el('em',m.change>=0?'rise':'fall',(m.change>=0?'+':'')+m.change+'%');b.append(e)}c.append(b);$('ticker').append(c)});
   newsReady=true;placeSocial();placeWeekly();

@@ -16,6 +16,18 @@ def gn(query, days=2):
 
 
 SECTIONS = [
+    {"id": "pick", "title": "為你推薦", "images": True, "per_feed": 6,
+     "exclude": "星座|運勢|紫微|塔羅|生肖|占卜|水逆|開箱|折扣碼|優惠碼|贈獎|抽獎",
+     "feeds": [
+        "https://tw.news.yahoo.com/rss/lifestyle", "https://tw.news.yahoo.com/rss/finance", "https://tw.news.yahoo.com/rss/health",
+        "https://www.bella.tw/rss",
+        "https://www.cosmopolitan.com/tw/rss/all.xml/",
+        "https://www.womenshealthmag.com/tw/rss/all.xml/",
+        "https://www.wowlavie.com/rss.xml",
+        "https://www.managertoday.com.tw/rss",
+        "https://www.cw.com.tw/RSS/cw_content.xml",
+        "https://feeds.feedburner.com/ettoday/lifestyle",
+    ]},
     {"id": "design", "title": "設計與建築", "images": True, "feeds": [
         "https://www.dezeen.com/feed/",
         "https://www.designboom.com/feed/",
@@ -29,12 +41,12 @@ SECTIONS = [
         "https://www.bnext.com.tw/rss",
     ]},
     {"id": "money", "title": "財經", "images": False, "pics": True, "feeds": [
-        "https://feeds.feedburner.com/rsscna/finance", gn("台股"), gn("房市"), gn("美股 聯準會"),
+        "https://feeds.feedburner.com/rsscna/finance", "https://tw.news.yahoo.com/rss/finance", gn("台股"), gn("房市"), gn("美股 聯準會"),
     ]},
     {"id": "world", "title": "國際", "images": False, "pics": True, "feeds": [
-        "https://feeds.feedburner.com/rsscna/intworld", gn("國際 局勢"), gn("美國 中國 關稅"),
+        "https://feeds.feedburner.com/rsscna/intworld", "https://tw.news.yahoo.com/rss/world", gn("國際 局勢"), gn("美國 中國 關稅"),
     ]},
-    {"id": "taiwan", "title": "台灣焦點", "images": False, "feeds": ["https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
+    {"id": "taiwan", "title": "台灣焦點", "images": False, "pics": True, "feeds": ["https://tw.news.yahoo.com/rss/", "https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "mingli", "title": "紫微・命理・星座", "images": True, "per_feed": 5,
      "exclude": "選|市長|縣長|立委|當選|藍白|股災|台股|政",
      "match": "星座|運勢|紫微|命理|八字|易經|塔羅|生肖|風水|占卜|水逆|上升|月亮|命盤|流年|開運|太陽", "feeds": [
@@ -48,8 +60,8 @@ SECTIONS = [
         "https://www.wowlavie.com/rss.xml",
         gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14),
     ]},
-    {"id": "interior", "title": "室內設計話題", "images": False, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
-    {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
+    {"id": "interior", "title": "室內設計話題", "images": False, "pics": True, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
+    {"id": "kaohsiung", "title": "高雄", "images": False, "pics": True, "feeds": [gn("高雄")]},
     {"id": "japan", "title": "日本與旅行", "images": True, "per_feed": 4, "feeds": [
         "https://livejapan.com/zh-tw/rss/",
         "https://matcha-jp.com/tw/feed",
@@ -60,7 +72,7 @@ SECTIONS = [
         "https://soranews24.com/feed/",
         "https://www.japan-guide.com/news/rss.xml",
     ]},
-    {"id": "life", "title": "生活與健康", "images": False, "feeds": [gn("健康 飲食"), gn("女性 創業")]},
+    {"id": "life", "title": "生活與健康", "images": False, "pics": True, "feeds": ["https://tw.news.yahoo.com/rss/health", "https://tw.news.yahoo.com/rss/lifestyle", gn("健康 飲食"), gn("女性 創業")]},
 ]
 MARKETS = [("^TWII", "台股加權"), ("^DJI", "道瓊"), ("^IXIC", "那斯達克"), ("2330.TW", "台積電")]
 
