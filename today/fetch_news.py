@@ -27,6 +27,7 @@ SECTIONS = [
         "https://www.managertoday.com.tw/rss",
         "https://www.cw.com.tw/RSS/cw_content.xml",
         "https://feeds.feedburner.com/ettoday/lifestyle",
+        "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml",
     ]},
     {"id": "design", "title": "設計與建築", "images": True, "feeds": [
         "https://www.dezeen.com/feed/",
@@ -44,12 +45,14 @@ SECTIONS = [
         "https://feeds.feedburner.com/rsscna/finance", "https://tw.news.yahoo.com/rss/finance", gn("台股"), gn("房市"), gn("美股 聯準會"),
     ]},
     {"id": "world", "title": "國際", "images": False, "pics": True, "feeds": [
-        "https://feeds.feedburner.com/rsscna/intworld", "https://tw.news.yahoo.com/rss/world", gn("國際 局勢"), gn("美國 中國 關稅"),
+        "https://feeds.feedburner.com/rsscna/intworld", "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml", "https://tw.news.yahoo.com/rss/world", gn("國際 局勢"), gn("美國 中國 關稅"),
     ]},
     {"id": "taiwan", "title": "台灣焦點", "images": False, "pics": True, "feeds": ["https://tw.news.yahoo.com/rss/", "https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "mingli", "title": "紫微・命理・星座", "images": True, "per_feed": 5,
      "exclude": "選|市長|縣長|立委|當選|藍白|股災|台股|政",
-     "match": "星座|運勢|紫微|命理|八字|易經|塔羅|生肖|風水|占卜|水逆|上升|月亮|命盤|流年|開運|太陽", "feeds": [
+     "match": "星座|運勢|紫微|命理|八字|易經|塔羅|生肖|風水|占卜|水逆|上升|月亮|命盤|流年|開運|太陽|預言|靈媒|生命靈數|心理測驗|人格|天賦|貴人|財運|桃花|招財|農民曆|節氣|吉日|算命|命中|轉運|好運|靈數|血型|面相|手相|前世|能量", "feeds": [
+        "https://tw.news.yahoo.com/rss/lifestyle", "https://tw.news.yahoo.com/rss/", "https://feeds.feedburner.com/ettoday/lifestyle",
+        gn("預言 靈媒", 7), gn("生命靈數", 14), gn("星座 理財", 7), gn("心理測驗 個性", 14), gn("生肖 財運", 7),
         "https://www.elle.com/tw/rss/all.xml/",
         "https://www.cosmopolitan.com/tw/rss/all.xml/",
         "https://www.harpersbazaar.com/tw/rss/all.xml/",
@@ -72,7 +75,6 @@ SECTIONS = [
         "https://soranews24.com/feed/",
         "https://www.japan-guide.com/news/rss.xml",
     ]},
-    {"id": "life", "title": "生活與健康", "images": False, "pics": True, "feeds": ["https://tw.news.yahoo.com/rss/health", "https://tw.news.yahoo.com/rss/lifestyle", gn("健康 飲食"), gn("女性 創業")]},
 ]
 MARKETS = [("^TWII", "台股加權"), ("^DJI", "道瓊"), ("^IXIC", "那斯達克"), ("2330.TW", "台積電")]
 
