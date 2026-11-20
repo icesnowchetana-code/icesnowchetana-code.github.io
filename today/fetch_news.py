@@ -17,7 +17,7 @@ def gn(query, days=2):
 
 SECTIONS = [
     {"id": "pick", "title": "為你推薦", "images": True, "per_feed": 6,
-     "exclude": "星座|運勢|紫微|塔羅|生肖|占卜|水逆|開箱|折扣碼|優惠碼|贈獎|抽獎",
+     "exclude": "星座|運勢|紫微|塔羅|生肖|占卜|水逆|開箱|折扣碼|優惠碼|贈獎|抽獎|性侵|強暴|下藥|殺|屍|命案|虐|自殺|輕生|墜樓|槍|屠|種族滅絕|戰爭|空襲|車禍|身亡|喪命",
      "feeds": [
         "https://tw.news.yahoo.com/rss/lifestyle", "https://tw.news.yahoo.com/rss/finance", "https://tw.news.yahoo.com/rss/health",
         "https://www.bella.tw/rss",
@@ -50,7 +50,7 @@ SECTIONS = [
     {"id": "taiwan", "title": "台灣焦點", "images": False, "pics": True, "feeds": ["https://tw.news.yahoo.com/rss/", "https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "mingli", "title": "紫微・命理・星座", "images": True, "per_feed": 5,
      "exclude": "選|市長|縣長|立委|當選|藍白|股災|台股|政",
-     "match": "星座|運勢|紫微|命理|八字|易經|塔羅|生肖|風水|占卜|水逆|上升|月亮|命盤|流年|開運|太陽|預言|靈媒|生命靈數|心理測驗|人格|天賦|貴人|財運|桃花|招財|農民曆|節氣|吉日|算命|命中|轉運|好運|靈數|血型|面相|手相|前世|能量", "feeds": [
+     "match": "星座|運勢|紫微|命理|八字|易經|塔羅|生肖|風水|占卜|水逆|上升星座|月亮星座|太陽星座|命盤|流年|開運|預言|靈媒|生命靈數|心理測驗|人格|天賦|貴人|財運|桃花|招財|農民曆|節氣|吉日|算命|命中|轉運|好運|靈數|血型|面相|手相|前世|能量", "feeds": [
         "https://tw.news.yahoo.com/rss/lifestyle", "https://tw.news.yahoo.com/rss/", "https://feeds.feedburner.com/ettoday/lifestyle",
         gn("預言 靈媒", 7), gn("生命靈數", 14), gn("星座 理財", 7), gn("心理測驗 個性", 14), gn("生肖 財運", 7),
         "https://www.elle.com/tw/rss/all.xml/",
