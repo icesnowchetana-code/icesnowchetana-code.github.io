@@ -15,9 +15,14 @@ def gn(query, days=2):
     return f"https://news.google.com/rss/search?q={q}+when:{days}d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
 
 
+# 全站都不收的沉重新聞（命案、性犯罪、自殺、戰爭、毒駕酒駕等）
+GRIM = ("性侵|強暴|性騷|下藥|猥褻|殺人|殺害|砍殺|刺殺|槍殺|槍擊|開槍|弒|殺妻|殺夫|殺子|兇殺|兇手|行兇|凶嫌|凶殺|"
+        "屍|命案|虐|自殺|輕生|墜樓|跳樓|屠殺|種族滅絕|戰爭|空襲|轟炸|飛彈攻擊|戰火|陣亡|"
+        "車禍|撞死|身亡|喪命|罹難|遇害|致死|喪生|死者|毒駕|酒駕|毒品|販毒|吸毒|綁架|勒斃|分屍|血案")
+
 SECTIONS = [
     {"id": "pick", "title": "為你推薦", "images": True, "per_feed": 6,
-     "exclude": "星座|運勢|紫微|塔羅|生肖|占卜|水逆|開箱|折扣碼|優惠碼|贈獎|抽獎|性侵|強暴|下藥|殺|屍|命案|虐|自殺|輕生|墜樓|槍|屠|種族滅絕|戰爭|空襲|車禍|身亡|喪命",
+     "exclude": "星座|運勢|紫微|塔羅|生肖|占卜|水逆|開箱|折扣碼|優惠碼|贈獎|抽獎",
      "feeds": [
         "https://tw.news.yahoo.com/rss/lifestyle", "https://tw.news.yahoo.com/rss/finance", "https://tw.news.yahoo.com/rss/health",
         "https://www.bella.tw/rss",
@@ -184,6 +189,7 @@ def section(sec):
         try:
             got = parse(url)
             report.append(f"{sec['id']} ok {len(got)} {url[:60]}")
+            got = [i for i in got if not re.search(GRIM, i["title"])]
             if sec.get("exclude"):
                 got = [i for i in got if not re.search(sec["exclude"], i["title"])]
             if sec.get("match"):
