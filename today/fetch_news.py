@@ -213,7 +213,8 @@ def section(sec):
             if limit:
                 got = sorted(got, key=lambda i: i["time"], reverse=True)[:limit]
             report.append(f"{sec['id']} ok {len(got)} {url[:60]}")
-            got = [i for i in got if not re.search(GRIM, i["title"])]
+            # 疫苗相關新聞不受沉重新聞過濾影響（琳耘指定）
+            got = [i for i in got if re.search(r"疫苗|mRNA", i["title"]) or not re.search(GRIM, i["title"])]
             if sec.get("exclude"):
                 got = [i for i in got if not re.search(sec["exclude"], i["title"])]
             if sec.get("match"):
