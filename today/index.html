@@ -153,6 +153,10 @@ body{font-size:19px}
 .mag a.big .tx{position:relative;margin-top:auto;padding:120px 26px 26px;background:linear-gradient(180deg,#0000,#000c 60%)}
 .mag a.big .tx b{font-size:30px;line-height:1.4;-webkit-line-clamp:3}
 .mag a.big .tx span{color:#ddd}
+.chips{display:flex;gap:10px;flex-wrap:wrap;padding:0 var(--gutter) 22px}
+.chips button{min-height:44px;padding:0 18px;border:1px solid var(--rule);border-radius:22px;background:none;color:var(--ash);font:500 18px var(--sans);cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.mag .cat{display:inline-block;margin-right:8px;padding:1px 8px;border-radius:3px;color:#111;font-size:14px;font-weight:600;font-style:normal}
 /* 列表有圖時加小縮圖 */
 .line.pic{display:grid;grid-template-columns:minmax(0,1fr) 132px;gap:18px;align-items:start}
 .line.pic img{width:132px;height:90px;object-fit:cover;border-radius:6px;background:#222}
@@ -173,7 +177,7 @@ body{font-size:19px}
 <footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
 <script>
 (function(){
-var BUILD='b20261120m';
+var BUILD='b20261120k';
 try{fetch(location.pathname+'?check='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){if(t.indexOf("BUILD='"+BUILD+"'")<0){var k='reloaded',n=0;try{n=+sessionStorage.getItem(k)||0;sessionStorage.setItem(k,n+1)}catch(e){}if(n<1)location.replace(location.pathname+'?v='+Date.now()+location.hash)}}).catch(function(){})}catch(e){}
 var DIR=[
 ['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
@@ -221,10 +225,22 @@ function arrows(head,rail,name){
   rail.addEventListener('dragstart',function(e){e.preventDefault()});
   rail.addEventListener('click',function(e){if(moved){e.preventDefault();moved=false}},true);
   w.append(prev,next);head.append(w);sync();setTimeout(sync,800)}
+// 為你推薦：依標題分四類，上方可切換，每張卡標出分類
+var CATS=[['理財','#E8C27A',/錢|存款|存錢|股|投資|薪|富|房|理財|退休|保險|基金|ETF|普發|稅|買房|貸|省|跌|漲|空頭|營收|樂透|頭獎|中獎|賠/],
+  ['健康','#8FD3A8',/健康|吃|食|營養|醫|睡|運動|肌|病|瘦|累|疲|血|腦|癌|飲|喝|身體|減重|痛|手術|矯正|骨/],
+  ['職場','#9DB8F0',/工作|職場|主管|同事|AI|企業|管理|倦怠|會議|創業|老闆|面試|離職|效率|領導/],
+  ['生活','#F0A38F',/./]];
+function catOf(t){for(var i=0;i<CATS.length;i++)if(CATS[i][2].test(t))return CATS[i];return CATS[3]}
 function mag(s){
-  var g=el('div','mag');s.items.filter(function(i){return safe(i.image)}).slice(0,9).forEach(function(i,n){
-    var a=link(n===0?'big':'',i.url),ph=el('div','ph'),tx=el('div','tx');ph.append(pic(i.image,'',function(){ph.remove()}));
-    tx.append(el('span',null,meta(i)),el('b',null,i.title));a.append(ph,tx);g.append(a)});return g}
+  var wrap=el('div'),chips=el('div','chips'),g=el('div','mag'),all=s.items.filter(function(i){return safe(i.image)});
+  function draw(c){g.replaceChildren();all.filter(function(i){return !c||catOf(i.title)[0]===c}).slice(0,9).forEach(function(i,n){
+    var k=catOf(i.title),a=link(n===0?'big':'',i.url),ph=el('div','ph'),tx=el('div','tx'),m=el('span'),tag=el('em','cat',k[0]);
+    tag.style.background=k[1];m.append(tag,document.createTextNode(meta(i)));
+    ph.append(pic(i.image,'',function(){ph.remove()}));tx.append(m,el('b',null,i.title));a.append(ph,tx);g.append(a)})}
+  [''].concat(CATS.map(function(c){return c[0]})).forEach(function(c){var n=c?all.filter(function(i){return catOf(i.title)[0]===c}).length:all.length;if(c&&!n)return;
+    var b=el('button',null,(c||'全部')+' '+n);b.type='button';b.setAttribute('aria-pressed',String(!c));
+    b.addEventListener('click',function(){chips.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');draw(c)});chips.append(b)});
+  draw('');wrap.append(chips,g);return wrap}
 function render(data){
   var secs=(data.sections||[]).filter(function(s){return s.items&&s.items.length}),tabs=$('tabs'),rows=$('rows');tabs.replaceChildren();rows.replaceChildren();
   var mine=link('mine','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD');mine.textContent='我的今日';tabs.append(mine);
