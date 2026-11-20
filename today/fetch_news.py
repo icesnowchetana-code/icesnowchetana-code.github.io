@@ -34,7 +34,9 @@ SECTIONS = [
         "https://www.cw.com.tw/RSS/cw_content.xml",
         "https://feeds.feedburner.com/ettoday/lifestyle",
         "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml",
-    ]},
+        # 琳耘關注：國內外疫苗後遺症
+        (gn("疫苗 後遺症", 14), None, 4), (gn("疫苗 副作用 研究", 14), None, 3), (gn("mRNA 疫苗 不良反應", 14), None, 3),
+    ], "keep": [("疫苗|mRNA", 4)]},
     {"id": "design", "title": "設計與建築", "images": True, "feeds": [
         "https://www.dezeen.com/feed/",
         "https://www.designboom.com/feed/",
@@ -69,14 +71,14 @@ SECTIONS = [
         "https://www.wowlavie.com/rss.xml",
         gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14),
     ]},
-    {"id": "interior", "title": "室內設計話題", "images": False, "pics": True, "feeds": [
+    {"id": "interior", "title": "室內設計話題", "images": False, "pics": True, "exclude": "茶莊|茶屋|大火|火警|去哪玩", "feeds": [
         # 有圖的來源只收和居家空間有關的標題
         ("https://tw.news.yahoo.com/rss/lifestyle", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
         ("https://feeds.feedburner.com/ettoday/lifestyle", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
         ("https://www.elle.com/tw/rss/all.xml/", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
         ("https://www.vogue.com.tw/feed/rss", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
-        ("https://www.dfun.com.tw/feed", None, 6),
-        ("https://www.myhomeliving.com.tw/rss", None, 6),
+        ("https://www.dezeen.com/interiors/feed/", None, 4),
+        ("https://www.designboom.com/interiors/feed/", None, 3),
         gn("室內設計"), gn("裝潢 住宅"),
     ]},
     {"id": "kaohsiung", "title": "高雄", "images": False, "pics": True, "feeds": [gn("高雄")]},
@@ -93,7 +95,7 @@ SECTIONS = [
         ("https://news.yahoo.co.jp/rss/topics/life.xml", None, 2),
         ("https://news.yahoo.co.jp/rss/topics/entertainment.xml", None, 2),
         ("https://www3.nhk.or.jp/rss/news/cat2.xml", None, 2),
-    ], "ja_min": 2},
+    ], "keep": [(r"[\u3040-\u30ff]", 2)]},
 ]
 MARKETS = [("^TWII", "台股加權"), ("^DJI", "道瓊"), ("^IXIC", "那斯達克"), ("2330.TW", "台積電")]
 
@@ -241,12 +243,13 @@ def section(sec):
         if len(pictured) >= 6:
             unique = pictured
         unique = unique[:18]
-        # 保證有幾則日文原文
-        if sec.get("ja_min"):
-            ja = lambda i: re.search(r"[\u3040-\u30ff]", i["title"])
-            have = [i for i in unique if ja(i)]
-            if len(have) < sec["ja_min"]:
-                extra = [i for i in mixed if ja(i) and i not in unique][: sec["ja_min"] - len(have)]
+        # 保證某些主題至少有幾則（例如日文原文、疫苗後遺症），沒圖也收
+        for rx, need in sec.get("keep", []):
+            hit = lambda i: re.search(rx, i["title"])
+            have = [i for i in unique if hit(i)]
+            if len(have) < need:
+                extra = [i for i in items if hit(i) and i not in unique]
+                extra = [i for n, i in enumerate(extra) if i["title"] not in [x["title"] for x in extra[:n]]][: need - len(have)]
                 with ThreadPoolExecutor(4) as ex:
                     extra = list(ex.map(og_image, extra))
                 unique = unique[: 18 - len(extra)] + extra
