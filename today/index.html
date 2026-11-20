@@ -26,6 +26,13 @@ img{display:block;max-width:100%}
 .tabs::-webkit-scrollbar{display:none}
 .tabs a{display:flex;align-items:center;min-height:44px;padding:0 8px;color:var(--ash);font-size:16px;white-space:nowrap}
 .tabs a:hover{color:var(--paper)}
+.tabs a.mine{color:var(--brass);font-weight:600}
+.weekly{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px clamp(28px,4vw,64px);padding:0 var(--gutter)}
+.weekly .lead{grid-column:1/-1}.weekly .lead h3{margin:10px 0 4px;font:300 clamp(24px,2.3vw,32px)/1.45 var(--serif);text-wrap:balance}
+.weekly .lead span{color:var(--ash);font-size:15px}
+.weekly .col>b{display:block;color:#C2A36B;font-size:15px;letter-spacing:.12em;padding-bottom:8px}
+.weekly .col div{padding:16px 0 18px;border-top:1px solid var(--rule)}
+.weekly .col div b{display:block;font:400 18px/1.6 var(--serif)}.weekly .col p{margin:4px 0 0;color:#C9C5BC;font-size:16px}
 .hero{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden}
 .hero img{position:absolute;top:0;right:0;width:74%;height:100%;object-fit:cover;filter:grayscale(.55) contrast(1.05) brightness(.9)}
 .wash{position:absolute;inset:-40px auto -40px -60px;width:62%;background:linear-gradient(90deg,var(--ink) 66%,#10121600);filter:url(#brush)}
@@ -101,7 +108,7 @@ img{display:block;max-width:100%}
 @media(hover:none){.thumb img{filter:grayscale(.3) contrast(1.03)}}
 @media(min-width:721px){.tabs{flex-wrap:wrap;overflow:visible}.ticker{flex-wrap:wrap}}
 @media(max-width:1000px){.dir{grid-template-columns:repeat(2,minmax(0,1fr))}.tabs{justify-content:flex-start}}
-@media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:14px 4px}.tabs{flex:0 0 100%;order:3;gap:14px}.tabs a{padding:0}.hero{min-height:640px}.hero img{width:100%;height:58%;bottom:auto}.wash{inset:auto -40px -40px -40px;width:auto;height:62%;background:linear-gradient(0deg,var(--ink) 74%,#10121600);filter:none}.fade{display:none}.hero-text{padding:0 var(--gutter) 84px}.hero h1{margin:18px 0 14px}.hero p{margin-bottom:22px}.dots{left:var(--gutter);right:auto;bottom:16px}.chip{flex:0 0 auto;padding:22px 26px 22px 0;margin-right:26px}.card{flex-basis:70vw}.card.lead{flex-basis:84vw}.list{column-count:1}.line:nth-child(n+5){display:none}.social{grid-template-columns:minmax(0,1fr)}.social .obs div:nth-child(n+3){display:none}.dir{grid-template-columns:minmax(0,1fr);gap:36px}}
+@media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:14px 4px}.tabs{flex:0 0 100%;order:3;gap:14px}.tabs a{padding:0}.hero{min-height:640px}.hero img{width:100%;height:58%;bottom:auto}.wash{inset:auto -40px -40px -40px;width:auto;height:62%;background:linear-gradient(0deg,var(--ink) 74%,#10121600);filter:none}.fade{display:none}.hero-text{padding:0 var(--gutter) 84px}.hero h1{margin:18px 0 14px}.hero p{margin-bottom:22px}.dots{left:var(--gutter);right:auto;bottom:16px}.chip{flex:0 0 auto;padding:22px 26px 22px 0;margin-right:26px}.card{flex-basis:70vw}.card.lead{flex-basis:84vw}.list{column-count:1}.line:nth-child(n+5){display:none}.social,.weekly{grid-template-columns:minmax(0,1fr)}.social .obs div:nth-child(n+3){display:none}.dir{grid-template-columns:minmax(0,1fr);gap:36px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.thumb img{transition:none}.card:hover .thumb img{transform:none}}
 </style>
 </head>
@@ -118,7 +125,7 @@ img{display:block;max-width:100%}
 <footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
 <script>
 (function(){
-var BUILD='b20261113s';
+var BUILD='b20261120w';
 try{fetch(location.pathname+'?check='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){if(t.indexOf("BUILD='"+BUILD+"'")<0){var k='reloaded',n=0;try{n=+sessionStorage.getItem(k)||0;sessionStorage.setItem(k,n+1)}catch(e){}if(n<1)location.replace(location.pathname+'?v='+Date.now()+location.hash)}}).catch(function(){})}catch(e){}
 var DIR=[
 ['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
@@ -167,16 +174,22 @@ function arrows(head,rail,name){
   w.append(prev,next);head.append(w);sync();setTimeout(sync,800)}
 function render(data){
   var secs=(data.sections||[]).filter(function(s){return s.items&&s.items.length}),tabs=$('tabs'),rows=$('rows');tabs.replaceChildren();rows.replaceChildren();
+  var mine=link('mine','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD');mine.textContent='我的今日';tabs.append(mine);
   secs.forEach(function(s){var a=el('a',null,s.title);a.href='#'+s.id;tabs.append(a)});
   var more=el('a',null,'全部服務');more.href='#links';tabs.append(more);
-  var pool=[];secs.forEach(function(s){if(s.images)s.items.filter(function(i){return safe(i.image)}).slice(0,3).forEach(function(i){pool.push(Object.assign({section:s.title},i))})});
-  slides=pool.sort(function(a,b){return b.time-a.time}).slice(0,6);
+  // 頭版：財經、國際各 2 則優先，其餘由各圖片區塊最新的補滿 6 則
+  var lead=[],pool=[],byId={};secs.forEach(function(s){byId[s.id]=s});
+  ['money','world'].forEach(function(id){var s=byId[id];if(!s)return;s.items.filter(function(i){return safe(i.image)}).slice(0,2).forEach(function(i){lead.push(Object.assign({section:s.title},i))})});
+  secs.forEach(function(s){if(s.images)s.items.filter(function(i){return safe(i.image)}).slice(0,3).forEach(function(i){pool.push(Object.assign({section:s.title},i))})});
+  pool.sort(function(a,b){return b.time-a.time});
+  var mix=[];for(var k=0;k<6;k++){if(lead[k])mix.push(lead[k])}
+  slides=mix.concat(pool).slice(0,6);
   if(slides.length){show(0);play()}else $('hero').append(function(){var t=el('div','hero-text');t.append(el('h1',null,'今天的新聞整理中'));return t}());
   secs.forEach(function(s){
     var r=el('section','row');r.id=s.id;r.setAttribute('aria-labelledby','h-'+s.id);var h=el('h2',null,s.title),hd=el('div','head');h.id='h-'+s.id;hd.append(h);r.append(hd);
-    var rich=s.id==='mingli'||s.items.filter(function(i){return safe(i.image)}).length>=s.items.length/2,box=el('div',rich?'rail':'list');s.items.slice(0,rich?8:6).forEach(function(i,n){box.append(rich?card(i,s,n===0):line(i))});r.append(box);rows.append(r);if(rich)arrows(hd,box,s.title)});
+    var rich=s.id==='mingli'||s.images&&s.items.filter(function(i){return safe(i.image)}).length>=s.items.length/2,box=el('div',rich?'rail':'list');s.items.slice(0,rich?8:6).forEach(function(i,n){box.append(rich?card(i,s,n===0):line(i))});r.append(box);rows.append(r);if(rich)arrows(hd,box,s.title)});
   (data.markets||[]).forEach(function(m){var c=el('div','chip');c.append(el('small',null,m.name));var b=el('b',null,Number(m.price).toLocaleString('zh-TW',{maximumFractionDigits:2}));if(m.change!=null){var e=el('em',m.change>=0?'rise':'fall',(m.change>=0?'+':'')+m.change+'%');b.append(e)}c.append(b);$('ticker').append(c)});
-  newsReady=true;placeSocial();
+  newsReady=true;placeSocial();placeWeekly();
   if(data.updated)$('foot').textContent='新聞更新於 '+new Date(data.updated*1000).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false})+'。內容與圖片屬各媒體所有，點開會前往原網站。'
 }
 // AI 自動化社群觀察：讀 social/data.json，放在「AI 與科技」後面
@@ -194,10 +207,25 @@ function placeSocial(){
   var obs=el('div','obs');(social.observations||[]).slice(0,3).forEach(function(o){var d=el('div');d.append(el('b',null,o.title),el('p',null,o.text));obs.append(d)});
   var more=el('a','play more','看完整觀察 →');more.href='social/';
   g.append(left,obs,more);r.append(g);
-  var after=$('ai'),rows=$('rows');if(after&&after.nextSibling)rows.insertBefore(r,after.nextSibling);else rows.append(r);
+  var before=$('ai'),rows=$('rows');if(before)rows.insertBefore(r,before);else rows.append(r);
   var tab=el('a',null,'社群觀察');tab.href='#social';var tabs=$('tabs'),ai=tabs.querySelector('a[href="#ai"]');
-  if(ai&&ai.nextSibling)tabs.insertBefore(tab,ai.nextSibling);else tabs.insertBefore(tab,tabs.lastChild);
+  if(ai)tabs.insertBefore(tab,ai);else tabs.insertBefore(tab,tabs.lastChild);
 }
+// 本週情勢觀察：讀 weekly.json（墨線週報每週日更新），放在「台灣焦點」上面
+var weekly=null;
+function placeWeekly(){
+  if(!weekly||!newsReady||$('weekly'))return;
+  var r=el('section','row');r.id='weekly';r.setAttribute('aria-labelledby','h-weekly');
+  var hd=el('div','head'),h=el('h2',null,'本週情勢觀察');h.id='h-weekly';hd.append(h);r.append(hd);
+  var g=el('div','weekly'),lead=el('div','lead');
+  lead.append(el('span',null,md(weekly.period.from)+'–'+md(weekly.period.to)+'・財經、國際、國內生活重點整理'),el('h3',null,weekly.headline));g.append(lead);
+  (weekly.groups||[]).forEach(function(gr){var c=el('div','col');c.append(el('b',null,gr.name));(gr.points||[]).slice(0,3).forEach(function(p){var d=el('div');d.append(el('b',null,p.title),el('p',null,p.text));c.append(d)});g.append(c)});
+  r.append(g);
+  var before=$('taiwan'),rows=$('rows');if(before)rows.insertBefore(r,before);else rows.prepend(r);
+  var tab=el('a',null,'本週情勢');tab.href='#weekly';var tabs=$('tabs'),tw=tabs.querySelector('a[href="#taiwan"]');
+  if(tw)tabs.insertBefore(tab,tw);else tabs.insertBefore(tab,tabs.lastChild);
+}
+fetch('weekly.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){weekly=d;placeWeekly()}).catch(function(){});
 fetch('social/data.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){social=d;placeSocial()}).catch(function(){});
 function chip(k,v,after){var c=el('div','chip');c.append(el('small',null,k),el('b',null,v));after?$('ticker').append(c):$('ticker').prepend(c)}
 var WMO={0:'晴',1:'晴時多雲',2:'多雲',3:'陰',45:'霧',48:'霧',51:'毛毛雨',53:'毛毛雨',55:'毛毛雨',61:'小雨',63:'雨',65:'大雨',80:'陣雨',81:'陣雨',82:'大陣雨',95:'雷雨',96:'雷雨',99:'雷雨'};

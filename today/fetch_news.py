@@ -28,7 +28,12 @@ SECTIONS = [
         "https://www.inside.com.tw/feed/rss",
         "https://www.bnext.com.tw/rss",
     ]},
-    {"id": "interior", "title": "室內設計話題", "images": False, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
+    {"id": "money", "title": "財經", "images": False, "pics": True, "feeds": [
+        "https://feeds.feedburner.com/rsscna/finance", gn("台股"), gn("房市"), gn("美股 聯準會"),
+    ]},
+    {"id": "world", "title": "國際", "images": False, "pics": True, "feeds": [
+        "https://feeds.feedburner.com/rsscna/intworld", gn("國際 局勢"), gn("美國 中國 關稅"),
+    ]},
     {"id": "taiwan", "title": "台灣焦點", "images": False, "feeds": ["https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]},
     {"id": "mingli", "title": "紫微・命理・星座", "images": True, "per_feed": 5,
      "exclude": "選|市長|縣長|立委|當選|藍白|股災|台股|政",
@@ -43,7 +48,7 @@ SECTIONS = [
         "https://www.wowlavie.com/rss.xml",
         gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14),
     ]},
-    {"id": "money", "title": "財經", "images": False, "feeds": [gn("台股"), gn("房市")]},
+    {"id": "interior", "title": "室內設計話題", "images": False, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
     {"id": "kaohsiung", "title": "高雄", "images": False, "feeds": [gn("高雄")]},
     {"id": "japan", "title": "日本與旅行", "images": True, "per_feed": 4, "feeds": [
         "https://livejapan.com/zh-tw/rss/",
@@ -195,6 +200,11 @@ def section(sec):
         if len(pictured) >= 6:
             unique = pictured
         unique = unique[:18]
+    elif sec.get("pics"):
+        # 列表區塊，但幫有圖的新聞抓圖，給頭版輪播用
+        unique = unique[:18]
+        with ThreadPoolExecutor(6) as ex:
+            unique = list(ex.map(og_image, unique))
     else:
         for it in unique:
             it["image"] = ""
