@@ -18,7 +18,8 @@ def gn(query, days=2):
 # 全站都不收的沉重新聞（命案、性犯罪、自殺、戰爭、毒駕酒駕等）
 GRIM = ("性侵|強暴|性騷|下藥|猥褻|殺人|殺害|砍殺|刺殺|槍殺|槍擊|開槍|弒|殺妻|殺夫|殺子|兇殺|兇手|行兇|凶嫌|凶殺|"
         "屍|命案|虐|自殺|輕生|墜樓|跳樓|屠殺|種族滅絕|戰爭|空襲|轟炸|飛彈攻擊|戰火|陣亡|"
-        "車禍|撞死|身亡|喪命|罹難|遇害|致死|喪生|死者|毒駕|酒駕|毒品|販毒|吸毒|綁架|勒斃|分屍|血案")
+        "車禍|撞死|身亡|喪命|罹難|遇害|致死|喪生|死者|毒駕|酒駕|毒品|販毒|吸毒|綁架|勒斃|分屍|血案|"
+        "容疑者|逮捕|殺害|遺体|死亡事故|飲酒運転|戦争|攻撃")
 
 SECTIONS = [
     {"id": "pick", "title": "為你推薦", "images": True, "per_feed": 6,
@@ -68,7 +69,16 @@ SECTIONS = [
         "https://www.wowlavie.com/rss.xml",
         gn("紫微斗數", 14), gn("星座 運勢", 3), gn("八字 命理", 14), gn("易經 占卜", 14),
     ]},
-    {"id": "interior", "title": "室內設計話題", "images": False, "pics": True, "feeds": [gn("室內設計"), gn("裝潢 住宅")]},
+    {"id": "interior", "title": "室內設計話題", "images": False, "pics": True, "feeds": [
+        # 有圖的來源只收和居家空間有關的標題
+        ("https://tw.news.yahoo.com/rss/lifestyle", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
+        ("https://feeds.feedburner.com/ettoday/lifestyle", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
+        ("https://www.elle.com/tw/rss/all.xml/", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
+        ("https://www.vogue.com.tw/feed/rss", "室內設計|裝潢|裝修|居家|收納|格局|家具|家居|空間|宅|住宅|房間|客廳|臥室|廚房|浴室|衛浴|軟裝|設計師|翻修|老屋|風格|佈置|布置", 6),
+        ("https://www.dfun.com.tw/feed", None, 6),
+        ("https://www.myhomeliving.com.tw/rss", None, 6),
+        gn("室內設計"), gn("裝潢 住宅"),
+    ]},
     {"id": "kaohsiung", "title": "高雄", "images": False, "pics": True, "feeds": [gn("高雄")]},
     {"id": "japan", "title": "日本與旅行", "images": True, "per_feed": 4, "feeds": [
         "https://livejapan.com/zh-tw/rss/",
@@ -79,7 +89,11 @@ SECTIONS = [
         "https://www.tokyoweekender.com/feed/",
         "https://soranews24.com/feed/",
         "https://www.japan-guide.com/news/rss.xml",
-    ]},
+        # 日文原文（學日文用），每個來源最多 2 則
+        ("https://news.yahoo.co.jp/rss/topics/life.xml", None, 2),
+        ("https://news.yahoo.co.jp/rss/topics/entertainment.xml", None, 2),
+        ("https://www3.nhk.or.jp/rss/news/cat2.xml", None, 2),
+    ], "ja_min": 2},
 ]
 MARKETS = [("^TWII", "台股加權"), ("^DJI", "道瓊"), ("^IXIC", "那斯達克"), ("2330.TW", "台積電")]
 
@@ -186,8 +200,15 @@ def og_image(item):
 def section(sec):
     items, seen, report = [], set(), []
     for url in sec["feeds"]:
+        rx, limit = None, None
+        if isinstance(url, tuple):
+            url, rx, limit = url
         try:
             got = parse(url)
+            if rx:
+                got = [i for i in got if re.search(rx, i["title"])]
+            if limit:
+                got = sorted(got, key=lambda i: i["time"], reverse=True)[:limit]
             report.append(f"{sec['id']} ok {len(got)} {url[:60]}")
             got = [i for i in got if not re.search(GRIM, i["title"])]
             if sec.get("exclude"):
@@ -220,6 +241,16 @@ def section(sec):
         if len(pictured) >= 6:
             unique = pictured
         unique = unique[:18]
+        # 保證有幾則日文原文
+        if sec.get("ja_min"):
+            ja = lambda i: re.search(r"[\u3040-\u30ff]", i["title"])
+            have = [i for i in unique if ja(i)]
+            if len(have) < sec["ja_min"]:
+                extra = [i for i in mixed if ja(i) and i not in unique][: sec["ja_min"] - len(have)]
+                with ThreadPoolExecutor(4) as ex:
+                    extra = list(ex.map(og_image, extra))
+                unique = unique[: 18 - len(extra)] + extra
+                unique.sort(key=lambda i: i["time"], reverse=True)
     elif sec.get("pics"):
         # 列表區塊，但幫有圖的新聞抓圖，給頭版輪播用
         unique = unique[:18]

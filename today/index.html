@@ -177,7 +177,7 @@ body{font-size:19px}
 <footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
 <script>
 (function(){
-var BUILD='b20261120k';
+var BUILD='b20261120j';
 try{fetch(location.pathname+'?check='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){if(t.indexOf("BUILD='"+BUILD+"'")<0){var k='reloaded',n=0;try{n=+sessionStorage.getItem(k)||0;sessionStorage.setItem(k,n+1)}catch(e){}if(n<1)location.replace(location.pathname+'?v='+Date.now()+location.hash)}}).catch(function(){})}catch(e){}
 var DIR=[
 ['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
@@ -196,11 +196,12 @@ function meta(i){return[i.source,ago(i.time)].filter(Boolean).join('・')}
 function pic(url,alt,onfail){var i=new Image();i.alt=alt||'';i.loading='lazy';i.decoding='async';i.referrerPolicy='no-referrer';i.addEventListener('error',onfail);i.src=url;return i}
 var SIGNS=[['牡羊','星座','牡羊座'],['金牛','星座','金牛座'],['雙子','星座','雙子座'],['巨蟹','星座','巨蟹座'],['獅子','星座','獅子座'],['處女','星座','處女座'],['天秤','星座','天秤座'],['天蠍','星座','天蠍座'],['射手','星座','射手座'],['魔羯','星座','魔羯座'],['摩羯','星座','魔羯座'],['水瓶','星座','水瓶座'],['雙魚','星座','雙魚座'],['紫微','紫微','紫微斗數'],['命格','紫微','紫微斗數'],['易經','八卦','易經占卜'],['卦','八卦','易經占卜'],['八字','八字','八字命理'],['生肖','生肖','生肖運勢'],['塔羅','塔羅','塔羅占卜'],['風水','風水','風水開運'],['星座','星座','星座運勢']];
 function cover(t){for(var i=0;i<SIGNS.length;i++)if(t.indexOf(SIGNS[i][0])>-1)return [SIGNS[i][1],SIGNS[i][2]];return ['星座','今日運勢']}
+function jaTag(t){return /[\u3040-\u30ff]/.test(t)?'日本語・':''}
 function card(item,sec,lead){
   var a=link(lead?'card lead':'card',item.url),t=el('div','thumb');
   function none(){var c=cover(item.title);t.className='thumb none';t.replaceChildren(el('b',null,c[0]),el('small',null,c[1]))}
   if(safe(item.image))t.append(pic(item.image,'',none));else none();
-  a.append(t,el('b','t',item.title),el('span','meta',meta(item)));return a}
+  a.append(t,el('b','t',item.title),el('span','meta',jaTag(item.title)+meta(item)));return a}
 function line(item){var a=link('line',item.url),t=el('div');t.append(el('b',null,item.title),el('span','meta',meta(item)));a.append(t);
   if(safe(item.image)){a.className='line pic';a.append(pic(item.image,'',function(){this.remove();a.className='line'}))}return a}
 var slides=[],at=0,timer;
@@ -227,9 +228,8 @@ function arrows(head,rail,name){
   w.append(prev,next);head.append(w);sync();setTimeout(sync,800)}
 // 為你推薦：依標題分四類，上方可切換，每張卡標出分類
 var CATS=[['理財','#E8C27A',/錢|存款|存錢|股|投資|薪|富|房|理財|退休|保險|基金|ETF|普發|稅|買房|貸|省|跌|漲|空頭|營收|樂透|頭獎|中獎|賠/],
-  ['健康','#8FD3A8',/健康|吃|食|營養|醫|睡|運動|肌|病|瘦|累|疲|血|腦|癌|飲|喝|身體|減重|痛|手術|矯正|骨/],
   ['職場','#9DB8F0',/工作|職場|主管|同事|AI|企業|管理|倦怠|會議|創業|老闆|面試|離職|效率|領導/],
-  ['生活','#F0A38F',/./]];
+  ['生活與健康','#8FD3A8',/./]];
 function catOf(t){for(var i=0;i<CATS.length;i++)if(CATS[i][2].test(t))return CATS[i];return CATS[3]}
 function mag(s){
   var wrap=el('div'),chips=el('div','chips'),g=el('div','mag'),all=s.items.filter(function(i){return safe(i.image)});
