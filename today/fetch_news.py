@@ -93,10 +93,13 @@ SECTIONS = [
         "https://soranews24.com/feed/",
         "https://www.japan-guide.com/news/rss.xml",
         # 日文原文（學日文用），每個來源最多 2 則
+        # 只收生活、旅遊類，不收藝人娛樂
+        ("https://travel.watch.impress.co.jp/data/rss/1.0/trw/feed.rdf", None, 2),
+        ("https://livejapan.com/ja/rss/", None, 2),
+        ("https://matcha-jp.com/jp/feed", None, 2),
         ("https://news.yahoo.co.jp/rss/topics/life.xml", None, 2),
-        ("https://news.yahoo.co.jp/rss/topics/entertainment.xml", None, 2),
-        ("https://www3.nhk.or.jp/rss/news/cat2.xml", None, 2),
-    ], "keep": [(r"[\u3040-\u30ff]", 2)]},
+        ("https://news.yahoo.co.jp/rss/topics/local.xml", None, 1),
+    ], "exclude": "芸能|俳優|女優|アイドル|歌手|ドラマ|ライブ|コンサート|MAMA|結婚|熱愛|離婚|活動再開|活動休止|Netflix|映画", "keep": [(r"[\u3040-\u30ff]", 3)]},
 ]
 MARKETS = [("^TWII", "台股加權"), ("^DJI", "道瓊"), ("^IXIC", "那斯達克"), ("2330.TW", "台積電")]
 
