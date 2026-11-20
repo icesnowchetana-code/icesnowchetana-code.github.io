@@ -110,6 +110,33 @@ img{display:block;max-width:100%}
 @media(max-width:1000px){.dir{grid-template-columns:repeat(2,minmax(0,1fr))}.tabs{justify-content:flex-start}}
 @media(max-width:720px){.top{flex-wrap:wrap;gap:6px 14px;padding-block:14px 4px}.tabs{flex:0 0 100%;order:3;gap:14px}.tabs a{padding:0}.hero{min-height:640px}.hero img{width:100%;height:58%;bottom:auto}.wash{inset:auto -40px -40px -40px;width:auto;height:62%;background:linear-gradient(0deg,var(--ink) 74%,#10121600);filter:none}.fade{display:none}.hero-text{padding:0 var(--gutter) 84px}.hero h1{margin:18px 0 14px}.hero p{margin-bottom:22px}.dots{left:var(--gutter);right:auto;bottom:16px}.chip{flex:0 0 auto;padding:22px 26px 22px 0;margin-right:26px}.card{flex-basis:70vw}.card.lead{flex-basis:84vw}.list{column-count:1}.line:nth-child(n+5){display:none}.social,.weekly{grid-template-columns:minmax(0,1fr)}.social .obs div:nth-child(n+3){display:none}.dir{grid-template-columns:minmax(0,1fr);gap:36px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.thumb img{transition:none}.card:hover .thumb img{transform:none}}
+
+/* 兩個「觀察」區塊用紅色調，和一般新聞區隔 */
+#social,#weekly{margin-top:clamp(56px,7vw,96px);padding:clamp(48px,6vw,80px) 0 clamp(48px,6vw,80px);background:linear-gradient(180deg,#2A1714 0%,#1C1412 100%);border-top:3px solid var(--seal)}
+#social h2:after,#weekly h2:after{background:var(--seal);width:64px;height:2px}
+#social h2,#weekly h2{color:#F3D9D0}
+#social .obs div,#weekly .col div{border-top-color:#4A2B26}
+#weekly .col>b{color:#F08A74}
+#social .nums b{color:#F08A74}
+#social .more{color:#F08A74;border-bottom-color:#F08A74}
+/* 字放大（老花友善） */
+body{font-size:19px}
+.tabs a{font-size:18px}
+.meta{font-size:17px}
+.card b.t{font-size:21px}.card.lead b.t{font-size:25px}
+.line b{font-size:21px}
+.chip small{font-size:17px}.chip b{font-size:28px}.chip em{font-size:17px}
+.eyebrow b{font-size:17px}
+.hero p{font-size:19px}
+.play{font-size:19px}
+.social .tag{font-size:17px}
+.social .obs b,.weekly .col div b{font-size:22px}
+.social .obs p,.weekly .col p{font-size:18px;line-height:1.7}
+.weekly .lead span,.social .when{font-size:17px}
+.weekly .col>b{font-size:18px}
+.group b{font-size:21px}
+.dir a{font-size:18px}
+.foot{font-size:17px}
 </style>
 </head>
 <body>
@@ -125,7 +152,7 @@ img{display:block;max-width:100%}
 <footer class="foot" id="foot">新聞每小時自動更新，內容與圖片屬各媒體所有，點開會前往原網站。</footer>
 <script>
 (function(){
-var BUILD='b20261120w';
+var BUILD='b20261120r';
 try{fetch(location.pathname+'?check='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){if(t.indexOf("BUILD='"+BUILD+"'")<0){var k='reloaded',n=0;try{n=+sessionStorage.getItem(k)||0;sessionStorage.setItem(k,n+1)}catch(e){}if(n<1)location.replace(location.pathname+'?v='+Date.now()+location.hash)}}).catch(function(){})}catch(e){}
 var DIR=[
 ['工作',[['公司網站','https://icesnowchetana-code.github.io/yiju/','亦','#3DD6C6'],['我的今日','https://claude.ai/artifact/6f5ETdZzxzoSQWmuPCrXjD','今','#FFD166'],['Notion','https://www.notion.so','N','#FFFFFF'],['Gmail','https://mail.google.com','G','#FF8A80'],['行事曆','https://calendar.google.com','曆','#8AB4F8'],['Drive','https://drive.google.com','D','#7BD88F'],['GitHub','https://github.com/icesnowchetana-code','Gh','#C9D1D9']]],
