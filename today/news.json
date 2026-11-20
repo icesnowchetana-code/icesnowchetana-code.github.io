@@ -1,5 +1,5 @@
 {
-"updated": 1795186877,
+"updated": 1795187011,
 "markets": [
 {
 "name": "台股加權",
@@ -8,13 +8,13 @@
 },
 {
 "name": "道瓊",
-"price": 49518.7,
-"change": 0.86
+"price": 49481.43,
+"change": 0.78
 },
 {
 "name": "那斯達克",
-"price": 23774.572,
-"change": -0.44
+"price": 23712.646,
+"change": -0.7
 },
 {
 "name": "台積電",
@@ -594,6 +594,14 @@
 "time": 1795179075
 },
 {
+"title": "今日最夯 ETF／台股周重挫、反向 ETF 買氣升溫 00686R 大漲8.7%",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00ZWEwSHRWTUhoQlJnNUYyRDhQMGR1S1dGbE9ETzdLYmR2MTVkSTNJemtFdjVMUW4yYjhtZ242SGM0MFJlTHg3Z1MwTWw3U3d5Vks0NUJVOG1jd9IBX0FVX3lxTE5Xai1uNFdTZ0RrcDNZSnFkWF9kZmZzNG8tTWVZaS1XNmc2WVpMdDRKZm9IdXc0Z05Rc1prcTNlaDBUbnN3VkFpMUo3ZWRCTy10S2JzYnpCa2FKc1J5eUFZ?oc=5",
+"source": "經濟日報",
+"summary": "",
+"image": "",
+"time": 1795178598
+},
+{
 "title": "美股那指期貨重挫逾1% Anthropic回檔加深AI估值隱憂",
 "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSLW43bmFKX05jeXkwN0RNLVp4SUlKQW9COXRtREZpN3djcUFhLTVmMnJLNnFpczI2b0Z5eGN4UGVQendSbnl2cmJaWmVwc0FIV3ZBUG1kU1k4RHpfYkU4dQ?oc=5",
 "source": "民視新聞網",
@@ -616,14 +624,6 @@
 "summary": "",
 "image": "",
 "time": 1795176240
-},
-{
-"title": "房市迎曙光？國泰建設：股市資金活水有望挹注",
-"url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE93cllMTHBJRmh3bUhlU2pWT2h2ZFF5ejd5ckY5VmRYMnNsdjF0QUxwSmFVOTVmWG9ydzA5a21nTno5VUYwOHNfS0NB0gFPQVVfeXFMUGtYQjJQdVFRck1Dc1FwYWZVa0RDYl9uSWhIUHY4V2VlUFM3SnRnQ0E2OG9Mamp4Q3BGZ1EyTFFwb3Ryb1JfTjJ0X21fT0xISQ?oc=5",
-"source": "591新聞",
-"summary": "",
-"image": "",
-"time": 1795175809
 }
 ]
 },
@@ -639,14 +639,6 @@
 "summary": "（中央社記者戴雅真東京20日專電）日本內閣府今天公布最新「外交相關輿論調查」，認為日本與中國關係「不算良好」的受訪者比例達93%，較去年增加6.6個百分點，創下歷史新高。",
 "image": "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20261119/1024x682_wmkn_829747451993_0.jpg",
 "time": 1795184595
-},
-{
-"title": "美國貿易代表格里爾稱年底前完成301調查",
-"url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNRlNYWTNpbXROc0U4dnhMQ3dDakRrNHo1YTZhQXEwRHBjdXM2N3lpMENLVWVXN0xOdkpQdm1Cd2dNOF94cjUtbzRxZlNpSlQxM1BNYW9Nb0Y5SGFRa3VZMUhlNTNmZlpwR0VIR2lGeVpHbC0zUmh3Wm5TcmpJQ0g5THZicmNodGxld3NYaFhpUXZMYmNXbHB3dFhrRjM4NC1pWDdLdC1taVpxZ3VKSy1jTW1CcWVtd0pyVUZVWF9vWXItYzI3NjZMV3B3REtKYXJfUVlJdDFvZjdsWmZNUDdhWnIzYzE3aGs0U1FuRnlhN19hbEFpUVlrVnFiUTNaSk9XdGZjX2dXZGNzanJ3NGZvSzJlZm5lcW51eWtQRS1uLWlMRXMwY183Y19iakxZX3E5VjRxNm9MUE1KTFM1YWh1Nw?oc=5",
-"source": "信報網站",
-"summary": "",
-"image": "",
-"time": 1795184005
 },
 {
 "title": "CNN：至少6所遭美列黑名單中國大學採購輝達晶片",
@@ -669,7 +661,7 @@
 "url": "https://www.cna.com.tw/news/aopl/202611200332.aspx",
 "source": "中央社即時新聞 國際焦點",
 "summary": "（中央社記者曾依璇巴黎20日專電）美國總統川普、中國國家主席習近平與俄羅斯總統普丁在中國深圳會晤。法國媒體分析，川普的個人外交並未帶來實質成果，且這次峰會讓普丁重返國際舞台，反使普丁成了最大贏家。",
-"image": "https://i.ytimg.com/vi/CjO1MVr8ZLY/hqdefault.jpg?t=2611202259",
+"image": "https://i.ytimg.com/vi/CjO1MVr8ZLY/hqdefault.jpg?t=2611202303",
 "time": 1795181564
 },
 {
@@ -695,14 +687,6 @@
 "summary": "",
 "image": "",
 "time": 1795170909
-},
-{
-"title": "美媒：美國創業者湧入深圳，“這裡是21世紀的機遇之地”",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGTUM2enRPdGR0UlItR3E4djVobFJ2V0Q0cmk5SXpPQ1pxSEFpNC1ydFBOMHlTRzIyMS1WQW51MXRZYnJYTGdNSlBINGJfN2ZVdHREbHVwdWc0dlhkY0w2RjF4V2kzWkpfbEtkTzFfWQ?oc=5",
-"source": "www.hkcna.hk",
-"summary": "",
-"image": "",
-"time": 1795168620
 },
 {
 "title": "格陵蘭美國安全防衛協議過關 分析指助緩和緊張局勢",
@@ -775,6 +759,22 @@
 "summary": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
 "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e1f4/live/f36e5af0-e448-11f1-99a1-253766e7ad8b.jpg",
 "time": 1795153569
+},
+{
+"title": "大陸產經：海外買家趕在美關稅生效前備貨，中國10月太陽能電池出口年增逾21%",
+"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMkwwMDBOaFpseGxMY3ZFTElfSnFjTEJWTmxzMkZtVThtYmZuaTlEeGx4M3RWZWZRTzJNaTQ3aVkwd01SUnNUcF9pVnlkZTQ1YjdTamtlVkt4NFA5VW9LdGJCT0JmMzFFZUdzVERmZ1RWdng4UkdCNUlDdC1McEFhbU9YTVZsMnQz?oc=5",
+"source": "富聯網",
+"summary": "",
+"image": "",
+"time": 1795153080
+},
+{
+"title": "彭博：美國國會擬立法禁中國車 賓士可望豁免 | 太報",
+"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TMEZyWFZ3NDFYZk9uSVJDVlBzYXRjOHI0Zjg1OU9jZ2F5d2NaUl9WcUxiUm5XeGVyVWxPODU4WE96MUNka0xyclVpZTRUNmI3aWI0cVF3?oc=5",
+"source": "LINE TODAY",
+"summary": "",
+"image": "",
+"time": 1795147389
 }
 ]
 },
@@ -959,6 +959,14 @@
 "time": 1795174170
 },
 {
+"title": "全台最大算命市集來了！韓國冠軍巫師尹大滿領軍，60+ 攤位打造命運遊樂園",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE15RnRHb1Q3MHFEYmxwU1FiLXk1QnhNN0hneVdPc0xHNXhCbEJvUlhIVW9fY0ZqbEtqMzdhYndWcGpMWlVGa002dg?oc=5",
+"source": "造咖",
+"summary": "",
+"image": "",
+"time": 1795163580
+},
+{
 "title": "大樂透頭獎1億！3生肖偏財驚喜連發 準備翻身變富翁",
 "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85RUVvR0N4OXZ5eHZlOERPTUFBcm03OVhJM3NTNDNweFJKODQ2bWlPZXBMbGZFZURQeUpRQWNBam0wb0lEMHM4dUFCUXVUcVFnS1dF?oc=5",
 "source": "中天新聞網",
@@ -1013,14 +1021,6 @@
 "summary": "",
 "image": "",
 "time": 1795144082
-},
-{
-"title": "全台最大算命市集來了！韓國冠軍巫師尹大滿領軍，60+ 攤位打造命運遊樂園",
-"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MUFU2eVR4em1IbVJzZFVmY3BnQXgxTm1KOElVbGNuQ1YxM0tqbHpoUDlrVzZxWjhMR1ZsQVhtS1hnZVY0WkpGUmJfVEo5U3Q0OGpN?oc=5",
-"source": "東森綜合",
-"summary": "",
-"image": "",
-"time": 1795143240
 },
 {
 "title": "11/22-11/28 星座週運「太陽進入射手座」",
@@ -1086,6 +1086,22 @@
 "images": false,
 "items": [
 {
+"title": "最新》KidZania Taipei 11/24 試營運倒數！中醫師、機師、消防員夢幻職業搶先看",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xTGNfZFB2b2NqdTYxZElYWVVYWEpod2F3Qm5qN3Z4UF84T3AzWVZpSk5tRG9SdmFMMHlmUTdVRnpaU1VDZDlaS1UxSnNSNFhxWUtDX21SclNuODhf?oc=5",
+"source": "卡優新聞網",
+"summary": "",
+"image": "",
+"time": 1795178892
+},
+{
+"title": "京都34年舊辦公樓變設計旅館！床墊竟來自台灣，咖啡廳、24小時工作空間一次整合，",
+"url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTWREYXdmTHVnejNscDRvZXNtcmplT191YzZkQVJIX1BTajg2NlFQdVdsTi05RlZodEQzQ0hodnRPZWhlekYtdmNNeS1pRHFrWUpKZHpVc2E0c1JYNEFHdGk1dVBzODgtQVZNczNoeFBKSW9oQkxDTUhuVWtBdzBJd3JPdUM4RWc4SV9Mc1h2Z2lRTHN2LU1idVFQUTU?oc=5",
+"source": "Top List Media Inc.",
+"summary": "",
+"image": "",
+"time": 1795176756
+},
+{
 "title": "The best designers in the world right now",
 "url": "https://www.dezeen.com/2026/11/20/dezeen-awards-white-house-dezeen-weekly-podcast/",
 "source": "Interior design | Dezeen",
@@ -1118,12 +1134,28 @@
 "time": 1795161087
 },
 {
+"title": "國立聯大11/21舉辦創校54週年校慶邀請各界貴賓校友蒞臨歡慶- 生活新聞",
+"url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORlZhM1dDNVVDMmtoZFI0WkhkWTZuV3RVb0gydWJ0NXYwNTdVODd2X1VQOXJud1hpeDJOd2t1TVZHZUd1MGxzZk1SOUFwaWF1SEJucnc3S0s0SDQ5SFFubWo3aGliYW1vbkhXR20wTzh4RW04YzZrQlRnNmJSSG80eWdvcTB4NGIx?oc=5",
+"source": "PChome Online 新聞",
+"summary": "",
+"image": "",
+"time": 1795158000
+},
+{
 "title": "【完工開箱】小宅的極致挑戰！ 55萬預算打造「奶茶系」質感居家",
 "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WWVZKTExsWXdxeXViZG5tVnlkMGJjbldNRGxudkFnMFJETDZJMGUycVY3MHpNT0tUTVpGSEQzSUk5VEw3enN1YWNKckF0cUhMdFpfVjVtMjR2bzdsU2haQm8tUEp1M3M?oc=5",
 "source": "Mobile01",
 "summary": "",
 "image": "",
 "time": 1795157767
+},
+{
+"title": "竹市公共工程再耀國際！建功高中、南華國中勇奪2026美國繆思設計大獎金、銀獎",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80Q1JRZHNoWDFTcF9iUWhGVXM1ckF6STBFaFpzS0FqZ25CYlE3MUxfYVI2WHRFTENON2I4TVAzNjl3TEZ0Tk5ZdEt1a19iZmZoamc?oc=5",
+"source": "蕃新聞",
+"summary": "",
+"image": "",
+"time": 1795153665
 },
 {
 "title": "高雄豪宅 The One 百坪毛胚宅的空間詩意，以「流動」重塑豪宅想像，注入現代侘寂的靜謐奢華",
@@ -1158,12 +1190,36 @@
 "time": 1795141199
 },
 {
+"title": "勢如破竹！勞發署高分署輔導4位微型創業家獲楷模殊榮",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Gek5vSU5UOFp1MF9HazhuZWs1cGZkWUNraTJMelBCUXZOckxUOURaTzkzOXlHLVZFVUtmUWd2OE5xVW1mRHd0TEF0cy1oQUN6Y3c?oc=5",
+"source": "蕃新聞",
+"summary": "",
+"image": "",
+"time": 1795140871
+},
+{
 "title": "主播張瓊方 一眼鍾情天母40年老屋",
-"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96YUdNa0xwNVNTazdGTzVRZHhDN00za2c4eGFBUWU0SDNmdUFoR2g5NDZWX2g2Vi1rbVdVaS1oRlJjQ0liVVJ4TVZqY0hWYkhxMGVaMHZPWmJ0ZnY4U2NPaThBME1vOTJ5YU5vbHN5V2_SAXBBVV95cUxPemFHTWtMcDVTU2s3Rk81UWR4QzdNM2tnOHhhQVFlNEgzZnVBaEdoOTQ2Vl9oNlYta21XVWktaEZSY0NJYlVSeE1WamNIVmJIcTBlWjB2T1pidGZ2OFNjT2k4QTBNbzkyeWFOb2xzeVdv?oc=5",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WXzROdUlTZDN5WGJOOGIxTENuVUlOMW41T0xEcFRFdFk5TFBvc21Vd2l6ZzhBZTFXek4tRk5Dc05aRFlONHFJUG9zVlg1R2JhTENNT19Jb0FiN3YwVU4xM1pLNmNNcEdwaVNR0gFwQVVfeXFMT3phR01rTHA1U1NrN0ZPNVFkeEM3TTNrZzh4YUFRZTRIM2Z1QWhHaDk0NlZfaDZWLWttV1VpLWhGUmNDSWJVUnhNVmpjSFZiSHEwZVowdk9aYnRmdjhTY09pOEEwTW85MnlhTm9sc3lXbw?oc=5",
 "source": "好房網News",
 "summary": "",
 "image": "",
 "time": 1795140420
+},
+{
+"title": "ARTE MUSEUM日本首館開幕！17個光影空間、6件新作與門票交通攻略",
+"url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMVJxczUtUFJxa3BjQm9nNVJ4QXF0X2FqS3owTVJMV191dzI3WWVrYXo5ZkRmRVdzOGI5UjByVjBiT1lMLWgyaXp2aFhzSFZROUhmcGYtRWs1RVl4RGg4YTFIYVZwNEpwb1hMWlRJTmFLU3NJdHdrQ2hjdmtOdmVHVWc1cDEtMWNsZjJQa0Nobk1QUW9veGc?oc=5",
+"source": "Top List Media Inc.",
+"summary": "",
+"image": "",
+"time": 1795140000
+},
+{
+"title": "「三井花園飯店大阪堂島濱PREMIER」2027全新開幕享盡高空奢華- 旅遊新聞",
+"url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWXBFMFFqVlhoMUFBemJGWXhnNlNkMXo1LThpa2JyZzNqRnFkRHFnYjAyMnFEeHlqTWVrRVRHRzJiMU9rWnprbms5X0lHbUxNYnptODhPQm9UcUprSWQwWGdIZnlBdlMwYnFzY1hpTFAwdmJHRXdEQWpEaUYtUXgzQTFOY01kU3ZOb0p1MTl6OA?oc=5",
+"source": "PChome Online 新聞",
+"summary": "",
+"image": "",
+"time": 1795140000
 },
 {
 "title": "有權狀不代表整間房都合法！頂樓加蓋、陽台外推恐踩雷 房仲教3招查證",
@@ -1172,62 +1228,6 @@
 "summary": "",
 "image": "",
 "time": 1795139810
-},
-{
-"title": "現代風｜餐廳（圖1）｜中壢溫宅・木皆空間設計",
-"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41b01tdTRuRWRLUGRVWXFXdkZQWlprZzZNMTZLRWZXSS1lMUdCLXlMbk9hMGFQbnJFYkFfUTNjaDVXYXJKUEtMd0JiaE1JWE4zSFJQdmRBTVdQNEk3N1JtUHV6OThRUWJQZVE?oc=5",
-"source": "100室內設計",
-"summary": "",
-"image": "",
-"time": 1795124224
-},
-{
-"title": "現代風｜臥室（圖1）｜擎天森林・璽安室內設計",
-"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mZFZ0QzJtOGV2UkFyemxYcXNVZDJBbUd3LTRuV1lsLU5STjdQRTdLSFBVeHRiNG9CdzBFaEpJUnJpWnZ4NVN4XzRvRkc2YzFwVXlWZE55QjZqVTVHVGd0UTUtZDVaTVBpZFBB?oc=5",
-"source": "100室內設計",
-"summary": "",
-"image": "",
-"time": 1795123997
-},
-{
-"title": "現代風｜臥室（圖1）｜斐麗巴黎・相捷空間設計",
-"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56bUg0cGdrVTl2VG9wby1za2E3MmZBNnlYUEhyT3VPZDBISFFmVm8tSnhSOVRYVFYzM01VcXRiVnlFdFpmLTJUUzVzSXI4d29EdkV0ZzFrWGlGblI4b0lGRlFSYVBKcm9fT1Iw?oc=5",
-"source": "100室內設計",
-"summary": "",
-"image": "",
-"time": 1795123978
-},
-{
-"title": "全世界最有名的懸崖玻璃屋！銀行貸款竟要求一定要蓋泳池？LA 最經典豪宅連卡通電影都來取景｜超狂豪華住宅",
-"url": "https://news.google.com/rss/articles/CBMirgVBVV95cUxNVVZBUmo2c3FJZW41SC1NUWNGcEFqaUxYbS0xYzFCSG9pOHd2SzlvZ09UV3MwcW9mYzBKXy15dDBRVWI0d0owQTE5ZXpjUGtKWnM1VFZEcUNsVkFCTWkwZnc0T21RbE53TzFsY1h0d0pONlFDTU9lbVlORF82V1g2SUVPdTBFRE5JN3NIc1Fhc1JrVEJhTXJDMmVsa2ZFOXpyTllodGJQdVQyOGhCWkpMRjE2X0pBOUd6eHdWNS1rVENKZHVoaVZJYTZzRFpwbExmdmItZVZaN1NiMW9DVHVteW5NUEdURDB2NUdpSDBTVklRZnRYb2w3d3dfMmN4VUtteW1ucWZKQW1BdXZiXzRJMGo3WncwYW5jTmVzaDJDUlh5djlNNE4tX3NyaVBVSkJuNllkTUJfb3BQOXpzQTNiWDM3cVJpOTVjVU5OVmFnVEgwMGZ5LVRkbFdYMGNyTVNGSUhibmxKWmtwaHVxUHlSdHhKTF9LOFNKRlo4ZlJnS001U3Y5R0xiUEhjWTI1WEFGRmhuOG1iNDhROWlabFRmbnFUaXhKWW1hY0hlLWpNa19oTXlZbkE2UmY1bEdOcDJPdEp0b0F5NnU0bGl0VU9UMFdwMldWLTRsaFNMNnlkSFB3WVo3YkpQNHFwMEUyM29SSWhRZUhBb1VSRGpPdGROUWptOWx4NFRxZVNCdVBHeEhWRDRRX05BZkt0M1BkMmdFcnQ1dFBlaG5ZQXUyaXpHcVp4LTB5U0VEVEZKVlloVFc3T3FpWHYtaks2N25NVUFOR1V4UWNqVEJHSzcxNGJPZlpnWFI3c25NMm1HQWczWng2aVlJdjkyWW1aVnc4LVItYTJFR09fbHJ4VmtLUEVNQzliQzd2WTQ2dUZsMVp4TEFDb29ZNzRNMDl1dV9zZw?oc=5",
-"source": "GQ Taiwan",
-"summary": "",
-"image": "",
-"time": 1795111421
-},
-{
-"title": "住30年老宅必看！衛浴翻修「免打除」 政府還補助85%",
-"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xdWdZZFRHVEpMUFM3YUZla2Y1Sm04UXh5UUM3VjZROVpyYmkxZXZiNE9BQXEwcWViUndydFpOaXRhM1ZYRXJ6TUJLLTQ1ak02?oc=5",
-"source": "自由時報",
-"summary": "",
-"image": "",
-"time": 1795106100
-},
-{
-"title": "蕭敬騰、Summer結婚3年未同居？傳砸千萬修豪宅內幕曝光",
-"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IMS1oS1BPaDhoSG5xNE91OEY5MkViclUxQnFDcHJTYllFeXltSEdnX2VyYmFiZUJGaFlGWDRfTmVnaXBFdUN2QXBHTlFiQ3ZJR0ZGNDdPeG5NcUsybzdR?oc=5",
-"source": "中時新聞網",
-"summary": "",
-"image": "",
-"time": 1795088331
-},
-{
-"title": "南華大學邀業界設計總監開講 啟發學子探索空間美學與設計價值",
-"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WY1diUEM2ZDdWVU0tX19jT1laakItSlFIM3ZZQ3d4bmk3cmJMM05YM2FyV05PelB3dkJMak1qVjZEaWZ1aHF4UDlDcGdWTDVZUmdmY1Rn?oc=5",
-"source": "中央社 CNA",
-"summary": "",
-"image": "",
-"time": 1795083498
 }
 ]
 },
@@ -1357,14 +1357,6 @@
 "time": 1795180389
 },
 {
-"title": "【BEST TO SHARE 高雄，把美好與你分享！】專屬遊程",
-"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2RWx1VFJJV0xLSy03bzJnNTN3dVpLdEtSbkVCQVBVbmVtTUw3UFZpVERJUUhQMmpoVU5RUFJSdGNEcWZKX2xJenJsYjFwQWFQNW5Z?oc=5",
-"source": "高雄旅遊網",
-"summary": "",
-"image": "",
-"time": 1795179273
-},
-{
 "title": "【BEST TO SHARE 高雄，把美好與你分享！】活動應援",
 "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnLXo2LXdfNFE3b1piblNXYTluUVF5d05NWldHeHQtNjRyMkpSMmc5bDk1U2F4VWhHVmhZN3FDeUo3dlExUlgzcVZ4Mm9NOWhzNURv?oc=5",
 "source": "高雄旅遊網",
@@ -1379,6 +1371,14 @@
 "summary": "",
 "image": "",
 "time": 1795177800
+},
+{
+"title": "BTS柾國狂讚高雄香腸好吃！六合夜市攤位爆紅 老闆娘忙到眼神放空 | 社群中心 | 風生活",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9hb29TOVkwd3N1NEZpb1QwYm9jMEJISG90Mmp2cUZtUklqN29SWkQ4d2FRN0ZfelJJaWlhZjR2SmhuSWpFQnFDZG5DWUtYd3FW?oc=5",
+"source": "風傳媒",
+"summary": "",
+"image": "",
+"time": 1795177680
 }
 ]
 },
